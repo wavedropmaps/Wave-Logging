@@ -1,0 +1,30 @@
+{
+  "pushed_at": "2026-05-25T18:48:50Z",
+  "events": [
+    {
+      "timestamp": "2026-05-25T18:36:46Z",
+      "bot": "manager",
+      "category": "errors",
+      "action": "prefix_command_error",
+      "actor": {
+        "id": "1381946156296437904",
+        "name": "notmfl",
+        "display_name": "mfl of the nothing",
+        "global_name": "mfl of the nothing",
+        "avatar_url": "https://cdn.discordapp.com/avatars/1381946156296437904/7ad44288e0a5a49d56e885e269b6cef6.png?size=1024",
+        "top_role": "Drop Map Reviewer"
+      },
+      "target": null,
+      "details": {
+        "command": "unknown",
+        "error_type": "CommandNotFound",
+        "error_message": "Command \"addpoitns\" is not found",
+        "traceback": "discord.ext.commands.errors.CommandNotFound: Command \"addpoitns\" is not found\n",
+        "channel_id": "1455491030018429043",
+        "message_content": ">addpoitns"
+      },
+      "guild_id": "1041450125391835186",
+      "guild_name": "WAVE Drop Map Staff Hub"
+    }
+  ]
+}
