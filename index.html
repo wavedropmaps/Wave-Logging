@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wave Logging — Live Bot Dashboard</title>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;800;900&family=Exo+2:wght@300;400;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<!-- Animated background layers -->
+<div class="orb orb1"></div>
+<div class="orb orb2"></div>
+<div class="orb orb3"></div>
+<div class="grid-overlay"></div>
+<div class="scanlines"></div>
+
+<!-- ==================== LANDING PAGE (default view) ==================== -->
+<section id="landing" class="view active">
+  <header class="site-header">
+    <div class="header-badge">SECURE · BOT TELEMETRY · v1</div>
+    <h1>WAVE LOGGING</h1>
+    <p class="header-slogan">Live event stream · all bots · all guilds</p>
+    <div class="meta-row">
+      <span class="meta-item">Updated: <strong id="last-update">—</strong></span>
+      <span class="meta-item">Guilds: <strong id="guild-count">—</strong></span>
+    </div>
+  </header>
+
+  <main class="tile-grid">
+    <button class="tile tile--manager" data-target="manager">
+      <div class="tile-icon">📊</div>
+      <div class="tile-name">Wave Manager</div>
+      <div class="tile-sub">Bot actions · commands · economy</div>
+      <div class="tile-stats">
+        <span class="stat-pill"><span id="manager-event-count">—</span> events</span>
+      </div>
+    </button>
+
+    <button class="tile tile--server" data-target="server">
+      <div class="tile-icon">🌐</div>
+      <div class="tile-name">Server Events</div>
+      <div class="tile-sub">Joins · channels · voice · roles · audit log</div>
+      <div class="tile-stats">
+        <span class="stat-pill"><span id="server-event-count">—</span> events</span>
+      </div>
+    </button>
+
+    <button class="tile tile--logistics" data-target="logistics">
+      <div class="tile-icon">📦</div>
+      <div class="tile-name">Wave Logistics</div>
+      <div class="tile-sub">Map queue · roles · streaks · antinuke</div>
+      <div class="tile-stats">
+        <span class="stat-pill"><span id="logistics-event-count">—</span> events</span>
+      </div>
+    </button>
+  </main>
+
+  <footer class="site-footer">
+    <span>Refreshes every 5 min · click a tile to drill in</span>
+  </footer>
+</section>
+
+<!-- ==================== BOT VIEW (shared template, JS swaps content) ==================== -->
+<section id="bot-view" class="view">
+  <div class="bot-view-header">
+    <button class="back-btn" id="back-btn">← Back</button>
+    <h2 class="bot-view-title" id="bot-view-title">—</h2>
+    <div class="bot-view-controls">
+      <select id="guild-filter" class="control-select">
+        <option value="all">All guilds</option>
+      </select>
+      <input id="search-box" type="text" placeholder="Search events..." class="control-input">
+      <button id="refresh-btn" class="control-btn" title="Refresh now">↻</button>
+    </div>
+  </div>
+
+  <nav class="tab-bar" id="tab-bar">
+    <!-- tabs injected by JS based on selected bot -->
+  </nav>
+
+  <div class="event-stream">
+    <div class="event-stream-meta">
+      Showing <strong id="visible-count">0</strong> events
+      <span id="loading-indicator" class="loading hidden">loading…</span>
+    </div>
+    <div id="event-list" class="event-list">
+      <!-- event rows injected by JS -->
+    </div>
+    <button id="load-more-btn" class="load-more hidden">Load more</button>
+    <div id="empty-state" class="empty-state hidden">
+      <span class="empty-icon">∅</span>
+      No events recorded in this category yet.
+    </div>
+  </div>
+</section>
+
+<script src="assets/script.js"></script>
+</body>
+</html>
