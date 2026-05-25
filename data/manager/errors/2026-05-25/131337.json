@@ -1,0 +1,55 @@
+{
+  "pushed_at": "2026-05-25T13:13:37Z",
+  "events": [
+    {
+      "timestamp": "2026-05-25T13:10:16Z",
+      "bot": "manager",
+      "category": "errors",
+      "action": "prefix_command_error",
+      "actor": {
+        "id": "842738895913615370",
+        "name": "meandme7634567",
+        "display_name": "EXM meandme7634567",
+        "global_name": "EXM meandme7634567",
+        "avatar_url": "https://cdn.discordapp.com/embed/avatars/3.png",
+        "top_role": "Head Admin"
+      },
+      "target": null,
+      "details": {
+        "command": "buybond",
+        "error_type": "CommandInvokeError",
+        "error_message": "Command raised an exception: AttributeError: module 'database' has no attribute 'get_wave_points'",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\kiere\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\discord\\ext\\commands\\core.py\", line 266, in wrapped\n    ret = await coro(*args, **kwargs)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\kiere\\Desktop\\Wave Management Bot\\commands\\central_bank_commands.py\", line 646, in buy_bond\n    user_points = await database.get_wave_points(ctx.author.id)\n                        ^^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: module 'database' has no attribute 'get_wave_points'\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\kiere\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\discord\\ext\\commands\\bot.py\", line 1376, in invoke\n    await ctx.command.invoke(ctx)\n  File \"C:\\Users\\kiere\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\discord\\ext\\commands\\core.py\", line 1064, in invoke\n    await injected(*ctx.args, **ctx.kwargs)  # type: ignore\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\kiere\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\discord\\ext\\commands\\core.py\", line 275, in wrapped\n    raise CommandInvokeError(exc) from exc\ndiscord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: module 'database' has no attribute 'get_wave_points'\n",
+        "channel_id": "1301481065067708497",
+        "message_content": ">buybond 600"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-05-25T13:10:26Z",
+      "bot": "manager",
+      "category": "errors",
+      "action": "prefix_command_error",
+      "actor": {
+        "id": "842738895913615370",
+        "name": "meandme7634567",
+        "display_name": "EXM meandme7634567",
+        "global_name": "EXM meandme7634567",
+        "avatar_url": "https://cdn.discordapp.com/embed/avatars/3.png",
+        "top_role": "Head Admin"
+      },
+      "target": null,
+      "details": {
+        "command": "buybond",
+        "error_type": "BadArgument",
+        "error_message": "Converting to \"int\" failed for parameter \"amount\".",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\kiere\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\discord\\ext\\commands\\converter.py\", line 1335, in _actual_conversion\n    return converter(argument)\n           ^^^^^^^^^^^^^^^^^^^\nValueError: invalid literal for int() with base 10: '<600>'\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\kiere\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\discord\\ext\\commands\\bot.py\", line 1376, in invoke\n    await ctx.command.invoke(ctx)\n  File \"C:\\Users\\kiere\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\discord\\ext\\commands\\core.py\", line 1056, in invoke\n    await self.prepare(ctx)\n  File \"C:\\Users\\kiere\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\discord\\ext\\commands\\core.py\", line 973, in prepare\n    await self._parse_arguments(ctx)\n  File \"C:\\Users\\kiere\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\discord\\ext\\commands\\core.py\", line 880, in _parse_arguments\n    transformed = await self.transform(ctx, param, attachments)\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\kiere\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\discord\\ext\\commands\\core.py\", line 750, in transform\n    return await run_converters(ctx, converter, argument, param)  # type: ignore\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\kiere\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\discord\\ext\\commands\\converter.py\", line 1442, in run_converters\n    return await _actual_conversion(ctx, converter, argument, param)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\kiere\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\discord\\ext\\commands\\converter.py\", line 1344, in _actual_conversion\n    raise BadArgument(f'Converting to \"{name}\" failed for parameter \"{param.name}\".') from exc\ndiscord.ext.commands.errors.BadArgument: Converting to \"int\" failed for parameter \"amount\".\n",
+        "channel_id": "1301481065067708497",
+        "message_content": ">buybond <600>"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    }
+  ]
+}
