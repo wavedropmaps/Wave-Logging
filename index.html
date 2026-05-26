@@ -68,11 +68,15 @@
     <button class="back-btn" id="back-btn">← Back</button>
     <h2 class="bot-view-title" id="bot-view-title">—</h2>
     <div class="bot-view-controls">
-      <select id="guild-filter" class="control-select">
-        <option value="all">All guilds</option>
-      </select>
       <input id="search-box" type="text" placeholder="Search events..." class="control-input">
       <button id="refresh-btn" class="control-btn" title="Refresh now">↻</button>
+    </div>
+  </div>
+
+  <div class="guild-filter-row">
+    <span class="guild-filter-label">Filter guilds:</span>
+    <div id="guild-filter" class="guild-pills">
+      <!-- pills injected by JS — one per guild + 'All' shortcut -->
     </div>
   </div>
 

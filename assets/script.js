@@ -11,54 +11,102 @@
 "use strict";
 
 // ──────────────────────────────────────────────────────────────
-// Tab definitions per bot section. Slugs must match what the
-// bot-side global_logger.log_event() passes as `category`.
+// Tab definitions per bot section.
+//
+// Each tab is either:
+//   { label, actions: ["slug"] }          — simple single-action tab
+//   { label, actions: ["a", "b", "c"] }   — group, rendered as a dropdown
+//                                            menu with one item per action
+// Slugs must match what the bot-side log_event() passes as `category`.
 // ──────────────────────────────────────────────────────────────
 const TABS = {
   manager: [
-    { slug: "commands",                 label: "Commands" },
-    { slug: "errors",                   label: "Errors" },
-    { slug: "rate_limits",              label: "Rate Limits" },
-    { slug: "vbucks",                   label: "VBucks" },
-    { slug: "strikes",                  label: "Strikes" },
-    { slug: "drop_maps",                label: "Drop Maps" },
-    { slug: "loot_routes",              label: "Loot Routes" },
-    { slug: "wave_points",              label: "Wave Points" },
-    { slug: "goals_phour_predictions",  label: "Goals · Power Hour · Predictions" },
-    { slug: "reviewing",                label: "Reviewing" },
-    { slug: "dms_sent",                 label: "DMs Sent" },
-    { slug: "database_ops",             label: "Database Ops" },
-    { slug: "bot_lifecycle",            label: "Bot Lifecycle" },
+    { label: "Commands",                          actions: ["commands"] },
+    { label: "Errors",                            actions: ["errors"] },
+    { label: "Rate Limits",                       actions: ["rate_limits"] },
+    { label: "VBucks",                            actions: ["vbucks"] },
+    { label: "Drop Maps",                         actions: ["drop_maps"] },
+    { label: "Loot Routes",                       actions: ["loot_routes"] },
+    { label: "Wave Points",                       actions: ["wave_points"] },
+    { label: "Goals · Power Hour · Predictions",  actions: ["goals_phour_predictions"] },
+    { label: "Reviewing",                         actions: ["reviewing"] },
+    { label: "DMs Sent",                          actions: ["dms_sent"] },
+    { label: "Database Ops",                      actions: ["database_ops"] },
+    { label: "Bot Lifecycle",                     actions: ["bot_lifecycle"] },
   ],
+  // 16 broad groups, each a dropdown menu containing the specific
+  // discord.AuditLogAction slugs (or Gateway-only events) that belong
+  // to that family. Clicking the group button shows the merged event
+  // stream from ALL its children. Clicking a child filters to just one.
   server: [
-    { slug: "member_joins",          label: "Member Joins" },
-    { slug: "member_leaves",         label: "Member Leaves" },
-    { slug: "bans_kicks_timeouts",   label: "Bans · Kicks · Timeouts" },
-    { slug: "role_changes",          label: "Role Changes" },
-    { slug: "nicknames",             label: "Nicknames" },
-    { slug: "channel_creates",       label: "Channel Creates" },
-    { slug: "channel_deletes",       label: "Channel Deletes" },
-    { slug: "channel_edits",         label: "Channel Edits" },
-    { slug: "role_create_delete",    label: "Role Create / Delete" },
-    { slug: "voice_activity",        label: "Voice Activity" },
-    { slug: "soundboard",            label: "Soundboard" },
-    { slug: "message_deletes",       label: "Message Deletes" },
-    { slug: "message_edits",         label: "Message Edits" },
-    { slug: "server_settings",       label: "Server Settings" },
-    { slug: "emoji_sticker",         label: "Emoji / Sticker" },
-    { slug: "invites",               label: "Invites" },
+    { label: "Member Joins",  actions: ["member_join"] },
+    { label: "Member Leaves", actions: ["member_leave"] },
+    { label: "Bans · Kicks · Timeouts", actions: [
+      "ban", "unban", "kick", "member_prune",
+    ]},
+    { label: "Role Changes",  actions: ["member_role_update"] },
+    { label: "Nicknames",     actions: ["member_update"] },
+    { label: "Channel Creates", actions: [
+      "channel_create", "thread_create",
+    ]},
+    { label: "Channel Deletes", actions: [
+      "channel_delete", "thread_delete",
+    ]},
+    { label: "Channel Edits", actions: [
+      "channel_update", "thread_update",
+      "overwrite_create", "overwrite_update", "overwrite_delete",
+      "voice_channel_status_update",
+    ]},
+    { label: "Role Create / Delete", actions: [
+      "role_create", "role_delete", "role_update",
+    ]},
+    { label: "Voice Activity", actions: [
+      "voice_state_changed", "member_move", "member_disconnect",
+    ]},
+    { label: "Soundboard", actions: [
+      "soundboard_sound_create", "soundboard_sound_update", "soundboard_sound_delete",
+    ]},
+    { label: "Message Deletes", actions: [
+      "message_delete", "message_bulk_delete",
+    ]},
+    { label: "Message Edits", actions: [
+      "message_edit", "message_pin", "message_unpin",
+    ]},
+    { label: "Server Settings", actions: [
+      "guild_update",
+      "integration_create", "integration_update", "integration_delete",
+      "webhook_create", "webhook_update", "webhook_delete",
+      "application_command_permission_update", "bot_add",
+      "stage_instance_create", "stage_instance_update", "stage_instance_delete",
+      "scheduled_event_create", "scheduled_event_update", "scheduled_event_delete",
+      "auto_moderation_rule_create", "auto_moderation_rule_update", "auto_moderation_rule_delete",
+      "auto_moderation_block_message", "auto_moderation_flag_to_channel",
+      "auto_moderation_user_communication_disabled",
+      "onboarding_create", "onboarding_update",
+      "onboarding_prompt_create", "onboarding_prompt_update", "onboarding_prompt_delete",
+      "onboarding_question_create", "onboarding_question_update",
+      "home_settings_create", "home_settings_update",
+      "creator_monetization_request_created", "creator_monetization_terms_accepted",
+    ]},
+    { label: "Emoji / Sticker", actions: [
+      "emoji_create", "emoji_update", "emoji_delete",
+      "sticker_create", "sticker_update", "sticker_delete",
+    ]},
+    { label: "Invites", actions: [
+      "invite_create", "invite_update", "invite_delete",
+    ]},
   ],
   logistics: [
-    { slug: "commands",              label: "Commands" },
-    { slug: "errors",                label: "Errors" },
-    { slug: "map_queue",             label: "Map Queue" },
-    { slug: "priority_tracking",     label: "Priority Tracking" },
-    { slug: "contributor_tracking",  label: "Contributor Tracking" },
-    { slug: "streaks",               label: "Streaks" },
-    { slug: "antinuke",              label: "AntiNuke" },
-    { slug: "dm_queue",              label: "DM Queue" },
-    { slug: "tippy_activity",        label: "Tippy Activity" },
-    { slug: "bot_lifecycle",         label: "Bot Lifecycle" },
+    { label: "Commands",              actions: ["commands"] },
+    { label: "Errors",                actions: ["errors"] },
+    { label: "Map Queue",             actions: ["map_queue"] },
+    { label: "Priority Tracking",     actions: ["priority_tracking"] },
+    { label: "Contributor Tracking",  actions: ["contributor_tracking"] },
+    { label: "Streaks",               actions: ["streaks"] },
+    { label: "AntiNuke",              actions: ["antinuke"] },
+    { label: "DM Queue",              actions: ["dm_queue"] },
+    { label: "Tippy Activity",        actions: ["tippy_activity"] },
+    { label: "Bot Lifecycle",         actions: ["bot_lifecycle"] },
   ],
 };
 
@@ -76,8 +124,14 @@ const AUTO_REFRESH_MS = 5 * 60 * 1000;
 // ──────────────────────────────────────────────────────────────
 const state = {
   currentSection: null,    // "manager" | "server" | "logistics"
-  currentTab: null,        // slug
-  guildFilter: "all",
+  // Tab state — tracks which group is open and (optionally) which
+  // specific child action within it is filtered to.
+  currentGroupIdx: null,   // index into TABS[currentSection]
+  currentChild: null,      // specific action slug filter, or null = show all in group
+  // Multi-select: a Set of guild_id strings. Empty Set = "show all guilds".
+  // Adding a guild_id narrows the view; clicking the same guild again
+  // removes it from the filter. Clicking "All" clears the set entirely.
+  guildFilter: new Set(),
   searchText: "",
   allEvents: [],           // events for current tab, sorted desc by ts
   visibleCount: PAGE_SIZE,
@@ -117,8 +171,11 @@ document.addEventListener("DOMContentLoaded", () => {
   });
   el.backBtn().addEventListener("click", showLanding);
   el.searchBox().addEventListener("input", onSearchChange);
-  el.guildFilter().addEventListener("change", onGuildFilterChange);
-  el.refreshBtn().addEventListener("click", () => loadTab(state.currentTab, { force: true }));
+  // guild-filter listener is no longer a single <select> change — pills
+  // wire up their own per-pill click handlers in renderGuildFilter().
+  el.refreshBtn().addEventListener("click", () => {
+    if (state.currentGroupIdx != null) loadGroup(state.currentGroupIdx, state.currentChild);
+  });
   el.loadMoreBtn().addEventListener("click", showMoreRows);
 
   loadGuilds().then(renderLandingStats);
@@ -131,7 +188,8 @@ function showLanding() {
   el.botView().classList.remove("active");
   el.landing().classList.add("active");
   state.currentSection = null;
-  state.currentTab = null;
+  state.currentGroupIdx = null;
+  state.currentChild = null;
   stopAutoRefresh();
   renderLandingStats();
 }
@@ -144,42 +202,161 @@ function openSection(sectionSlug) {
   el.botViewTitle().textContent = SECTION_TITLES[sectionSlug];
   renderGuildFilter();
   renderTabs(sectionSlug);
-  // Auto-open first tab
-  const firstTab = TABS[sectionSlug][0];
-  if (firstTab) loadTab(firstTab.slug);
+  // Auto-open first group, no specific child filter
+  if (TABS[sectionSlug].length > 0) loadGroup(0, null);
   startAutoRefresh();
 }
 
 // ──────────────────────────────────────────────────────────────
 // Tabs
 // ──────────────────────────────────────────────────────────────
+// Two render modes per top-level tab:
+//   - actions.length === 1 → plain .tab button (no dropdown)
+//   - actions.length  >  1 → .tab-dropdown with a menu of children
+//                            (matches wave-leaderboard reviewing page)
 function renderTabs(sectionSlug) {
   const bar = el.tabBar();
   bar.innerHTML = "";
-  TABS[sectionSlug].forEach(t => {
-    const btn = document.createElement("button");
-    btn.className = "tab";
-    btn.dataset.slug = t.slug;
-    btn.textContent = t.label;
-    btn.addEventListener("click", () => loadTab(t.slug));
-    bar.appendChild(btn);
+  TABS[sectionSlug].forEach((group, idx) => {
+    if (group.actions.length === 1) {
+      bar.appendChild(makePlainTab(group, idx));
+    } else {
+      bar.appendChild(makeDropdownTab(group, idx));
+    }
   });
+
+  // Click-outside listener closes any open dropdown
+  document.addEventListener("click", closeAllDropdownsOnOutsideClick);
 }
 
-function setActiveTab(slug) {
-  document.querySelectorAll(".tab").forEach(b => {
-    b.classList.toggle("active", b.dataset.slug === slug);
+function makePlainTab(group, idx) {
+  const btn = document.createElement("button");
+  btn.className = "tab";
+  btn.dataset.groupIdx = String(idx);
+  btn.textContent = group.label;
+  btn.addEventListener("click", () => loadGroup(idx, null));
+  return btn;
+}
+
+function makeDropdownTab(group, idx) {
+  const wrapper = document.createElement("div");
+  wrapper.className = "tab-dropdown";
+  wrapper.dataset.groupIdx = String(idx);
+
+  const btn = document.createElement("button");
+  btn.className = "tab-dropdown-btn";
+  btn.appendChild(document.createTextNode(group.label + " "));
+  const arrow = document.createElement("span");
+  arrow.className = "tab-dropdown-arrow";
+  arrow.textContent = "▼";
+  btn.appendChild(arrow);
+  btn.addEventListener("click", (ev) => {
+    ev.stopPropagation();
+    // First click also acts as "show all in group"
+    if (!wrapper.classList.contains("open")) {
+      closeAllDropdowns();
+      wrapper.classList.add("open");
+    } else {
+      wrapper.classList.remove("open");
+    }
   });
+  wrapper.appendChild(btn);
+
+  const menu = document.createElement("div");
+  menu.className = "tab-dropdown-menu";
+
+  // "Show all" pseudo-item — selects the whole group
+  const allItem = document.createElement("div");
+  allItem.className = "tab-dropdown-item tab-dropdown-item-all";
+  allItem.textContent = `All ${group.label}`;
+  allItem.addEventListener("click", (ev) => {
+    ev.stopPropagation();
+    wrapper.classList.remove("open");
+    loadGroup(idx, null);
+  });
+  menu.appendChild(allItem);
+
+  // One item per child action
+  for (const actionSlug of group.actions) {
+    const item = document.createElement("div");
+    item.className = "tab-dropdown-item";
+    item.dataset.childSlug = actionSlug;
+    item.textContent = humanizeSlug(actionSlug);
+    item.addEventListener("click", (ev) => {
+      ev.stopPropagation();
+      wrapper.classList.remove("open");
+      loadGroup(idx, actionSlug);
+    });
+    menu.appendChild(item);
+  }
+  wrapper.appendChild(menu);
+  return wrapper;
+}
+
+function closeAllDropdowns() {
+  document.querySelectorAll(".tab-dropdown.open").forEach(d => d.classList.remove("open"));
+}
+
+function closeAllDropdownsOnOutsideClick(ev) {
+  if (ev.target.closest(".tab-dropdown")) return;
+  closeAllDropdowns();
+}
+
+function humanizeSlug(slug) {
+  // "channel_create" → "Channel Create"; preserves AuditLogAction-ish casing
+  return slug.split("_").map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(" ");
+}
+
+function setActiveTab() {
+  // Highlight the active top-level group (plain tab OR dropdown button)
+  // and the active child item inside any open dropdown menu.
+  document.querySelectorAll(".tab, .tab-dropdown-btn").forEach(b => b.classList.remove("active"));
+  document.querySelectorAll(".tab-dropdown-item").forEach(b => b.classList.remove("active"));
+  if (state.currentGroupIdx == null) return;
+
+  const groupNode = document.querySelector(
+    `.tab[data-group-idx="${state.currentGroupIdx}"], ` +
+    `.tab-dropdown[data-group-idx="${state.currentGroupIdx}"] .tab-dropdown-btn`
+  );
+  if (groupNode) groupNode.classList.add("active");
+
+  if (state.currentChild) {
+    const childNode = document.querySelector(
+      `.tab-dropdown[data-group-idx="${state.currentGroupIdx}"] ` +
+      `.tab-dropdown-item[data-child-slug="${state.currentChild}"]`
+    );
+    if (childNode) childNode.classList.add("active");
+  } else {
+    // No child selected → highlight the "All" item if this group is a dropdown
+    const allItem = document.querySelector(
+      `.tab-dropdown[data-group-idx="${state.currentGroupIdx}"] .tab-dropdown-item-all`
+    );
+    if (allItem) allItem.classList.add("active");
+  }
 }
 
 // ──────────────────────────────────────────────────────────────
 // Data loading
 // ──────────────────────────────────────────────────────────────
-async function loadTab(tabSlug, opts = {}) {
-  if (!tabSlug) return;
-  state.currentTab = tabSlug;
+/**
+ * Open a tab group. `groupIdx` is the index into TABS[currentSection];
+ * `childSlug` (optional) narrows to a single action within the group.
+ * Pass null for childSlug to show the merged stream from ALL children.
+ */
+async function loadGroup(groupIdx, childSlug = null) {
+  if (!state.currentSection) return;
+  const group = TABS[state.currentSection][groupIdx];
+  if (!group) return;
+
+  state.currentGroupIdx = groupIdx;
+  state.currentChild = childSlug;
   state.visibleCount = PAGE_SIZE;
-  setActiveTab(tabSlug);
+  setActiveTab();
+
+  // Decide which action category folders to fetch:
+  //   childSlug given → just that one
+  //   childSlug null  → all actions in the group (merged stream)
+  const actionsToLoad = childSlug ? [childSlug] : group.actions;
 
   el.loading().classList.remove("hidden");
   el.eventList().innerHTML = "";
@@ -187,9 +364,16 @@ async function loadTab(tabSlug, opts = {}) {
   el.loadMoreBtn().classList.add("hidden");
 
   try {
-    state.allEvents = await fetchEventsForTab(state.currentSection, tabSlug);
+    // Fetch each action category in parallel and merge results
+    const perAction = await Promise.all(
+      actionsToLoad.map(a => fetchEventsForCategory(state.currentSection, a))
+    );
+    const merged = [];
+    for (const list of perAction) merged.push(...list);
+    merged.sort((a, b) => (b.timestamp || "").localeCompare(a.timestamp || ""));
+    state.allEvents = merged;
   } catch (err) {
-    console.error("[wave-logging] loadTab error:", err);
+    console.error("[wave-logging] loadGroup error:", err);
     state.allEvents = [];
   }
 
@@ -208,7 +392,7 @@ async function loadTab(tabSlug, opts = {}) {
  * initial page fast we currently load: today's deltas + last 14 days
  * of rolled-up files. Older days could be loaded on demand later.
  */
-async function fetchEventsForTab(section, category) {
+async function fetchEventsForCategory(section, category) {
   const today = utcDateStr(new Date());
   const events = [];
 
@@ -257,8 +441,9 @@ async function safeFetchJson(url) {
 // ──────────────────────────────────────────────────────────────
 function getFilteredEvents() {
   let evs = state.allEvents;
-  if (state.guildFilter !== "all") {
-    evs = evs.filter(e => String(e.guild_id || "") === state.guildFilter);
+  // Multi-select: empty Set = show all guilds; non-empty = whitelist filter.
+  if (state.guildFilter.size > 0) {
+    evs = evs.filter(e => state.guildFilter.has(String(e.guild_id || "")));
   }
   if (state.searchText) {
     const needle = state.searchText.toLowerCase();
@@ -429,28 +614,57 @@ function onSearchChange(ev) {
   renderEvents();
 }
 
-function onGuildFilterChange(ev) {
-  state.guildFilter = ev.target.value;
+function toggleGuildFilter(guildId) {
+  if (state.guildFilter.has(guildId)) {
+    state.guildFilter.delete(guildId);
+  } else {
+    state.guildFilter.add(guildId);
+  }
   state.visibleCount = PAGE_SIZE;
+  syncGuildPillsActive();
   renderEvents();
 }
 
-function renderGuildFilter() {
-  const sel = el.guildFilter();
-  sel.innerHTML = "";
+function clearGuildFilter() {
+  state.guildFilter.clear();
+  state.visibleCount = PAGE_SIZE;
+  syncGuildPillsActive();
+  renderEvents();
+}
 
-  const all = document.createElement("option");
-  all.value = "all";
-  all.textContent = "All guilds";
-  sel.appendChild(all);
+function syncGuildPillsActive() {
+  // Recolor pills to reflect the current state.guildFilter set without
+  // re-rendering the whole row (avoids losing focus on rapid clicks).
+  document.querySelectorAll(".guild-pill").forEach(p => {
+    if (p.dataset.allShortcut === "1") {
+      p.classList.toggle("active", state.guildFilter.size === 0);
+    } else {
+      p.classList.toggle("active", state.guildFilter.has(p.dataset.guildId));
+    }
+  });
+}
+
+function renderGuildFilter() {
+  const host = el.guildFilter();
+  host.innerHTML = "";
+
+  // "All" shortcut — clears the filter set. Active when set is empty.
+  const allBtn = document.createElement("button");
+  allBtn.className = "guild-pill";
+  allBtn.dataset.allShortcut = "1";
+  allBtn.textContent = "All guilds";
+  allBtn.addEventListener("click", clearGuildFilter);
+  host.appendChild(allBtn);
 
   for (const g of state.guilds) {
-    const opt = document.createElement("option");
-    opt.value = String(g.id);
-    opt.textContent = g.name;
-    sel.appendChild(opt);
+    const pill = document.createElement("button");
+    pill.className = "guild-pill";
+    pill.dataset.guildId = String(g.id);
+    pill.textContent = g.name;
+    pill.addEventListener("click", () => toggleGuildFilter(String(g.id)));
+    host.appendChild(pill);
   }
-  sel.value = state.guildFilter;
+  syncGuildPillsActive();
 }
 
 // ──────────────────────────────────────────────────────────────
@@ -480,7 +694,7 @@ function updateLastUpdated() {
 function startAutoRefresh() {
   stopAutoRefresh();
   state.autoRefreshTimer = setInterval(() => {
-    if (state.currentTab) loadTab(state.currentTab, { force: true });
+    if (state.currentGroupIdx != null) loadGroup(state.currentGroupIdx, state.currentChild);
   }, AUTO_REFRESH_MS);
 }
 

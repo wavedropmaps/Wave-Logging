@@ -329,6 +329,71 @@ h1 {
   border-color: var(--cyan);
 }
 
+/* ──── Guild filter row (multi-select pills) ──── */
+.guild-filter-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 32px;
+  border-bottom: 1px solid var(--card-border);
+  background: rgba(0, 240, 255, 0.02);
+  flex-wrap: wrap;
+}
+.guild-filter-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #6f86a8;
+  flex-shrink: 0;
+}
+.guild-pills {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.guild-pill {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  padding: 6px 14px;
+  border: 1.5px solid rgba(255, 0, 255, 0.25);
+  background: rgba(255, 0, 255, 0.04);
+  color: #8a7aa5;
+  cursor: pointer;
+  border-radius: 14px;
+  transition: all 0.15s;
+  white-space: nowrap;
+}
+.guild-pill:hover {
+  border-color: var(--magenta);
+  color: #e8d6f4;
+  background: rgba(255, 0, 255, 0.1);
+}
+.guild-pill.active {
+  border-color: var(--magenta);
+  color: var(--magenta);
+  background: rgba(255, 0, 255, 0.18);
+  box-shadow: 0 0 12px var(--magenta-glow), inset 0 0 8px rgba(255, 0, 255, 0.1);
+}
+.guild-pill[data-all-shortcut="1"] {
+  /* The "All" pill uses cyan so it visually differs from per-guild pills */
+  border-color: rgba(0, 240, 255, 0.3);
+  background: rgba(0, 240, 255, 0.04);
+}
+.guild-pill[data-all-shortcut="1"]:hover {
+  border-color: var(--cyan);
+  color: #cdd9e8;
+  background: rgba(0, 240, 255, 0.1);
+}
+.guild-pill[data-all-shortcut="1"].active {
+  border-color: var(--cyan);
+  color: var(--cyan);
+  background: rgba(0, 240, 255, 0.15);
+  box-shadow: 0 0 12px var(--cyan-glow), inset 0 0 8px rgba(0, 240, 255, 0.08);
+}
+
 /* ──── Tabs ──── */
 .tab-bar {
   display: flex;
@@ -372,6 +437,101 @@ h1 {
   padding: 1px 6px;
   border-radius: 6px;
   color: var(--cyan);
+}
+
+/* ──── Tab dropdown (group → menu of children) — same look as the
+        wave-leaderboard reviewing page ──── */
+.tab-dropdown {
+  position: relative;
+  flex-shrink: 0;
+}
+.tab-dropdown-btn {
+  font-family: 'Orbitron', monospace;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 9px 16px;
+  border: 1.5px solid rgba(0, 240, 255, 0.2);
+  background: rgba(10, 14, 39, 0.8);
+  color: #6f86a8;
+  cursor: pointer;
+  transition: all 0.2s;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  white-space: nowrap;
+  user-select: none;
+}
+.tab-dropdown-btn:hover,
+.tab-dropdown.open .tab-dropdown-btn {
+  border-color: var(--cyan);
+  color: #cdd9e8;
+  background: rgba(0, 240, 255, 0.06);
+  box-shadow: 0 0 12px var(--cyan-glow);
+}
+.tab-dropdown-btn.active {
+  color: var(--cyan);
+  border-color: var(--cyan);
+  background: rgba(0, 240, 255, 0.12);
+  box-shadow: 0 0 16px var(--cyan-glow), inset 0 0 12px rgba(0, 240, 255, 0.05);
+}
+.tab-dropdown-arrow {
+  font-size: 8px;
+  transition: transform 0.2s;
+  opacity: 0.7;
+}
+.tab-dropdown.open .tab-dropdown-arrow {
+  transform: rotate(180deg);
+}
+.tab-dropdown-menu {
+  display: none;
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  min-width: 240px;
+  max-height: 70vh;
+  overflow-y: auto;
+  background: #0f1633;
+  border: 1.5px solid var(--cyan);
+  border-radius: 10px;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.55), 0 0 18px var(--cyan-glow);
+  z-index: 100;
+}
+.tab-dropdown.open .tab-dropdown-menu {
+  display: block;
+}
+.tab-dropdown-item {
+  font-family: 'Orbitron', monospace;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  padding: 11px 16px;
+  color: #7a8fa3;
+  cursor: pointer;
+  transition: all 0.15s;
+  border-bottom: 1px solid rgba(0, 240, 255, 0.08);
+  user-select: none;
+}
+.tab-dropdown-item:last-child {
+  border-bottom: none;
+}
+.tab-dropdown-item:hover {
+  background: rgba(0, 240, 255, 0.1);
+  color: var(--cyan);
+  padding-left: 20px;
+}
+.tab-dropdown-item.active {
+  background: rgba(0, 240, 255, 0.15);
+  color: var(--cyan);
+  text-shadow: 0 0 8px var(--cyan-glow);
+}
+.tab-dropdown-item-all {
+  /* the "All X" pseudo-item — visually distinct from individual children */
+  border-bottom: 1px solid rgba(0, 240, 255, 0.25);
+  background: rgba(0, 240, 255, 0.04);
 }
 
 /* ──── Event stream ──── */
