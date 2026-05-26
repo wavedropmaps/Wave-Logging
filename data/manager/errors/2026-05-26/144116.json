@@ -1,0 +1,30 @@
+{
+  "pushed_at": "2026-05-26T14:41:16Z",
+  "events": [
+    {
+      "timestamp": "2026-05-26T14:29:30Z",
+      "bot": "manager",
+      "category": "errors",
+      "action": "prefix_command_error",
+      "actor": {
+        "id": "987843990734905414",
+        "name": "fruss.",
+        "display_name": "Use Code Wavedropmaps",
+        "global_name": "! Free Drop Maps Bio",
+        "avatar_url": "https://cdn.discordapp.com/avatars/987843990734905414/92bfad96c66e3d59b26f219a08f185b1.png?size=1024",
+        "top_role": "Fruss"
+      },
+      "target": null,
+      "details": {
+        "command": "buybond",
+        "error_type": "CommandInvokeError",
+        "error_message": "Command raised an exception: NameError: name 'timedelta' is not defined",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\kiere\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\discord\\ext\\commands\\core.py\", line 266, in wrapped\n    ret = await coro(*args, **kwargs)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\kiere\\Desktop\\Wave Management Bot\\commands\\central_bank_commands.py\", line 697, in buy_bond\n    maturity_date = (datetime.now(timezone.utc) + timedelta(days=days)).strftime(\"%d %b %Y\")\n                                                  ^^^^^^^^^\nNameError: name 'timedelta' is not defined\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\kiere\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\discord\\ext\\commands\\bot.py\", line 1376, in invoke\n    await ctx.command.invoke(ctx)\n  File \"C:\\Users\\kiere\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\discord\\ext\\commands\\core.py\", line 1064, in invoke\n    await injected(*ctx.args, **ctx.kwargs)  # type: ignore\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\kiere\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\discord\\ext\\commands\\core.py\", line 275, in wrapped\n    raise CommandInvokeError(exc) from exc\ndiscord.ext.commands.errors.CommandInvokeError: Command raised an exception: NameError: name 'timedelta' is not defined\n",
+        "channel_id": "1301481065067708497",
+        "message_content": ">buybond 7 10"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    }
+  ]
+}
