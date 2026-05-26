@@ -33,6 +33,7 @@ const TABS = {
     { label: "DMs Sent",                          actions: ["dms_sent"] },
     { label: "Database Ops",                      actions: ["database_ops"] },
     { label: "Bot Lifecycle",                     actions: ["bot_lifecycle"] },
+    { label: "Terminal Logs",                     actions: ["terminal_logs"] },
   ],
   // 16 broad groups, each a dropdown menu containing the specific
   // discord.AuditLogAction slugs (or Gateway-only events) that belong
@@ -107,6 +108,7 @@ const TABS = {
     { label: "DM Queue",              actions: ["dm_queue"] },
     { label: "Tippy Activity",        actions: ["tippy_activity"] },
     { label: "Bot Lifecycle",         actions: ["bot_lifecycle"] },
+    { label: "Terminal Logs",         actions: ["terminal_logs"] },
   ],
 };
 
