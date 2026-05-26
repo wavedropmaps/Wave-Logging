@@ -1,0 +1,30 @@
+{
+  "pushed_at": "2026-05-26T16:01:53Z",
+  "events": [
+    {
+      "timestamp": "2026-05-26T15:54:55Z",
+      "bot": "manager",
+      "category": "errors",
+      "action": "prefix_command_error",
+      "actor": {
+        "id": "1458092102322880672",
+        "name": "slaxmgmt",
+        "display_name": "Slax",
+        "global_name": "Slax",
+        "avatar_url": "https://cdn.discordapp.com/avatars/1458092102322880672/fef7ab4bc011028b3f08003d2a6e3000.png?size=1024",
+        "top_role": "Head Admin"
+      },
+      "target": null,
+      "details": {
+        "command": "unknown",
+        "error_type": "CommandNotFound",
+        "error_message": "Command \"pointstopbucks\" is not found",
+        "traceback": "discord.ext.commands.errors.CommandNotFound: Command \"pointstopbucks\" is not found\n",
+        "channel_id": "1301481065067708497",
+        "message_content": ">pointstopbucks 195"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    }
+  ]
+}
