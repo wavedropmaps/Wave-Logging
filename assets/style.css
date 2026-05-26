@@ -401,7 +401,13 @@ h1 {
   padding: 18px 32px;
   border-bottom: 1px solid var(--card-border);
   flex-wrap: wrap;
-  overflow-x: auto;
+  /* IMPORTANT: must be `visible`, not `auto` / `hidden`.
+     The dropdown menus inside `.tab-dropdown` are position: absolute and
+     extend BELOW the tab bar — any overflow clipping on this parent
+     chops them off. flex-wrap already handles overflow by wrapping. */
+  overflow: visible;
+  position: relative;
+  z-index: 50;
 }
 .tab {
   font-family: 'Orbitron', monospace;
