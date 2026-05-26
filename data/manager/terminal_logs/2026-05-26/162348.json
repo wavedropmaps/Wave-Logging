@@ -1,0 +1,2795 @@
+{
+  "pushed_at": "2026-05-26T16:23:48Z",
+  "events": [
+    {
+      "timestamp": "2026-05-26T16:08:35Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[wave_logging] Cog loaded \u2014 table ensured, listeners installed, terminal capture on, push loops started",
+        "module": "wave_logging",
+        "func": "cog_load",
+        "line": 54
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:35Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord.client",
+        "level": "INFO",
+        "message": "logging in using static token",
+        "module": "client",
+        "func": "login",
+        "line": 666
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:35Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "   \ud83d\udcc5 Mid-Week: Triggers at 72 hours (72h)",
+        "module": "weekly_checks",
+        "func": "cog_load",
+        "line": 1281
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:35Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "   \ud83d\udcc5 Full Week: Triggers at 168 hours (168h)",
+        "module": "weekly_checks",
+        "func": "cog_load",
+        "line": 1282
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:35Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "   \ud83d\udd0d Role Monitor: Scans every 30 minutes",
+        "module": "weekly_checks",
+        "func": "cog_load",
+        "line": 1283
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:35Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "tasks.weekly_roles",
+        "level": "INFO",
+        "message": "\u2705 Weekly Roles task initialized",
+        "module": "weekly_roles",
+        "func": "__init__",
+        "line": 518
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:35Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\ud83d\ude80 Starting weekly checks with sequential duty processing...",
+        "module": "weekly_checks",
+        "func": "cog_load",
+        "line": 1268
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:35Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[PACKAGE] Loaded 48/48 extensions",
+        "module": "main",
+        "func": "load_extensions",
+        "line": 799
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:35Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "tasks.weekly_roles",
+        "level": "INFO",
+        "message": "\u23f0 Will run at 169.5h after week start",
+        "module": "weekly_roles",
+        "func": "cog_load",
+        "line": 523
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:35Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "tasks.weekly_roles",
+        "level": "INFO",
+        "message": "\u2705 Task created! (will activate when bot is ready)",
+        "module": "weekly_roles",
+        "func": "cog_load",
+        "line": 528
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:35Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "tasks.weekly_roles",
+        "level": "INFO",
+        "message": "\ud83d\ude80 Starting Weekly Roles automation...",
+        "module": "weekly_roles",
+        "func": "cog_load",
+        "line": 522
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:35Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 WavePointsTask cog loaded",
+        "module": "wave_points",
+        "func": "cog_load",
+        "line": 227
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:35Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 Tasks created!",
+        "module": "weekly_checks",
+        "func": "cog_load",
+        "line": 1280
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:35Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[ROCKET] Starting bot with FORCED FRESH LOGIN...",
+        "module": "main",
+        "func": "main",
+        "line": 1258
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:35Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 wave_points table initialised",
+        "module": "wave_points",
+        "func": "init_wave_points_table",
+        "line": 38
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:37Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord.gateway",
+        "level": "INFO",
+        "message": "Shard ID None has connected to Gateway (Session ID: fb7f697cd3e298e0b215f9ede4b2ed1f).",
+        "module": "gateway",
+        "func": "received_message",
+        "line": 570
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:42Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "tasks.weekly_roles",
+        "level": "INFO",
+        "message": "\ud83d\udcc5 Checking weekly roles for 24/05/2026 \u2192 30/05/2026",
+        "module": "weekly_roles",
+        "func": "run_weekly_roles_at_exact_time",
+        "line": 423
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:42Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "tasks.reviewing_tasks",
+        "level": "INFO",
+        "message": "\ud83d\udd17 Syncing Discord role members with database...",
+        "module": "reviewing_tasks",
+        "func": "on_ready",
+        "line": 330
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:42Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[DropMapVoting] Bot ready, posting sticky message to queue channel...",
+        "module": "drop_map_voting",
+        "func": "on_ready",
+        "line": 1007
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:48Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[MAP]   Has embeds: 0",
+        "module": "map_request",
+        "func": "on_message",
+        "line": 162
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:42Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 Predictions expiry loop started",
+        "module": "predictions",
+        "func": "predictions_expiry_loop",
+        "line": 1225
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:42Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[TippyJoin] Claim cleanup loop started",
+        "module": "tippy_join_tasks",
+        "func": "on_ready",
+        "line": 62
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:48Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[MAP] Message detected in monitored channel 1210837116649742396 from Wave Logistics Bot#3049",
+        "module": "map_request",
+        "func": "on_message",
+        "line": 160
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:48Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "   No attachments or embed images found, skipping",
+        "module": "map_request",
+        "func": "on_message",
+        "line": 169
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:58Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[ReplyDM] DM queue worker started",
+        "module": "reply_dm_duty",
+        "func": "on_ready",
+        "line": 133
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:48Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[DropMapVoting] \u2705 Found thread in cache: \ud83d\udcca  Voting Leaderboard",
+        "module": "drop_map_voting",
+        "func": "get_leaderboard_thread",
+        "line": 1291
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:58Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "database",
+        "level": "INFO",
+        "message": "\u2705 Accuracy streaks table intact: 14 streaks",
+        "module": "database",
+        "func": "validate_critical_data_integrity",
+        "line": 190
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:42Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 Full Week task active and ready",
+        "module": "weekly_checks",
+        "func": "run_report_at_exact_time",
+        "line": 1121
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:42Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\ud83d\udd0d Role assignment monitoring started",
+        "module": "weekly_checks",
+        "func": "monitor_role_assignments",
+        "line": 1303
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:58Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 Power Hour info message found and updated",
+        "module": "power_hour",
+        "func": "auto_update_power_hour_info",
+        "line": 415
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:58Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "   Waiting 103.9 hours (373877 seconds)...",
+        "module": "weekly_checks",
+        "func": "run_report_at_exact_time",
+        "line": 1179
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:58Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u23f0 Full Week report scheduled for 2026-05-31 00:00:00 UTC",
+        "module": "weekly_checks",
+        "func": "run_report_at_exact_time",
+        "line": 1178
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:58Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u23f3 Sleeping 7.85h until mid-week challenge fires at 2026-05-27 00:00:00+00:00 UTC",
+        "module": "random_challenges",
+        "func": "challenge_scheduler",
+        "line": 735
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:58Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\ud83d\udd04 Config reloaded from config.json",
+        "module": "cache",
+        "func": "_reload_config",
+        "line": 137
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:58Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "   Waiting 30077 seconds...",
+        "module": "staff_insights",
+        "func": "run_insights_at_exact_time",
+        "line": 2298
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:58Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "database",
+        "level": "INFO",
+        "message": "\u2705 Found 1 open session(s) from before restart",
+        "module": "database",
+        "func": "validate_critical_data_integrity",
+        "line": 182
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:58Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "database",
+        "level": "INFO",
+        "message": "\u2705 All critical data integrity checks passed",
+        "module": "database",
+        "func": "validate_critical_data_integrity",
+        "line": 198
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:48Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "   Waiting 372077 seconds...",
+        "module": "staff_sheet",
+        "func": "run_staff_sheet_at_exact_time",
+        "line": 1118
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:58Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "database",
+        "level": "INFO",
+        "message": "\u2705 Penalties table intact: 29 penalties recorded",
+        "module": "database",
+        "func": "validate_critical_data_integrity",
+        "line": 196
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:58Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u23f0 Full Week insights scheduled for 2026-05-31 01:00:00+00:00 (in 104.9 hours)",
+        "module": "staff_insights",
+        "func": "run_insights_at_exact_time",
+        "line": 2297
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:48Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[DMQueue] Cog loaded and started with dashboard",
+        "module": "dm_queue",
+        "func": "on_ready",
+        "line": 122
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:42Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "tasks.weekly_roles",
+        "level": "INFO",
+        "message": "\u23f0 Target time: 2026-05-31 01:30:00+00:00 | Current time: 2026-05-26 16:08:42.881690+00:00",
+        "module": "weekly_roles",
+        "func": "run_weekly_roles_at_exact_time",
+        "line": 424
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:59Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "database",
+        "level": "INFO",
+        "message": "\u2705 Role-database sync complete: no new users to add",
+        "module": "database",
+        "func": "sync_role_with_database",
+        "line": 3495
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:42Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[DMQueue] PRIMARY log channel resolved: 1503714231566991441",
+        "module": "dm_queue",
+        "func": "on_ready",
+        "line": 96
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:48Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "database",
+        "level": "INFO",
+        "message": "\u2705 Reviewers table integrity check: 14 reviewers found",
+        "module": "database",
+        "func": "validate_critical_data_integrity",
+        "line": 175
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:58Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "   Waiting 7.9 hours (28277 seconds)...",
+        "module": "weekly_checks",
+        "func": "run_report_at_exact_time",
+        "line": 1179
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:59Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "tasks.reviewing_tasks",
+        "level": "INFO",
+        "message": "\ud83d\udd04 Syncing Discord usernames with database...",
+        "module": "reviewing_tasks",
+        "func": "on_ready",
+        "line": 334
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:58Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[ReplyDM] Reloaded 1 pending auto-delete(s) from DB",
+        "module": "reply_dm_duty",
+        "func": "on_ready",
+        "line": 147
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:59Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[OK] Wave Management Bot#0661 ready | 3 guilds | 161 commands",
+        "module": "main",
+        "func": "on_ready",
+        "line": 840
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:59Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "====================================================================================================\n",
+        "module": "main",
+        "func": "on_ready",
+        "line": 843
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:58Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "   Waiting 377477 seconds...",
+        "module": "staff_insights",
+        "func": "run_insights_at_exact_time",
+        "line": 2298
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:48Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[DropMapVoting] Attempting to fetch leaderboard thread: 1508289287169511496",
+        "module": "drop_map_voting",
+        "func": "get_leaderboard_thread",
+        "line": 1286
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:59Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[ReplyDM] Guild 971731167621574666: 0 expiry timers rebuilt",
+        "module": "reply_dm_duty",
+        "func": "_rebuild_expiry_timers",
+        "line": 214
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:59Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\n====================================================================================================",
+        "module": "main",
+        "func": "on_ready",
+        "line": 841
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:59Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 Automatic logging enabled for all commands and events!",
+        "module": "automatic_logger",
+        "func": "setup_automatic_logging",
+        "line": 449
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:59Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[OK] BOT STARTUP COMPLETE - Now fully operational",
+        "module": "main",
+        "func": "on_ready",
+        "line": 842
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:48Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[DropMapVoting] \u2705 Found thread in cache: \ud83d\udcca  Voting Leaderboard",
+        "module": "drop_map_voting",
+        "func": "get_leaderboard_thread",
+        "line": 1291
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:59Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\ud83e\udd16 Automatic Logger initialized - all activity will be logged!",
+        "module": "automatic_logger",
+        "func": "__init__",
+        "line": 127
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:48Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[DropMapVoting] Bot ready, proceeding with info message task...",
+        "module": "drop_map_voting",
+        "func": "_before_info_message_task",
+        "line": 1761
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:58Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u23f0 Mid-Week report scheduled for 2026-05-27 00:00:00 UTC",
+        "module": "weekly_checks",
+        "func": "run_report_at_exact_time",
+        "line": 1178
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:59Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[OK] Synced 1 slash commands",
+        "module": "main",
+        "func": "on_ready",
+        "line": 824
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:42Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 Full Week insights task is now active and waiting for triggers",
+        "module": "staff_insights",
+        "func": "run_insights_at_exact_time",
+        "line": 2191
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:42Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\ud83d\udd0d Scanning Wave Free Dropmaps! for role assignments...",
+        "module": "weekly_checks",
+        "func": "monitor_role_assignments",
+        "line": 1314
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:42Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 Mid-Week insights task is now active and waiting for triggers",
+        "module": "staff_insights",
+        "func": "run_insights_at_exact_time",
+        "line": 2191
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:59Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 Terminal logging to Discord enabled with rate limit protection!",
+        "module": "automatic_logger",
+        "func": "setup_terminal_logging",
+        "line": 651
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:48Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[DropMapVoting] Attempting to fetch leaderboard thread: 1508289287169511496",
+        "module": "drop_map_voting",
+        "func": "get_leaderboard_thread",
+        "line": 1286
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:42Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\ud83d\udcb1 Economy sync sleeping 7.9h until 2026-05-27 00:05 UTC",
+        "module": "economy_sync",
+        "func": "_before_economy_sync",
+        "line": 216
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:48Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "tasks.weekly_roles",
+        "level": "INFO",
+        "message": "\ud83d\udcca Database check: already_sent = False",
+        "module": "weekly_roles",
+        "func": "run_weekly_roles_at_exact_time",
+        "line": 433
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:48Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "tasks.weekly_roles",
+        "level": "INFO",
+        "message": "\u23f1\ufe0f Time difference: 105.4h (target - now)",
+        "module": "weekly_roles",
+        "func": "run_weekly_roles_at_exact_time",
+        "line": 450
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:59Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[OK] Automatic logging initialized",
+        "module": "main",
+        "func": "on_ready",
+        "line": 854
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:59Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 Terminal output logging to Discord enabled!",
+        "module": "automatic_logger",
+        "func": "setup_automatic_logging",
+        "line": 453
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:59Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[DropMapVoting] Deleted old sticky message",
+        "module": "drop_map_voting",
+        "func": "_post_sticky_message",
+        "line": 2005
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:59Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 Wave Points leaderboard found and updated on startup",
+        "module": "leaderboard_updater",
+        "func": "_do_update_wave_points_leaderboard",
+        "line": 448
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:59Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[ReplyDM] Guild 988564962802810961: 0 expiry timers rebuilt",
+        "module": "reply_dm_duty",
+        "func": "_rebuild_expiry_timers",
+        "line": 214
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:42Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\ud83d\ude80 Twitter monitor ready, starting feed checks every 5 minutes...",
+        "module": "twitter",
+        "func": "before_monitor",
+        "line": 360
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:42Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u26a1 Power Hour: next roll in 51.3min at 17:00 UTC",
+        "module": "power_hour",
+        "func": "power_hour_scheduler",
+        "line": 1023
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:48Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "tasks.weekly_roles",
+        "level": "INFO",
+        "message": "\u23f0 Scheduled for 2026-05-31 01:30:00+00:00 (in 105.4h)",
+        "module": "weekly_roles",
+        "func": "run_weekly_roles_at_exact_time",
+        "line": 454
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:42Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\ud83d\udca4 Interest task sleeping 7.9h until 2026-05-27 00:05 UTC",
+        "module": "central_banks",
+        "func": "_before_daily_interest",
+        "line": 234
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:42Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 Power Hour scheduler active",
+        "module": "power_hour",
+        "func": "power_hour_scheduler",
+        "line": 1012
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:42Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[AutoReply] Cog ready \u2014 listening for incoming DMs",
+        "module": "auto_reply",
+        "func": "on_ready",
+        "line": 56
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:42Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 Staff sheet task is now active and waiting for triggers",
+        "module": "staff_sheet",
+        "func": "run_staff_sheet_at_exact_time",
+        "line": 1046
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:42Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 Mid-Week task active and ready",
+        "module": "weekly_checks",
+        "func": "run_report_at_exact_time",
+        "line": 1121
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:42Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[DMQueue] Bot ID: 1269188273201352768",
+        "module": "dm_queue",
+        "func": "on_ready",
+        "line": 91
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:09:00Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[DropMapVoting] \u2705 Sticky message posted",
+        "module": "drop_map_voting",
+        "func": "on_ready",
+        "line": 1009
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:09:00Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[DropMapVoting] \u2705 Posted sticky message: 1508864548990353568",
+        "module": "drop_map_voting",
+        "func": "_post_sticky_message",
+        "line": 2028
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:42Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "tasks.weekly_roles",
+        "level": "INFO",
+        "message": "\u2705 Weekly roles task active \u2014 database available",
+        "module": "weekly_roles",
+        "func": "run_weekly_roles_at_exact_time",
+        "line": 408
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:42Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\ud83e\uddf9 wave_points cleanup: 61 users present across 1 guild(s)",
+        "module": "wave_points",
+        "func": "cleanup_wave_points_for_left_users",
+        "line": 290
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:58Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u23f0 Mid-Week insights scheduled for 2026-05-27 00:30:00+00:00 (in 8.4 hours)",
+        "module": "staff_insights",
+        "func": "run_insights_at_exact_time",
+        "line": 2297
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:09:00Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[DropMapVoting Task] Startup reconciliation complete",
+        "module": "drop_map_voting",
+        "func": "_reconcile",
+        "line": 36
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:42Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 Duty scans task is now active and waiting for triggers",
+        "module": "duties_scan",
+        "func": "run_scans_at_exact_intervals",
+        "line": 1034
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:42Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u23f0 Next duty scan: 2026-05-26 20:00:00+00:00 UTC (in 3.9h)",
+        "module": "duties_scan",
+        "func": "run_scans_at_exact_intervals",
+        "line": 1077
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:48Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u23f0 Staff sheet scheduled for 2026-05-30 23:30:00+00:00 (in 103.4 hours)",
+        "module": "staff_sheet",
+        "func": "run_staff_sheet_at_exact_time",
+        "line": 1117
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:09:00Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 Wave Points shop found in history and updated",
+        "module": "leaderboard_updater",
+        "func": "auto_update_wave_points_shop",
+        "line": 354
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:09:00Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\ud83d\udd04 Auto-updating VBucks leaderboard for role (triggered by: bot_startup)",
+        "module": "leaderboard_updater",
+        "func": "auto_update_vbucks_leaderboard",
+        "line": 84
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:58Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "  \u2705 All wave_points users still present in at least one guild",
+        "module": "wave_points",
+        "func": "cleanup_wave_points_for_left_users",
+        "line": 310
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:42Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 Weekly challenge scheduler started",
+        "module": "random_challenges",
+        "func": "challenge_scheduler",
+        "line": 702
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:08:48Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[MAP]   Has attachments: 0",
+        "module": "map_request",
+        "func": "on_message",
+        "line": 161
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:09:00Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 Role assignment scan complete for Wave Free Dropmaps!",
+        "module": "weekly_checks",
+        "func": "monitor_role_assignments",
+        "line": 1343
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:09:01Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 Auto-updated role VBucks leaderboard",
+        "module": "leaderboard_updater",
+        "func": "auto_update_vbucks_leaderboard",
+        "line": 130
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:09:01Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\ud83d\udd04 Auto-updating VBucks leaderboard for req (triggered by: bot_startup)",
+        "module": "leaderboard_updater",
+        "func": "auto_update_vbucks_leaderboard",
+        "line": 84
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:09:01Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "tasks.loot_routes",
+        "level": "INFO",
+        "message": "\ud83d\udcca [Loot Routes] Prepared 15 players for leaderboard",
+        "module": "loot_routes",
+        "func": "_do_update_loot_route_leaderboard",
+        "line": 2384
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:09:01Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "warning",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "WARNING",
+        "message": "\u26a0\ufe0f VBucks channel not configured for main",
+        "module": "leaderboard_updater",
+        "func": "auto_update_vbucks_leaderboard",
+        "line": 88
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:09:01Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\ud83d\udd04 Auto-updating VBucks leaderboard for main (triggered by: bot_startup)",
+        "module": "leaderboard_updater",
+        "func": "auto_update_vbucks_leaderboard",
+        "line": 84
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:09:01Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 Auto-updated req VBucks leaderboard",
+        "module": "leaderboard_updater",
+        "func": "auto_update_vbucks_leaderboard",
+        "line": 130
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:09:02Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "  \u2705 Edited role duty info embed in channel 1467087929468784660",
+        "module": "duties_scan",
+        "func": "post_duty_info_embeds",
+        "line": 279
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:09:03Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "  \u2705 Edited req duty info embed in channel 1467087539490783285",
+        "module": "duties_scan",
+        "func": "post_duty_info_embeds",
+        "line": 279
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:09:03Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[OK] Weekly database backup scheduler started",
+        "module": "main",
+        "func": "on_ready",
+        "line": 902
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:09:03Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "  \ud83c\udf10 Live at: https://wavedropmaps.github.io/wave-leaderboard/loot_routes_leaderboard.html",
+        "module": "github_sync",
+        "func": "push_loot_route_leaderboard_to_github",
+        "line": 681
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:09:03Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "  \u2705 GitHub: Updated loot_routes_leaderboard.json successfully",
+        "module": "github_sync",
+        "func": "push_loot_route_leaderboard_to_github",
+        "line": 680
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:09:03Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "tasks.loot_routes",
+        "level": "INFO",
+        "message": "\u2705 [Loot Routes] Leaderboard pushed to GitHub",
+        "module": "loot_routes",
+        "func": "_do_update_loot_route_leaderboard",
+        "line": 2391
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:09:03Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "database",
+        "level": "INFO",
+        "message": "\u2705 Username sync complete: no changes needed",
+        "module": "database",
+        "func": "sync_reviewer_usernames",
+        "line": 3544
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:09:03Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "database",
+        "level": "INFO",
+        "message": "\u2705 Drop map reviewer cleanup complete: 0 removed, 14 kept at 100% accuracy",
+        "module": "database",
+        "func": "cleanup_drop_map_reviewers",
+        "line": 3615
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:09:03Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "tasks.reviewing_tasks",
+        "level": "INFO",
+        "message": "\ud83d\udcca Recalculating reviewer ranks based on accuracy...",
+        "module": "reviewing_tasks",
+        "func": "on_ready",
+        "line": 342
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:09:03Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "database",
+        "level": "INFO",
+        "message": "[tier_calc] reviewer=821412756729233439 correct=7/8 accuracy=87.50%",
+        "module": "database",
+        "func": "update_reviewer_tier",
+        "line": 3677
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:09:03Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "database",
+        "level": "INFO",
+        "message": "[tier_calc] reviewer=871514657804931112 correct=2/14 accuracy=14.29%",
+        "module": "database",
+        "func": "update_reviewer_tier",
+        "line": 3677
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:09:03Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "database",
+        "level": "INFO",
+        "message": "[tier_calc] reviewer=857663295069880331 correct=5/6 accuracy=83.33%",
+        "module": "database",
+        "func": "update_reviewer_tier",
+        "line": 3677
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:09:03Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "tasks.reviewing_tasks",
+        "level": "INFO",
+        "message": "\ud83e\uddf9 Cleaning up drop map reviewers (removing non-reviewers, setting 100% accuracy)...",
+        "module": "reviewing_tasks",
+        "func": "on_ready",
+        "line": 338
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:09:04Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "database",
+        "level": "INFO",
+        "message": "[tier_calc] reviewer=1381946156296437904 correct=16/23 accuracy=69.57%",
+        "module": "database",
+        "func": "update_reviewer_tier",
+        "line": 3677
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:09:04Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "database",
+        "level": "INFO",
+        "message": "[tier_calc] reviewer=1458092102322880672 correct=22/24 accuracy=91.67%",
+        "module": "database",
+        "func": "update_reviewer_tier",
+        "line": 3677
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:09:04Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "tasks.reviewing_tasks",
+        "level": "INFO",
+        "message": "\ud83d\udcca Syncing drop map reviewing data to GitHub on startup...",
+        "module": "reviewing_tasks",
+        "func": "on_ready",
+        "line": 354
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:09:04Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "tasks.reviewing_tasks",
+        "level": "INFO",
+        "message": "\ud83c\udf31 Running post-wipe restore migration (one-time)...",
+        "module": "reviewing_tasks",
+        "func": "on_ready",
+        "line": 350
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:09:04Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "database",
+        "level": "INFO",
+        "message": "\u2705 Recalculated tiers for 14 reviewers on startup",
+        "module": "database",
+        "func": "recalculate_all_reviewer_tiers",
+        "line": 3720
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:09:04Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "tasks.reviewing_tasks",
+        "level": "INFO",
+        "message": "\ud83c\udf31 Running initial reviewer data migration (one-time)...",
+        "module": "reviewing_tasks",
+        "func": "on_ready",
+        "line": 346
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:09:04Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "database",
+        "level": "INFO",
+        "message": "\u23ed\ufe0f Migration 'initial_reviewer_seed_2026_05_15' already ran, skipping",
+        "module": "database",
+        "func": "migrate_initial_reviewer_data",
+        "line": 4743
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:09:04Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "database",
+        "level": "INFO",
+        "message": "\u23ed\ufe0f Migration 'restore_post_wipe_state_2026_05_20' already ran, skipping",
+        "module": "database",
+        "func": "migrate_restore_post_wipe_state_2026_05_20",
+        "line": 4904
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:09:04Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "database",
+        "level": "INFO",
+        "message": "[tier_calc] reviewer=1441424672930398359 correct=24/30 accuracy=80.00%",
+        "module": "database",
+        "func": "update_reviewer_tier",
+        "line": 3677
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:09:06Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 Wave Points leaderboard found and updated on startup",
+        "module": "leaderboard_updater",
+        "func": "_do_update_wave_points_leaderboard",
+        "line": 448
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:10:04Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "tasks.reviewing_tasks",
+        "level": "INFO",
+        "message": "\ud83d\udcca Fetched 14 reviewers from database",
+        "module": "reviewing_tasks",
+        "func": "_do_update_drop_map_leaderboard",
+        "line": 81
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:10:04Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "tasks.reviewing_tasks",
+        "level": "INFO",
+        "message": "\u2705 Saved drop_map_reviewing.json locally",
+        "module": "reviewing_tasks",
+        "func": "_do_update_drop_map_leaderboard",
+        "line": 225
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:10:04Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "tasks.reviewing_tasks",
+        "level": "INFO",
+        "message": "\ud83d\udcbe Saving to c:\\Users\\kiere\\Desktop\\Wave Management Bot\\tasks\\..\\drop_map_reviewing.json...",
+        "module": "reviewing_tasks",
+        "func": "_do_update_drop_map_leaderboard",
+        "line": 221
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:10:04Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "tasks.reviewing_tasks",
+        "level": "INFO",
+        "message": "\ud83d\udd17 Pushing to GitHub (14 reviewers)...",
+        "module": "reviewing_tasks",
+        "func": "_do_update_drop_map_leaderboard",
+        "line": 231
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:10:05Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "tasks.reviewing_tasks",
+        "level": "INFO",
+        "message": "\u2705 Drop map leaderboard synced to GitHub (14 reviewers)",
+        "module": "reviewing_tasks",
+        "func": "_do_update_drop_map_leaderboard",
+        "line": 238
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:10:05Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "  \u2705 GitHub: Updated drop_map_reviewing.json successfully",
+        "module": "github_sync",
+        "func": "push_drop_map_leaderboard_to_github",
+        "line": 308
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:10:05Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "  \ud83c\udf10 Live at: https://wavedropmaps.github.io/wave-leaderboard/drop_map_reviewing.json",
+        "module": "github_sync",
+        "func": "push_drop_map_leaderboard_to_github",
+        "line": 309
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:10:07Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "  \ud83c\udf10 Live at: https://wavedropmaps.github.io/wave-leaderboard/daily_summary.json",
+        "module": "github_sync",
+        "func": "push_daily_summary_to_github",
+        "line": 392
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:10:07Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "  \u2705 GitHub: Updated daily_summary.json successfully",
+        "module": "github_sync",
+        "func": "push_daily_summary_to_github",
+        "line": 391
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:10:07Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "tasks.reviewing_tasks",
+        "level": "INFO",
+        "message": "\u2705 Daily summary pushed for 2026-05-26 (3 challenges)",
+        "module": "reviewing_tasks",
+        "func": "_do_update_drop_map_leaderboard",
+        "line": 295
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:10:49Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[ReplyDM] Auto-deleted message 1508863647345021091 from #\u2503\u2757\u30fbproof\u30fb\u2757\u2503",
+        "module": "reply_dm_duty",
+        "func": "_do_delete",
+        "line": 439
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:10:50Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[TippyJoin] Claimed member 1203732042785751110 (tejfn) in Wave Improvement Cord! | Loot Routes + Tips & Tricks",
+        "module": "tippy_join_tasks",
+        "func": "on_member_join",
+        "line": 214
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:10:50Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[ReplyDM] Auto-deleted message 1508863745554907248 from #\u2503\u2757\u30fbproof\u30fb\u2757\u2503",
+        "module": "reply_dm_duty",
+        "func": "_do_delete",
+        "line": 439
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:10:52Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[TippyJoin] Ghost-pinged 1 member(s) in #\u2705tips-trick-access\u2705-code (Wave Improvement Cord! | Loot Routes + Tips & Tricks)",
+        "module": "tippy_join_tasks",
+        "func": "_batch_worker",
+        "line": 292
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:10:53Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[TippyJoin] Ghost-pinged 1 member(s) in #\u2705tips-tricks-access\u2705-invite (Wave Improvement Cord! | Loot Routes + Tips & Tricks)",
+        "module": "tippy_join_tasks",
+        "func": "_batch_worker",
+        "line": 292
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:13:48Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[DropMapVoting] Attempting to fetch leaderboard thread: 1508289287169511496",
+        "module": "drop_map_voting",
+        "func": "get_leaderboard_thread",
+        "line": 1286
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:13:48Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[DropMapVoting] \u2705 Found thread in cache: \ud83d\udcca  Voting Leaderboard",
+        "module": "drop_map_voting",
+        "func": "get_leaderboard_thread",
+        "line": 1291
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:14:37Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[ReplyDM] Queued DM for exlipzyfv \u2014 queue depth: 1",
+        "module": "reply_dm_duty",
+        "func": "on_message",
+        "line": 369
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:14:38Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[DMQueue:RESOLVE] First success via bot.get_cog",
+        "module": "main",
+        "func": "_resolve_dm_queue_cog",
+        "line": 618
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:14:38Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[ReplyDMNote] ARMED user=1472972097318944962 guild=988564962802810961 src_bot=1269188273201352768",
+        "module": "reply_dm_note",
+        "func": "arm_note",
+        "line": 72
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:14:38Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[ReplyDM] DM sent to 1472972097318944962 (attempt 1/3)",
+        "module": "reply_dm_duty",
+        "func": "_dm_worker",
+        "line": 237
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:14:38Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[DMQueue] ENQUEUED: user_id=1472972097318944962 source_bot=1269188273201352768 source=reply_dm_duty",
+        "module": "dm_queue",
+        "func": "_insert_job",
+        "line": 167
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:14:38Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[ROCKET][ROCKET][ROCKET] NEW BOT STARTUP - 2026-05-26 16:14:38 UTC [ROCKET][ROCKET][ROCKET]",
+        "module": "main",
+        "func": "<module>",
+        "line": 71
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:14:38Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "====================================================================================================",
+        "module": "main",
+        "func": "<module>",
+        "line": 70
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:14:38Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "====================================================================================================",
+        "module": "main",
+        "func": "<module>",
+        "line": 72
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:14:38Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[DMQueue:WORKER] CLAIMED: job_id=1774 user_id=1472972097318944962",
+        "module": "dm_queue",
+        "func": "_worker_loop",
+        "line": 459
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:14:38Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "====================================================================================================\n",
+        "module": "main",
+        "func": "<module>",
+        "line": 73
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-26T16:14:38Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\n====================================================================================================",
+        "module": "main",
+        "func": "<module>",
+        "line": 69
+      },
+      "guild_id": null,
+      "guild_name": null
+    }
+  ]
+}
