@@ -1,0 +1,49 @@
+{
+  "pushed_at": "2026-05-27T08:09:51Z",
+  "events": [
+    {
+      "timestamp": "2026-05-27T08:05:25Z",
+      "bot": "server",
+      "category": "automod_action",
+      "action": "automod_triggered",
+      "actor": null,
+      "target": null,
+      "details": {
+        "rule_id": "1132120171054637056",
+        "rule_trigger_type": "AutoModRuleTriggerType.keyword",
+        "action_type": "AutoModRuleActionType.send_alert_message",
+        "user_id": "1469501013407826087",
+        "channel_id": "1301478991097630730",
+        "message_id": "None",
+        "alert_system_message_id": "1509105232569831494",
+        "content": "anyone know if unlimited teir on rotationcalc.com is worth?",
+        "matched_keyword": "(?:https?://)?[a-z0-9_\\-\\.]*[a-z0-9_\\-]{2,}\\.[a-z]{2,}",
+        "matched_content": "rotationcalc.com"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-05-27T08:05:25Z",
+      "bot": "server",
+      "category": "automod_action",
+      "action": "automod_triggered",
+      "actor": null,
+      "target": null,
+      "details": {
+        "rule_id": "1132120171054637056",
+        "rule_trigger_type": "AutoModRuleTriggerType.keyword",
+        "action_type": "AutoModRuleActionType.block_message",
+        "user_id": "1469501013407826087",
+        "channel_id": "1301478991097630730",
+        "message_id": "None",
+        "alert_system_message_id": "None",
+        "content": "anyone know if unlimited teir on rotationcalc.com is worth?",
+        "matched_keyword": "(?:https?://)?[a-z0-9_\\-\\.]*[a-z0-9_\\-]{2,}\\.[a-z]{2,}",
+        "matched_content": "rotationcalc.com"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    }
+  ]
+}
