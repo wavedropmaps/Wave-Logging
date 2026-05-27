@@ -1,0 +1,93 @@
+{
+  "pushed_at": "2026-05-27T20:44:51Z",
+  "events": [
+    {
+      "timestamp": "2026-05-27T20:42:58Z",
+      "bot": "server",
+      "category": "automod_action",
+      "action": "automod_triggered",
+      "actor": null,
+      "target": null,
+      "details": {
+        "rule_id": "1132120171054637056",
+        "rule_trigger_type": "AutoModRuleTriggerType.keyword",
+        "action_type": "AutoModRuleActionType.block_message",
+        "user_id": "1506819466686890116",
+        "channel_id": "1301478991097630730",
+        "message_id": "None",
+        "alert_system_message_id": "None",
+        "content": "U Wana take a pic with dr.pigoen bro",
+        "matched_keyword": "(?:https?://)?[a-z0-9_\\-\\.]*[a-z0-9_\\-]{2,}\\.[a-z]{2,}",
+        "matched_content": "dr.pigoen"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-05-27T20:42:58Z",
+      "bot": "server",
+      "category": "automod_action",
+      "action": "automod_triggered",
+      "actor": null,
+      "target": null,
+      "details": {
+        "rule_id": "1132120171054637056",
+        "rule_trigger_type": "AutoModRuleTriggerType.keyword",
+        "action_type": "AutoModRuleActionType.send_alert_message",
+        "user_id": "1506819466686890116",
+        "channel_id": "1301478991097630730",
+        "message_id": "None",
+        "alert_system_message_id": "1509295879797084211",
+        "content": "U Wana take a pic with dr.pigoen bro",
+        "matched_keyword": "(?:https?://)?[a-z0-9_\\-\\.]*[a-z0-9_\\-]{2,}\\.[a-z]{2,}",
+        "matched_content": "dr.pigoen"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-05-27T20:43:38Z",
+      "bot": "server",
+      "category": "automod_action",
+      "action": "automod_triggered",
+      "actor": null,
+      "target": null,
+      "details": {
+        "rule_id": "1132120171054637056",
+        "rule_trigger_type": "AutoModRuleTriggerType.keyword",
+        "action_type": "AutoModRuleActionType.block_message",
+        "user_id": "1506819466686890116",
+        "channel_id": "1301478991097630730",
+        "message_id": "None",
+        "alert_system_message_id": "None",
+        "content": "# \ud83d\udea7 Maps are under maintenance for new terrain from the new update \ud83d\udea7",
+        "matched_keyword": "#",
+        "matched_content": "#"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-05-27T20:43:38Z",
+      "bot": "server",
+      "category": "automod_action",
+      "action": "automod_triggered",
+      "actor": null,
+      "target": null,
+      "details": {
+        "rule_id": "1132120171054637056",
+        "rule_trigger_type": "AutoModRuleTriggerType.keyword",
+        "action_type": "AutoModRuleActionType.send_alert_message",
+        "user_id": "1506819466686890116",
+        "channel_id": "1301478991097630730",
+        "message_id": "None",
+        "alert_system_message_id": "1509296049938759910",
+        "content": "# \ud83d\udea7 Maps are under maintenance for new terrain from the new update \ud83d\udea7",
+        "matched_keyword": "#",
+        "matched_content": "#"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    }
+  ]
+}
