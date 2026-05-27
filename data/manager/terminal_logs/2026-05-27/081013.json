@@ -1,0 +1,491 @@
+{
+  "pushed_at": "2026-05-27T08:10:13Z",
+  "events": [
+    {
+      "timestamp": "2026-05-27T08:05:14Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[DropMapVoting] Attempting to fetch leaderboard thread: 1508289287169511496",
+        "module": "drop_map_voting",
+        "func": "get_leaderboard_thread",
+        "line": 1286
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:05:14Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[DropMapVoting] \u2705 Found thread in cache: \ud83d\udcca  Voting Leaderboard",
+        "module": "drop_map_voting",
+        "func": "get_leaderboard_thread",
+        "line": 1291
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:05:21Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\ud83d\udd0d Scanning Wave Free Dropmaps! for role assignments...",
+        "module": "weekly_checks",
+        "func": "monitor_role_assignments",
+        "line": 1314
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:05:23Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 Role assignment scan complete for Wave Free Dropmaps!",
+        "module": "weekly_checks",
+        "func": "monitor_role_assignments",
+        "line": 1343
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:06:27Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[TippyJoin] Claimed member 823064194382561311 (liamzrrr) in Wave Free Dropmaps!",
+        "module": "tippy_join_tasks",
+        "func": "on_member_join",
+        "line": 214
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:06:29Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[TippyJoin] Ghost-pinged 1 member(s) in #\ud83d\udd34landmarks-access\ud83d\udd34-english (Wave Free Dropmaps!)",
+        "module": "tippy_join_tasks",
+        "func": "_batch_worker",
+        "line": 292
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:06:29Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[TippyJoin] Ghost-pinged 1 member(s) in #\ud83e\ude82accesso-dropmaps\u2705-twitter-italian (Wave Free Dropmaps!)",
+        "module": "tippy_join_tasks",
+        "func": "_batch_worker",
+        "line": 292
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:06:29Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[TippyJoin] Ghost-pinged 1 member(s) in #\ud83e\ude82dost\u0119p-do-dropmapek\u2705-invite-polish (Wave Free Dropmaps!)",
+        "module": "tippy_join_tasks",
+        "func": "_batch_worker",
+        "line": 292
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:06:29Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[TippyJoin] Ghost-pinged 1 member(s) in #\ud83e\ude82acc\u00e8s-drop-map\u2705-twitter-french (Wave Free Dropmaps!)",
+        "module": "tippy_join_tasks",
+        "func": "_batch_worker",
+        "line": 292
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:06:29Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[TippyJoin] Ghost-pinged 1 member(s) in #\ud83e\ude82acceso-drop-map-por\u2705-twitter-spanish (Wave Free Dropmaps!)",
+        "module": "tippy_join_tasks",
+        "func": "_batch_worker",
+        "line": 292
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:06:29Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[TippyJoin] Ghost-pinged 1 member(s) in #\ud83e\ude82dost\u0119p-do-dropmapek\u2705-twitter-polish (Wave Free Dropmaps!)",
+        "module": "tippy_join_tasks",
+        "func": "_batch_worker",
+        "line": 292
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:06:29Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[TippyJoin] Ghost-pinged 1 member(s) in #\ud83e\ude82\u30c9\u30ed\u30c3\u30d7\u30de\u30c3\u30d7\u3078\u306e\u30a2\u30af\u30bb\u30b9\u2705-invite-japanese (Wave Free Dropmaps!)",
+        "module": "tippy_join_tasks",
+        "func": "_batch_worker",
+        "line": 292
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:06:30Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[TippyJoin] Ghost-pinged 1 member(s) in #\ud83e\ude82acc\u00e8s-drop-map\u2705-invite-french (Wave Free Dropmaps!)",
+        "module": "tippy_join_tasks",
+        "func": "_batch_worker",
+        "line": 292
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:06:30Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[TippyJoin] Ghost-pinged 1 member(s) in #\ud83e\ude82drop-map-zugriff\u2705-invite-german (Wave Free Dropmaps!)",
+        "module": "tippy_join_tasks",
+        "func": "_batch_worker",
+        "line": 292
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:06:30Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[TippyJoin] Ghost-pinged 1 member(s) in #\ud83e\ude82drop-map-access\u2705-twitter-english (Wave Free Dropmaps!)",
+        "module": "tippy_join_tasks",
+        "func": "_batch_worker",
+        "line": 292
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:06:30Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[TippyJoin] Ghost-pinged 1 member(s) in #\ud83e\ude82acceso-drop-map-por\u2705-invite-spanish (Wave Free Dropmaps!)",
+        "module": "tippy_join_tasks",
+        "func": "_batch_worker",
+        "line": 292
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:06:30Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[TippyJoin] Ghost-pinged 1 member(s) in #\ud83e\ude82\u30c9\u30ed\u30c3\u30d7\u30de\u30c3\u30d7\u3078\u306e\u30a2\u30af\u30bb\u30b9\u2705-twitter-japanese (Wave Free Dropmaps!)",
+        "module": "tippy_join_tasks",
+        "func": "_batch_worker",
+        "line": 292
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:06:30Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[TippyJoin] Ghost-pinged 1 member(s) in #\ud83e\ude82drop-map-access\u2705-invite-english (Wave Free Dropmaps!)",
+        "module": "tippy_join_tasks",
+        "func": "_batch_worker",
+        "line": 292
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:06:30Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[TippyJoin] Ghost-pinged 1 member(s) in #\ud83e\ude82accesso-dropmaps\u2705-invite-italian (Wave Free Dropmaps!)",
+        "module": "tippy_join_tasks",
+        "func": "_batch_worker",
+        "line": 292
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:06:30Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[TippyJoin] Ghost-pinged 1 member(s) in #\ud83e\ude82drop-map-zugriff\u2705-twitter-german (Wave Free Dropmaps!)",
+        "module": "tippy_join_tasks",
+        "func": "_batch_worker",
+        "line": 292
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:08:44Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[ReplyDM] Queued DM for liamzrrr \u2014 queue depth: 1",
+        "module": "reply_dm_duty",
+        "func": "on_message",
+        "line": 369
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:08:44Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[ReplyDM] DM sent to 823064194382561311 (attempt 1/3)",
+        "module": "reply_dm_duty",
+        "func": "_dm_worker",
+        "line": 237
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:08:44Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[DMQueue:RESOLVE] First success via bot.get_cog",
+        "module": "main",
+        "func": "_resolve_dm_queue_cog",
+        "line": 617
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:08:45Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[DMQueue] ENQUEUED: user_id=823064194382561311 source_bot=1269188273201352768 source=reply_dm_duty",
+        "module": "dm_queue",
+        "func": "_insert_job",
+        "line": 167
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:08:45Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[ReplyDMNote] ARMED user=823064194382561311 guild=988564962802810961 src_bot=1269188273201352768",
+        "module": "reply_dm_note",
+        "func": "arm_note",
+        "line": 72
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:08:45Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[DMQueue:COORD] ASSIGNED: job_id=1866 -> bot_id=1488059422109470840",
+        "module": "dm_queue",
+        "func": "_coordinator_loop",
+        "line": 247
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:08:45Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[DMQueue:COORD] Assigned 1 job(s) this cycle",
+        "module": "dm_queue",
+        "func": "_coordinator_loop",
+        "line": 253
+      },
+      "guild_id": null,
+      "guild_name": null
+    }
+  ]
+}
