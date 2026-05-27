@@ -1,0 +1,131 @@
+{
+  "pushed_at": "2026-05-27T08:15:13Z",
+  "events": [
+    {
+      "timestamp": "2026-05-27T08:10:19Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[DropMapVoting] Attempting to fetch leaderboard thread: 1508289287169511496",
+        "module": "drop_map_voting",
+        "func": "get_leaderboard_thread",
+        "line": 1286
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:10:19Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[DropMapVoting] \u2705 Found thread in cache: \ud83d\udcca  Voting Leaderboard",
+        "module": "drop_map_voting",
+        "func": "get_leaderboard_thread",
+        "line": 1291
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:13:16Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "    \u2705 Cached message counts for 21 users in Wave Free Dropmaps!",
+        "module": "duties_scan",
+        "func": "scan_messages_all_guilds_optimized",
+        "line": 551
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:13:21Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "  \ud83d\udce8 Scanning messages in Wave Improvement Cord! | Loot Routes + Tips & Tricks...",
+        "module": "duties_scan",
+        "func": "scan_messages_all_guilds_optimized",
+        "line": 498
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:13:21Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "    \ud83d\udccb Checking 381 channels...",
+        "module": "duties_scan",
+        "func": "scan_messages_all_guilds_optimized",
+        "line": 500
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:13:46Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[ReplyDM] Auto-deleted message 1509105789271543828 from #\u2503\u2757\u30fbproof\u30fb\u2757\u2503",
+        "module": "reply_dm_duty",
+        "func": "_do_delete",
+        "line": 439
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:13:46Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[ReplyDM] Auto-deleted message 1509106069509771395 from #\u2503\u2757\u30fbproof\u30fb\u2757\u2503",
+        "module": "reply_dm_duty",
+        "func": "_do_delete",
+        "line": 439
+      },
+      "guild_id": null,
+      "guild_name": null
+    }
+  ]
+}
