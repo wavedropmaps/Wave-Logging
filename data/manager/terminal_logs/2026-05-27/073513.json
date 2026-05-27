@@ -1,0 +1,329 @@
+{
+  "pushed_at": "2026-05-27T07:35:13Z",
+  "events": [
+    {
+      "timestamp": "2026-05-27T07:34:59Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[wave_logging] Cog loaded \u2014 table ensured, listeners installed, terminal capture on, push loops started",
+        "module": "wave_logging",
+        "func": "cog_load",
+        "line": 55
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T07:34:59Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "tasks.weekly_roles",
+        "level": "INFO",
+        "message": "\u2705 Task created! (will activate when bot is ready)",
+        "module": "weekly_roles",
+        "func": "cog_load",
+        "line": 528
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T07:34:59Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 Tasks created!",
+        "module": "weekly_checks",
+        "func": "cog_load",
+        "line": 1280
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T07:34:59Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[ROCKET] Starting bot with FORCED FRESH LOGIN...",
+        "module": "main",
+        "func": "main",
+        "line": 1242
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T07:34:59Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[PACKAGE] Loaded 48/48 extensions",
+        "module": "main",
+        "func": "load_extensions",
+        "line": 798
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T07:34:59Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\ud83d\ude80 Starting weekly checks with sequential duty processing...",
+        "module": "weekly_checks",
+        "func": "cog_load",
+        "line": 1268
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T07:34:59Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "   \ud83d\udcc5 Mid-Week: Triggers at 72 hours (72h)",
+        "module": "weekly_checks",
+        "func": "cog_load",
+        "line": 1281
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T07:34:59Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 WavePointsTask cog loaded",
+        "module": "wave_points",
+        "func": "cog_load",
+        "line": 227
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T07:34:59Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "tasks.weekly_roles",
+        "level": "INFO",
+        "message": "\u23f0 Will run at 169.5h after week start",
+        "module": "weekly_roles",
+        "func": "cog_load",
+        "line": 523
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T07:34:59Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "tasks.weekly_roles",
+        "level": "INFO",
+        "message": "\u2705 Weekly Roles task initialized",
+        "module": "weekly_roles",
+        "func": "__init__",
+        "line": 518
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T07:34:59Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord.client",
+        "level": "INFO",
+        "message": "logging in using static token",
+        "module": "client",
+        "func": "login",
+        "line": 666
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T07:34:59Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "   \ud83d\udcc5 Full Week: Triggers at 168 hours (168h)",
+        "module": "weekly_checks",
+        "func": "cog_load",
+        "line": 1282
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T07:34:59Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 wave_points table initialised",
+        "module": "wave_points",
+        "func": "init_wave_points_table",
+        "line": 38
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T07:34:59Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "tasks.weekly_roles",
+        "level": "INFO",
+        "message": "\ud83d\ude80 Starting Weekly Roles automation...",
+        "module": "weekly_roles",
+        "func": "cog_load",
+        "line": 522
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T07:34:59Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "   \ud83d\udd0d Role Monitor: Scans every 30 minutes",
+        "module": "weekly_checks",
+        "func": "cog_load",
+        "line": 1283
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T07:35:01Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord.gateway",
+        "level": "INFO",
+        "message": "Shard ID None has connected to Gateway (Session ID: 2780015f8b08218a4c0bd4664aae4be0).",
+        "module": "gateway",
+        "func": "received_message",
+        "line": 570
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T07:35:08Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\ud83d\udca4 Interest task sleeping 16.5h until 2026-05-28 00:05 UTC",
+        "module": "central_banks",
+        "func": "_before_daily_interest",
+        "line": 234
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T07:35:08Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "tasks.reviewing_tasks",
+        "level": "INFO",
+        "message": "\ud83d\udd17 Syncing Discord role members with database...",
+        "module": "reviewing_tasks",
+        "func": "on_ready",
+        "line": 330
+      },
+      "guild_id": null,
+      "guild_name": null
+    }
+  ]
+}
