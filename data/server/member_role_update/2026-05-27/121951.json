@@ -1,0 +1,498 @@
+{
+  "pushed_at": "2026-05-27T12:19:51Z",
+  "events": [
+    {
+      "timestamp": "2026-05-27T12:17:38Z",
+      "bot": "server",
+      "category": "member_role_update",
+      "action": "member_roles_changed",
+      "actor": null,
+      "target": {
+        "id": "1509105704533889114",
+        "name": "wicksfv",
+        "discriminator": "0",
+        "global_name": "\u308a\u305b\u3092\u4e00\u751f\u5fdc\u63f4\u3057\u307e\u3059",
+        "display_name": "\u308a\u305b\u3092\u4e00\u751f\u5fdc\u63f4\u3057\u307e\u3059",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/1509105704533889114/138a416397ea9908aa2d3bebde5667ed.png?size=1024",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2026-05-27T08:07:17.789000+00:00",
+        "joined_at": "2026-05-27T12:17:36.224404+00:00",
+        "roles": [
+          {
+            "id": "1210764975090438155",
+            "name": "Member",
+            "position": 22,
+            "color": "#ff0000"
+          }
+        ],
+        "top_role": "Member",
+        "guild_permissions": 5224864484865
+      },
+      "details": {
+        "added": [
+          {
+            "id": "1210764975090438155",
+            "name": "Member",
+            "position": 22,
+            "color": "#ff0000",
+            "hoist": false,
+            "mentionable": false,
+            "managed": false,
+            "permissions": 5224864484865,
+            "permission_names": [
+              "create_instant_invite",
+              "stream",
+              "read_messages",
+              "send_messages",
+              "read_message_history",
+              "connect",
+              "speak",
+              "use_voice_activation",
+              "use_application_commands",
+              "send_messages_in_threads",
+              "use_embedded_activities",
+              "use_soundboard"
+            ],
+            "tags": {
+              "bot_id": null,
+              "integration_id": null,
+              "is_premium_subscriber": false
+            }
+          }
+        ],
+        "removed": [],
+        "audit": {
+          "audit_id": "1509168699523727440",
+          "actor": {
+            "id": "697487580522086431",
+            "name": "AutoMod",
+            "discriminator": "8695",
+            "display_name": "Use Code Fruss For Access!",
+            "nick": "Use Code Fruss For Access!",
+            "bot": true,
+            "system": false,
+            "pending": false,
+            "avatar_url": "https://cdn.discordapp.com/avatars/697487580522086431/932397508df8560ddf1514619184947c.png?size=1024",
+            "public_flags": 65536,
+            "public_flag_names": [
+              "verified_bot"
+            ],
+            "created_at": "2020-04-08T16:46:37.889000+00:00",
+            "joined_at": "2024-05-27T11:46:40.308000+00:00",
+            "roles": [
+              {
+                "id": "1490579498884665425",
+                "name": "*",
+                "position": 1,
+                "color": "#000000"
+              },
+              {
+                "id": "1306357759163498496",
+                "name": "English \ud83c\uddec\ud83c\udde7",
+                "position": 9,
+                "color": "#000000"
+              },
+              {
+                "id": "1210764975090438155",
+                "name": "Member",
+                "position": 22,
+                "color": "#ff0000"
+              },
+              {
+                "id": "1305277560086593546",
+                "name": "Manual Named Locations",
+                "position": 23,
+                "color": "#ff8000"
+              },
+              {
+                "id": "1210801655663300618",
+                "name": "Bots",
+                "position": 72,
+                "color": "#000000"
+              },
+              {
+                "id": "1244617769937403907",
+                "name": "AutoMod",
+                "position": 73,
+                "color": "#000000"
+              }
+            ],
+            "top_role": "AutoMod",
+            "guild_permissions": 1829587348619263
+          },
+          "reason": null,
+          "created_at": "2026-05-27T12:17:36.965000+00:00",
+          "changes": [
+            {
+              "key": "roles",
+              "before": "[]",
+              "after": "[<Role id=1210764975090438155 name='Member'>]"
+            }
+          ]
+        }
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-05-27T12:18:10Z",
+      "bot": "server",
+      "category": "member_role_update",
+      "action": "member_roles_changed",
+      "actor": null,
+      "target": {
+        "id": "1509105704533889114",
+        "name": "wicksfv",
+        "discriminator": "0",
+        "global_name": "\u308a\u305b\u3092\u4e00\u751f\u5fdc\u63f4\u3057\u307e\u3059",
+        "display_name": "\u308a\u305b\u3092\u4e00\u751f\u5fdc\u63f4\u3057\u307e\u3059",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/1509105704533889114/138a416397ea9908aa2d3bebde5667ed.png?size=1024",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2026-05-27T08:07:17.789000+00:00",
+        "joined_at": "2026-05-27T12:17:36.224404+00:00",
+        "roles": [
+          {
+            "id": "1489886259030524025",
+            "name": "\u65e5\u672c\u8a9e (\u306b\u307b\u3093\u3054 \ud83c\uddef\ud83c\uddf5",
+            "position": 3,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764292719247400",
+            "name": "Twitter",
+            "position": 21,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764975090438155",
+            "name": "Member",
+            "position": 22,
+            "color": "#ff0000"
+          }
+        ],
+        "top_role": "Member",
+        "guild_permissions": 5224864484865
+      },
+      "details": {
+        "added": [
+          {
+            "id": "1210764292719247400",
+            "name": "Twitter",
+            "position": 21,
+            "color": "#000000",
+            "hoist": false,
+            "mentionable": false,
+            "managed": false,
+            "permissions": 0,
+            "permission_names": [],
+            "tags": {
+              "bot_id": null,
+              "integration_id": null,
+              "is_premium_subscriber": false
+            }
+          },
+          {
+            "id": "1489886259030524025",
+            "name": "\u65e5\u672c\u8a9e (\u306b\u307b\u3093\u3054 \ud83c\uddef\ud83c\uddf5",
+            "position": 3,
+            "color": "#000000",
+            "hoist": false,
+            "mentionable": false,
+            "managed": false,
+            "permissions": 0,
+            "permission_names": [],
+            "tags": {
+              "bot_id": null,
+              "integration_id": null,
+              "is_premium_subscriber": false
+            }
+          }
+        ],
+        "removed": [],
+        "audit": {
+          "audit_id": "1509168830365307023",
+          "actor": {
+            "id": "1509105704533889114",
+            "name": "wicksfv",
+            "discriminator": "0",
+            "global_name": "\u308a\u305b\u3092\u4e00\u751f\u5fdc\u63f4\u3057\u307e\u3059",
+            "display_name": "\u308a\u305b\u3092\u4e00\u751f\u5fdc\u63f4\u3057\u307e\u3059",
+            "bot": false,
+            "system": false,
+            "pending": false,
+            "avatar_url": "https://cdn.discordapp.com/avatars/1509105704533889114/138a416397ea9908aa2d3bebde5667ed.png?size=1024",
+            "public_flags": 0,
+            "public_flag_names": [],
+            "created_at": "2026-05-27T08:07:17.789000+00:00",
+            "joined_at": "2026-05-27T12:17:36.224404+00:00",
+            "roles": [
+              {
+                "id": "1489886259030524025",
+                "name": "\u65e5\u672c\u8a9e (\u306b\u307b\u3093\u3054 \ud83c\uddef\ud83c\uddf5",
+                "position": 3,
+                "color": "#000000"
+              },
+              {
+                "id": "1210764292719247400",
+                "name": "Twitter",
+                "position": 21,
+                "color": "#000000"
+              },
+              {
+                "id": "1210764975090438155",
+                "name": "Member",
+                "position": 22,
+                "color": "#ff0000"
+              }
+            ],
+            "top_role": "Member",
+            "guild_permissions": 5224864484865
+          },
+          "reason": null,
+          "created_at": "2026-05-27T12:18:08.160000+00:00",
+          "changes": [
+            {
+              "key": "roles",
+              "before": "[]",
+              "after": "[<Role id=1210764292719247400 name='Twitter'>, <Role id=1489886259030524025 name='\u65e5\u672c\u8a9e (\u306b\u307b\u3093\u3054 \ud83c\uddef\ud83c\uddf5'>]"
+            }
+          ]
+        }
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-05-27T12:19:36Z",
+      "bot": "server",
+      "category": "member_role_update",
+      "action": "member_roles_changed",
+      "actor": null,
+      "target": {
+        "id": "1364556385093681213",
+        "name": "feroxe_013",
+        "discriminator": "0",
+        "global_name": "NS Feroxe",
+        "display_name": "NS Feroxe",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/1364556385093681213/60360f5c43608101bc74bf1fd4c92cfb.png?size=1024",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2025-04-23T10:59:54.438000+00:00",
+        "joined_at": "2026-05-27T12:19:33.355940+00:00",
+        "roles": [
+          {
+            "id": "1149680236041080832",
+            "name": "Member",
+            "position": 21,
+            "color": "#ff0000"
+          }
+        ],
+        "top_role": "Member",
+        "guild_permissions": 4949986577921
+      },
+      "details": {
+        "added": [
+          {
+            "id": "1149680236041080832",
+            "name": "Member",
+            "position": 21,
+            "color": "#ff0000",
+            "hoist": true,
+            "mentionable": false,
+            "managed": false,
+            "permissions": 4949986577921,
+            "permission_names": [
+              "create_instant_invite",
+              "stream",
+              "read_messages",
+              "send_messages",
+              "read_message_history",
+              "connect",
+              "speak",
+              "use_voice_activation",
+              "use_application_commands",
+              "use_embedded_activities",
+              "use_soundboard"
+            ]
+          }
+        ],
+        "removed": [],
+        "audit": {
+          "audit_id": "1509169191335493672",
+          "actor": {
+            "id": "697487580522086431",
+            "name": "AutoMod",
+            "discriminator": "8695",
+            "display_name": "Use Code WaveDropMap For Access!",
+            "nick": "Use Code WaveDropMap For Access!",
+            "bot": true,
+            "system": false,
+            "pending": false,
+            "avatar_url": "https://cdn.discordapp.com/avatars/697487580522086431/932397508df8560ddf1514619184947c.png?size=1024",
+            "public_flags": 65536,
+            "public_flag_names": [
+              "verified_bot"
+            ],
+            "created_at": "2020-04-08T16:46:37.889000+00:00",
+            "joined_at": "2024-05-27T12:12:41.955000+00:00",
+            "roles": [
+              {
+                "id": "1307486678231023736",
+                "name": "*",
+                "position": 1,
+                "color": "#000000"
+              },
+              {
+                "id": "1149680236041080832",
+                "name": "Member",
+                "position": 21,
+                "color": "#ff0000"
+              },
+              {
+                "id": "1105873031450075227",
+                "name": "Access",
+                "position": 23,
+                "color": "#ff8000"
+              },
+              {
+                "id": "1144226524279615519",
+                "name": "bots",
+                "position": 65,
+                "color": "#000000"
+              },
+              {
+                "id": "1244624319779307574",
+                "name": "AutoMod",
+                "position": 72,
+                "color": "#000000"
+              }
+            ],
+            "top_role": "AutoMod",
+            "guild_permissions": 1829587348619263
+          },
+          "reason": null,
+          "created_at": "2026-05-27T12:19:34.222000+00:00",
+          "changes": [
+            {
+              "key": "roles",
+              "before": "[]",
+              "after": "[<Role id=1149680236041080832 name='Member'>]"
+            }
+          ]
+        }
+      },
+      "guild_id": "971731167621574666",
+      "guild_name": "Wave Improvement Cord! | Loot Routes + Tips & Tricks"
+    },
+    {
+      "timestamp": "2026-05-27T12:19:47Z",
+      "bot": "server",
+      "category": "member_role_update",
+      "action": "member_roles_changed",
+      "actor": null,
+      "target": {
+        "id": "1364556385093681213",
+        "name": "feroxe_013",
+        "discriminator": "0",
+        "global_name": "NS Feroxe",
+        "display_name": "NS Feroxe",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/1364556385093681213/60360f5c43608101bc74bf1fd4c92cfb.png?size=1024",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2025-04-23T10:59:54.438000+00:00",
+        "joined_at": "2026-05-27T12:19:33.355940+00:00",
+        "roles": [
+          {
+            "id": "1188090112987377705",
+            "name": "Invite Way",
+            "position": 12,
+            "color": "#000000"
+          },
+          {
+            "id": "1149680236041080832",
+            "name": "Member",
+            "position": 21,
+            "color": "#ff0000"
+          }
+        ],
+        "top_role": "Member",
+        "guild_permissions": 4949986577921
+      },
+      "details": {
+        "added": [
+          {
+            "id": "1188090112987377705",
+            "name": "Invite Way",
+            "position": 12,
+            "color": "#000000",
+            "hoist": false,
+            "mentionable": false,
+            "managed": false,
+            "permissions": 0,
+            "permission_names": []
+          }
+        ],
+        "removed": [],
+        "audit": {
+          "audit_id": "1509169241063030904",
+          "actor": {
+            "id": "1364556385093681213",
+            "name": "feroxe_013",
+            "discriminator": "0",
+            "global_name": "NS Feroxe",
+            "display_name": "NS Feroxe",
+            "bot": false,
+            "system": false,
+            "pending": false,
+            "avatar_url": "https://cdn.discordapp.com/avatars/1364556385093681213/60360f5c43608101bc74bf1fd4c92cfb.png?size=1024",
+            "public_flags": 0,
+            "public_flag_names": [],
+            "created_at": "2025-04-23T10:59:54.438000+00:00",
+            "joined_at": "2026-05-27T12:19:33.355940+00:00",
+            "roles": [
+              {
+                "id": "1188090112987377705",
+                "name": "Invite Way",
+                "position": 12,
+                "color": "#000000"
+              },
+              {
+                "id": "1149680236041080832",
+                "name": "Member",
+                "position": 21,
+                "color": "#ff0000"
+              }
+            ],
+            "top_role": "Member",
+            "guild_permissions": 4949986577921
+          },
+          "reason": null,
+          "created_at": "2026-05-27T12:19:46.078000+00:00",
+          "changes": [
+            {
+              "key": "roles",
+              "before": "[]",
+              "after": "[<Role id=1188090112987377705 name='Invite Way'>]"
+            }
+          ]
+        }
+      },
+      "guild_id": "971731167621574666",
+      "guild_name": "Wave Improvement Cord! | Loot Routes + Tips & Tricks"
+    }
+  ]
+}
