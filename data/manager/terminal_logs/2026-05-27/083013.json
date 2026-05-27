@@ -1,0 +1,1535 @@
+{
+  "pushed_at": "2026-05-27T08:30:13Z",
+  "events": [
+    {
+      "timestamp": "2026-05-27T08:25:14Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[DropMapVoting] \u2705 Found thread in cache: \ud83d\udcca  Voting Leaderboard",
+        "module": "drop_map_voting",
+        "func": "get_leaderboard_thread",
+        "line": 1291
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:25:14Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[DropMapVoting] Attempting to fetch leaderboard thread: 1508289287169511496",
+        "module": "drop_map_voting",
+        "func": "get_leaderboard_thread",
+        "line": 1286
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:12Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "  \u2705 message: 15 users with messages",
+        "module": "duties_scan",
+        "func": "scan_messages_all_guilds_optimized",
+        "line": 561
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:12Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "  \u2705 message scan complete: 21 users with message data",
+        "module": "duties_scan",
+        "func": "perform_full_scan",
+        "line": 852
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:12Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "  \ud83d\udcca Total messages found: 2589 messages",
+        "module": "duties_scan",
+        "func": "perform_full_scan",
+        "line": 853
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:12Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "    \u2705 Cached message counts for 21 users in Wave Improvement Cord! | Loot Routes + Tips & Tricks",
+        "module": "duties_scan",
+        "func": "scan_messages_all_guilds_optimized",
+        "line": 551
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:16Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500",
+        "module": "duties_scan",
+        "func": "perform_full_scan",
+        "line": 860
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:16Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\ud83d\udce4 Saving duties data to GitHub...",
+        "module": "duties_scan",
+        "func": "perform_full_scan",
+        "line": 861
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:16Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500",
+        "module": "duties_scan",
+        "func": "perform_full_scan",
+        "line": 862
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:16Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "  \ud83d\udcdd Building export data for 5 duty types...",
+        "module": "duties_scan",
+        "func": "perform_full_scan",
+        "line": 866
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:16Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "    \u2022 req: 8 users total (8 with scan data)",
+        "module": "duties_scan",
+        "func": "perform_full_scan",
+        "line": 890
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:18Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 User 1285691249428271114 has away role (type: immunity) in WAVE Drop Map Staff Hub",
+        "module": "helpers",
+        "func": "check_if_user_is_away",
+        "line": 260
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:19Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "    \u2022 role: 11 users total (11 with scan data)",
+        "module": "duties_scan",
+        "func": "perform_full_scan",
+        "line": 890
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:20Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 User 1285691249428271114 has away role (type: immunity) in WAVE Drop Map Staff Hub",
+        "module": "helpers",
+        "func": "check_if_user_is_away",
+        "line": 260
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:20Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 User 1421465174644228116 has away role (type: normal) in WAVE Drop Map Staff Hub",
+        "module": "helpers",
+        "func": "check_if_user_is_away",
+        "line": 260
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:20Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 User 1421465174644228116 has normal away role in WAVE Drop Map Staff Hub",
+        "module": "helpers",
+        "func": "is_user_normal_away",
+        "line": 287
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:20Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 User 1435617548933529752 has normal away role in WAVE Drop Map Staff Hub",
+        "module": "helpers",
+        "func": "is_user_normal_away",
+        "line": 287
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:20Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 User 1435617548933529752 has away role (type: normal) in WAVE Drop Map Staff Hub",
+        "module": "helpers",
+        "func": "check_if_user_is_away",
+        "line": 260
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:21Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 User 994646489387237407 has away role (type: normal) in WAVE Drop Map Staff Hub",
+        "module": "helpers",
+        "func": "check_if_user_is_away",
+        "line": 260
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:21Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 User 994646489387237407 has normal away role in WAVE Drop Map Staff Hub",
+        "module": "helpers",
+        "func": "is_user_normal_away",
+        "line": 287
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:22Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "    \u2022 modlog: 21 users total (21 with scan data)",
+        "module": "duties_scan",
+        "func": "perform_full_scan",
+        "line": 890
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:23Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 User 1285691249428271114 has away role (type: immunity) in WAVE Drop Map Staff Hub",
+        "module": "helpers",
+        "func": "check_if_user_is_away",
+        "line": 260
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:24Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 User 1421465174644228116 has normal away role in WAVE Drop Map Staff Hub",
+        "module": "helpers",
+        "func": "is_user_normal_away",
+        "line": 287
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:24Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 User 1421465174644228116 has away role (type: normal) in WAVE Drop Map Staff Hub",
+        "module": "helpers",
+        "func": "check_if_user_is_away",
+        "line": 260
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:25Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 User 1435617548933529752 has normal away role in WAVE Drop Map Staff Hub",
+        "module": "helpers",
+        "func": "is_user_normal_away",
+        "line": 287
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:25Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 User 1435617548933529752 has away role (type: normal) in WAVE Drop Map Staff Hub",
+        "module": "helpers",
+        "func": "check_if_user_is_away",
+        "line": 260
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:25Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 User 994646489387237407 has away role (type: normal) in WAVE Drop Map Staff Hub",
+        "module": "helpers",
+        "func": "check_if_user_is_away",
+        "line": 260
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:25Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 User 994646489387237407 has normal away role in WAVE Drop Map Staff Hub",
+        "module": "helpers",
+        "func": "is_user_normal_away",
+        "line": 287
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:28Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 User 1266776994910175317 has away role (type: normal) in WAVE Drop Map Staff Hub",
+        "module": "helpers",
+        "func": "check_if_user_is_away",
+        "line": 260
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:28Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 User 1266776994910175317 has normal away role in WAVE Drop Map Staff Hub",
+        "module": "helpers",
+        "func": "is_user_normal_away",
+        "line": 287
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:29Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "    \u2022 message: 21 users total (21 with scan data)",
+        "module": "duties_scan",
+        "func": "perform_full_scan",
+        "line": 890
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:31Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 User 1285691249428271114 has away role (type: immunity) in WAVE Drop Map Staff Hub",
+        "module": "helpers",
+        "func": "check_if_user_is_away",
+        "line": 260
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:31Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "warning",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord.http",
+        "level": "WARNING",
+        "message": "We are being rate limited. GET https://discord.com/api/v10/users/1285691249428271114 responded with 429. Retrying in 0.49 seconds.",
+        "module": "http",
+        "func": "request",
+        "line": 735
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:32Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "warning",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord.http",
+        "level": "WARNING",
+        "message": "We are being rate limited. GET https://discord.com/api/v10/users/729014516469465098 responded with 429. Retrying in 0.42 seconds.",
+        "module": "http",
+        "func": "request",
+        "line": 735
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:33Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "warning",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord.http",
+        "level": "WARNING",
+        "message": "We are being rate limited. GET https://discord.com/api/v10/users/916260880876986378 responded with 429. Retrying in 0.41 seconds.",
+        "module": "http",
+        "func": "request",
+        "line": 735
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:34Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 User 1421465174644228116 has away role (type: normal) in WAVE Drop Map Staff Hub",
+        "module": "helpers",
+        "func": "check_if_user_is_away",
+        "line": 260
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:34Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 User 1421465174644228116 has normal away role in WAVE Drop Map Staff Hub",
+        "module": "helpers",
+        "func": "is_user_normal_away",
+        "line": 287
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:34Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "warning",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord.http",
+        "level": "WARNING",
+        "message": "We are being rate limited. GET https://discord.com/api/v10/users/1421465174644228116 responded with 429. Retrying in 0.30 seconds.",
+        "module": "http",
+        "func": "request",
+        "line": 735
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:35Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "warning",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord.http",
+        "level": "WARNING",
+        "message": "We are being rate limited. GET https://discord.com/api/v10/users/1195990100044161047 responded with 429. Retrying in 0.39 seconds.",
+        "module": "http",
+        "func": "request",
+        "line": 735
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:36Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "warning",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord.http",
+        "level": "WARNING",
+        "message": "We are being rate limited. GET https://discord.com/api/v10/users/1441424672930398359 responded with 429. Retrying in 0.46 seconds.",
+        "module": "http",
+        "func": "request",
+        "line": 735
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:37Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 User 1435617548933529752 has normal away role in WAVE Drop Map Staff Hub",
+        "module": "helpers",
+        "func": "is_user_normal_away",
+        "line": 287
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:37Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 User 1435617548933529752 has away role (type: normal) in WAVE Drop Map Staff Hub",
+        "module": "helpers",
+        "func": "check_if_user_is_away",
+        "line": 260
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:37Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "warning",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord.http",
+        "level": "WARNING",
+        "message": "We are being rate limited. GET https://discord.com/api/v10/users/1435617548933529752 responded with 429. Retrying in 0.41 seconds.",
+        "module": "http",
+        "func": "request",
+        "line": 735
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:38Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 User 994646489387237407 has away role (type: normal) in WAVE Drop Map Staff Hub",
+        "module": "helpers",
+        "func": "check_if_user_is_away",
+        "line": 260
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:38Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 User 994646489387237407 has normal away role in WAVE Drop Map Staff Hub",
+        "module": "helpers",
+        "func": "is_user_normal_away",
+        "line": 287
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:38Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "warning",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord.http",
+        "level": "WARNING",
+        "message": "We are being rate limited. GET https://discord.com/api/v10/users/994646489387237407 responded with 429. Retrying in 0.37 seconds.",
+        "module": "http",
+        "func": "request",
+        "line": 735
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:39Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "warning",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord.http",
+        "level": "WARNING",
+        "message": "We are being rate limited. GET https://discord.com/api/v10/users/1458092102322880672 responded with 429. Retrying in 0.33 seconds.",
+        "module": "http",
+        "func": "request",
+        "line": 735
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:40Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "warning",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord.http",
+        "level": "WARNING",
+        "message": "We are being rate limited. GET https://discord.com/api/v10/users/821412756729233439 responded with 429. Retrying in 0.47 seconds.",
+        "module": "http",
+        "func": "request",
+        "line": 735
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:41Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "warning",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord.http",
+        "level": "WARNING",
+        "message": "We are being rate limited. GET https://discord.com/api/v10/users/1428794175738089635 responded with 429. Retrying in 0.40 seconds.",
+        "module": "http",
+        "func": "request",
+        "line": 735
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:42Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "warning",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord.http",
+        "level": "WARNING",
+        "message": "We are being rate limited. GET https://discord.com/api/v10/users/1477867572748619828 responded with 429. Retrying in 0.38 seconds.",
+        "module": "http",
+        "func": "request",
+        "line": 735
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:43Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "warning",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord.http",
+        "level": "WARNING",
+        "message": "We are being rate limited. GET https://discord.com/api/v10/users/1407405613239238719 responded with 429. Retrying in 0.33 seconds.",
+        "module": "http",
+        "func": "request",
+        "line": 735
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:44Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "warning",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord.http",
+        "level": "WARNING",
+        "message": "We are being rate limited. GET https://discord.com/api/v10/users/987843990734905414 responded with 429. Retrying in 0.40 seconds.",
+        "module": "http",
+        "func": "request",
+        "line": 735
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:45Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 User 1266776994910175317 has away role (type: normal) in WAVE Drop Map Staff Hub",
+        "module": "helpers",
+        "func": "check_if_user_is_away",
+        "line": 260
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:45Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 User 1266776994910175317 has normal away role in WAVE Drop Map Staff Hub",
+        "module": "helpers",
+        "func": "is_user_normal_away",
+        "line": 287
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:45Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "warning",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord.http",
+        "level": "WARNING",
+        "message": "We are being rate limited. GET https://discord.com/api/v10/users/1266776994910175317 responded with 429. Retrying in 0.33 seconds.",
+        "module": "http",
+        "func": "request",
+        "line": 735
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:46Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "warning",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord.http",
+        "level": "WARNING",
+        "message": "We are being rate limited. GET https://discord.com/api/v10/users/1359388386636337253 responded with 429. Retrying in 0.42 seconds.",
+        "module": "http",
+        "func": "request",
+        "line": 735
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:47Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "warning",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord.http",
+        "level": "WARNING",
+        "message": "We are being rate limited. GET https://discord.com/api/v10/users/1322663710862344313 responded with 429. Retrying in 0.37 seconds.",
+        "module": "http",
+        "func": "request",
+        "line": 735
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:48Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "  \ud83d\udcbe Writing to c:\\Users\\kiere\\Desktop\\Wave Management Bot\\tasks\\..\\duties_totals.json...",
+        "module": "duties_scan",
+        "func": "perform_full_scan",
+        "line": 967
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:48Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "  \ud83d\udd17 Pushing to GitHub...",
+        "module": "duties_scan",
+        "func": "perform_full_scan",
+        "line": 973
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:48Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "  \u2705 Saved duties_totals.json locally",
+        "module": "duties_scan",
+        "func": "perform_full_scan",
+        "line": 971
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:48Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "  \ud83d\udcc4 Found existing duties_totals.json (sha: ef53ba30...)",
+        "module": "github_sync",
+        "func": "push_duties_to_github",
+        "line": 217
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:49Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "  \u2705 GitHub: Updated duties_totals.json successfully",
+        "module": "github_sync",
+        "func": "push_duties_to_github",
+        "line": 233
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:49Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "  \u2705 GitHub push complete!",
+        "module": "duties_scan",
+        "func": "perform_full_scan",
+        "line": 977
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:49Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\n\ud83d\udcca Triggering other leaderboard updates...",
+        "module": "duties_scan",
+        "func": "perform_full_scan",
+        "line": 987
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:49Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\ud83d\udd04 Auto-updating VBucks leaderboard for role (triggered by: duty_scan_completion)",
+        "module": "leaderboard_updater",
+        "func": "auto_update_vbucks_leaderboard",
+        "line": 84
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:49Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "  \ud83c\udf10 Live at: https://wavedropmaps.github.io/wave-leaderboard/duties_totals.json",
+        "module": "github_sync",
+        "func": "push_duties_to_github",
+        "line": 234
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:50Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 Auto-updated role VBucks leaderboard",
+        "module": "leaderboard_updater",
+        "func": "auto_update_vbucks_leaderboard",
+        "line": 130
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:51Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\ud83d\udd04 Auto-updating VBucks leaderboard for req (triggered by: duty_scan_completion)",
+        "module": "leaderboard_updater",
+        "func": "auto_update_vbucks_leaderboard",
+        "line": 84
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:52Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 Auto-updated req VBucks leaderboard",
+        "module": "leaderboard_updater",
+        "func": "auto_update_vbucks_leaderboard",
+        "line": 130
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:53Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "  \u2022 req:     8 users",
+        "module": "duties_scan",
+        "func": "perform_full_scan",
+        "line": 1013
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:53Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u23f0 Next duty scan: 2026-05-27 12:00:00+00:00 UTC (in 3.6h)",
+        "module": "duties_scan",
+        "func": "run_scans_at_exact_intervals",
+        "line": 1077
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:53Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "  \ud83d\udce1 Rate limits encountered: 0",
+        "module": "duties_scan",
+        "func": "perform_full_scan",
+        "line": 1018
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:53Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "  \u2728 Export complete - leaderboard updated on GitHub",
+        "module": "duties_scan",
+        "func": "perform_full_scan",
+        "line": 1021
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:53Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "  \u2022 modlog:  21 users",
+        "module": "duties_scan",
+        "func": "perform_full_scan",
+        "line": 1015
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:53Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\n================================================================================",
+        "module": "duties_scan",
+        "func": "perform_full_scan",
+        "line": 1009
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:53Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\ud83d\udd0d Checking 4 challenge(s) for completion\u2026",
+        "module": "random_challenges",
+        "func": "check_and_complete_challenges",
+        "line": 586
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:53Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 4-HOUR DUTY SCAN COMPLETE",
+        "module": "duties_scan",
+        "func": "run_scans_at_exact_intervals",
+        "line": 1087
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:53Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "================================================================================",
+        "module": "duties_scan",
+        "func": "perform_full_scan",
+        "line": 1011
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:53Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "  \u23f0 Scan finished at: 2026-05-27 08:26:53.212348+00:00",
+        "module": "duties_scan",
+        "func": "perform_full_scan",
+        "line": 1017
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:53Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "  \u2022 message: 21 users",
+        "module": "duties_scan",
+        "func": "perform_full_scan",
+        "line": 1016
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:53Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\ud83d\udcca FINAL SUMMARY:",
+        "module": "duties_scan",
+        "func": "perform_full_scan",
+        "line": 1012
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:53Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 Challenge completion check complete",
+        "module": "duties_scan",
+        "func": "perform_full_scan",
+        "line": 1005
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:53Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 FULL DUTY SCAN COMPLETE",
+        "module": "duties_scan",
+        "func": "perform_full_scan",
+        "line": 1010
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:53Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\n\ud83d\udcca Checking for challenge completions...",
+        "module": "duties_scan",
+        "func": "perform_full_scan",
+        "line": 1001
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:26:53Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "  \u2022 role:    11 users",
+        "module": "duties_scan",
+        "func": "perform_full_scan",
+        "line": 1014
+      },
+      "guild_id": null,
+      "guild_name": null
+    }
+  ]
+}
