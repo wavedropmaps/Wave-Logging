@@ -1,0 +1,401 @@
+{
+  "pushed_at": "2026-05-27T08:00:13Z",
+  "events": [
+    {
+      "timestamp": "2026-05-27T07:55:21Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[DropMapVoting] \u2705 Found thread in cache: \ud83d\udcca  Voting Leaderboard",
+        "module": "drop_map_voting",
+        "func": "get_leaderboard_thread",
+        "line": 1291
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T07:55:21Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[DropMapVoting] Attempting to fetch leaderboard thread: 1508289287169511496",
+        "module": "drop_map_voting",
+        "func": "get_leaderboard_thread",
+        "line": 1286
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:00:00Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "  \u2705 Loaded 2 source guild(s): [988564962802810961, 971731167621574666]",
+        "module": "duties_scan",
+        "func": "perform_full_scan",
+        "line": 758
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:00:00Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500",
+        "module": "duties_scan",
+        "func": "perform_full_scan",
+        "line": 784
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:00:00Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "  \ud83d\udc65 req: found 8 staff members with this duty role",
+        "module": "duties_scan",
+        "func": "scan_duty_all_guilds",
+        "line": 648
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:00:00Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\ud83d\udd0d STARTING FULL DUTY SCAN",
+        "module": "duties_scan",
+        "func": "perform_full_scan",
+        "line": 745
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:00:00Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "  \ud83d\udd0d Scanning req in Wave Free Dropmaps!...",
+        "module": "duties_scan",
+        "func": "scan_duty_all_guilds",
+        "line": 667
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:00:00Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u26a1 Power Hour already handled for hour 2026-05-27-07 \u2014 skipping roll",
+        "module": "power_hour",
+        "func": "power_hour_scheduler",
+        "line": 1045
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:00:00Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\n================================================================================",
+        "module": "duties_scan",
+        "func": "perform_full_scan",
+        "line": 744
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:00:00Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u26a1 Power Hour: next roll in 60.0min at 09:00 UTC",
+        "module": "power_hour",
+        "func": "power_hour_scheduler",
+        "line": 1023
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:00:00Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\ud83d\udccb [1/4] SCANNING: req (Map Request Helper)",
+        "module": "duties_scan",
+        "func": "perform_full_scan",
+        "line": 783
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:00:00Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "    \u2705 Found req role: Map Request Helper (8 members)",
+        "module": "duties_scan",
+        "func": "find_staff_for_duty",
+        "line": 309
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:00:00Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "================================================================================",
+        "module": "duties_scan",
+        "func": "perform_full_scan",
+        "line": 746
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:00:00Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u23f0 Scan started at: 2026-05-27 07:59:59.991333+00:00",
+        "module": "duties_scan",
+        "func": "perform_full_scan",
+        "line": 747
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:00:00Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\ud83d\udcc5 Scan period : 24/05/2026 \u2192 30/05/2026",
+        "module": "duties_scan",
+        "func": "perform_full_scan",
+        "line": 774
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:00:00Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "    \u2705 Found req role: Map Request Helper (8 members)",
+        "module": "duties_scan",
+        "func": "find_staff_for_duty",
+        "line": 309
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:00:00Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\ud83d\udccd Rate limit tracker initialized (will log all hits)",
+        "module": "duties_scan",
+        "func": "perform_full_scan",
+        "line": 748
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:00:00Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "  \u23f1\ufe0f Starting req scan...",
+        "module": "duties_scan",
+        "func": "perform_full_scan",
+        "line": 785
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:00:00Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\ud83c\udfe2 Source guilds: [988564962802810961, 971731167621574666]",
+        "module": "duties_scan",
+        "func": "perform_full_scan",
+        "line": 775
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:00:00Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\n\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500",
+        "module": "duties_scan",
+        "func": "perform_full_scan",
+        "line": 782
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:00:00Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\ud83d\udccb Loading configuration...",
+        "module": "duties_scan",
+        "func": "perform_full_scan",
+        "line": 750
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T08:00:00Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\ud83d\udd50 RUNNING 4-HOUR DUTY SCAN at 2026-05-27 07:59:59.991333+00:00",
+        "module": "duties_scan",
+        "func": "run_scans_at_exact_intervals",
+        "line": 1085
+      },
+      "guild_id": null,
+      "guild_name": null
+    }
+  ]
+}
