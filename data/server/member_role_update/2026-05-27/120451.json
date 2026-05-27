@@ -1,0 +1,498 @@
+{
+  "pushed_at": "2026-05-27T12:04:51Z",
+  "events": [
+    {
+      "timestamp": "2026-05-27T12:01:50Z",
+      "bot": "server",
+      "category": "member_role_update",
+      "action": "member_roles_changed",
+      "actor": null,
+      "target": {
+        "id": "867729690121601025",
+        "name": "gerard2791",
+        "discriminator": "0",
+        "global_name": "donsimon!",
+        "display_name": "donsimon!",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/867729690121601025/e51f39cb0ad8eafa37d32ee451995e26.png?size=1024",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2021-07-22T11:27:59.763000+00:00",
+        "joined_at": "2026-05-27T12:01:47.271823+00:00",
+        "roles": [
+          {
+            "id": "1210764975090438155",
+            "name": "Member",
+            "position": 22,
+            "color": "#ff0000"
+          }
+        ],
+        "top_role": "Member",
+        "guild_permissions": 5224864484865
+      },
+      "details": {
+        "added": [
+          {
+            "id": "1210764975090438155",
+            "name": "Member",
+            "position": 22,
+            "color": "#ff0000",
+            "hoist": false,
+            "mentionable": false,
+            "managed": false,
+            "permissions": 5224864484865,
+            "permission_names": [
+              "create_instant_invite",
+              "stream",
+              "read_messages",
+              "send_messages",
+              "read_message_history",
+              "connect",
+              "speak",
+              "use_voice_activation",
+              "use_application_commands",
+              "send_messages_in_threads",
+              "use_embedded_activities",
+              "use_soundboard"
+            ],
+            "tags": {
+              "bot_id": null,
+              "integration_id": null,
+              "is_premium_subscriber": false
+            }
+          }
+        ],
+        "removed": [],
+        "audit": {
+          "audit_id": "1509164720245047350",
+          "actor": {
+            "id": "155149108183695360",
+            "name": "Dyno",
+            "discriminator": "3861",
+            "display_name": "Dyno",
+            "bot": true,
+            "system": false,
+            "pending": false,
+            "avatar_url": "https://cdn.discordapp.com/avatars/155149108183695360/b4fdfc64edff74c37e1574d34fad66c2.png?size=1024",
+            "public_flags": 589824,
+            "public_flag_names": [
+              "verified_bot",
+              "bot_http_interactions"
+            ],
+            "created_at": "2016-03-04T03:07:09.922000+00:00",
+            "joined_at": "2024-02-24T02:14:30.758000+00:00",
+            "roles": [
+              {
+                "id": "1490579498884665425",
+                "name": "*",
+                "position": 1,
+                "color": "#000000"
+              },
+              {
+                "id": "1306357759163498496",
+                "name": "English \ud83c\uddec\ud83c\udde7",
+                "position": 9,
+                "color": "#000000"
+              },
+              {
+                "id": "1210764975090438155",
+                "name": "Member",
+                "position": 22,
+                "color": "#ff0000"
+              },
+              {
+                "id": "1305277560086593546",
+                "name": "Manual Named Locations",
+                "position": 23,
+                "color": "#ff8000"
+              },
+              {
+                "id": "1210801655663300618",
+                "name": "Bots",
+                "position": 72,
+                "color": "#000000"
+              },
+              {
+                "id": "1210771709469392978",
+                "name": "Dyno",
+                "position": 81,
+                "color": "#000000"
+              }
+            ],
+            "top_role": "Dyno",
+            "guild_permissions": 1829587348619263
+          },
+          "reason": "Autorole",
+          "created_at": "2026-05-27T12:01:48.231000+00:00",
+          "changes": [
+            {
+              "key": "roles",
+              "before": "[]",
+              "after": "[<Role id=1210764975090438155 name='Member'>]"
+            }
+          ]
+        }
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-05-27T12:02:02Z",
+      "bot": "server",
+      "category": "member_role_update",
+      "action": "member_roles_changed",
+      "actor": null,
+      "target": {
+        "id": "867729690121601025",
+        "name": "gerard2791",
+        "discriminator": "0",
+        "global_name": "donsimon!",
+        "display_name": "donsimon!",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/867729690121601025/e51f39cb0ad8eafa37d32ee451995e26.png?size=1024",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2021-07-22T11:27:59.763000+00:00",
+        "joined_at": "2026-05-27T12:01:47.271823+00:00",
+        "roles": [
+          {
+            "id": "1483009690291146824",
+            "name": "Espa\u00f1ol \ud83c\uddea\ud83c\uddf8",
+            "position": 5,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764376676634684",
+            "name": "Invite Way",
+            "position": 20,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764975090438155",
+            "name": "Member",
+            "position": 22,
+            "color": "#ff0000"
+          }
+        ],
+        "top_role": "Member",
+        "guild_permissions": 5224864484865
+      },
+      "details": {
+        "added": [
+          {
+            "id": "1483009690291146824",
+            "name": "Espa\u00f1ol \ud83c\uddea\ud83c\uddf8",
+            "position": 5,
+            "color": "#000000",
+            "hoist": false,
+            "mentionable": false,
+            "managed": false,
+            "permissions": 0,
+            "permission_names": [],
+            "tags": {
+              "bot_id": null,
+              "integration_id": null,
+              "is_premium_subscriber": false
+            }
+          },
+          {
+            "id": "1210764376676634684",
+            "name": "Invite Way",
+            "position": 20,
+            "color": "#000000",
+            "hoist": false,
+            "mentionable": false,
+            "managed": false,
+            "permissions": 0,
+            "permission_names": [],
+            "tags": {
+              "bot_id": null,
+              "integration_id": null,
+              "is_premium_subscriber": false
+            }
+          }
+        ],
+        "removed": [],
+        "audit": {
+          "audit_id": "1509164774292852828",
+          "actor": {
+            "id": "867729690121601025",
+            "name": "gerard2791",
+            "discriminator": "0",
+            "global_name": "donsimon!",
+            "display_name": "donsimon!",
+            "bot": false,
+            "system": false,
+            "pending": false,
+            "avatar_url": "https://cdn.discordapp.com/avatars/867729690121601025/e51f39cb0ad8eafa37d32ee451995e26.png?size=1024",
+            "public_flags": 0,
+            "public_flag_names": [],
+            "created_at": "2021-07-22T11:27:59.763000+00:00",
+            "joined_at": "2026-05-27T12:01:47.271823+00:00",
+            "roles": [
+              {
+                "id": "1483009690291146824",
+                "name": "Espa\u00f1ol \ud83c\uddea\ud83c\uddf8",
+                "position": 5,
+                "color": "#000000"
+              },
+              {
+                "id": "1210764376676634684",
+                "name": "Invite Way",
+                "position": 20,
+                "color": "#000000"
+              },
+              {
+                "id": "1210764975090438155",
+                "name": "Member",
+                "position": 22,
+                "color": "#ff0000"
+              }
+            ],
+            "top_role": "Member",
+            "guild_permissions": 5224864484865
+          },
+          "reason": null,
+          "created_at": "2026-05-27T12:02:01.117000+00:00",
+          "changes": [
+            {
+              "key": "roles",
+              "before": "[]",
+              "after": "[<Role id=1483009690291146824 name='Espa\u00f1ol \ud83c\uddea\ud83c\uddf8'>, <Role id=1210764376676634684 name='Invite Way'>]"
+            }
+          ]
+        }
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-05-27T12:02:35Z",
+      "bot": "server",
+      "category": "member_role_update",
+      "action": "member_roles_changed",
+      "actor": null,
+      "target": {
+        "id": "1488112622703476816",
+        "name": "ich_mag_brot.",
+        "discriminator": "0",
+        "global_name": "Fuse \\}[]",
+        "display_name": "Fuse \\}[]",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/1488112622703476816/04e80885ada704203f45fbb04d27a266.png?size=1024",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2026-03-30T09:48:17.048000+00:00",
+        "joined_at": "2026-05-27T12:02:32.706701+00:00",
+        "roles": [
+          {
+            "id": "1149680236041080832",
+            "name": "Member",
+            "position": 21,
+            "color": "#ff0000"
+          }
+        ],
+        "top_role": "Member",
+        "guild_permissions": 4949986577921
+      },
+      "details": {
+        "added": [
+          {
+            "id": "1149680236041080832",
+            "name": "Member",
+            "position": 21,
+            "color": "#ff0000",
+            "hoist": true,
+            "mentionable": false,
+            "managed": false,
+            "permissions": 4949986577921,
+            "permission_names": [
+              "create_instant_invite",
+              "stream",
+              "read_messages",
+              "send_messages",
+              "read_message_history",
+              "connect",
+              "speak",
+              "use_voice_activation",
+              "use_application_commands",
+              "use_embedded_activities",
+              "use_soundboard"
+            ]
+          }
+        ],
+        "removed": [],
+        "audit": {
+          "audit_id": "1509164911819755553",
+          "actor": {
+            "id": "697487580522086431",
+            "name": "AutoMod",
+            "discriminator": "8695",
+            "display_name": "Use Code WaveDropMap For Access!",
+            "nick": "Use Code WaveDropMap For Access!",
+            "bot": true,
+            "system": false,
+            "pending": false,
+            "avatar_url": "https://cdn.discordapp.com/avatars/697487580522086431/932397508df8560ddf1514619184947c.png?size=1024",
+            "public_flags": 65536,
+            "public_flag_names": [
+              "verified_bot"
+            ],
+            "created_at": "2020-04-08T16:46:37.889000+00:00",
+            "joined_at": "2024-05-27T12:12:41.955000+00:00",
+            "roles": [
+              {
+                "id": "1307486678231023736",
+                "name": "*",
+                "position": 1,
+                "color": "#000000"
+              },
+              {
+                "id": "1149680236041080832",
+                "name": "Member",
+                "position": 21,
+                "color": "#ff0000"
+              },
+              {
+                "id": "1105873031450075227",
+                "name": "Access",
+                "position": 23,
+                "color": "#ff8000"
+              },
+              {
+                "id": "1144226524279615519",
+                "name": "bots",
+                "position": 65,
+                "color": "#000000"
+              },
+              {
+                "id": "1244624319779307574",
+                "name": "AutoMod",
+                "position": 72,
+                "color": "#000000"
+              }
+            ],
+            "top_role": "AutoMod",
+            "guild_permissions": 1829587348619263
+          },
+          "reason": null,
+          "created_at": "2026-05-27T12:02:33.906000+00:00",
+          "changes": [
+            {
+              "key": "roles",
+              "before": "[]",
+              "after": "[<Role id=1149680236041080832 name='Member'>]"
+            }
+          ]
+        }
+      },
+      "guild_id": "971731167621574666",
+      "guild_name": "Wave Improvement Cord! | Loot Routes + Tips & Tricks"
+    },
+    {
+      "timestamp": "2026-05-27T12:02:47Z",
+      "bot": "server",
+      "category": "member_role_update",
+      "action": "member_roles_changed",
+      "actor": null,
+      "target": {
+        "id": "1488112622703476816",
+        "name": "ich_mag_brot.",
+        "discriminator": "0",
+        "global_name": "Fuse \\}[]",
+        "display_name": "Fuse \\}[]",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/1488112622703476816/04e80885ada704203f45fbb04d27a266.png?size=1024",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2026-03-30T09:48:17.048000+00:00",
+        "joined_at": "2026-05-27T12:02:32.706701+00:00",
+        "roles": [
+          {
+            "id": "1188092082540261486",
+            "name": "Code Way",
+            "position": 11,
+            "color": "#000000"
+          },
+          {
+            "id": "1149680236041080832",
+            "name": "Member",
+            "position": 21,
+            "color": "#ff0000"
+          }
+        ],
+        "top_role": "Member",
+        "guild_permissions": 4949986577921
+      },
+      "details": {
+        "added": [
+          {
+            "id": "1188092082540261486",
+            "name": "Code Way",
+            "position": 11,
+            "color": "#000000",
+            "hoist": false,
+            "mentionable": false,
+            "managed": false,
+            "permissions": 0,
+            "permission_names": []
+          }
+        ],
+        "removed": [],
+        "audit": {
+          "audit_id": "1509164958833836193",
+          "actor": {
+            "id": "1488112622703476816",
+            "name": "ich_mag_brot.",
+            "discriminator": "0",
+            "global_name": "Fuse \\}[]",
+            "display_name": "Fuse \\}[]",
+            "bot": false,
+            "system": false,
+            "pending": false,
+            "avatar_url": "https://cdn.discordapp.com/avatars/1488112622703476816/04e80885ada704203f45fbb04d27a266.png?size=1024",
+            "public_flags": 0,
+            "public_flag_names": [],
+            "created_at": "2026-03-30T09:48:17.048000+00:00",
+            "joined_at": "2026-05-27T12:02:32.706701+00:00",
+            "roles": [
+              {
+                "id": "1188092082540261486",
+                "name": "Code Way",
+                "position": 11,
+                "color": "#000000"
+              },
+              {
+                "id": "1149680236041080832",
+                "name": "Member",
+                "position": 21,
+                "color": "#ff0000"
+              }
+            ],
+            "top_role": "Member",
+            "guild_permissions": 4949986577921
+          },
+          "reason": null,
+          "created_at": "2026-05-27T12:02:45.115000+00:00",
+          "changes": [
+            {
+              "key": "roles",
+              "before": "[]",
+              "after": "[<Role id=1188092082540261486 name='Code Way'>]"
+            }
+          ]
+        }
+      },
+      "guild_id": "971731167621574666",
+      "guild_name": "Wave Improvement Cord! | Loot Routes + Tips & Tricks"
+    }
+  ]
+}
