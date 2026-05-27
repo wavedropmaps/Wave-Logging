@@ -1,0 +1,77 @@
+{
+  "pushed_at": "2026-05-27T09:10:13Z",
+  "events": [
+    {
+      "timestamp": "2026-05-27T09:05:20Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[DropMapVoting] \u2705 Found thread in cache: \ud83d\udcca  Voting Leaderboard",
+        "module": "drop_map_voting",
+        "func": "get_leaderboard_thread",
+        "line": 1291
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T09:05:20Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[DropMapVoting] Attempting to fetch leaderboard thread: 1508289287169511496",
+        "module": "drop_map_voting",
+        "func": "get_leaderboard_thread",
+        "line": 1286
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T09:05:25Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\ud83d\udd0d Scanning Wave Free Dropmaps! for role assignments...",
+        "module": "weekly_checks",
+        "func": "monitor_role_assignments",
+        "line": 1314
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T09:05:27Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\u2705 Role assignment scan complete for Wave Free Dropmaps!",
+        "module": "weekly_checks",
+        "func": "monitor_role_assignments",
+        "line": 1343
+      },
+      "guild_id": null,
+      "guild_name": null
+    }
+  ]
+}
