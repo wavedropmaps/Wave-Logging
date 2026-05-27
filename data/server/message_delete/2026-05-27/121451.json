@@ -1,0 +1,183 @@
+{
+  "pushed_at": "2026-05-27T12:14:51Z",
+  "events": [
+    {
+      "timestamp": "2026-05-27T12:09:55Z",
+      "bot": "server",
+      "category": "message_delete",
+      "action": "message_deleted",
+      "actor": {
+        "id": "536991182035746816",
+        "name": "Wick",
+        "discriminator": "3938",
+        "display_name": "Wick",
+        "bot": true,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/536991182035746816/c850c9bbeb25e119a4c85a9bfdb7871e.png?size=1024",
+        "public_flags": 65536,
+        "public_flag_names": [
+          "verified_bot"
+        ],
+        "created_at": "2019-01-21T19:31:14.611000+00:00",
+        "joined_at": "2024-02-24T12:04:24.952000+00:00",
+        "roles": [
+          {
+            "id": "1490579498884665425",
+            "name": "*",
+            "position": 1,
+            "color": "#000000"
+          },
+          {
+            "id": "1306357759163498496",
+            "name": "English \ud83c\uddec\ud83c\udde7",
+            "position": 9,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764975090438155",
+            "name": "Member",
+            "position": 22,
+            "color": "#ff0000"
+          },
+          {
+            "id": "1305277560086593546",
+            "name": "Manual Named Locations",
+            "position": 23,
+            "color": "#ff8000"
+          },
+          {
+            "id": "1210801655663300618",
+            "name": "Bots",
+            "position": 72,
+            "color": "#000000"
+          },
+          {
+            "id": "1210920163801698337",
+            "name": "Wick",
+            "position": 88,
+            "color": "#000000"
+          }
+        ],
+        "top_role": "Wick",
+        "guild_permissions": 1829587348619263
+      },
+      "target": null,
+      "details": {
+        "message": {
+          "id": "1509166751454199869",
+          "content": "",
+          "tts": false,
+          "pinned": false,
+          "type": "MessageType.default",
+          "jump_url": "https://discord.com/channels/988564962802810961/1301481065067708497/1509166751454199869",
+          "channel_id": "1301481065067708497",
+          "channel_name": "staff-commands",
+          "author": {
+            "id": "536991182035746816",
+            "name": "Wick",
+            "discriminator": "3938",
+            "display_name": "Wick",
+            "bot": true,
+            "system": false,
+            "pending": false,
+            "avatar_url": "https://cdn.discordapp.com/avatars/536991182035746816/c850c9bbeb25e119a4c85a9bfdb7871e.png?size=1024",
+            "public_flags": 65536,
+            "public_flag_names": [
+              "verified_bot"
+            ],
+            "created_at": "2019-01-21T19:31:14.611000+00:00",
+            "joined_at": "2024-02-24T12:04:24.952000+00:00",
+            "roles": [
+              {
+                "id": "1490579498884665425",
+                "name": "*",
+                "position": 1,
+                "color": "#000000"
+              },
+              {
+                "id": "1306357759163498496",
+                "name": "English \ud83c\uddec\ud83c\udde7",
+                "position": 9,
+                "color": "#000000"
+              },
+              {
+                "id": "1210764975090438155",
+                "name": "Member",
+                "position": 22,
+                "color": "#ff0000"
+              },
+              {
+                "id": "1305277560086593546",
+                "name": "Manual Named Locations",
+                "position": 23,
+                "color": "#ff8000"
+              },
+              {
+                "id": "1210801655663300618",
+                "name": "Bots",
+                "position": 72,
+                "color": "#000000"
+              },
+              {
+                "id": "1210920163801698337",
+                "name": "Wick",
+                "position": 88,
+                "color": "#000000"
+              }
+            ],
+            "top_role": "Wick",
+            "guild_permissions": 1829587348619263
+          },
+          "flags": 0,
+          "created_at": "2026-05-27T12:09:52.509000+00:00",
+          "embeds": [
+            {
+              "footer": {
+                "text": "Click on either \"Yes\" or \"No\" to confirm! You have 10 seconds."
+              },
+              "flags": 0,
+              "color": 3092790,
+              "type": "rich",
+              "description": "<:rightDoubleArrow:660836685982072837> **Target:** \n<:space:661191302242762773> yash06610",
+              "title": "Do you want to proceed?"
+            }
+          ],
+          "mentions": {
+            "users": [],
+            "roles": [],
+            "channels": [],
+            "everyone": false
+          },
+          "components": [
+            {
+              "type": 1,
+              "components": [
+                {
+                  "type": 2,
+                  "style": 3,
+                  "disabled": false,
+                  "id": 2,
+                  "label": "Yes",
+                  "custom_id": "yes"
+                },
+                {
+                  "type": 2,
+                  "style": 4,
+                  "disabled": false,
+                  "id": 3,
+                  "label": "No",
+                  "custom_id": "no"
+                }
+              ],
+              "id": 1
+            }
+          ]
+        },
+        "audit": null
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    }
+  ]
+}
