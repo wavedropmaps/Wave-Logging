@@ -1,0 +1,142 @@
+{
+  "pushed_at": "2026-05-27T12:39:51Z",
+  "events": [
+    {
+      "timestamp": "2026-05-27T12:36:13Z",
+      "bot": "server",
+      "category": "member_role_update",
+      "action": "member_roles_changed",
+      "actor": null,
+      "target": {
+        "id": "1177677918726541433",
+        "name": "pistachh.",
+        "discriminator": "0",
+        "global_name": "pistachh!",
+        "display_name": "pistachh!",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/1177677918726541433/635e85f225e3a5dc8c96789116292805.png?size=1024",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2023-11-24T18:31:36.022000+00:00",
+        "joined_at": "2026-02-20T23:52:13.582000+00:00",
+        "roles": [
+          {
+            "id": "1188092082540261486",
+            "name": "Code Way",
+            "position": 11,
+            "color": "#000000"
+          },
+          {
+            "id": "1123524616003014696",
+            "name": "Playstation",
+            "position": 15,
+            "color": "#000000"
+          },
+          {
+            "id": "1123522475079254077",
+            "name": "IGL \ud83e\udde0",
+            "position": 20,
+            "color": "#000000"
+          },
+          {
+            "id": "1149680236041080832",
+            "name": "Member",
+            "position": 21,
+            "color": "#ff0000"
+          },
+          {
+            "id": "1105873031450075227",
+            "name": "Access",
+            "position": 23,
+            "color": "#ff8000"
+          }
+        ],
+        "top_role": "Access",
+        "guild_permissions": 4949986577921
+      },
+      "details": {
+        "added": [],
+        "removed": [
+          {
+            "id": "1467357679537360906",
+            "name": "Server Tag Role",
+            "position": 6,
+            "color": "#000000",
+            "hoist": false,
+            "mentionable": false,
+            "managed": false,
+            "permissions": 0,
+            "permission_names": []
+          }
+        ],
+        "audit": {
+          "audit_id": "1509173373027225694",
+          "actor": {
+            "id": "697487580522086431",
+            "name": "AutoMod",
+            "discriminator": "8695",
+            "display_name": "Use Code WaveDropMap For Access!",
+            "nick": "Use Code WaveDropMap For Access!",
+            "bot": true,
+            "system": false,
+            "pending": false,
+            "avatar_url": "https://cdn.discordapp.com/avatars/697487580522086431/932397508df8560ddf1514619184947c.png?size=1024",
+            "public_flags": 65536,
+            "public_flag_names": [
+              "verified_bot"
+            ],
+            "created_at": "2020-04-08T16:46:37.889000+00:00",
+            "joined_at": "2024-05-27T12:12:41.955000+00:00",
+            "roles": [
+              {
+                "id": "1307486678231023736",
+                "name": "*",
+                "position": 1,
+                "color": "#000000"
+              },
+              {
+                "id": "1149680236041080832",
+                "name": "Member",
+                "position": 21,
+                "color": "#ff0000"
+              },
+              {
+                "id": "1105873031450075227",
+                "name": "Access",
+                "position": 23,
+                "color": "#ff8000"
+              },
+              {
+                "id": "1144226524279615519",
+                "name": "bots",
+                "position": 65,
+                "color": "#000000"
+              },
+              {
+                "id": "1244624319779307574",
+                "name": "AutoMod",
+                "position": 72,
+                "color": "#000000"
+              }
+            ],
+            "top_role": "AutoMod",
+            "guild_permissions": 1829587348619263
+          },
+          "reason": null,
+          "created_at": "2026-05-27T12:36:11.215000+00:00",
+          "changes": [
+            {
+              "key": "roles",
+              "before": "[<Role id=1467357679537360906 name='Server Tag Role'>]",
+              "after": "[]"
+            }
+          ]
+        }
+      },
+      "guild_id": "971731167621574666",
+      "guild_name": "Wave Improvement Cord! | Loot Routes + Tips & Tricks"
+    }
+  ]
+}
