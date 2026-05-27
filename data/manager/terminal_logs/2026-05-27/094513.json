@@ -1,0 +1,221 @@
+{
+  "pushed_at": "2026-05-27T09:45:13Z",
+  "events": [
+    {
+      "timestamp": "2026-05-27T09:40:14Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[DropMapVoting] Attempting to fetch leaderboard thread: 1508289287169511496",
+        "module": "drop_map_voting",
+        "func": "get_leaderboard_thread",
+        "line": 1286
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T09:40:14Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[DropMapVoting] \u2705 Found thread in cache: \ud83d\udcca  Voting Leaderboard",
+        "module": "drop_map_voting",
+        "func": "get_leaderboard_thread",
+        "line": 1291
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T09:44:28Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[ReplyDM] Queued DM for fuckmurd \u2014 queue depth: 1",
+        "module": "reply_dm_duty",
+        "func": "on_message",
+        "line": 369
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T09:44:28Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[ReplyDM] DM sent to 1417087754684334162 (attempt 1/3)",
+        "module": "reply_dm_duty",
+        "func": "_dm_worker",
+        "line": 237
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T09:44:28Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[ReplyDMNote] ARMED user=1417087754684334162 guild=988564962802810961 src_bot=1269188273201352768",
+        "module": "reply_dm_note",
+        "func": "arm_note",
+        "line": 72
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T09:44:28Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[DMQueue] ENQUEUED: user_id=1417087754684334162 source_bot=1269188273201352768 source=reply_dm_duty",
+        "module": "dm_queue",
+        "func": "_insert_job",
+        "line": 167
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T09:44:29Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "\n====================================================================================================",
+        "module": "main",
+        "func": "<module>",
+        "line": 68
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T09:44:29Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "====================================================================================================\n",
+        "module": "main",
+        "func": "<module>",
+        "line": 72
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T09:44:29Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "====================================================================================================",
+        "module": "main",
+        "func": "<module>",
+        "line": 69
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T09:44:29Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "====================================================================================================",
+        "module": "main",
+        "func": "<module>",
+        "line": 71
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T09:44:29Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[DMQueue:WORKER] CLAIMED: job_id=1867 user_id=1417087754684334162",
+        "module": "dm_queue",
+        "func": "_worker_loop",
+        "line": 459
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-27T09:44:29Z",
+      "bot": "manager",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "discord",
+        "level": "INFO",
+        "message": "[ROCKET][ROCKET][ROCKET] NEW BOT STARTUP - 2026-05-27 09:44:29 UTC [ROCKET][ROCKET][ROCKET]",
+        "module": "main",
+        "func": "<module>",
+        "line": 70
+      },
+      "guild_id": null,
+      "guild_name": null
+    }
+  ]
+}
