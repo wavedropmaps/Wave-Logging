@@ -1,0 +1,127 @@
+{
+  "pushed_at": "2026-05-28T15:39:51Z",
+  "events": [
+    {
+      "timestamp": "2026-05-28T15:35:21Z",
+      "bot": "server",
+      "category": "member_role_update",
+      "action": "member_roles_changed",
+      "actor": null,
+      "target": {
+        "id": "921474805197307934",
+        "name": "meksok",
+        "discriminator": "0",
+        "global_name": "! Meksok",
+        "display_name": "! Meksok",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/921474805197307934/a_6c31069e5f5587d73a665906128cd1a6.gif?size=1024",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2021-12-17T18:51:53.733000+00:00",
+        "joined_at": "2026-05-28T15:34:24.125824+00:00",
+        "roles": [
+          {
+            "id": "1306357759163498496",
+            "name": "English \ud83c\uddec\ud83c\udde7",
+            "position": 9,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764292719247400",
+            "name": "Twitter",
+            "position": 21,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764975090438155",
+            "name": "Member",
+            "position": 22,
+            "color": "#ff0000"
+          }
+        ],
+        "top_role": "Member",
+        "guild_permissions": 5224864484865
+      },
+      "details": {
+        "added": [
+          {
+            "id": "1210764292719247400",
+            "name": "Twitter",
+            "position": 21,
+            "color": "#000000",
+            "hoist": false,
+            "mentionable": false,
+            "managed": false,
+            "permissions": 0,
+            "permission_names": []
+          },
+          {
+            "id": "1306357759163498496",
+            "name": "English \ud83c\uddec\ud83c\udde7",
+            "position": 9,
+            "color": "#000000",
+            "hoist": false,
+            "mentionable": false,
+            "managed": false,
+            "permissions": 0,
+            "permission_names": []
+          }
+        ],
+        "removed": [],
+        "audit": {
+          "audit_id": "1509580842593157140",
+          "actor": {
+            "id": "921474805197307934",
+            "name": "meksok",
+            "discriminator": "0",
+            "global_name": "! Meksok",
+            "display_name": "! Meksok",
+            "bot": false,
+            "system": false,
+            "pending": false,
+            "avatar_url": "https://cdn.discordapp.com/avatars/921474805197307934/a_6c31069e5f5587d73a665906128cd1a6.gif?size=1024",
+            "public_flags": 0,
+            "public_flag_names": [],
+            "created_at": "2021-12-17T18:51:53.733000+00:00",
+            "joined_at": "2026-05-28T15:34:24.125824+00:00",
+            "roles": [
+              {
+                "id": "1306357759163498496",
+                "name": "English \ud83c\uddec\ud83c\udde7",
+                "position": 9,
+                "color": "#000000"
+              },
+              {
+                "id": "1210764292719247400",
+                "name": "Twitter",
+                "position": 21,
+                "color": "#000000"
+              },
+              {
+                "id": "1210764975090438155",
+                "name": "Member",
+                "position": 22,
+                "color": "#ff0000"
+              }
+            ],
+            "top_role": "Member",
+            "guild_permissions": 5224864484865
+          },
+          "reason": null,
+          "created_at": "2026-05-28T15:35:19.530000+00:00",
+          "changes": [
+            {
+              "key": "roles",
+              "before": "[]",
+              "after": "[<Role id=1210764292719247400 name='Twitter'>, <Role id=1306357759163498496 name='English \ud83c\uddec\ud83c\udde7'>]"
+            }
+          ]
+        }
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    }
+  ]
+}
