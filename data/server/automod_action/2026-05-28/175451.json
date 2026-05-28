@@ -1,0 +1,49 @@
+{
+  "pushed_at": "2026-05-28T17:54:51Z",
+  "events": [
+    {
+      "timestamp": "2026-05-28T17:49:58Z",
+      "bot": "server",
+      "category": "automod_action",
+      "action": "automod_triggered",
+      "actor": null,
+      "target": null,
+      "details": {
+        "rule_id": "1334125821400453192",
+        "rule_trigger_type": "AutoModRuleTriggerType.keyword_preset",
+        "action_type": "AutoModRuleActionType.send_alert_message",
+        "user_id": "1506819466686890116",
+        "channel_id": "1301478991097630730",
+        "message_id": "1509614731978080446",
+        "alert_system_message_id": "1509614731978080447",
+        "content": "Me not say shit",
+        "matched_keyword": "shit",
+        "matched_content": "shit"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-05-28T17:50:12Z",
+      "bot": "server",
+      "category": "automod_action",
+      "action": "automod_triggered",
+      "actor": null,
+      "target": null,
+      "details": {
+        "rule_id": "1334125821400453192",
+        "rule_trigger_type": "AutoModRuleTriggerType.keyword_preset",
+        "action_type": "AutoModRuleActionType.send_alert_message",
+        "user_id": "1506819466686890116",
+        "channel_id": "1301478991097630730",
+        "message_id": "1509614789687644266",
+        "alert_system_message_id": "1509614789687644267",
+        "content": "U say shit",
+        "matched_keyword": "shit",
+        "matched_content": "shit"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    }
+  ]
+}
