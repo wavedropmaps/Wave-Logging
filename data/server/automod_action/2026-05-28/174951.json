@@ -1,0 +1,71 @@
+{
+  "pushed_at": "2026-05-28T17:49:51Z",
+  "events": [
+    {
+      "timestamp": "2026-05-28T17:45:26Z",
+      "bot": "server",
+      "category": "automod_action",
+      "action": "automod_triggered",
+      "actor": null,
+      "target": null,
+      "details": {
+        "rule_id": "1132120171054637056",
+        "rule_trigger_type": "AutoModRuleTriggerType.keyword",
+        "action_type": "AutoModRuleActionType.block_message",
+        "user_id": "1493354111515627531",
+        "channel_id": "1301478991097630730",
+        "message_id": "None",
+        "alert_system_message_id": "None",
+        "content": "https://tenor.com/view/please-speed-i-need-this-speed-my-moms-kinda-homeless-speed-why-you-trying-not-to-laugh-ishowspeed-gif-7639010365317789786",
+        "matched_keyword": "(?:https?://)?[a-z0-9_\\-\\.]*[a-z0-9_\\-]{2,}\\.[a-z]{2,}",
+        "matched_content": "https://tenor.com"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-05-28T17:45:26Z",
+      "bot": "server",
+      "category": "automod_action",
+      "action": "automod_triggered",
+      "actor": null,
+      "target": null,
+      "details": {
+        "rule_id": "1132120171054637056",
+        "rule_trigger_type": "AutoModRuleTriggerType.keyword",
+        "action_type": "AutoModRuleActionType.send_alert_message",
+        "user_id": "1493354111515627531",
+        "channel_id": "1301478991097630730",
+        "message_id": "None",
+        "alert_system_message_id": "1509613589923893368",
+        "content": "https://tenor.com/view/please-speed-i-need-this-speed-my-moms-kinda-homeless-speed-why-you-trying-not-to-laugh-ishowspeed-gif-7639010365317789786",
+        "matched_keyword": "(?:https?://)?[a-z0-9_\\-\\.]*[a-z0-9_\\-]{2,}\\.[a-z]{2,}",
+        "matched_content": "https://tenor.com"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-05-28T17:49:47Z",
+      "bot": "server",
+      "category": "automod_action",
+      "action": "automod_triggered",
+      "actor": null,
+      "target": null,
+      "details": {
+        "rule_id": "1334125821400453192",
+        "rule_trigger_type": "AutoModRuleTriggerType.keyword_preset",
+        "action_type": "AutoModRuleActionType.send_alert_message",
+        "user_id": "1506819466686890116",
+        "channel_id": "1301478991097630730",
+        "message_id": "1509614679721246730",
+        "alert_system_message_id": "1509614679721246731",
+        "content": "Me not talk shit",
+        "matched_keyword": "shit",
+        "matched_content": "shit"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    }
+  ]
+}
