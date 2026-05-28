@@ -1,0 +1,175 @@
+{
+  "pushed_at": "2026-05-28T18:39:51Z",
+  "events": [
+    {
+      "timestamp": "2026-05-28T18:36:10Z",
+      "bot": "server",
+      "category": "voice_state_changed",
+      "action": "voice_joined",
+      "actor": {
+        "id": "1494358727271387347",
+        "name": "fl0wnq",
+        "discriminator": "0",
+        "global_name": "Flown",
+        "display_name": "Flown",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/1494358727271387347/62cc43aa02757297027fe45d73e56c51.png?size=1024",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2026-04-16T15:28:04.424000+00:00",
+        "joined_at": "2026-05-28T11:54:06.390000+00:00",
+        "roles": [
+          {
+            "id": "1188092082540261486",
+            "name": "Code Way",
+            "position": 11,
+            "color": "#000000"
+          },
+          {
+            "id": "1149680236041080832",
+            "name": "Member",
+            "position": 21,
+            "color": "#ff0000"
+          },
+          {
+            "id": "1105873031450075227",
+            "name": "Access",
+            "position": 23,
+            "color": "#ff8000"
+          }
+        ],
+        "top_role": "Access",
+        "guild_permissions": 4949986577921,
+        "voice": {
+          "self_mute": false,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "eb12b752f79303b7164f3ae4a4f56928",
+          "channel": {
+            "id": "1195636343758401576",
+            "name": "\ud83c\udfeb Coaching VC",
+            "type": "voice"
+          }
+        }
+      },
+      "target": null,
+      "details": {
+        "before": {
+          "self_mute": false,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "eb12b752f79303b7164f3ae4a4f56928"
+        },
+        "after": {
+          "self_mute": false,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "eb12b752f79303b7164f3ae4a4f56928",
+          "channel": {
+            "id": "1195636343758401576",
+            "name": "\ud83c\udfeb Coaching VC",
+            "type": "voice"
+          }
+        },
+        "channel_before_id": null,
+        "channel_after_id": "1195636343758401576"
+      },
+      "guild_id": "971731167621574666",
+      "guild_name": "Wave Improvement Cord! | Loot Routes + Tips & Tricks"
+    },
+    {
+      "timestamp": "2026-05-28T18:36:14Z",
+      "bot": "server",
+      "category": "voice_state_changed",
+      "action": "voice_left",
+      "actor": {
+        "id": "1494358727271387347",
+        "name": "fl0wnq",
+        "discriminator": "0",
+        "global_name": "Flown",
+        "display_name": "Flown",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/1494358727271387347/62cc43aa02757297027fe45d73e56c51.png?size=1024",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2026-04-16T15:28:04.424000+00:00",
+        "joined_at": "2026-05-28T11:54:06.390000+00:00",
+        "roles": [
+          {
+            "id": "1188092082540261486",
+            "name": "Code Way",
+            "position": 11,
+            "color": "#000000"
+          },
+          {
+            "id": "1149680236041080832",
+            "name": "Member",
+            "position": 21,
+            "color": "#ff0000"
+          },
+          {
+            "id": "1105873031450075227",
+            "name": "Access",
+            "position": 23,
+            "color": "#ff8000"
+          }
+        ],
+        "top_role": "Access",
+        "guild_permissions": 4949986577921
+      },
+      "target": null,
+      "details": {
+        "before": {
+          "self_mute": false,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "eb12b752f79303b7164f3ae4a4f56928",
+          "channel": {
+            "id": "1195636343758401576",
+            "name": "\ud83c\udfeb Coaching VC",
+            "type": "voice"
+          }
+        },
+        "after": {
+          "self_mute": false,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "eb12b752f79303b7164f3ae4a4f56928"
+        },
+        "channel_before_id": "1195636343758401576",
+        "channel_after_id": null
+      },
+      "guild_id": "971731167621574666",
+      "guild_name": "Wave Improvement Cord! | Loot Routes + Tips & Tricks"
+    }
+  ]
+}
