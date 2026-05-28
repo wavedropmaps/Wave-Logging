@@ -1,0 +1,131 @@
+{
+  "pushed_at": "2026-05-28T04:09:51Z",
+  "events": [
+    {
+      "timestamp": "2026-05-28T04:04:52Z",
+      "bot": "server",
+      "category": "member_role_update",
+      "action": "member_roles_changed",
+      "actor": null,
+      "target": {
+        "id": "1048621621860106261",
+        "name": ".vazify",
+        "discriminator": "0",
+        "global_name": "\ud835\udc7d\ud835\udc82\ud835\udc9b\ud835\udc8a\ud835\udc87\ud835\udc9a",
+        "display_name": "\ud835\udc7d\ud835\udc82\ud835\udc9b\ud835\udc8a\ud835\udc87\ud835\udc9a",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/1048621621860106261/ad970a432e58890a086dd011e749ea0a.png?size=1024",
+        "public_flags": 1048576,
+        "public_flag_names": [
+          "spammer"
+        ],
+        "created_at": "2022-12-03T15:27:57.099000+00:00",
+        "joined_at": "2026-05-28T04:04:33.415284+00:00",
+        "roles": [
+          {
+            "id": "1306357759163498496",
+            "name": "English \ud83c\uddec\ud83c\udde7",
+            "position": 9,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764292719247400",
+            "name": "Twitter",
+            "position": 21,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764975090438155",
+            "name": "Member",
+            "position": 22,
+            "color": "#ff0000"
+          }
+        ],
+        "top_role": "Member",
+        "guild_permissions": 5224864484865
+      },
+      "details": {
+        "added": [
+          {
+            "id": "1210764292719247400",
+            "name": "Twitter",
+            "position": 21,
+            "color": "#000000",
+            "hoist": false,
+            "mentionable": false,
+            "managed": false,
+            "permissions": 0,
+            "permission_names": []
+          },
+          {
+            "id": "1306357759163498496",
+            "name": "English \ud83c\uddec\ud83c\udde7",
+            "position": 9,
+            "color": "#000000",
+            "hoist": false,
+            "mentionable": false,
+            "managed": false,
+            "permissions": 0,
+            "permission_names": []
+          }
+        ],
+        "removed": [],
+        "audit": {
+          "audit_id": "1509407072750670017",
+          "actor": {
+            "id": "1048621621860106261",
+            "name": ".vazify",
+            "discriminator": "0",
+            "global_name": "\ud835\udc7d\ud835\udc82\ud835\udc9b\ud835\udc8a\ud835\udc87\ud835\udc9a",
+            "display_name": "\ud835\udc7d\ud835\udc82\ud835\udc9b\ud835\udc8a\ud835\udc87\ud835\udc9a",
+            "bot": false,
+            "system": false,
+            "pending": false,
+            "avatar_url": "https://cdn.discordapp.com/avatars/1048621621860106261/ad970a432e58890a086dd011e749ea0a.png?size=1024",
+            "public_flags": 1048576,
+            "public_flag_names": [
+              "spammer"
+            ],
+            "created_at": "2022-12-03T15:27:57.099000+00:00",
+            "joined_at": "2026-05-28T04:04:33.415284+00:00",
+            "roles": [
+              {
+                "id": "1306357759163498496",
+                "name": "English \ud83c\uddec\ud83c\udde7",
+                "position": 9,
+                "color": "#000000"
+              },
+              {
+                "id": "1210764292719247400",
+                "name": "Twitter",
+                "position": 21,
+                "color": "#000000"
+              },
+              {
+                "id": "1210764975090438155",
+                "name": "Member",
+                "position": 22,
+                "color": "#ff0000"
+              }
+            ],
+            "top_role": "Member",
+            "guild_permissions": 5224864484865
+          },
+          "reason": null,
+          "created_at": "2026-05-28T04:04:49.571000+00:00",
+          "changes": [
+            {
+              "key": "roles",
+              "before": "[]",
+              "after": "[<Role id=1210764292719247400 name='Twitter'>, <Role id=1306357759163498496 name='English \ud83c\uddec\ud83c\udde7'>]"
+            }
+          ]
+        }
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    }
+  ]
+}
