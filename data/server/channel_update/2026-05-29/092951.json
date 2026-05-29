@@ -1,0 +1,97 @@
+{
+  "pushed_at": "2026-05-29T09:29:51Z",
+  "events": [
+    {
+      "timestamp": "2026-05-29T09:25:19Z",
+      "bot": "server",
+      "category": "channel_update",
+      "action": "channel_edited",
+      "actor": null,
+      "target": null,
+      "details": {
+        "channel": {
+          "id": "1509850072626626560",
+          "name": "ticket-i-ow",
+          "type": "text",
+          "position": 257,
+          "category": {
+            "id": "1215623441252749332",
+            "name": "--- Tickets (Not Answered) ---"
+          },
+          "nsfw": false,
+          "slowmode_delay": 0,
+          "default_auto_archive_duration": 1440,
+          "overwrites": [
+            {
+              "target_type": "role",
+              "target_id": "988564962802810961",
+              "target_name": "@everyone",
+              "allow": 0,
+              "deny": 1024
+            },
+            {
+              "target_type": "member",
+              "target_id": "538616861240328194",
+              "target_name": "ractpalerdania1431",
+              "allow": 117760,
+              "deny": 0
+            },
+            {
+              "target_type": "role",
+              "target_id": "1210920690954407996",
+              "target_name": "Quarantine",
+              "allow": 0,
+              "deny": 377957125121
+            }
+          ]
+        },
+        "changes": {
+          "overwrites": {
+            "before": [
+              {
+                "target_type": "role",
+                "target_id": "988564962802810961",
+                "target_name": "@everyone",
+                "allow": 0,
+                "deny": 1024
+              },
+              {
+                "target_type": "member",
+                "target_id": "538616861240328194",
+                "target_name": "ractpalerdania1431",
+                "allow": 117760,
+                "deny": 0
+              }
+            ],
+            "after": [
+              {
+                "target_type": "role",
+                "target_id": "988564962802810961",
+                "target_name": "@everyone",
+                "allow": 0,
+                "deny": 1024
+              },
+              {
+                "target_type": "member",
+                "target_id": "538616861240328194",
+                "target_name": "ractpalerdania1431",
+                "allow": 117760,
+                "deny": 0
+              },
+              {
+                "target_type": "role",
+                "target_id": "1210920690954407996",
+                "target_name": "Quarantine",
+                "allow": 0,
+                "deny": 377957125121
+              }
+            ]
+          }
+        },
+        "audit": null
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    }
+  ]
+}
