@@ -1,0 +1,1527 @@
+{
+  "day": "2026-05-28",
+  "rolled_at": "2026-05-29T00:12:56Z",
+  "events": [
+    {
+      "timestamp": "2026-05-28T05:41:37Z",
+      "bot": "server",
+      "category": "message_bulk_delete",
+      "action": "bulk_messages_deleted",
+      "actor": null,
+      "target": null,
+      "details": {
+        "channel_id": "1210798761329295440",
+        "message_ids": [
+          "1509347776365072617",
+          "1509349171726123019",
+          "1509427031438397521",
+          "1509347517416869970",
+          "1509347797122552021",
+          "1509349468666069142",
+          "1509347458860449822"
+        ],
+        "count": 7,
+        "cached_messages": [
+          {
+            "id": "1509347458860449822",
+            "content": "",
+            "tts": false,
+            "pinned": false,
+            "type": "MessageType.default",
+            "jump_url": "https://discord.com/channels/988564962802810961/1210798761329295440/1509347458860449822",
+            "channel_id": "1210798761329295440",
+            "channel_name": "\u2503\u2757\u30fbproof\u30fb\u2757\u2503",
+            "author": {
+              "id": "1456315227569258791",
+              "name": "vvcope",
+              "discriminator": "0",
+              "display_name": "vvcope",
+              "bot": false,
+              "system": false,
+              "pending": false,
+              "avatar_url": "https://cdn.discordapp.com/avatars/1456315227569258791/5b1177d9f02d53bb6665d88e26ea96c2.png?size=1024",
+              "public_flags": 0,
+              "public_flag_names": [],
+              "created_at": "2026-01-01T15:56:47.281000+00:00",
+              "joined_at": "2026-05-28T00:06:41.304000+00:00",
+              "roles": [
+                {
+                  "id": "1306357759163498496",
+                  "name": "English \ud83c\uddec\ud83c\udde7",
+                  "position": 9,
+                  "color": "#000000"
+                },
+                {
+                  "id": "1210764376676634684",
+                  "name": "Invite Way",
+                  "position": 20,
+                  "color": "#000000"
+                },
+                {
+                  "id": "1210764975090438155",
+                  "name": "Member",
+                  "position": 22,
+                  "color": "#ff0000"
+                },
+                {
+                  "id": "1305277560086593546",
+                  "name": "Manual Named Locations",
+                  "position": 23,
+                  "color": "#ff8000"
+                },
+                {
+                  "id": "1055713830988157039",
+                  "name": "Manual Landmarks",
+                  "position": 24,
+                  "color": "#ffff00"
+                }
+              ],
+              "top_role": "Manual Landmarks",
+              "guild_permissions": 5224864484865
+            },
+            "flags": 0,
+            "created_at": "2026-05-28T00:07:56.512000+00:00",
+            "attachments": [
+              {
+                "id": "1509347458449276968",
+                "filename": "image.png",
+                "url": "https://cdn.discordapp.com/attachments/1210798761329295440/1509347458449276968/image.png?ex=6a18d8dc&is=6a17875c&hm=53033300c30f869f9d214a6d6af11d3693448eef9a697505b9bcc4646e25b352&",
+                "proxy_url": "https://media.discordapp.net/attachments/1210798761329295440/1509347458449276968/image.png?ex=6a18d8dc&is=6a17875c&hm=53033300c30f869f9d214a6d6af11d3693448eef9a697505b9bcc4646e25b352&",
+                "size": 4400119,
+                "content_type": "image/png",
+                "width": 2559,
+                "height": 1439,
+                "is_spoiler": false
+              }
+            ],
+            "mentions": {
+              "users": [],
+              "roles": [],
+              "channels": [],
+              "everyone": false
+            }
+          },
+          {
+            "id": "1509347517416869970",
+            "content": "",
+            "tts": false,
+            "pinned": false,
+            "type": "MessageType.default",
+            "jump_url": "https://discord.com/channels/988564962802810961/1210798761329295440/1509347517416869970",
+            "channel_id": "1210798761329295440",
+            "channel_name": "\u2503\u2757\u30fbproof\u30fb\u2757\u2503",
+            "author": {
+              "id": "1319808650633674886",
+              "name": "jeffdaaashark",
+              "discriminator": "0",
+              "global_name": "I dbl",
+              "display_name": "I dbl",
+              "bot": false,
+              "system": false,
+              "pending": false,
+              "avatar_url": "https://cdn.discordapp.com/avatars/1319808650633674886/bdd86d344a0beff4b0a894ed3322b419.png?size=1024",
+              "public_flags": 0,
+              "public_flag_names": [],
+              "created_at": "2024-12-20T23:28:23.170000+00:00",
+              "joined_at": "2026-04-03T01:52:22.343000+00:00",
+              "roles": [
+                {
+                  "id": "1490579498884665425",
+                  "name": "*",
+                  "position": 1,
+                  "color": "#000000"
+                },
+                {
+                  "id": "1306357759163498496",
+                  "name": "English \ud83c\uddec\ud83c\udde7",
+                  "position": 9,
+                  "color": "#000000"
+                },
+                {
+                  "id": "1210764376676634684",
+                  "name": "Invite Way",
+                  "position": 20,
+                  "color": "#000000"
+                },
+                {
+                  "id": "1210764975090438155",
+                  "name": "Member",
+                  "position": 22,
+                  "color": "#ff0000"
+                },
+                {
+                  "id": "1305277560086593546",
+                  "name": "Manual Named Locations",
+                  "position": 23,
+                  "color": "#ff8000"
+                },
+                {
+                  "id": "1055713830988157039",
+                  "name": "Manual Landmarks",
+                  "position": 24,
+                  "color": "#ffff00"
+                }
+              ],
+              "top_role": "Manual Landmarks",
+              "guild_permissions": 5224864484865
+            },
+            "flags": 0,
+            "created_at": "2026-05-28T00:08:10.473000+00:00",
+            "attachments": [
+              {
+                "id": "1509347517022732429",
+                "filename": "image.png",
+                "url": "https://cdn.discordapp.com/attachments/1210798761329295440/1509347517022732429/image.png?ex=6a18d8ea&is=6a17876a&hm=a9053afa70151185002f0d1226120068b57064d22b92a30a6c2af37c749d9a3b&",
+                "proxy_url": "https://media.discordapp.net/attachments/1210798761329295440/1509347517022732429/image.png?ex=6a18d8ea&is=6a17876a&hm=a9053afa70151185002f0d1226120068b57064d22b92a30a6c2af37c749d9a3b&",
+                "size": 1721209,
+                "content_type": "image/png",
+                "width": 1909,
+                "height": 1079,
+                "is_spoiler": false
+              }
+            ],
+            "mentions": {
+              "users": [],
+              "roles": [],
+              "channels": [],
+              "everyone": false
+            }
+          },
+          {
+            "id": "1509347776365072617",
+            "content": "\ud83d\udd13 Full access unlocked \u2014 **request custom drop maps for any spot with first-priority, skipping the drop map queue in \u2060<#1364454494665969664> | <#1210810131634454638>**",
+            "tts": false,
+            "pinned": false,
+            "type": "MessageType.reply",
+            "jump_url": "https://discord.com/channels/988564962802810961/1210798761329295440/1509347776365072617",
+            "channel_id": "1210798761329295440",
+            "channel_name": "\u2503\u2757\u30fbproof\u30fb\u2757\u2503",
+            "author": {
+              "id": "1458092102322880672",
+              "name": "slaxmgmt",
+              "discriminator": "0",
+              "global_name": "Slax",
+              "display_name": "Slax",
+              "bot": false,
+              "system": false,
+              "pending": false,
+              "avatar_url": "https://cdn.discordapp.com/avatars/1458092102322880672/fef7ab4bc011028b3f08003d2a6e3000.png?size=1024",
+              "public_flags": 0,
+              "public_flag_names": [],
+              "created_at": "2026-01-06T13:37:27.235000+00:00",
+              "joined_at": "2026-01-27T03:55:10.934000+00:00",
+              "roles": [
+                {
+                  "id": "1490579498884665425",
+                  "name": "*",
+                  "position": 1,
+                  "color": "#000000"
+                },
+                {
+                  "id": "1499037003004772402",
+                  "name": "Training",
+                  "position": 2,
+                  "color": "#000000"
+                },
+                {
+                  "id": "1306357759163498496",
+                  "name": "English \ud83c\uddec\ud83c\udde7",
+                  "position": 9,
+                  "color": "#000000"
+                },
+                {
+                  "id": "1220671809234407504",
+                  "name": "Loot Route Maker",
+                  "position": 15,
+                  "color": "#000000"
+                },
+                {
+                  "id": "1507992006562156604",
+                  "name": "Surge Route Maker",
+                  "position": 16,
+                  "color": "#000000"
+                },
+                {
+                  "id": "1261143275155226746",
+                  "name": "Tips and Tricks Helper",
+                  "position": 17,
+                  "color": "#000000"
+                },
+                {
+                  "id": "1210764376676634684",
+                  "name": "Invite Way",
+                  "position": 20,
+                  "color": "#000000"
+                },
+                {
+                  "id": "1210764292719247400",
+                  "name": "Twitter",
+                  "position": 21,
+                  "color": "#000000"
+                },
+                {
+                  "id": "1210764975090438155",
+                  "name": "Member",
+                  "position": 22,
+                  "color": "#ff0000"
+                },
+                {
+                  "id": "1305277560086593546",
+                  "name": "Manual Named Locations",
+                  "position": 23,
+                  "color": "#ff8000"
+                },
+                {
+                  "id": "1055713830988157039",
+                  "name": "Manual Landmarks",
+                  "position": 24,
+                  "color": "#ffff00"
+                },
+                {
+                  "id": "1210770102983856138",
+                  "name": "Named Locations",
+                  "position": 25,
+                  "color": "#ff8000"
+                },
+                {
+                  "id": "1210770056477282358",
+                  "name": "Landmarks",
+                  "position": 26,
+                  "color": "#ffff00"
+                },
+                {
+                  "id": "1210810135249817610",
+                  "name": "Role Giver",
+                  "position": 27,
+                  "color": "#000000"
+                },
+                {
+                  "id": "1210819996372959243",
+                  "name": "Bronze (LVL 5)",
+                  "position": 29,
+                  "color": "#bfff00"
+                },
+                {
+                  "id": "1210868595635134514",
+                  "name": "Silver (LVL 10)",
+                  "position": 30,
+                  "color": "#40ff00"
+                },
+                {
+                  "id": "1210820151629586494",
+                  "name": "Gold (LVL 15)",
+                  "position": 31,
+                  "color": "#00ff40"
+                },
+                {
+                  "id": "1210820151646228490",
+                  "name": "Platinum (LVL 20)",
+                  "position": 32,
+                  "color": "#00ffbf"
+                },
+                {
+                  "id": "1210820152925487114",
+                  "name": "Diamond (LVL 25)",
+                  "position": 33,
+                  "color": "#00ffff"
+                },
+                {
+                  "id": "1231621074362568715",
+                  "name": "Elite (LVL 30)",
+                  "position": 34,
+                  "color": "#00bfff"
+                },
+                {
+                  "id": "1231621109409910865",
+                  "name": "Champion (LVL 40)",
+                  "position": 35,
+                  "color": "#0040ff"
+                },
+                {
+                  "id": "1210851932877357066",
+                  "name": "Battle Pass Supporter",
+                  "position": 37,
+                  "color": "#8000ff"
+                },
+                {
+                  "id": "1210839743479418933",
+                  "name": "Active",
+                  "position": 38,
+                  "color": "#bf00ff"
+                },
+                {
+                  "id": "1417086738563858483",
+                  "name": "Drop Map Reviewer",
+                  "position": 43,
+                  "color": "#1aabbc"
+                },
+                {
+                  "id": "1407570820695588864",
+                  "name": "Drop Map Tester",
+                  "position": 44,
+                  "color": "#ffbebf"
+                },
+                {
+                  "id": "1210803062080409600",
+                  "name": "Staff",
+                  "position": 46,
+                  "color": "#c9ff8b"
+                },
+                {
+                  "id": "1405025720832626729",
+                  "name": "Paid Priority",
+                  "position": 47,
+                  "color": "#00ff11"
+                },
+                {
+                  "id": "1363172668597076178",
+                  "name": "Wave Contributor",
+                  "position": 48,
+                  "color": "#00d6ff"
+                },
+                {
+                  "id": "1478987021849464852",
+                  "name": "Donator",
+                  "position": 49,
+                  "color": "#85ffe4"
+                },
+                {
+                  "id": "1210847437728649266",
+                  "name": "Support",
+                  "position": 50,
+                  "color": "#82ffff"
+                },
+                {
+                  "id": "1417348759377018921",
+                  "name": "Senior Support",
+                  "position": 51,
+                  "color": "#828fff"
+                },
+                {
+                  "id": "1210847620243787776",
+                  "name": "Admin",
+                  "position": 53,
+                  "color": "#a6b4ff"
+                },
+                {
+                  "id": "1502629831538380841",
+                  "name": "Senior Admin",
+                  "position": 54,
+                  "color": "#cd9cff"
+                },
+                {
+                  "id": "1308389838663450685",
+                  "name": "Head Admin",
+                  "position": 55,
+                  "color": "#f484ff"
+                }
+              ],
+              "top_role": "Head Admin",
+              "guild_permissions": 965237528321991
+            },
+            "flags": 0,
+            "created_at": "2026-05-28T00:09:12.211000+00:00",
+            "mentions": {
+              "users": [
+                {
+                  "id": "1456315227569258791",
+                  "name": "vvcope"
+                }
+              ],
+              "roles": [],
+              "channels": [
+                {
+                  "id": "1364454494665969664",
+                  "name": "\ud83d\ude80\u30fbwave-supporters"
+                },
+                {
+                  "id": "1210810131634454638",
+                  "name": "\ud83d\ude80\u30fblevel-invite-rewards"
+                }
+              ],
+              "everyone": false
+            },
+            "reference": {
+              "message_id": "1509347458860449822",
+              "channel_id": "1210798761329295440",
+              "guild_id": "988564962802810961"
+            }
+          },
+          {
+            "id": "1509347797122552021",
+            "content": "\ud83d\udd13 Full access unlocked \u2014 **request custom drop maps for any spot with first-priority, skipping the drop map queue in \u2060<#1364454494665969664> | <#1210810131634454638>**",
+            "tts": false,
+            "pinned": false,
+            "type": "MessageType.reply",
+            "jump_url": "https://discord.com/channels/988564962802810961/1210798761329295440/1509347797122552021",
+            "channel_id": "1210798761329295440",
+            "channel_name": "\u2503\u2757\u30fbproof\u30fb\u2757\u2503",
+            "author": {
+              "id": "1458092102322880672",
+              "name": "slaxmgmt",
+              "discriminator": "0",
+              "global_name": "Slax",
+              "display_name": "Slax",
+              "bot": false,
+              "system": false,
+              "pending": false,
+              "avatar_url": "https://cdn.discordapp.com/avatars/1458092102322880672/fef7ab4bc011028b3f08003d2a6e3000.png?size=1024",
+              "public_flags": 0,
+              "public_flag_names": [],
+              "created_at": "2026-01-06T13:37:27.235000+00:00",
+              "joined_at": "2026-01-27T03:55:10.934000+00:00",
+              "roles": [
+                {
+                  "id": "1490579498884665425",
+                  "name": "*",
+                  "position": 1,
+                  "color": "#000000"
+                },
+                {
+                  "id": "1499037003004772402",
+                  "name": "Training",
+                  "position": 2,
+                  "color": "#000000"
+                },
+                {
+                  "id": "1306357759163498496",
+                  "name": "English \ud83c\uddec\ud83c\udde7",
+                  "position": 9,
+                  "color": "#000000"
+                },
+                {
+                  "id": "1220671809234407504",
+                  "name": "Loot Route Maker",
+                  "position": 15,
+                  "color": "#000000"
+                },
+                {
+                  "id": "1507992006562156604",
+                  "name": "Surge Route Maker",
+                  "position": 16,
+                  "color": "#000000"
+                },
+                {
+                  "id": "1261143275155226746",
+                  "name": "Tips and Tricks Helper",
+                  "position": 17,
+                  "color": "#000000"
+                },
+                {
+                  "id": "1210764376676634684",
+                  "name": "Invite Way",
+                  "position": 20,
+                  "color": "#000000"
+                },
+                {
+                  "id": "1210764292719247400",
+                  "name": "Twitter",
+                  "position": 21,
+                  "color": "#000000"
+                },
+                {
+                  "id": "1210764975090438155",
+                  "name": "Member",
+                  "position": 22,
+                  "color": "#ff0000"
+                },
+                {
+                  "id": "1305277560086593546",
+                  "name": "Manual Named Locations",
+                  "position": 23,
+                  "color": "#ff8000"
+                },
+                {
+                  "id": "1055713830988157039",
+                  "name": "Manual Landmarks",
+                  "position": 24,
+                  "color": "#ffff00"
+                },
+                {
+                  "id": "1210770102983856138",
+                  "name": "Named Locations",
+                  "position": 25,
+                  "color": "#ff8000"
+                },
+                {
+                  "id": "1210770056477282358",
+                  "name": "Landmarks",
+                  "position": 26,
+                  "color": "#ffff00"
+                },
+                {
+                  "id": "1210810135249817610",
+                  "name": "Role Giver",
+                  "position": 27,
+                  "color": "#000000"
+                },
+                {
+                  "id": "1210819996372959243",
+                  "name": "Bronze (LVL 5)",
+                  "position": 29,
+                  "color": "#bfff00"
+                },
+                {
+                  "id": "1210868595635134514",
+                  "name": "Silver (LVL 10)",
+                  "position": 30,
+                  "color": "#40ff00"
+                },
+                {
+                  "id": "1210820151629586494",
+                  "name": "Gold (LVL 15)",
+                  "position": 31,
+                  "color": "#00ff40"
+                },
+                {
+                  "id": "1210820151646228490",
+                  "name": "Platinum (LVL 20)",
+                  "position": 32,
+                  "color": "#00ffbf"
+                },
+                {
+                  "id": "1210820152925487114",
+                  "name": "Diamond (LVL 25)",
+                  "position": 33,
+                  "color": "#00ffff"
+                },
+                {
+                  "id": "1231621074362568715",
+                  "name": "Elite (LVL 30)",
+                  "position": 34,
+                  "color": "#00bfff"
+                },
+                {
+                  "id": "1231621109409910865",
+                  "name": "Champion (LVL 40)",
+                  "position": 35,
+                  "color": "#0040ff"
+                },
+                {
+                  "id": "1210851932877357066",
+                  "name": "Battle Pass Supporter",
+                  "position": 37,
+                  "color": "#8000ff"
+                },
+                {
+                  "id": "1210839743479418933",
+                  "name": "Active",
+                  "position": 38,
+                  "color": "#bf00ff"
+                },
+                {
+                  "id": "1417086738563858483",
+                  "name": "Drop Map Reviewer",
+                  "position": 43,
+                  "color": "#1aabbc"
+                },
+                {
+                  "id": "1407570820695588864",
+                  "name": "Drop Map Tester",
+                  "position": 44,
+                  "color": "#ffbebf"
+                },
+                {
+                  "id": "1210803062080409600",
+                  "name": "Staff",
+                  "position": 46,
+                  "color": "#c9ff8b"
+                },
+                {
+                  "id": "1405025720832626729",
+                  "name": "Paid Priority",
+                  "position": 47,
+                  "color": "#00ff11"
+                },
+                {
+                  "id": "1363172668597076178",
+                  "name": "Wave Contributor",
+                  "position": 48,
+                  "color": "#00d6ff"
+                },
+                {
+                  "id": "1478987021849464852",
+                  "name": "Donator",
+                  "position": 49,
+                  "color": "#85ffe4"
+                },
+                {
+                  "id": "1210847437728649266",
+                  "name": "Support",
+                  "position": 50,
+                  "color": "#82ffff"
+                },
+                {
+                  "id": "1417348759377018921",
+                  "name": "Senior Support",
+                  "position": 51,
+                  "color": "#828fff"
+                },
+                {
+                  "id": "1210847620243787776",
+                  "name": "Admin",
+                  "position": 53,
+                  "color": "#a6b4ff"
+                },
+                {
+                  "id": "1502629831538380841",
+                  "name": "Senior Admin",
+                  "position": 54,
+                  "color": "#cd9cff"
+                },
+                {
+                  "id": "1308389838663450685",
+                  "name": "Head Admin",
+                  "position": 55,
+                  "color": "#f484ff"
+                }
+              ],
+              "top_role": "Head Admin",
+              "guild_permissions": 965237528321991
+            },
+            "flags": 0,
+            "created_at": "2026-05-28T00:09:17.160000+00:00",
+            "mentions": {
+              "users": [
+                {
+                  "id": "1319808650633674886",
+                  "name": "jeffdaaashark"
+                }
+              ],
+              "roles": [],
+              "channels": [
+                {
+                  "id": "1364454494665969664",
+                  "name": "\ud83d\ude80\u30fbwave-supporters"
+                },
+                {
+                  "id": "1210810131634454638",
+                  "name": "\ud83d\ude80\u30fblevel-invite-rewards"
+                }
+              ],
+              "everyone": false
+            },
+            "reference": {
+              "message_id": "1509347517416869970",
+              "channel_id": "1210798761329295440",
+              "guild_id": "988564962802810961"
+            }
+          },
+          {
+            "id": "1509349171726123019",
+            "content": "",
+            "tts": false,
+            "pinned": false,
+            "type": "MessageType.default",
+            "jump_url": "https://discord.com/channels/988564962802810961/1210798761329295440/1509349171726123019",
+            "channel_id": "1210798761329295440",
+            "channel_name": "\u2503\u2757\u30fbproof\u30fb\u2757\u2503",
+            "author": {
+              "id": "1210963948527026257",
+              "name": "thecrxckedkid._35244",
+              "discriminator": "0",
+              "global_name": "Xpired_Physics",
+              "display_name": "Xpired_Physics",
+              "bot": false,
+              "system": false,
+              "pending": false,
+              "avatar_url": "https://cdn.discordapp.com/avatars/1210963948527026257/8d60bc3c086e1eaaf7ad0f6458ada641.png?size=1024",
+              "public_flags": 0,
+              "public_flag_names": [],
+              "created_at": "2024-02-24T14:58:23.951000+00:00",
+              "joined_at": "2026-05-28T00:12:19.213000+00:00",
+              "roles": [
+                {
+                  "id": "1306357759163498496",
+                  "name": "English \ud83c\uddec\ud83c\udde7",
+                  "position": 9,
+                  "color": "#000000"
+                },
+                {
+                  "id": "1467355713692106752",
+                  "name": "Server Tag User",
+                  "position": 19,
+                  "color": "#000000"
+                },
+                {
+                  "id": "1210764376676634684",
+                  "name": "Invite Way",
+                  "position": 20,
+                  "color": "#000000"
+                },
+                {
+                  "id": "1210764975090438155",
+                  "name": "Member",
+                  "position": 22,
+                  "color": "#ff0000"
+                },
+                {
+                  "id": "1305277560086593546",
+                  "name": "Manual Named Locations",
+                  "position": 23,
+                  "color": "#ff8000"
+                },
+                {
+                  "id": "1055713830988157039",
+                  "name": "Manual Landmarks",
+                  "position": 24,
+                  "color": "#ffff00"
+                }
+              ],
+              "top_role": "Manual Landmarks",
+              "guild_permissions": 5224864484865
+            },
+            "flags": 0,
+            "created_at": "2026-05-28T00:14:44.891000+00:00",
+            "attachments": [
+              {
+                "id": "1509349171293851679",
+                "filename": "IMG_0577.jpeg",
+                "url": "https://cdn.discordapp.com/attachments/1210798761329295440/1509349171293851679/IMG_0577.jpeg?ex=6a18da74&is=6a1788f4&hm=18fafaa21ca5e919770b5d451173c4cac2aedcb0d72a71d8c01839ec09820482&",
+                "proxy_url": "https://media.discordapp.net/attachments/1210798761329295440/1509349171293851679/IMG_0577.jpeg?ex=6a18da74&is=6a1788f4&hm=18fafaa21ca5e919770b5d451173c4cac2aedcb0d72a71d8c01839ec09820482&",
+                "size": 2436563,
+                "content_type": "image/jpeg",
+                "width": 4032,
+                "height": 3024,
+                "is_spoiler": false
+              }
+            ],
+            "mentions": {
+              "users": [],
+              "roles": [],
+              "channels": [],
+              "everyone": false
+            }
+          },
+          {
+            "id": "1509349468666069142",
+            "content": "\ud83d\udd13 Full access unlocked \u2014 **request custom drop maps for any spot with first-priority, skipping the drop map queue in \u2060<#1364454494665969664> | <#1210810131634454638>**",
+            "tts": false,
+            "pinned": false,
+            "type": "MessageType.reply",
+            "jump_url": "https://discord.com/channels/988564962802810961/1210798761329295440/1509349468666069142",
+            "channel_id": "1210798761329295440",
+            "channel_name": "\u2503\u2757\u30fbproof\u30fb\u2757\u2503",
+            "author": {
+              "id": "1458092102322880672",
+              "name": "slaxmgmt",
+              "discriminator": "0",
+              "global_name": "Slax",
+              "display_name": "Slax",
+              "bot": false,
+              "system": false,
+              "pending": false,
+              "avatar_url": "https://cdn.discordapp.com/avatars/1458092102322880672/fef7ab4bc011028b3f08003d2a6e3000.png?size=1024",
+              "public_flags": 0,
+              "public_flag_names": [],
+              "created_at": "2026-01-06T13:37:27.235000+00:00",
+              "joined_at": "2026-01-27T03:55:10.934000+00:00",
+              "roles": [
+                {
+                  "id": "1490579498884665425",
+                  "name": "*",
+                  "position": 1,
+                  "color": "#000000"
+                },
+                {
+                  "id": "1499037003004772402",
+                  "name": "Training",
+                  "position": 2,
+                  "color": "#000000"
+                },
+                {
+                  "id": "1306357759163498496",
+                  "name": "English \ud83c\uddec\ud83c\udde7",
+                  "position": 9,
+                  "color": "#000000"
+                },
+                {
+                  "id": "1220671809234407504",
+                  "name": "Loot Route Maker",
+                  "position": 15,
+                  "color": "#000000"
+                },
+                {
+                  "id": "1507992006562156604",
+                  "name": "Surge Route Maker",
+                  "position": 16,
+                  "color": "#000000"
+                },
+                {
+                  "id": "1261143275155226746",
+                  "name": "Tips and Tricks Helper",
+                  "position": 17,
+                  "color": "#000000"
+                },
+                {
+                  "id": "1210764376676634684",
+                  "name": "Invite Way",
+                  "position": 20,
+                  "color": "#000000"
+                },
+                {
+                  "id": "1210764292719247400",
+                  "name": "Twitter",
+                  "position": 21,
+                  "color": "#000000"
+                },
+                {
+                  "id": "1210764975090438155",
+                  "name": "Member",
+                  "position": 22,
+                  "color": "#ff0000"
+                },
+                {
+                  "id": "1305277560086593546",
+                  "name": "Manual Named Locations",
+                  "position": 23,
+                  "color": "#ff8000"
+                },
+                {
+                  "id": "1055713830988157039",
+                  "name": "Manual Landmarks",
+                  "position": 24,
+                  "color": "#ffff00"
+                },
+                {
+                  "id": "1210770102983856138",
+                  "name": "Named Locations",
+                  "position": 25,
+                  "color": "#ff8000"
+                },
+                {
+                  "id": "1210770056477282358",
+                  "name": "Landmarks",
+                  "position": 26,
+                  "color": "#ffff00"
+                },
+                {
+                  "id": "1210810135249817610",
+                  "name": "Role Giver",
+                  "position": 27,
+                  "color": "#000000"
+                },
+                {
+                  "id": "1210819996372959243",
+                  "name": "Bronze (LVL 5)",
+                  "position": 29,
+                  "color": "#bfff00"
+                },
+                {
+                  "id": "1210868595635134514",
+                  "name": "Silver (LVL 10)",
+                  "position": 30,
+                  "color": "#40ff00"
+                },
+                {
+                  "id": "1210820151629586494",
+                  "name": "Gold (LVL 15)",
+                  "position": 31,
+                  "color": "#00ff40"
+                },
+                {
+                  "id": "1210820151646228490",
+                  "name": "Platinum (LVL 20)",
+                  "position": 32,
+                  "color": "#00ffbf"
+                },
+                {
+                  "id": "1210820152925487114",
+                  "name": "Diamond (LVL 25)",
+                  "position": 33,
+                  "color": "#00ffff"
+                },
+                {
+                  "id": "1231621074362568715",
+                  "name": "Elite (LVL 30)",
+                  "position": 34,
+                  "color": "#00bfff"
+                },
+                {
+                  "id": "1231621109409910865",
+                  "name": "Champion (LVL 40)",
+                  "position": 35,
+                  "color": "#0040ff"
+                },
+                {
+                  "id": "1210851932877357066",
+                  "name": "Battle Pass Supporter",
+                  "position": 37,
+                  "color": "#8000ff"
+                },
+                {
+                  "id": "1210839743479418933",
+                  "name": "Active",
+                  "position": 38,
+                  "color": "#bf00ff"
+                },
+                {
+                  "id": "1417086738563858483",
+                  "name": "Drop Map Reviewer",
+                  "position": 43,
+                  "color": "#1aabbc"
+                },
+                {
+                  "id": "1407570820695588864",
+                  "name": "Drop Map Tester",
+                  "position": 44,
+                  "color": "#ffbebf"
+                },
+                {
+                  "id": "1210803062080409600",
+                  "name": "Staff",
+                  "position": 46,
+                  "color": "#c9ff8b"
+                },
+                {
+                  "id": "1405025720832626729",
+                  "name": "Paid Priority",
+                  "position": 47,
+                  "color": "#00ff11"
+                },
+                {
+                  "id": "1363172668597076178",
+                  "name": "Wave Contributor",
+                  "position": 48,
+                  "color": "#00d6ff"
+                },
+                {
+                  "id": "1478987021849464852",
+                  "name": "Donator",
+                  "position": 49,
+                  "color": "#85ffe4"
+                },
+                {
+                  "id": "1210847437728649266",
+                  "name": "Support",
+                  "position": 50,
+                  "color": "#82ffff"
+                },
+                {
+                  "id": "1417348759377018921",
+                  "name": "Senior Support",
+                  "position": 51,
+                  "color": "#828fff"
+                },
+                {
+                  "id": "1210847620243787776",
+                  "name": "Admin",
+                  "position": 53,
+                  "color": "#a6b4ff"
+                },
+                {
+                  "id": "1502629831538380841",
+                  "name": "Senior Admin",
+                  "position": 54,
+                  "color": "#cd9cff"
+                },
+                {
+                  "id": "1308389838663450685",
+                  "name": "Head Admin",
+                  "position": 55,
+                  "color": "#f484ff"
+                }
+              ],
+              "top_role": "Head Admin",
+              "guild_permissions": 965237528321991
+            },
+            "flags": 0,
+            "created_at": "2026-05-28T00:15:55.687000+00:00",
+            "mentions": {
+              "users": [
+                {
+                  "id": "1210963948527026257",
+                  "name": "thecrxckedkid._35244"
+                }
+              ],
+              "roles": [],
+              "channels": [
+                {
+                  "id": "1364454494665969664",
+                  "name": "\ud83d\ude80\u30fbwave-supporters"
+                },
+                {
+                  "id": "1210810131634454638",
+                  "name": "\ud83d\ude80\u30fblevel-invite-rewards"
+                }
+              ],
+              "everyone": false
+            },
+            "reference": {
+              "message_id": "1509349171726123019",
+              "channel_id": "1210798761329295440",
+              "guild_id": "988564962802810961"
+            }
+          },
+          {
+            "id": "1509427031438397521",
+            "content": "<a:VERIFY:1154289883255423036>    Please be patient to get your role as we **might be asleep or afk you will get your role just wait.**\n\n**Unfollowing the twitter will result in a ban, we check daily. <a:BananaParty:1048431943571751033> \n\nUse code fruss in the item shop EVERY 2 weeks to keep ACCESS for the Drop Maps.  <a:BananaParty:1048431943571751033>  **",
+            "tts": false,
+            "pinned": false,
+            "type": "MessageType.default",
+            "jump_url": "https://discord.com/channels/988564962802810961/1210798761329295440/1509427031438397521",
+            "channel_id": "1210798761329295440",
+            "channel_name": "\u2503\u2757\u30fbproof\u30fb\u2757\u2503",
+            "author": {
+              "id": "697487580522086431",
+              "name": "AutoMod",
+              "discriminator": "8695",
+              "display_name": "Use Code Fruss For Access!",
+              "nick": "Use Code Fruss For Access!",
+              "bot": true,
+              "system": false,
+              "pending": false,
+              "avatar_url": "https://cdn.discordapp.com/avatars/697487580522086431/932397508df8560ddf1514619184947c.png?size=1024",
+              "public_flags": 65536,
+              "public_flag_names": [
+                "verified_bot"
+              ],
+              "created_at": "2020-04-08T16:46:37.889000+00:00",
+              "joined_at": "2024-05-27T11:46:40.308000+00:00",
+              "roles": [
+                {
+                  "id": "1490579498884665425",
+                  "name": "*",
+                  "position": 1,
+                  "color": "#000000"
+                },
+                {
+                  "id": "1306357759163498496",
+                  "name": "English \ud83c\uddec\ud83c\udde7",
+                  "position": 9,
+                  "color": "#000000"
+                },
+                {
+                  "id": "1210764975090438155",
+                  "name": "Member",
+                  "position": 22,
+                  "color": "#ff0000"
+                },
+                {
+                  "id": "1305277560086593546",
+                  "name": "Manual Named Locations",
+                  "position": 23,
+                  "color": "#ff8000"
+                },
+                {
+                  "id": "1210801655663300618",
+                  "name": "Bots",
+                  "position": 72,
+                  "color": "#000000"
+                },
+                {
+                  "id": "1244617769937403907",
+                  "name": "AutoMod",
+                  "position": 73,
+                  "color": "#000000"
+                }
+              ],
+              "top_role": "AutoMod",
+              "guild_permissions": 1829587348619263
+            },
+            "flags": 0,
+            "created_at": "2026-05-28T05:24:08.093000+00:00",
+            "mentions": {
+              "users": [],
+              "roles": [],
+              "channels": [],
+              "everyone": false
+            }
+          }
+        ],
+        "audit": {
+          "audit_id": "1509431424317395061",
+          "actor": {
+            "id": "697487580522086431",
+            "name": "AutoMod",
+            "discriminator": "8695",
+            "display_name": "Use Code Fruss For Access!",
+            "nick": "Use Code Fruss For Access!",
+            "bot": true,
+            "system": false,
+            "pending": false,
+            "avatar_url": "https://cdn.discordapp.com/avatars/697487580522086431/932397508df8560ddf1514619184947c.png?size=1024",
+            "public_flags": 65536,
+            "public_flag_names": [
+              "verified_bot"
+            ],
+            "created_at": "2020-04-08T16:46:37.889000+00:00",
+            "joined_at": "2024-05-27T11:46:40.308000+00:00",
+            "roles": [
+              {
+                "id": "1490579498884665425",
+                "name": "*",
+                "position": 1,
+                "color": "#000000"
+              },
+              {
+                "id": "1306357759163498496",
+                "name": "English \ud83c\uddec\ud83c\udde7",
+                "position": 9,
+                "color": "#000000"
+              },
+              {
+                "id": "1210764975090438155",
+                "name": "Member",
+                "position": 22,
+                "color": "#ff0000"
+              },
+              {
+                "id": "1305277560086593546",
+                "name": "Manual Named Locations",
+                "position": 23,
+                "color": "#ff8000"
+              },
+              {
+                "id": "1210801655663300618",
+                "name": "Bots",
+                "position": 72,
+                "color": "#000000"
+              },
+              {
+                "id": "1244617769937403907",
+                "name": "AutoMod",
+                "position": 73,
+                "color": "#000000"
+              }
+            ],
+            "top_role": "AutoMod",
+            "guild_permissions": 1829587348619263
+          },
+          "reason": null,
+          "created_at": "2026-05-28T05:41:35.437000+00:00",
+          "extra": {
+            "count": "7"
+          }
+        }
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-05-28T10:35:56Z",
+      "bot": "server",
+      "category": "message_bulk_delete",
+      "action": "bulk_messages_deleted",
+      "actor": null,
+      "target": null,
+      "details": {
+        "channel_id": "1431517300686590063",
+        "message_ids": [
+          "1509179999788335174",
+          "1506754918516785222",
+          "1507130251132796968",
+          "1507889122256097360",
+          "1506757860082712658",
+          "1509179658783166484",
+          "1508124951239065621",
+          "1509181471405899990",
+          "1509182597547430070",
+          "1508634115778412664",
+          "1507888598182268950",
+          "1507130711914844251",
+          "1507889761979990206"
+        ],
+        "count": 13,
+        "cached_messages": [],
+        "audit": {
+          "audit_id": "1509505491405901866",
+          "actor": {
+            "id": "155149108183695360",
+            "name": "Dyno",
+            "discriminator": "3861",
+            "display_name": "Dyno",
+            "bot": true,
+            "system": false,
+            "pending": false,
+            "avatar_url": "https://cdn.discordapp.com/avatars/155149108183695360/b4fdfc64edff74c37e1574d34fad66c2.png?size=1024",
+            "public_flags": 589824,
+            "public_flag_names": [
+              "verified_bot",
+              "bot_http_interactions"
+            ],
+            "created_at": "2016-03-04T03:07:09.922000+00:00",
+            "joined_at": "2025-01-22T09:00:38.744000+00:00",
+            "roles": [
+              {
+                "id": "1491225386804314132",
+                "name": "*",
+                "position": 4,
+                "color": "#000000"
+              },
+              {
+                "id": "1331549075681837137",
+                "name": "Dyno",
+                "position": 80,
+                "color": "#000000"
+              }
+            ],
+            "top_role": "Dyno",
+            "guild_permissions": 1829587348619263
+          },
+          "reason": null,
+          "created_at": "2026-05-28T10:35:54.407000+00:00",
+          "extra": {
+            "count": "13"
+          }
+        }
+      },
+      "guild_id": "1041450125391835186",
+      "guild_name": "WAVE Drop Map Staff Hub"
+    },
+    {
+      "timestamp": "2026-05-28T14:56:25Z",
+      "bot": "server",
+      "category": "message_bulk_delete",
+      "action": "bulk_messages_deleted",
+      "actor": null,
+      "target": null,
+      "details": {
+        "channel_id": "1210798761329295440",
+        "message_ids": [
+          "1509570341976932522",
+          "1509570454744993882",
+          "1509570286285095003"
+        ],
+        "count": 3,
+        "cached_messages": [
+          {
+            "id": "1509570286285095003",
+            "content": "",
+            "tts": false,
+            "pinned": false,
+            "type": "MessageType.default",
+            "jump_url": "https://discord.com/channels/988564962802810961/1210798761329295440/1509570286285095003",
+            "channel_id": "1210798761329295440",
+            "channel_name": "\u2503\u2757\u30fbproof\u30fb\u2757\u2503",
+            "author": {
+              "id": "1052861807225753610",
+              "name": "bala07683",
+              "discriminator": "0",
+              "global_name": "txiga!",
+              "display_name": "txiga!",
+              "bot": false,
+              "system": false,
+              "pending": false,
+              "avatar_url": "https://cdn.discordapp.com/avatars/1052861807225753610/a1a2d3e9d4cba0855e8bd0b92fa9c8d6.png?size=1024",
+              "public_flags": 0,
+              "public_flag_names": [],
+              "created_at": "2022-12-15T08:16:56.069000+00:00",
+              "joined_at": "2026-05-28T14:44:38.395000+00:00",
+              "roles": [
+                {
+                  "id": "1490579498884665425",
+                  "name": "*",
+                  "position": 1,
+                  "color": "#000000"
+                },
+                {
+                  "id": "1483009687283826768",
+                  "name": "Polski \ud83c\uddf5\ud83c\uddf1",
+                  "position": 6,
+                  "color": "#000000"
+                },
+                {
+                  "id": "1210764292719247400",
+                  "name": "Twitter",
+                  "position": 21,
+                  "color": "#000000"
+                },
+                {
+                  "id": "1210764975090438155",
+                  "name": "Member",
+                  "position": 22,
+                  "color": "#ff0000"
+                },
+                {
+                  "id": "1305277560086593546",
+                  "name": "Manual Named Locations",
+                  "position": 23,
+                  "color": "#ff8000"
+                }
+              ],
+              "top_role": "Manual Named Locations",
+              "guild_permissions": 5224864484865
+            },
+            "flags": 0,
+            "created_at": "2026-05-28T14:53:22.710000+00:00",
+            "attachments": [
+              {
+                "id": "1509570285958074408",
+                "filename": "D2E8C2EB-5A7C-4CA3-80EF-17ADA7AEBDF7.png",
+                "url": "https://cdn.discordapp.com/attachments/1210798761329295440/1509570285958074408/D2E8C2EB-5A7C-4CA3-80EF-17ADA7AEBDF7.png?ex=6a19a862&is=6a1856e2&hm=6e3cefab789f4514bec70eb949ceb9250e29ce1b997cbaf79e1c5fa60955dfca&",
+                "proxy_url": "https://media.discordapp.net/attachments/1210798761329295440/1509570285958074408/D2E8C2EB-5A7C-4CA3-80EF-17ADA7AEBDF7.png?ex=6a19a862&is=6a1856e2&hm=6e3cefab789f4514bec70eb949ceb9250e29ce1b997cbaf79e1c5fa60955dfca&",
+                "size": 290258,
+                "content_type": "image/webp",
+                "width": 1697,
+                "height": 848,
+                "is_spoiler": false
+              }
+            ],
+            "mentions": {
+              "users": [],
+              "roles": [],
+              "channels": [],
+              "everyone": false
+            }
+          },
+          {
+            "id": "1509570341976932522",
+            "content": "",
+            "tts": false,
+            "pinned": false,
+            "type": "MessageType.default",
+            "jump_url": "https://discord.com/channels/988564962802810961/1210798761329295440/1509570341976932522",
+            "channel_id": "1210798761329295440",
+            "channel_name": "\u2503\u2757\u30fbproof\u30fb\u2757\u2503",
+            "author": {
+              "id": "1052861807225753610",
+              "name": "bala07683",
+              "discriminator": "0",
+              "global_name": "txiga!",
+              "display_name": "txiga!",
+              "bot": false,
+              "system": false,
+              "pending": false,
+              "avatar_url": "https://cdn.discordapp.com/avatars/1052861807225753610/a1a2d3e9d4cba0855e8bd0b92fa9c8d6.png?size=1024",
+              "public_flags": 0,
+              "public_flag_names": [],
+              "created_at": "2022-12-15T08:16:56.069000+00:00",
+              "joined_at": "2026-05-28T14:44:38.395000+00:00",
+              "roles": [
+                {
+                  "id": "1490579498884665425",
+                  "name": "*",
+                  "position": 1,
+                  "color": "#000000"
+                },
+                {
+                  "id": "1483009687283826768",
+                  "name": "Polski \ud83c\uddf5\ud83c\uddf1",
+                  "position": 6,
+                  "color": "#000000"
+                },
+                {
+                  "id": "1210764292719247400",
+                  "name": "Twitter",
+                  "position": 21,
+                  "color": "#000000"
+                },
+                {
+                  "id": "1210764975090438155",
+                  "name": "Member",
+                  "position": 22,
+                  "color": "#ff0000"
+                },
+                {
+                  "id": "1305277560086593546",
+                  "name": "Manual Named Locations",
+                  "position": 23,
+                  "color": "#ff8000"
+                }
+              ],
+              "top_role": "Manual Named Locations",
+              "guild_permissions": 5224864484865
+            },
+            "flags": 0,
+            "created_at": "2026-05-28T14:53:35.988000+00:00",
+            "attachments": [
+              {
+                "id": "1509570341628809418",
+                "filename": "7609BE40-B875-4D65-9D12-16F519036876.png",
+                "url": "https://cdn.discordapp.com/attachments/1210798761329295440/1509570341628809418/7609BE40-B875-4D65-9D12-16F519036876.png?ex=6a19a86f&is=6a1856ef&hm=64d1e840e192c8d8c70e7c515a2f9b682474414b9c41fbd4e87416b748a783a2&",
+                "proxy_url": "https://media.discordapp.net/attachments/1210798761329295440/1509570341628809418/7609BE40-B875-4D65-9D12-16F519036876.png?ex=6a19a86f&is=6a1856ef&hm=64d1e840e192c8d8c70e7c515a2f9b682474414b9c41fbd4e87416b748a783a2&",
+                "size": 300486,
+                "content_type": "image/webp",
+                "width": 1660,
+                "height": 867,
+                "is_spoiler": false
+              }
+            ],
+            "mentions": {
+              "users": [],
+              "roles": [],
+              "channels": [],
+              "everyone": false
+            }
+          },
+          {
+            "id": "1509570454744993882",
+            "content": "<@&1210810135249817610>",
+            "tts": false,
+            "pinned": false,
+            "type": "MessageType.default",
+            "jump_url": "https://discord.com/channels/988564962802810961/1210798761329295440/1509570454744993882",
+            "channel_id": "1210798761329295440",
+            "channel_name": "\u2503\u2757\u30fbproof\u30fb\u2757\u2503",
+            "author": {
+              "id": "1052861807225753610",
+              "name": "bala07683",
+              "discriminator": "0",
+              "global_name": "txiga!",
+              "display_name": "txiga!",
+              "bot": false,
+              "system": false,
+              "pending": false,
+              "avatar_url": "https://cdn.discordapp.com/avatars/1052861807225753610/a1a2d3e9d4cba0855e8bd0b92fa9c8d6.png?size=1024",
+              "public_flags": 0,
+              "public_flag_names": [],
+              "created_at": "2022-12-15T08:16:56.069000+00:00",
+              "joined_at": "2026-05-28T14:44:38.395000+00:00",
+              "roles": [
+                {
+                  "id": "1490579498884665425",
+                  "name": "*",
+                  "position": 1,
+                  "color": "#000000"
+                },
+                {
+                  "id": "1483009687283826768",
+                  "name": "Polski \ud83c\uddf5\ud83c\uddf1",
+                  "position": 6,
+                  "color": "#000000"
+                },
+                {
+                  "id": "1210764292719247400",
+                  "name": "Twitter",
+                  "position": 21,
+                  "color": "#000000"
+                },
+                {
+                  "id": "1210764975090438155",
+                  "name": "Member",
+                  "position": 22,
+                  "color": "#ff0000"
+                },
+                {
+                  "id": "1305277560086593546",
+                  "name": "Manual Named Locations",
+                  "position": 23,
+                  "color": "#ff8000"
+                }
+              ],
+              "top_role": "Manual Named Locations",
+              "guild_permissions": 5224864484865
+            },
+            "flags": 0,
+            "created_at": "2026-05-28T14:54:02.874000+00:00",
+            "mentions": {
+              "users": [],
+              "roles": [
+                {
+                  "id": "1210810135249817610",
+                  "name": "Role Giver"
+                }
+              ],
+              "channels": [],
+              "everyone": false
+            }
+          }
+        ],
+        "audit": null
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    }
+  ]
+}
