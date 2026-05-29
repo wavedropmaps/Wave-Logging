@@ -1,0 +1,2235 @@
+{
+  "pushed_at": "2026-05-29T20:04:51Z",
+  "events": [
+    {
+      "timestamp": "2026-05-29T20:00:03Z",
+      "bot": "server",
+      "category": "voice_state_changed",
+      "action": "voice_joined",
+      "actor": {
+        "id": "1320457272995876979",
+        "name": "scrapyrarw",
+        "discriminator": "0",
+        "global_name": "scrapycoco",
+        "display_name": "scrapycoco",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/1320457272995876979/59d2d7b8d4444b67a3991fab1d97ea07.png?size=1024",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2024-12-22T18:25:46.792000+00:00",
+        "joined_at": "2026-05-26T22:15:07.557000+00:00",
+        "roles": [
+          {
+            "id": "1483009690291146824",
+            "name": "Espa\u00f1ol \ud83c\uddea\ud83c\uddf8",
+            "position": 5,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764292719247400",
+            "name": "Twitter",
+            "position": 21,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764975090438155",
+            "name": "Member",
+            "position": 22,
+            "color": "#ff0000"
+          },
+          {
+            "id": "1305277560086593546",
+            "name": "Manual Named Locations",
+            "position": 23,
+            "color": "#ff8000"
+          }
+        ],
+        "top_role": "Manual Named Locations",
+        "guild_permissions": 5224864484865,
+        "voice": {
+          "self_mute": false,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "d12aac8fb3853436f34c7d05530c60e4",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        }
+      },
+      "target": null,
+      "details": {
+        "before": {
+          "self_mute": false,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "d12aac8fb3853436f34c7d05530c60e4"
+        },
+        "after": {
+          "self_mute": false,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "d12aac8fb3853436f34c7d05530c60e4",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        },
+        "channel_before_id": null,
+        "channel_after_id": "1210798926794588191"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-05-29T20:00:12Z",
+      "bot": "server",
+      "category": "voice_state_changed",
+      "action": "voice_left",
+      "actor": {
+        "id": "1320457272995876979",
+        "name": "scrapyrarw",
+        "discriminator": "0",
+        "global_name": "scrapycoco",
+        "display_name": "scrapycoco",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/1320457272995876979/59d2d7b8d4444b67a3991fab1d97ea07.png?size=1024",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2024-12-22T18:25:46.792000+00:00",
+        "joined_at": "2026-05-26T22:15:07.557000+00:00",
+        "roles": [
+          {
+            "id": "1483009690291146824",
+            "name": "Espa\u00f1ol \ud83c\uddea\ud83c\uddf8",
+            "position": 5,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764292719247400",
+            "name": "Twitter",
+            "position": 21,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764975090438155",
+            "name": "Member",
+            "position": 22,
+            "color": "#ff0000"
+          },
+          {
+            "id": "1305277560086593546",
+            "name": "Manual Named Locations",
+            "position": 23,
+            "color": "#ff8000"
+          }
+        ],
+        "top_role": "Manual Named Locations",
+        "guild_permissions": 5224864484865
+      },
+      "target": null,
+      "details": {
+        "before": {
+          "self_mute": false,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "d12aac8fb3853436f34c7d05530c60e4",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        },
+        "after": {
+          "self_mute": false,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "d12aac8fb3853436f34c7d05530c60e4"
+        },
+        "channel_before_id": "1210798926794588191",
+        "channel_after_id": null
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-05-29T20:00:54Z",
+      "bot": "server",
+      "category": "voice_state_changed",
+      "action": "voice_joined",
+      "actor": {
+        "id": "917348821565075476",
+        "name": "atraxf2",
+        "discriminator": "0",
+        "global_name": "atrax",
+        "display_name": "atrax",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/embed/avatars/2.png",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2021-12-06T09:36:42.578000+00:00",
+        "joined_at": "2026-03-12T11:12:58.358000+00:00",
+        "roles": [
+          {
+            "id": "1490579498884665425",
+            "name": "*",
+            "position": 1,
+            "color": "#000000"
+          },
+          {
+            "id": "1306357759163498496",
+            "name": "English \ud83c\uddec\ud83c\udde7",
+            "position": 9,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764376676634684",
+            "name": "Invite Way",
+            "position": 20,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764975090438155",
+            "name": "Member",
+            "position": 22,
+            "color": "#ff0000"
+          },
+          {
+            "id": "1305277560086593546",
+            "name": "Manual Named Locations",
+            "position": 23,
+            "color": "#ff8000"
+          },
+          {
+            "id": "1210770102983856138",
+            "name": "Named Locations",
+            "position": 25,
+            "color": "#ff8000"
+          },
+          {
+            "id": "1210819996372959243",
+            "name": "Bronze (LVL 5)",
+            "position": 29,
+            "color": "#bfff00"
+          }
+        ],
+        "top_role": "Bronze (LVL 5)",
+        "guild_permissions": 5224864484865,
+        "voice": {
+          "self_mute": false,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        }
+      },
+      "target": null,
+      "details": {
+        "before": {
+          "self_mute": false,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674"
+        },
+        "after": {
+          "self_mute": false,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        },
+        "channel_before_id": null,
+        "channel_after_id": "1210798926794588191"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-05-29T20:00:57Z",
+      "bot": "server",
+      "category": "voice_state_changed",
+      "action": "voice_self_mute",
+      "actor": {
+        "id": "917348821565075476",
+        "name": "atraxf2",
+        "discriminator": "0",
+        "global_name": "atrax",
+        "display_name": "atrax",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/embed/avatars/2.png",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2021-12-06T09:36:42.578000+00:00",
+        "joined_at": "2026-03-12T11:12:58.358000+00:00",
+        "roles": [
+          {
+            "id": "1490579498884665425",
+            "name": "*",
+            "position": 1,
+            "color": "#000000"
+          },
+          {
+            "id": "1306357759163498496",
+            "name": "English \ud83c\uddec\ud83c\udde7",
+            "position": 9,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764376676634684",
+            "name": "Invite Way",
+            "position": 20,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764975090438155",
+            "name": "Member",
+            "position": 22,
+            "color": "#ff0000"
+          },
+          {
+            "id": "1305277560086593546",
+            "name": "Manual Named Locations",
+            "position": 23,
+            "color": "#ff8000"
+          },
+          {
+            "id": "1210770102983856138",
+            "name": "Named Locations",
+            "position": 25,
+            "color": "#ff8000"
+          },
+          {
+            "id": "1210819996372959243",
+            "name": "Bronze (LVL 5)",
+            "position": 29,
+            "color": "#bfff00"
+          }
+        ],
+        "top_role": "Bronze (LVL 5)",
+        "guild_permissions": 5224864484865,
+        "voice": {
+          "self_mute": true,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        }
+      },
+      "target": null,
+      "details": {
+        "before": {
+          "self_mute": false,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        },
+        "after": {
+          "self_mute": true,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        },
+        "channel_before_id": "1210798926794588191",
+        "channel_after_id": "1210798926794588191"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-05-29T20:02:15Z",
+      "bot": "server",
+      "category": "voice_state_changed",
+      "action": "voice_self_deaf",
+      "actor": {
+        "id": "917348821565075476",
+        "name": "atraxf2",
+        "discriminator": "0",
+        "global_name": "atrax",
+        "display_name": "atrax",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/embed/avatars/2.png",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2021-12-06T09:36:42.578000+00:00",
+        "joined_at": "2026-03-12T11:12:58.358000+00:00",
+        "roles": [
+          {
+            "id": "1490579498884665425",
+            "name": "*",
+            "position": 1,
+            "color": "#000000"
+          },
+          {
+            "id": "1306357759163498496",
+            "name": "English \ud83c\uddec\ud83c\udde7",
+            "position": 9,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764376676634684",
+            "name": "Invite Way",
+            "position": 20,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764975090438155",
+            "name": "Member",
+            "position": 22,
+            "color": "#ff0000"
+          },
+          {
+            "id": "1305277560086593546",
+            "name": "Manual Named Locations",
+            "position": 23,
+            "color": "#ff8000"
+          },
+          {
+            "id": "1210770102983856138",
+            "name": "Named Locations",
+            "position": 25,
+            "color": "#ff8000"
+          },
+          {
+            "id": "1210819996372959243",
+            "name": "Bronze (LVL 5)",
+            "position": 29,
+            "color": "#bfff00"
+          }
+        ],
+        "top_role": "Bronze (LVL 5)",
+        "guild_permissions": 5224864484865,
+        "voice": {
+          "self_mute": true,
+          "self_deaf": true,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        }
+      },
+      "target": null,
+      "details": {
+        "before": {
+          "self_mute": true,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        },
+        "after": {
+          "self_mute": true,
+          "self_deaf": true,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        },
+        "channel_before_id": "1210798926794588191",
+        "channel_after_id": "1210798926794588191"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-05-29T20:02:16Z",
+      "bot": "server",
+      "category": "voice_state_changed",
+      "action": "voice_self_undeaf",
+      "actor": {
+        "id": "917348821565075476",
+        "name": "atraxf2",
+        "discriminator": "0",
+        "global_name": "atrax",
+        "display_name": "atrax",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/embed/avatars/2.png",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2021-12-06T09:36:42.578000+00:00",
+        "joined_at": "2026-03-12T11:12:58.358000+00:00",
+        "roles": [
+          {
+            "id": "1490579498884665425",
+            "name": "*",
+            "position": 1,
+            "color": "#000000"
+          },
+          {
+            "id": "1306357759163498496",
+            "name": "English \ud83c\uddec\ud83c\udde7",
+            "position": 9,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764376676634684",
+            "name": "Invite Way",
+            "position": 20,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764975090438155",
+            "name": "Member",
+            "position": 22,
+            "color": "#ff0000"
+          },
+          {
+            "id": "1305277560086593546",
+            "name": "Manual Named Locations",
+            "position": 23,
+            "color": "#ff8000"
+          },
+          {
+            "id": "1210770102983856138",
+            "name": "Named Locations",
+            "position": 25,
+            "color": "#ff8000"
+          },
+          {
+            "id": "1210819996372959243",
+            "name": "Bronze (LVL 5)",
+            "position": 29,
+            "color": "#bfff00"
+          }
+        ],
+        "top_role": "Bronze (LVL 5)",
+        "guild_permissions": 5224864484865,
+        "voice": {
+          "self_mute": true,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        }
+      },
+      "target": null,
+      "details": {
+        "before": {
+          "self_mute": true,
+          "self_deaf": true,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        },
+        "after": {
+          "self_mute": true,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        },
+        "channel_before_id": "1210798926794588191",
+        "channel_after_id": "1210798926794588191"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-05-29T20:02:18Z",
+      "bot": "server",
+      "category": "voice_state_changed",
+      "action": "voice_self_unmute",
+      "actor": {
+        "id": "917348821565075476",
+        "name": "atraxf2",
+        "discriminator": "0",
+        "global_name": "atrax",
+        "display_name": "atrax",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/embed/avatars/2.png",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2021-12-06T09:36:42.578000+00:00",
+        "joined_at": "2026-03-12T11:12:58.358000+00:00",
+        "roles": [
+          {
+            "id": "1490579498884665425",
+            "name": "*",
+            "position": 1,
+            "color": "#000000"
+          },
+          {
+            "id": "1306357759163498496",
+            "name": "English \ud83c\uddec\ud83c\udde7",
+            "position": 9,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764376676634684",
+            "name": "Invite Way",
+            "position": 20,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764975090438155",
+            "name": "Member",
+            "position": 22,
+            "color": "#ff0000"
+          },
+          {
+            "id": "1305277560086593546",
+            "name": "Manual Named Locations",
+            "position": 23,
+            "color": "#ff8000"
+          },
+          {
+            "id": "1210770102983856138",
+            "name": "Named Locations",
+            "position": 25,
+            "color": "#ff8000"
+          },
+          {
+            "id": "1210819996372959243",
+            "name": "Bronze (LVL 5)",
+            "position": 29,
+            "color": "#bfff00"
+          }
+        ],
+        "top_role": "Bronze (LVL 5)",
+        "guild_permissions": 5224864484865,
+        "voice": {
+          "self_mute": false,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        }
+      },
+      "target": null,
+      "details": {
+        "before": {
+          "self_mute": true,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        },
+        "after": {
+          "self_mute": false,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        },
+        "channel_before_id": "1210798926794588191",
+        "channel_after_id": "1210798926794588191"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-05-29T20:02:18Z",
+      "bot": "server",
+      "category": "voice_state_changed",
+      "action": "voice_self_mute",
+      "actor": {
+        "id": "917348821565075476",
+        "name": "atraxf2",
+        "discriminator": "0",
+        "global_name": "atrax",
+        "display_name": "atrax",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/embed/avatars/2.png",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2021-12-06T09:36:42.578000+00:00",
+        "joined_at": "2026-03-12T11:12:58.358000+00:00",
+        "roles": [
+          {
+            "id": "1490579498884665425",
+            "name": "*",
+            "position": 1,
+            "color": "#000000"
+          },
+          {
+            "id": "1306357759163498496",
+            "name": "English \ud83c\uddec\ud83c\udde7",
+            "position": 9,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764376676634684",
+            "name": "Invite Way",
+            "position": 20,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764975090438155",
+            "name": "Member",
+            "position": 22,
+            "color": "#ff0000"
+          },
+          {
+            "id": "1305277560086593546",
+            "name": "Manual Named Locations",
+            "position": 23,
+            "color": "#ff8000"
+          },
+          {
+            "id": "1210770102983856138",
+            "name": "Named Locations",
+            "position": 25,
+            "color": "#ff8000"
+          },
+          {
+            "id": "1210819996372959243",
+            "name": "Bronze (LVL 5)",
+            "position": 29,
+            "color": "#bfff00"
+          }
+        ],
+        "top_role": "Bronze (LVL 5)",
+        "guild_permissions": 5224864484865,
+        "voice": {
+          "self_mute": true,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        }
+      },
+      "target": null,
+      "details": {
+        "before": {
+          "self_mute": false,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        },
+        "after": {
+          "self_mute": true,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        },
+        "channel_before_id": "1210798926794588191",
+        "channel_after_id": "1210798926794588191"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-05-29T20:02:20Z",
+      "bot": "server",
+      "category": "voice_state_changed",
+      "action": "voice_self_unmute",
+      "actor": {
+        "id": "917348821565075476",
+        "name": "atraxf2",
+        "discriminator": "0",
+        "global_name": "atrax",
+        "display_name": "atrax",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/embed/avatars/2.png",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2021-12-06T09:36:42.578000+00:00",
+        "joined_at": "2026-03-12T11:12:58.358000+00:00",
+        "roles": [
+          {
+            "id": "1490579498884665425",
+            "name": "*",
+            "position": 1,
+            "color": "#000000"
+          },
+          {
+            "id": "1306357759163498496",
+            "name": "English \ud83c\uddec\ud83c\udde7",
+            "position": 9,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764376676634684",
+            "name": "Invite Way",
+            "position": 20,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764975090438155",
+            "name": "Member",
+            "position": 22,
+            "color": "#ff0000"
+          },
+          {
+            "id": "1305277560086593546",
+            "name": "Manual Named Locations",
+            "position": 23,
+            "color": "#ff8000"
+          },
+          {
+            "id": "1210770102983856138",
+            "name": "Named Locations",
+            "position": 25,
+            "color": "#ff8000"
+          },
+          {
+            "id": "1210819996372959243",
+            "name": "Bronze (LVL 5)",
+            "position": 29,
+            "color": "#bfff00"
+          }
+        ],
+        "top_role": "Bronze (LVL 5)",
+        "guild_permissions": 5224864484865,
+        "voice": {
+          "self_mute": false,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        }
+      },
+      "target": null,
+      "details": {
+        "before": {
+          "self_mute": true,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        },
+        "after": {
+          "self_mute": false,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        },
+        "channel_before_id": "1210798926794588191",
+        "channel_after_id": "1210798926794588191"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-05-29T20:02:25Z",
+      "bot": "server",
+      "category": "voice_state_changed",
+      "action": "voice_self_mute",
+      "actor": {
+        "id": "917348821565075476",
+        "name": "atraxf2",
+        "discriminator": "0",
+        "global_name": "atrax",
+        "display_name": "atrax",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/embed/avatars/2.png",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2021-12-06T09:36:42.578000+00:00",
+        "joined_at": "2026-03-12T11:12:58.358000+00:00",
+        "roles": [
+          {
+            "id": "1490579498884665425",
+            "name": "*",
+            "position": 1,
+            "color": "#000000"
+          },
+          {
+            "id": "1306357759163498496",
+            "name": "English \ud83c\uddec\ud83c\udde7",
+            "position": 9,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764376676634684",
+            "name": "Invite Way",
+            "position": 20,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764975090438155",
+            "name": "Member",
+            "position": 22,
+            "color": "#ff0000"
+          },
+          {
+            "id": "1305277560086593546",
+            "name": "Manual Named Locations",
+            "position": 23,
+            "color": "#ff8000"
+          },
+          {
+            "id": "1210770102983856138",
+            "name": "Named Locations",
+            "position": 25,
+            "color": "#ff8000"
+          },
+          {
+            "id": "1210819996372959243",
+            "name": "Bronze (LVL 5)",
+            "position": 29,
+            "color": "#bfff00"
+          }
+        ],
+        "top_role": "Bronze (LVL 5)",
+        "guild_permissions": 5224864484865,
+        "voice": {
+          "self_mute": true,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        }
+      },
+      "target": null,
+      "details": {
+        "before": {
+          "self_mute": false,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        },
+        "after": {
+          "self_mute": true,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        },
+        "channel_before_id": "1210798926794588191",
+        "channel_after_id": "1210798926794588191"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-05-29T20:02:32Z",
+      "bot": "server",
+      "category": "voice_state_changed",
+      "action": "voice_self_deaf",
+      "actor": {
+        "id": "917348821565075476",
+        "name": "atraxf2",
+        "discriminator": "0",
+        "global_name": "atrax",
+        "display_name": "atrax",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/embed/avatars/2.png",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2021-12-06T09:36:42.578000+00:00",
+        "joined_at": "2026-03-12T11:12:58.358000+00:00",
+        "roles": [
+          {
+            "id": "1490579498884665425",
+            "name": "*",
+            "position": 1,
+            "color": "#000000"
+          },
+          {
+            "id": "1306357759163498496",
+            "name": "English \ud83c\uddec\ud83c\udde7",
+            "position": 9,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764376676634684",
+            "name": "Invite Way",
+            "position": 20,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764975090438155",
+            "name": "Member",
+            "position": 22,
+            "color": "#ff0000"
+          },
+          {
+            "id": "1305277560086593546",
+            "name": "Manual Named Locations",
+            "position": 23,
+            "color": "#ff8000"
+          },
+          {
+            "id": "1210770102983856138",
+            "name": "Named Locations",
+            "position": 25,
+            "color": "#ff8000"
+          },
+          {
+            "id": "1210819996372959243",
+            "name": "Bronze (LVL 5)",
+            "position": 29,
+            "color": "#bfff00"
+          }
+        ],
+        "top_role": "Bronze (LVL 5)",
+        "guild_permissions": 5224864484865,
+        "voice": {
+          "self_mute": true,
+          "self_deaf": true,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        }
+      },
+      "target": null,
+      "details": {
+        "before": {
+          "self_mute": true,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        },
+        "after": {
+          "self_mute": true,
+          "self_deaf": true,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        },
+        "channel_before_id": "1210798926794588191",
+        "channel_after_id": "1210798926794588191"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-05-29T20:02:33Z",
+      "bot": "server",
+      "category": "voice_state_changed",
+      "action": "voice_self_undeaf",
+      "actor": {
+        "id": "917348821565075476",
+        "name": "atraxf2",
+        "discriminator": "0",
+        "global_name": "atrax",
+        "display_name": "atrax",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/embed/avatars/2.png",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2021-12-06T09:36:42.578000+00:00",
+        "joined_at": "2026-03-12T11:12:58.358000+00:00",
+        "roles": [
+          {
+            "id": "1490579498884665425",
+            "name": "*",
+            "position": 1,
+            "color": "#000000"
+          },
+          {
+            "id": "1306357759163498496",
+            "name": "English \ud83c\uddec\ud83c\udde7",
+            "position": 9,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764376676634684",
+            "name": "Invite Way",
+            "position": 20,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764975090438155",
+            "name": "Member",
+            "position": 22,
+            "color": "#ff0000"
+          },
+          {
+            "id": "1305277560086593546",
+            "name": "Manual Named Locations",
+            "position": 23,
+            "color": "#ff8000"
+          },
+          {
+            "id": "1210770102983856138",
+            "name": "Named Locations",
+            "position": 25,
+            "color": "#ff8000"
+          },
+          {
+            "id": "1210819996372959243",
+            "name": "Bronze (LVL 5)",
+            "position": 29,
+            "color": "#bfff00"
+          }
+        ],
+        "top_role": "Bronze (LVL 5)",
+        "guild_permissions": 5224864484865,
+        "voice": {
+          "self_mute": true,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        }
+      },
+      "target": null,
+      "details": {
+        "before": {
+          "self_mute": true,
+          "self_deaf": true,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        },
+        "after": {
+          "self_mute": true,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        },
+        "channel_before_id": "1210798926794588191",
+        "channel_after_id": "1210798926794588191"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-05-29T20:02:34Z",
+      "bot": "server",
+      "category": "voice_state_changed",
+      "action": "voice_self_deaf",
+      "actor": {
+        "id": "917348821565075476",
+        "name": "atraxf2",
+        "discriminator": "0",
+        "global_name": "atrax",
+        "display_name": "atrax",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/embed/avatars/2.png",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2021-12-06T09:36:42.578000+00:00",
+        "joined_at": "2026-03-12T11:12:58.358000+00:00",
+        "roles": [
+          {
+            "id": "1490579498884665425",
+            "name": "*",
+            "position": 1,
+            "color": "#000000"
+          },
+          {
+            "id": "1306357759163498496",
+            "name": "English \ud83c\uddec\ud83c\udde7",
+            "position": 9,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764376676634684",
+            "name": "Invite Way",
+            "position": 20,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764975090438155",
+            "name": "Member",
+            "position": 22,
+            "color": "#ff0000"
+          },
+          {
+            "id": "1305277560086593546",
+            "name": "Manual Named Locations",
+            "position": 23,
+            "color": "#ff8000"
+          },
+          {
+            "id": "1210770102983856138",
+            "name": "Named Locations",
+            "position": 25,
+            "color": "#ff8000"
+          },
+          {
+            "id": "1210819996372959243",
+            "name": "Bronze (LVL 5)",
+            "position": 29,
+            "color": "#bfff00"
+          }
+        ],
+        "top_role": "Bronze (LVL 5)",
+        "guild_permissions": 5224864484865,
+        "voice": {
+          "self_mute": true,
+          "self_deaf": true,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        }
+      },
+      "target": null,
+      "details": {
+        "before": {
+          "self_mute": true,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        },
+        "after": {
+          "self_mute": true,
+          "self_deaf": true,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        },
+        "channel_before_id": "1210798926794588191",
+        "channel_after_id": "1210798926794588191"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-05-29T20:02:36Z",
+      "bot": "server",
+      "category": "voice_state_changed",
+      "action": "voice_self_undeaf",
+      "actor": {
+        "id": "917348821565075476",
+        "name": "atraxf2",
+        "discriminator": "0",
+        "global_name": "atrax",
+        "display_name": "atrax",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/embed/avatars/2.png",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2021-12-06T09:36:42.578000+00:00",
+        "joined_at": "2026-03-12T11:12:58.358000+00:00",
+        "roles": [
+          {
+            "id": "1490579498884665425",
+            "name": "*",
+            "position": 1,
+            "color": "#000000"
+          },
+          {
+            "id": "1306357759163498496",
+            "name": "English \ud83c\uddec\ud83c\udde7",
+            "position": 9,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764376676634684",
+            "name": "Invite Way",
+            "position": 20,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764975090438155",
+            "name": "Member",
+            "position": 22,
+            "color": "#ff0000"
+          },
+          {
+            "id": "1305277560086593546",
+            "name": "Manual Named Locations",
+            "position": 23,
+            "color": "#ff8000"
+          },
+          {
+            "id": "1210770102983856138",
+            "name": "Named Locations",
+            "position": 25,
+            "color": "#ff8000"
+          },
+          {
+            "id": "1210819996372959243",
+            "name": "Bronze (LVL 5)",
+            "position": 29,
+            "color": "#bfff00"
+          }
+        ],
+        "top_role": "Bronze (LVL 5)",
+        "guild_permissions": 5224864484865,
+        "voice": {
+          "self_mute": true,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        }
+      },
+      "target": null,
+      "details": {
+        "before": {
+          "self_mute": true,
+          "self_deaf": true,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        },
+        "after": {
+          "self_mute": true,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        },
+        "channel_before_id": "1210798926794588191",
+        "channel_after_id": "1210798926794588191"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-05-29T20:02:50Z",
+      "bot": "server",
+      "category": "voice_state_changed",
+      "action": "voice_self_deaf",
+      "actor": {
+        "id": "917348821565075476",
+        "name": "atraxf2",
+        "discriminator": "0",
+        "global_name": "atrax",
+        "display_name": "atrax",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/embed/avatars/2.png",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2021-12-06T09:36:42.578000+00:00",
+        "joined_at": "2026-03-12T11:12:58.358000+00:00",
+        "roles": [
+          {
+            "id": "1490579498884665425",
+            "name": "*",
+            "position": 1,
+            "color": "#000000"
+          },
+          {
+            "id": "1306357759163498496",
+            "name": "English \ud83c\uddec\ud83c\udde7",
+            "position": 9,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764376676634684",
+            "name": "Invite Way",
+            "position": 20,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764975090438155",
+            "name": "Member",
+            "position": 22,
+            "color": "#ff0000"
+          },
+          {
+            "id": "1305277560086593546",
+            "name": "Manual Named Locations",
+            "position": 23,
+            "color": "#ff8000"
+          },
+          {
+            "id": "1210770102983856138",
+            "name": "Named Locations",
+            "position": 25,
+            "color": "#ff8000"
+          },
+          {
+            "id": "1210819996372959243",
+            "name": "Bronze (LVL 5)",
+            "position": 29,
+            "color": "#bfff00"
+          }
+        ],
+        "top_role": "Bronze (LVL 5)",
+        "guild_permissions": 5224864484865,
+        "voice": {
+          "self_mute": true,
+          "self_deaf": true,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        }
+      },
+      "target": null,
+      "details": {
+        "before": {
+          "self_mute": true,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        },
+        "after": {
+          "self_mute": true,
+          "self_deaf": true,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        },
+        "channel_before_id": "1210798926794588191",
+        "channel_after_id": "1210798926794588191"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-05-29T20:02:50Z",
+      "bot": "server",
+      "category": "voice_state_changed",
+      "action": "voice_self_undeaf",
+      "actor": {
+        "id": "917348821565075476",
+        "name": "atraxf2",
+        "discriminator": "0",
+        "global_name": "atrax",
+        "display_name": "atrax",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/embed/avatars/2.png",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2021-12-06T09:36:42.578000+00:00",
+        "joined_at": "2026-03-12T11:12:58.358000+00:00",
+        "roles": [
+          {
+            "id": "1490579498884665425",
+            "name": "*",
+            "position": 1,
+            "color": "#000000"
+          },
+          {
+            "id": "1306357759163498496",
+            "name": "English \ud83c\uddec\ud83c\udde7",
+            "position": 9,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764376676634684",
+            "name": "Invite Way",
+            "position": 20,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764975090438155",
+            "name": "Member",
+            "position": 22,
+            "color": "#ff0000"
+          },
+          {
+            "id": "1305277560086593546",
+            "name": "Manual Named Locations",
+            "position": 23,
+            "color": "#ff8000"
+          },
+          {
+            "id": "1210770102983856138",
+            "name": "Named Locations",
+            "position": 25,
+            "color": "#ff8000"
+          },
+          {
+            "id": "1210819996372959243",
+            "name": "Bronze (LVL 5)",
+            "position": 29,
+            "color": "#bfff00"
+          }
+        ],
+        "top_role": "Bronze (LVL 5)",
+        "guild_permissions": 5224864484865,
+        "voice": {
+          "self_mute": true,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        }
+      },
+      "target": null,
+      "details": {
+        "before": {
+          "self_mute": true,
+          "self_deaf": true,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        },
+        "after": {
+          "self_mute": true,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        },
+        "channel_before_id": "1210798926794588191",
+        "channel_after_id": "1210798926794588191"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-05-29T20:02:51Z",
+      "bot": "server",
+      "category": "voice_state_changed",
+      "action": "voice_self_deaf",
+      "actor": {
+        "id": "917348821565075476",
+        "name": "atraxf2",
+        "discriminator": "0",
+        "global_name": "atrax",
+        "display_name": "atrax",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/embed/avatars/2.png",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2021-12-06T09:36:42.578000+00:00",
+        "joined_at": "2026-03-12T11:12:58.358000+00:00",
+        "roles": [
+          {
+            "id": "1490579498884665425",
+            "name": "*",
+            "position": 1,
+            "color": "#000000"
+          },
+          {
+            "id": "1306357759163498496",
+            "name": "English \ud83c\uddec\ud83c\udde7",
+            "position": 9,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764376676634684",
+            "name": "Invite Way",
+            "position": 20,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764975090438155",
+            "name": "Member",
+            "position": 22,
+            "color": "#ff0000"
+          },
+          {
+            "id": "1305277560086593546",
+            "name": "Manual Named Locations",
+            "position": 23,
+            "color": "#ff8000"
+          },
+          {
+            "id": "1210770102983856138",
+            "name": "Named Locations",
+            "position": 25,
+            "color": "#ff8000"
+          },
+          {
+            "id": "1210819996372959243",
+            "name": "Bronze (LVL 5)",
+            "position": 29,
+            "color": "#bfff00"
+          }
+        ],
+        "top_role": "Bronze (LVL 5)",
+        "guild_permissions": 5224864484865,
+        "voice": {
+          "self_mute": true,
+          "self_deaf": true,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        }
+      },
+      "target": null,
+      "details": {
+        "before": {
+          "self_mute": true,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        },
+        "after": {
+          "self_mute": true,
+          "self_deaf": true,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        },
+        "channel_before_id": "1210798926794588191",
+        "channel_after_id": "1210798926794588191"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-05-29T20:02:53Z",
+      "bot": "server",
+      "category": "voice_state_changed",
+      "action": "voice_self_undeaf",
+      "actor": {
+        "id": "917348821565075476",
+        "name": "atraxf2",
+        "discriminator": "0",
+        "global_name": "atrax",
+        "display_name": "atrax",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/embed/avatars/2.png",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2021-12-06T09:36:42.578000+00:00",
+        "joined_at": "2026-03-12T11:12:58.358000+00:00",
+        "roles": [
+          {
+            "id": "1490579498884665425",
+            "name": "*",
+            "position": 1,
+            "color": "#000000"
+          },
+          {
+            "id": "1306357759163498496",
+            "name": "English \ud83c\uddec\ud83c\udde7",
+            "position": 9,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764376676634684",
+            "name": "Invite Way",
+            "position": 20,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764975090438155",
+            "name": "Member",
+            "position": 22,
+            "color": "#ff0000"
+          },
+          {
+            "id": "1305277560086593546",
+            "name": "Manual Named Locations",
+            "position": 23,
+            "color": "#ff8000"
+          },
+          {
+            "id": "1210770102983856138",
+            "name": "Named Locations",
+            "position": 25,
+            "color": "#ff8000"
+          },
+          {
+            "id": "1210819996372959243",
+            "name": "Bronze (LVL 5)",
+            "position": 29,
+            "color": "#bfff00"
+          }
+        ],
+        "top_role": "Bronze (LVL 5)",
+        "guild_permissions": 5224864484865,
+        "voice": {
+          "self_mute": true,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        }
+      },
+      "target": null,
+      "details": {
+        "before": {
+          "self_mute": true,
+          "self_deaf": true,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        },
+        "after": {
+          "self_mute": true,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        },
+        "channel_before_id": "1210798926794588191",
+        "channel_after_id": "1210798926794588191"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-05-29T20:03:37Z",
+      "bot": "server",
+      "category": "voice_state_changed",
+      "action": "voice_left",
+      "actor": {
+        "id": "917348821565075476",
+        "name": "atraxf2",
+        "discriminator": "0",
+        "global_name": "atrax",
+        "display_name": "atrax",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/embed/avatars/2.png",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2021-12-06T09:36:42.578000+00:00",
+        "joined_at": "2026-03-12T11:12:58.358000+00:00",
+        "roles": [
+          {
+            "id": "1490579498884665425",
+            "name": "*",
+            "position": 1,
+            "color": "#000000"
+          },
+          {
+            "id": "1306357759163498496",
+            "name": "English \ud83c\uddec\ud83c\udde7",
+            "position": 9,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764376676634684",
+            "name": "Invite Way",
+            "position": 20,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764975090438155",
+            "name": "Member",
+            "position": 22,
+            "color": "#ff0000"
+          },
+          {
+            "id": "1305277560086593546",
+            "name": "Manual Named Locations",
+            "position": 23,
+            "color": "#ff8000"
+          },
+          {
+            "id": "1210770102983856138",
+            "name": "Named Locations",
+            "position": 25,
+            "color": "#ff8000"
+          },
+          {
+            "id": "1210819996372959243",
+            "name": "Bronze (LVL 5)",
+            "position": 29,
+            "color": "#bfff00"
+          }
+        ],
+        "top_role": "Bronze (LVL 5)",
+        "guild_permissions": 5224864484865
+      },
+      "target": null,
+      "details": {
+        "before": {
+          "self_mute": true,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        },
+        "after": {
+          "self_mute": true,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "60887894e611ef3d3f2efa87b8563674"
+        },
+        "channel_before_id": "1210798926794588191",
+        "channel_after_id": null
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    }
+  ]
+}
