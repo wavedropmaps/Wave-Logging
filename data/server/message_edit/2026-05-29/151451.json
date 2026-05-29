@@ -1,0 +1,2724 @@
+{
+  "pushed_at": "2026-05-29T15:14:51Z",
+  "events": [
+    {
+      "timestamp": "2026-05-29T15:10:19Z",
+      "bot": "server",
+      "category": "message_edit",
+      "action": "raw_message_edited",
+      "actor": null,
+      "target": null,
+      "details": {
+        "message_id": "1503938772323008522",
+        "channel_id": "1503714231566991441",
+        "raw_data": {
+          "type": 0,
+          "tts": false,
+          "timestamp": "2026-05-13T01:55:45.153000+00:00",
+          "pinned": true,
+          "mentions": [],
+          "mention_roles": [],
+          "mention_everyone": false,
+          "member": {
+            "roles": [
+              "1411017609243267123",
+              "1491225386804314132"
+            ],
+            "premium_since": null,
+            "pending": false,
+            "nick": null,
+            "mute": false,
+            "joined_at": "2025-08-29T16:00:13.519000+00:00",
+            "flags": 0,
+            "deaf": false,
+            "communication_disabled_until": null,
+            "banner": null,
+            "avatar": null
+          },
+          "id": "1503938772323008522",
+          "flags": 0,
+          "embeds": [
+            {
+              "type": "rich",
+              "title": "\ud83d\udcca DM Queue \u2014 System Dashboard",
+              "timestamp": "2026-05-29T15:10:19.133929+00:00",
+              "id": "1509936943247397005",
+              "footer": {
+                "text": "Rendered by Wave Managem\u2026 \u2022 Refreshes every 30s \u2022 Pipeline: enqueue \u2192 pending \u2192 assigned \u2192 sending \u2192 sent \u2192 archive (24h)"
+              },
+              "fields": [
+                {
+                  "value": "\ud83d\udfe6 Pending: **0** *(awaiting assignment)*\n\ud83d\udfe8 Assigned: **0** *(bot picked up)*\n\ud83d\udfe7 Sending: **0** *(in transit)*\n\u2705 Sent: **89** *(awaiting archive)*\n\u274c Failed: **1** *(retryable)*\n\ud83d\udce6 Total active rows: **90**",
+                  "name": "\ud83d\udcec Active Queue",
+                  "inline": true
+                },
+                {
+                  "value": "Last 1h: **4** DMs\nLast 6h: **15** DMs\nLast 24h: **88** DMs\nUnique users (24h): **43**\nLifetime sent: **2,031** DMs\nRate: **0.1**/min",
+                  "name": "\u26a1 Throughput",
+                  "inline": true
+                },
+                {
+                  "value": "**Lifetime success:** 98.88%\n\u2709\ufe0f 2,031 sent / \ud83d\udeab 23 failed\n\u274c Failed (24h): **7**\n\n**Latency** *(enqueue \u2192 delivered, 24h)*\nAvg: **2.9s** \u2022 Min: 0.9s\nMax: 10s",
+                  "name": "\ud83d\udcc8 Reliability",
+                  "inline": true
+                },
+                {
+                  "value": "\ud83c\udfaf **53%** cross-bot \u2014 **Near-Perfect Balance**\n`\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591` 47/88 DMs shared\n\n*Cross-bot = DMs delivered by the OTHER bot, not the one that*\n*created them. 50% = perfect 50/50 sharing. 0% = no sharing.*\n\n**Wave Managem\u2026** created **86** DMs: \ud83d\udd04 41 self-sent \u2192 \u2194\ufe0f 45 load-shared (52%)\n**Wave Logisti\u2026** created **2** DMs: \ud83d\udd04 0 self-sent \u2192 \u2194\ufe0f 2 load-shared (100%)",
+                  "name": "\u2696\ufe0f Cross-Bot Load Sharing (24h)",
+                  "inline": false
+                },
+                {
+                  "value": "\ud83d\udfe2 Online (6s ago)\n**Capacity:** \u2705 Ready\n**Last send:** 5m ago\n**Rate window:** 2/5 *(5min rolling)*\n**Sourced:** 86 *(DMs created by this bot)*\n**Delivered:** 43 *(DMs sent out by this bot)*",
+                  "name": "\ud83e\udd16 Wave Managem\u2026",
+                  "inline": true
+                },
+                {
+                  "value": "\ud83d\udfe2 Online (1s ago)\n**Capacity:** \u2705 Ready\n**Last send:** 10m ago\n**Rate window:** 0/5 *(5min rolling)*\n**Sourced:** 2 *(DMs created by this bot)*\n**Delivered:** 45 *(DMs sent out by this bot)*",
+                  "name": "\ud83e\udd16 Wave Logisti\u2026",
+                  "inline": true
+                },
+                {
+                  "value": "\u2709\ufe0f Sent: **1,942**\n\ud83d\udeab DMs disabled: **23**\n\ud83d\udc7b Not found: **0**\n\u267b\ufe0f Max retries: **0**\n\u2753 Other: **0**\n\ud83d\udcc1 Total failed: **23**",
+                  "name": "\ud83d\uddc4\ufe0f Archive (lifetime)",
+                  "inline": true
+                },
+                {
+                  "value": "\ud83d\udfe2 Armed: **81** *(active, \u226448h)*\n\u231b Expired: **132** *(pending cleanup)*\n\n*When staff replies via reply\\_dm\\_duty, a sticky note is armed for that user. If the user DMs back within 48h, the auto-reply fires with the proof channel link and the note is wiped. Notes expire after 48h and are cleaned up every 6h.*",
+                  "name": "\ud83d\udcdd Sticky Notes",
+                  "inline": true
+                },
+                {
+                  "value": "\u2705 `#2078` Wave Managem\u2026\u2192Wave Managem\u2026 u:230134 \u2022 5m\n\u2705 `#2077` Wave Managem\u2026\u2192Wave Managem\u2026 u:230134 \u2022 5m\n\u2705 `#2076` Wave Managem\u2026\u2192Wave Logisti\u2026 u:571752 \u2022 10m\n\u2705 `#2075` Wave Managem\u2026\u2192Wave Managem\u2026 u:269747 \u2022 18m\n\u2705 `#2074` Wave Managem\u2026\u2192Wave Logisti\u2026 u:505420 \u2022 1.3h\n\u2705 `#2073` Wave Managem\u2026\u2192Wave Managem\u2026 u:163904 \u2022 1.6h\n\u2705 `#2072` Wave Managem\u2026\u2192Wave Logisti\u2026 u:265846 \u2022 1.6h\n\u2705 `#2071` Wave Managem\u2026\u2192Wave Managem\u2026 u:476679 \u2022 2.4h\n\u2705 `#2070` Wave Managem\u2026\u2192Wave Logisti\u2026 u:269747 \u2022 5.4h\n\u2705 `#2069` Wave Managem\u2026\u2192Wave Managem\u2026 u:328194 \u2022 5.7h",
+                  "name": "\ud83d\udd50 Recent Activity (last 10)",
+                  "inline": false
+                }
+              ],
+              "description": "\ud83d\udfe2 **All Systems Operational**\n\nShared DM queue between both bots. Every outgoing DM from any cog is intercepted and inserted into a shared SQLite database. A coordinator loop assigns each DM to whichever bot has capacity, enabling automatic load balancing. The worker loop on each bot picks up its assigned DMs and delivers them.\n\n\ud83d\udccb `dm_shared_queue.db` \u2022 Bots online: **2/2** \u2022 Refreshes every 30s",
+              "content_scan_version": 0,
+              "color": 3066993
+            }
+          ],
+          "edited_timestamp": "2026-05-29T15:10:20.536956+00:00",
+          "content": "",
+          "components": [
+            {
+              "type": 1,
+              "id": 1,
+              "components": [
+                {
+                  "type": 2,
+                  "style": 4,
+                  "label": "Retry Transient",
+                  "id": 2,
+                  "emoji": {
+                    "name": "\ud83d\udd04"
+                  },
+                  "custom_id": "dmq:retry_failed"
+                },
+                {
+                  "type": 2,
+                  "style": 2,
+                  "label": "Clear Active Queue",
+                  "id": 3,
+                  "emoji": {
+                    "name": "\ud83d\uddd1\ufe0f"
+                  },
+                  "custom_id": "dmq:clear_db"
+                },
+                {
+                  "type": 2,
+                  "style": 1,
+                  "label": "Bypass Rate Limit",
+                  "id": 4,
+                  "emoji": {
+                    "name": "\u26a1"
+                  },
+                  "custom_id": "dmq:bypass_ratelimit"
+                },
+                {
+                  "type": 2,
+                  "style": 3,
+                  "label": "Force Send",
+                  "id": 5,
+                  "emoji": {
+                    "name": "\ud83d\udce4"
+                  },
+                  "custom_id": "dmq:force_send"
+                }
+              ]
+            }
+          ],
+          "channel_type": 0,
+          "channel_id": "1503714231566991441",
+          "author": {
+            "username": "Wave Management Bot",
+            "public_flags": 0,
+            "primary_guild": null,
+            "id": "1269188273201352768",
+            "global_name": null,
+            "display_name_styles": null,
+            "discriminator": "0661",
+            "collectibles": null,
+            "clan": null,
+            "bot": true,
+            "avatar_decoration_data": null,
+            "avatar": "9de09747d6811795ca52df1b01550d16"
+          },
+          "attachments": [],
+          "guild_id": "1041450125391835186"
+        },
+        "note": "message was not in cache \u2014 only fields in raw_data available"
+      },
+      "guild_id": "1041450125391835186",
+      "guild_name": "WAVE Drop Map Staff Hub"
+    },
+    {
+      "timestamp": "2026-05-29T15:10:51Z",
+      "bot": "server",
+      "category": "message_edit",
+      "action": "raw_message_edited",
+      "actor": null,
+      "target": null,
+      "details": {
+        "message_id": "1503938772323008522",
+        "channel_id": "1503714231566991441",
+        "raw_data": {
+          "type": 0,
+          "tts": false,
+          "timestamp": "2026-05-13T01:55:45.153000+00:00",
+          "pinned": true,
+          "mentions": [],
+          "mention_roles": [],
+          "mention_everyone": false,
+          "member": {
+            "roles": [
+              "1411017609243267123",
+              "1491225386804314132"
+            ],
+            "premium_since": null,
+            "pending": false,
+            "nick": null,
+            "mute": false,
+            "joined_at": "2025-08-29T16:00:13.519000+00:00",
+            "flags": 0,
+            "deaf": false,
+            "communication_disabled_until": null,
+            "banner": null,
+            "avatar": null
+          },
+          "id": "1503938772323008522",
+          "flags": 0,
+          "embeds": [
+            {
+              "type": "rich",
+              "title": "\ud83d\udcca DM Queue \u2014 System Dashboard",
+              "timestamp": "2026-05-29T15:10:50.190857+00:00",
+              "id": "1509937073862217962",
+              "footer": {
+                "text": "Rendered by Wave Managem\u2026 \u2022 Refreshes every 30s \u2022 Pipeline: enqueue \u2192 pending \u2192 assigned \u2192 sending \u2192 sent \u2192 archive (24h)"
+              },
+              "fields": [
+                {
+                  "value": "\ud83d\udfe6 Pending: **0** *(awaiting assignment)*\n\ud83d\udfe8 Assigned: **0** *(bot picked up)*\n\ud83d\udfe7 Sending: **0** *(in transit)*\n\u2705 Sent: **89** *(awaiting archive)*\n\u274c Failed: **1** *(retryable)*\n\ud83d\udce6 Total active rows: **90**",
+                  "name": "\ud83d\udcec Active Queue",
+                  "inline": true
+                },
+                {
+                  "value": "Last 1h: **4** DMs\nLast 6h: **15** DMs\nLast 24h: **88** DMs\nUnique users (24h): **43**\nLifetime sent: **2,031** DMs\nRate: **0.1**/min",
+                  "name": "\u26a1 Throughput",
+                  "inline": true
+                },
+                {
+                  "value": "**Lifetime success:** 98.88%\n\u2709\ufe0f 2,031 sent / \ud83d\udeab 23 failed\n\u274c Failed (24h): **7**\n\n**Latency** *(enqueue \u2192 delivered, 24h)*\nAvg: **2.9s** \u2022 Min: 0.9s\nMax: 10s",
+                  "name": "\ud83d\udcc8 Reliability",
+                  "inline": true
+                },
+                {
+                  "value": "\ud83c\udfaf **53%** cross-bot \u2014 **Near-Perfect Balance**\n`\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591` 47/88 DMs shared\n\n*Cross-bot = DMs delivered by the OTHER bot, not the one that*\n*created them. 50% = perfect 50/50 sharing. 0% = no sharing.*\n\n**Wave Managem\u2026** created **86** DMs: \ud83d\udd04 41 self-sent \u2192 \u2194\ufe0f 45 load-shared (52%)\n**Wave Logisti\u2026** created **2** DMs: \ud83d\udd04 0 self-sent \u2192 \u2194\ufe0f 2 load-shared (100%)",
+                  "name": "\u2696\ufe0f Cross-Bot Load Sharing (24h)",
+                  "inline": false
+                },
+                {
+                  "value": "\ud83d\udfe2 Online (1s ago)\n**Capacity:** \u2705 Ready\n**Last send:** 5m ago\n**Rate window:** 0/5 *(5min rolling)*\n**Sourced:** 86 *(DMs created by this bot)*\n**Delivered:** 43 *(DMs sent out by this bot)*",
+                  "name": "\ud83e\udd16 Wave Managem\u2026",
+                  "inline": true
+                },
+                {
+                  "value": "\ud83d\udfe2 Online (1s ago)\n**Capacity:** \u2705 Ready\n**Last send:** 11m ago\n**Rate window:** 0/5 *(5min rolling)*\n**Sourced:** 2 *(DMs created by this bot)*\n**Delivered:** 45 *(DMs sent out by this bot)*",
+                  "name": "\ud83e\udd16 Wave Logisti\u2026",
+                  "inline": true
+                },
+                {
+                  "value": "\u2709\ufe0f Sent: **1,942**\n\ud83d\udeab DMs disabled: **23**\n\ud83d\udc7b Not found: **0**\n\u267b\ufe0f Max retries: **0**\n\u2753 Other: **0**\n\ud83d\udcc1 Total failed: **23**",
+                  "name": "\ud83d\uddc4\ufe0f Archive (lifetime)",
+                  "inline": true
+                },
+                {
+                  "value": "\ud83d\udfe2 Armed: **81** *(active, \u226448h)*\n\u231b Expired: **132** *(pending cleanup)*\n\n*When staff replies via reply\\_dm\\_duty, a sticky note is armed for that user. If the user DMs back within 48h, the auto-reply fires with the proof channel link and the note is wiped. Notes expire after 48h and are cleaned up every 6h.*",
+                  "name": "\ud83d\udcdd Sticky Notes",
+                  "inline": true
+                },
+                {
+                  "value": "\u2705 `#2078` Wave Managem\u2026\u2192Wave Managem\u2026 u:230134 \u2022 5m\n\u2705 `#2077` Wave Managem\u2026\u2192Wave Managem\u2026 u:230134 \u2022 6m\n\u2705 `#2076` Wave Managem\u2026\u2192Wave Logisti\u2026 u:571752 \u2022 11m\n\u2705 `#2075` Wave Managem\u2026\u2192Wave Managem\u2026 u:269747 \u2022 19m\n\u2705 `#2074` Wave Managem\u2026\u2192Wave Logisti\u2026 u:505420 \u2022 1.4h\n\u2705 `#2073` Wave Managem\u2026\u2192Wave Managem\u2026 u:163904 \u2022 1.6h\n\u2705 `#2072` Wave Managem\u2026\u2192Wave Logisti\u2026 u:265846 \u2022 1.6h\n\u2705 `#2071` Wave Managem\u2026\u2192Wave Managem\u2026 u:476679 \u2022 2.4h\n\u2705 `#2070` Wave Managem\u2026\u2192Wave Logisti\u2026 u:269747 \u2022 5.4h\n\u2705 `#2069` Wave Managem\u2026\u2192Wave Managem\u2026 u:328194 \u2022 5.7h",
+                  "name": "\ud83d\udd50 Recent Activity (last 10)",
+                  "inline": false
+                }
+              ],
+              "description": "\ud83d\udfe2 **All Systems Operational**\n\nShared DM queue between both bots. Every outgoing DM from any cog is intercepted and inserted into a shared SQLite database. A coordinator loop assigns each DM to whichever bot has capacity, enabling automatic load balancing. The worker loop on each bot picks up its assigned DMs and delivers them.\n\n\ud83d\udccb `dm_shared_queue.db` \u2022 Bots online: **2/2** \u2022 Refreshes every 30s",
+              "content_scan_version": 0,
+              "color": 3066993
+            }
+          ],
+          "edited_timestamp": "2026-05-29T15:10:51.758963+00:00",
+          "content": "",
+          "components": [
+            {
+              "type": 1,
+              "id": 1,
+              "components": [
+                {
+                  "type": 2,
+                  "style": 4,
+                  "label": "Retry Transient",
+                  "id": 2,
+                  "emoji": {
+                    "name": "\ud83d\udd04"
+                  },
+                  "custom_id": "dmq:retry_failed"
+                },
+                {
+                  "type": 2,
+                  "style": 2,
+                  "label": "Clear Active Queue",
+                  "id": 3,
+                  "emoji": {
+                    "name": "\ud83d\uddd1\ufe0f"
+                  },
+                  "custom_id": "dmq:clear_db"
+                },
+                {
+                  "type": 2,
+                  "style": 1,
+                  "label": "Bypass Rate Limit",
+                  "id": 4,
+                  "emoji": {
+                    "name": "\u26a1"
+                  },
+                  "custom_id": "dmq:bypass_ratelimit"
+                },
+                {
+                  "type": 2,
+                  "style": 3,
+                  "label": "Force Send",
+                  "id": 5,
+                  "emoji": {
+                    "name": "\ud83d\udce4"
+                  },
+                  "custom_id": "dmq:force_send"
+                }
+              ]
+            }
+          ],
+          "channel_type": 0,
+          "channel_id": "1503714231566991441",
+          "author": {
+            "username": "Wave Management Bot",
+            "public_flags": 0,
+            "primary_guild": null,
+            "id": "1269188273201352768",
+            "global_name": null,
+            "display_name_styles": null,
+            "discriminator": "0661",
+            "collectibles": null,
+            "clan": null,
+            "bot": true,
+            "avatar_decoration_data": null,
+            "avatar": "9de09747d6811795ca52df1b01550d16"
+          },
+          "attachments": [],
+          "guild_id": "1041450125391835186"
+        },
+        "note": "message was not in cache \u2014 only fields in raw_data available"
+      },
+      "guild_id": "1041450125391835186",
+      "guild_name": "WAVE Drop Map Staff Hub"
+    },
+    {
+      "timestamp": "2026-05-29T15:11:22Z",
+      "bot": "server",
+      "category": "message_edit",
+      "action": "raw_message_edited",
+      "actor": null,
+      "target": null,
+      "details": {
+        "message_id": "1503938772323008522",
+        "channel_id": "1503714231566991441",
+        "raw_data": {
+          "type": 0,
+          "tts": false,
+          "timestamp": "2026-05-13T01:55:45.153000+00:00",
+          "pinned": true,
+          "mentions": [],
+          "mention_roles": [],
+          "mention_everyone": false,
+          "member": {
+            "roles": [
+              "1411017609243267123",
+              "1491225386804314132"
+            ],
+            "premium_since": null,
+            "pending": false,
+            "nick": null,
+            "mute": false,
+            "joined_at": "2025-08-29T16:00:13.519000+00:00",
+            "flags": 0,
+            "deaf": false,
+            "communication_disabled_until": null,
+            "banner": null,
+            "avatar": null
+          },
+          "id": "1503938772323008522",
+          "flags": 0,
+          "embeds": [
+            {
+              "type": "rich",
+              "title": "\ud83d\udcca DM Queue \u2014 System Dashboard",
+              "timestamp": "2026-05-29T15:11:21.495795+00:00",
+              "id": "1509937204816908349",
+              "footer": {
+                "text": "Rendered by Wave Managem\u2026 \u2022 Refreshes every 30s \u2022 Pipeline: enqueue \u2192 pending \u2192 assigned \u2192 sending \u2192 sent \u2192 archive (24h)"
+              },
+              "fields": [
+                {
+                  "value": "\ud83d\udfe6 Pending: **0** *(awaiting assignment)*\n\ud83d\udfe8 Assigned: **0** *(bot picked up)*\n\ud83d\udfe7 Sending: **0** *(in transit)*\n\u2705 Sent: **89** *(awaiting archive)*\n\u274c Failed: **1** *(retryable)*\n\ud83d\udce6 Total active rows: **90**",
+                  "name": "\ud83d\udcec Active Queue",
+                  "inline": true
+                },
+                {
+                  "value": "Last 1h: **4** DMs\nLast 6h: **15** DMs\nLast 24h: **88** DMs\nUnique users (24h): **43**\nLifetime sent: **2,031** DMs\nRate: **0.1**/min",
+                  "name": "\u26a1 Throughput",
+                  "inline": true
+                },
+                {
+                  "value": "**Lifetime success:** 98.88%\n\u2709\ufe0f 2,031 sent / \ud83d\udeab 23 failed\n\u274c Failed (24h): **7**\n\n**Latency** *(enqueue \u2192 delivered, 24h)*\nAvg: **2.9s** \u2022 Min: 0.9s\nMax: 10s",
+                  "name": "\ud83d\udcc8 Reliability",
+                  "inline": true
+                },
+                {
+                  "value": "\ud83c\udfaf **53%** cross-bot \u2014 **Near-Perfect Balance**\n`\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591` 47/88 DMs shared\n\n*Cross-bot = DMs delivered by the OTHER bot, not the one that*\n*created them. 50% = perfect 50/50 sharing. 0% = no sharing.*\n\n**Wave Managem\u2026** created **86** DMs: \ud83d\udd04 41 self-sent \u2192 \u2194\ufe0f 45 load-shared (52%)\n**Wave Logisti\u2026** created **2** DMs: \ud83d\udd04 0 self-sent \u2192 \u2194\ufe0f 2 load-shared (100%)",
+                  "name": "\u2696\ufe0f Cross-Bot Load Sharing (24h)",
+                  "inline": false
+                },
+                {
+                  "value": "\ud83d\udfe2 Online (2s ago)\n**Capacity:** \u2705 Ready\n**Last send:** 6m ago\n**Rate window:** 0/5 *(5min rolling)*\n**Sourced:** 86 *(DMs created by this bot)*\n**Delivered:** 43 *(DMs sent out by this bot)*",
+                  "name": "\ud83e\udd16 Wave Managem\u2026",
+                  "inline": true
+                },
+                {
+                  "value": "\ud83d\udfe2 Online (2s ago)\n**Capacity:** \u2705 Ready\n**Last send:** 11m ago\n**Rate window:** 0/5 *(5min rolling)*\n**Sourced:** 2 *(DMs created by this bot)*\n**Delivered:** 45 *(DMs sent out by this bot)*",
+                  "name": "\ud83e\udd16 Wave Logisti\u2026",
+                  "inline": true
+                },
+                {
+                  "value": "\u2709\ufe0f Sent: **1,942**\n\ud83d\udeab DMs disabled: **23**\n\ud83d\udc7b Not found: **0**\n\u267b\ufe0f Max retries: **0**\n\u2753 Other: **0**\n\ud83d\udcc1 Total failed: **23**",
+                  "name": "\ud83d\uddc4\ufe0f Archive (lifetime)",
+                  "inline": true
+                },
+                {
+                  "value": "\ud83d\udfe2 Armed: **81** *(active, \u226448h)*\n\u231b Expired: **132** *(pending cleanup)*\n\n*When staff replies via reply\\_dm\\_duty, a sticky note is armed for that user. If the user DMs back within 48h, the auto-reply fires with the proof channel link and the note is wiped. Notes expire after 48h and are cleaned up every 6h.*",
+                  "name": "\ud83d\udcdd Sticky Notes",
+                  "inline": true
+                },
+                {
+                  "value": "\u2705 `#2078` Wave Managem\u2026\u2192Wave Managem\u2026 u:230134 \u2022 6m\n\u2705 `#2077` Wave Managem\u2026\u2192Wave Managem\u2026 u:230134 \u2022 6m\n\u2705 `#2076` Wave Managem\u2026\u2192Wave Logisti\u2026 u:571752 \u2022 11m\n\u2705 `#2075` Wave Managem\u2026\u2192Wave Managem\u2026 u:269747 \u2022 19m\n\u2705 `#2074` Wave Managem\u2026\u2192Wave Logisti\u2026 u:505420 \u2022 1.4h\n\u2705 `#2073` Wave Managem\u2026\u2192Wave Managem\u2026 u:163904 \u2022 1.6h\n\u2705 `#2072` Wave Managem\u2026\u2192Wave Logisti\u2026 u:265846 \u2022 1.6h\n\u2705 `#2071` Wave Managem\u2026\u2192Wave Managem\u2026 u:476679 \u2022 2.4h\n\u2705 `#2070` Wave Managem\u2026\u2192Wave Logisti\u2026 u:269747 \u2022 5.4h\n\u2705 `#2069` Wave Managem\u2026\u2192Wave Managem\u2026 u:328194 \u2022 5.7h",
+                  "name": "\ud83d\udd50 Recent Activity (last 10)",
+                  "inline": false
+                }
+              ],
+              "description": "\ud83d\udfe2 **All Systems Operational**\n\nShared DM queue between both bots. Every outgoing DM from any cog is intercepted and inserted into a shared SQLite database. A coordinator loop assigns each DM to whichever bot has capacity, enabling automatic load balancing. The worker loop on each bot picks up its assigned DMs and delivers them.\n\n\ud83d\udccb `dm_shared_queue.db` \u2022 Bots online: **2/2** \u2022 Refreshes every 30s",
+              "content_scan_version": 0,
+              "color": 3066993
+            }
+          ],
+          "edited_timestamp": "2026-05-29T15:11:22.901732+00:00",
+          "content": "",
+          "components": [
+            {
+              "type": 1,
+              "id": 1,
+              "components": [
+                {
+                  "type": 2,
+                  "style": 4,
+                  "label": "Retry Transient",
+                  "id": 2,
+                  "emoji": {
+                    "name": "\ud83d\udd04"
+                  },
+                  "custom_id": "dmq:retry_failed"
+                },
+                {
+                  "type": 2,
+                  "style": 2,
+                  "label": "Clear Active Queue",
+                  "id": 3,
+                  "emoji": {
+                    "name": "\ud83d\uddd1\ufe0f"
+                  },
+                  "custom_id": "dmq:clear_db"
+                },
+                {
+                  "type": 2,
+                  "style": 1,
+                  "label": "Bypass Rate Limit",
+                  "id": 4,
+                  "emoji": {
+                    "name": "\u26a1"
+                  },
+                  "custom_id": "dmq:bypass_ratelimit"
+                },
+                {
+                  "type": 2,
+                  "style": 3,
+                  "label": "Force Send",
+                  "id": 5,
+                  "emoji": {
+                    "name": "\ud83d\udce4"
+                  },
+                  "custom_id": "dmq:force_send"
+                }
+              ]
+            }
+          ],
+          "channel_type": 0,
+          "channel_id": "1503714231566991441",
+          "author": {
+            "username": "Wave Management Bot",
+            "public_flags": 0,
+            "primary_guild": null,
+            "id": "1269188273201352768",
+            "global_name": null,
+            "display_name_styles": null,
+            "discriminator": "0661",
+            "collectibles": null,
+            "clan": null,
+            "bot": true,
+            "avatar_decoration_data": null,
+            "avatar": "9de09747d6811795ca52df1b01550d16"
+          },
+          "attachments": [],
+          "guild_id": "1041450125391835186"
+        },
+        "note": "message was not in cache \u2014 only fields in raw_data available"
+      },
+      "guild_id": "1041450125391835186",
+      "guild_name": "WAVE Drop Map Staff Hub"
+    },
+    {
+      "timestamp": "2026-05-29T15:11:53Z",
+      "bot": "server",
+      "category": "message_edit",
+      "action": "raw_message_edited",
+      "actor": null,
+      "target": null,
+      "details": {
+        "message_id": "1503938772323008522",
+        "channel_id": "1503714231566991441",
+        "raw_data": {
+          "type": 0,
+          "tts": false,
+          "timestamp": "2026-05-13T01:55:45.153000+00:00",
+          "pinned": true,
+          "mentions": [],
+          "mention_roles": [],
+          "mention_everyone": false,
+          "member": {
+            "roles": [
+              "1411017609243267123",
+              "1491225386804314132"
+            ],
+            "premium_since": null,
+            "pending": false,
+            "nick": null,
+            "mute": false,
+            "joined_at": "2025-08-29T16:00:13.519000+00:00",
+            "flags": 0,
+            "deaf": false,
+            "communication_disabled_until": null,
+            "banner": null,
+            "avatar": null
+          },
+          "id": "1503938772323008522",
+          "flags": 0,
+          "embeds": [
+            {
+              "type": "rich",
+              "title": "\ud83d\udcca DM Queue \u2014 System Dashboard",
+              "timestamp": "2026-05-29T15:11:52.567274+00:00",
+              "id": "1509937335293317281",
+              "footer": {
+                "text": "Rendered by Wave Managem\u2026 \u2022 Refreshes every 30s \u2022 Pipeline: enqueue \u2192 pending \u2192 assigned \u2192 sending \u2192 sent \u2192 archive (24h)"
+              },
+              "fields": [
+                {
+                  "value": "\ud83d\udfe6 Pending: **0** *(awaiting assignment)*\n\ud83d\udfe8 Assigned: **0** *(bot picked up)*\n\ud83d\udfe7 Sending: **0** *(in transit)*\n\u2705 Sent: **89** *(awaiting archive)*\n\u274c Failed: **1** *(retryable)*\n\ud83d\udce6 Total active rows: **90**",
+                  "name": "\ud83d\udcec Active Queue",
+                  "inline": true
+                },
+                {
+                  "value": "Last 1h: **4** DMs\nLast 6h: **15** DMs\nLast 24h: **88** DMs\nUnique users (24h): **43**\nLifetime sent: **2,031** DMs\nRate: **0.1**/min",
+                  "name": "\u26a1 Throughput",
+                  "inline": true
+                },
+                {
+                  "value": "**Lifetime success:** 98.88%\n\u2709\ufe0f 2,031 sent / \ud83d\udeab 23 failed\n\u274c Failed (24h): **7**\n\n**Latency** *(enqueue \u2192 delivered, 24h)*\nAvg: **2.9s** \u2022 Min: 0.9s\nMax: 10s",
+                  "name": "\ud83d\udcc8 Reliability",
+                  "inline": true
+                },
+                {
+                  "value": "\ud83c\udfaf **53%** cross-bot \u2014 **Near-Perfect Balance**\n`\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591` 47/88 DMs shared\n\n*Cross-bot = DMs delivered by the OTHER bot, not the one that*\n*created them. 50% = perfect 50/50 sharing. 0% = no sharing.*\n\n**Wave Managem\u2026** created **86** DMs: \ud83d\udd04 41 self-sent \u2192 \u2194\ufe0f 45 load-shared (52%)\n**Wave Logisti\u2026** created **2** DMs: \ud83d\udd04 0 self-sent \u2192 \u2194\ufe0f 2 load-shared (100%)",
+                  "name": "\u2696\ufe0f Cross-Bot Load Sharing (24h)",
+                  "inline": false
+                },
+                {
+                  "value": "\ud83d\udfe2 Online (3s ago)\n**Capacity:** \u2705 Ready\n**Last send:** 6m ago\n**Rate window:** 0/5 *(5min rolling)*\n**Sourced:** 86 *(DMs created by this bot)*\n**Delivered:** 43 *(DMs sent out by this bot)*",
+                  "name": "\ud83e\udd16 Wave Managem\u2026",
+                  "inline": true
+                },
+                {
+                  "value": "\ud83d\udfe2 Online (3s ago)\n**Capacity:** \u2705 Ready\n**Last send:** 12m ago\n**Rate window:** 0/5 *(5min rolling)*\n**Sourced:** 2 *(DMs created by this bot)*\n**Delivered:** 45 *(DMs sent out by this bot)*",
+                  "name": "\ud83e\udd16 Wave Logisti\u2026",
+                  "inline": true
+                },
+                {
+                  "value": "\u2709\ufe0f Sent: **1,942**\n\ud83d\udeab DMs disabled: **23**\n\ud83d\udc7b Not found: **0**\n\u267b\ufe0f Max retries: **0**\n\u2753 Other: **0**\n\ud83d\udcc1 Total failed: **23**",
+                  "name": "\ud83d\uddc4\ufe0f Archive (lifetime)",
+                  "inline": true
+                },
+                {
+                  "value": "\ud83d\udfe2 Armed: **81** *(active, \u226448h)*\n\u231b Expired: **132** *(pending cleanup)*\n\n*When staff replies via reply\\_dm\\_duty, a sticky note is armed for that user. If the user DMs back within 48h, the auto-reply fires with the proof channel link and the note is wiped. Notes expire after 48h and are cleaned up every 6h.*",
+                  "name": "\ud83d\udcdd Sticky Notes",
+                  "inline": true
+                },
+                {
+                  "value": "\u2705 `#2078` Wave Managem\u2026\u2192Wave Managem\u2026 u:230134 \u2022 6m\n\u2705 `#2077` Wave Managem\u2026\u2192Wave Managem\u2026 u:230134 \u2022 7m\n\u2705 `#2076` Wave Managem\u2026\u2192Wave Logisti\u2026 u:571752 \u2022 12m\n\u2705 `#2075` Wave Managem\u2026\u2192Wave Managem\u2026 u:269747 \u2022 20m\n\u2705 `#2074` Wave Managem\u2026\u2192Wave Logisti\u2026 u:505420 \u2022 1.4h\n\u2705 `#2073` Wave Managem\u2026\u2192Wave Managem\u2026 u:163904 \u2022 1.6h\n\u2705 `#2072` Wave Managem\u2026\u2192Wave Logisti\u2026 u:265846 \u2022 1.6h\n\u2705 `#2071` Wave Managem\u2026\u2192Wave Managem\u2026 u:476679 \u2022 2.4h\n\u2705 `#2070` Wave Managem\u2026\u2192Wave Logisti\u2026 u:269747 \u2022 5.4h\n\u2705 `#2069` Wave Managem\u2026\u2192Wave Managem\u2026 u:328194 \u2022 5.7h",
+                  "name": "\ud83d\udd50 Recent Activity (last 10)",
+                  "inline": false
+                }
+              ],
+              "description": "\ud83d\udfe2 **All Systems Operational**\n\nShared DM queue between both bots. Every outgoing DM from any cog is intercepted and inserted into a shared SQLite database. A coordinator loop assigns each DM to whichever bot has capacity, enabling automatic load balancing. The worker loop on each bot picks up its assigned DMs and delivers them.\n\n\ud83d\udccb `dm_shared_queue.db` \u2022 Bots online: **2/2** \u2022 Refreshes every 30s",
+              "content_scan_version": 0,
+              "color": 3066993
+            }
+          ],
+          "edited_timestamp": "2026-05-29T15:11:54.010089+00:00",
+          "content": "",
+          "components": [
+            {
+              "type": 1,
+              "id": 1,
+              "components": [
+                {
+                  "type": 2,
+                  "style": 4,
+                  "label": "Retry Transient",
+                  "id": 2,
+                  "emoji": {
+                    "name": "\ud83d\udd04"
+                  },
+                  "custom_id": "dmq:retry_failed"
+                },
+                {
+                  "type": 2,
+                  "style": 2,
+                  "label": "Clear Active Queue",
+                  "id": 3,
+                  "emoji": {
+                    "name": "\ud83d\uddd1\ufe0f"
+                  },
+                  "custom_id": "dmq:clear_db"
+                },
+                {
+                  "type": 2,
+                  "style": 1,
+                  "label": "Bypass Rate Limit",
+                  "id": 4,
+                  "emoji": {
+                    "name": "\u26a1"
+                  },
+                  "custom_id": "dmq:bypass_ratelimit"
+                },
+                {
+                  "type": 2,
+                  "style": 3,
+                  "label": "Force Send",
+                  "id": 5,
+                  "emoji": {
+                    "name": "\ud83d\udce4"
+                  },
+                  "custom_id": "dmq:force_send"
+                }
+              ]
+            }
+          ],
+          "channel_type": 0,
+          "channel_id": "1503714231566991441",
+          "author": {
+            "username": "Wave Management Bot",
+            "public_flags": 0,
+            "primary_guild": null,
+            "id": "1269188273201352768",
+            "global_name": null,
+            "display_name_styles": null,
+            "discriminator": "0661",
+            "collectibles": null,
+            "clan": null,
+            "bot": true,
+            "avatar_decoration_data": null,
+            "avatar": "9de09747d6811795ca52df1b01550d16"
+          },
+          "attachments": [],
+          "guild_id": "1041450125391835186"
+        },
+        "note": "message was not in cache \u2014 only fields in raw_data available"
+      },
+      "guild_id": "1041450125391835186",
+      "guild_name": "WAVE Drop Map Staff Hub"
+    },
+    {
+      "timestamp": "2026-05-29T15:12:24Z",
+      "bot": "server",
+      "category": "message_edit",
+      "action": "raw_message_edited",
+      "actor": null,
+      "target": null,
+      "details": {
+        "message_id": "1503938772323008522",
+        "channel_id": "1503714231566991441",
+        "raw_data": {
+          "type": 0,
+          "tts": false,
+          "timestamp": "2026-05-13T01:55:45.153000+00:00",
+          "pinned": true,
+          "mentions": [],
+          "mention_roles": [],
+          "mention_everyone": false,
+          "member": {
+            "roles": [
+              "1411017609243267123",
+              "1491225386804314132"
+            ],
+            "premium_since": null,
+            "pending": false,
+            "nick": null,
+            "mute": false,
+            "joined_at": "2025-08-29T16:00:13.519000+00:00",
+            "flags": 0,
+            "deaf": false,
+            "communication_disabled_until": null,
+            "banner": null,
+            "avatar": null
+          },
+          "id": "1503938772323008522",
+          "flags": 0,
+          "embeds": [
+            {
+              "type": "rich",
+              "title": "\ud83d\udcca DM Queue \u2014 System Dashboard",
+              "timestamp": "2026-05-29T15:12:23.661224+00:00",
+              "id": "1509937465429852201",
+              "footer": {
+                "text": "Rendered by Wave Managem\u2026 \u2022 Refreshes every 30s \u2022 Pipeline: enqueue \u2192 pending \u2192 assigned \u2192 sending \u2192 sent \u2192 archive (24h)"
+              },
+              "fields": [
+                {
+                  "value": "\ud83d\udfe6 Pending: **0** *(awaiting assignment)*\n\ud83d\udfe8 Assigned: **0** *(bot picked up)*\n\ud83d\udfe7 Sending: **0** *(in transit)*\n\u2705 Sent: **89** *(awaiting archive)*\n\u274c Failed: **1** *(retryable)*\n\ud83d\udce6 Total active rows: **90**",
+                  "name": "\ud83d\udcec Active Queue",
+                  "inline": true
+                },
+                {
+                  "value": "Last 1h: **4** DMs\nLast 6h: **15** DMs\nLast 24h: **88** DMs\nUnique users (24h): **43**\nLifetime sent: **2,031** DMs\nRate: **0.1**/min",
+                  "name": "\u26a1 Throughput",
+                  "inline": true
+                },
+                {
+                  "value": "**Lifetime success:** 98.88%\n\u2709\ufe0f 2,031 sent / \ud83d\udeab 23 failed\n\u274c Failed (24h): **7**\n\n**Latency** *(enqueue \u2192 delivered, 24h)*\nAvg: **2.9s** \u2022 Min: 0.9s\nMax: 10s",
+                  "name": "\ud83d\udcc8 Reliability",
+                  "inline": true
+                },
+                {
+                  "value": "\ud83c\udfaf **53%** cross-bot \u2014 **Near-Perfect Balance**\n`\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591` 47/88 DMs shared\n\n*Cross-bot = DMs delivered by the OTHER bot, not the one that*\n*created them. 50% = perfect 50/50 sharing. 0% = no sharing.*\n\n**Wave Managem\u2026** created **86** DMs: \ud83d\udd04 41 self-sent \u2192 \u2194\ufe0f 45 load-shared (52%)\n**Wave Logisti\u2026** created **2** DMs: \ud83d\udd04 0 self-sent \u2192 \u2194\ufe0f 2 load-shared (100%)",
+                  "name": "\u2696\ufe0f Cross-Bot Load Sharing (24h)",
+                  "inline": false
+                },
+                {
+                  "value": "\ud83d\udfe2 Online (4s ago)\n**Capacity:** \u2705 Ready\n**Last send:** 7m ago\n**Rate window:** 0/5 *(5min rolling)*\n**Sourced:** 86 *(DMs created by this bot)*\n**Delivered:** 43 *(DMs sent out by this bot)*",
+                  "name": "\ud83e\udd16 Wave Managem\u2026",
+                  "inline": true
+                },
+                {
+                  "value": "\ud83d\udfe2 Online (4s ago)\n**Capacity:** \u2705 Ready\n**Last send:** 12m ago\n**Rate window:** 0/5 *(5min rolling)*\n**Sourced:** 2 *(DMs created by this bot)*\n**Delivered:** 45 *(DMs sent out by this bot)*",
+                  "name": "\ud83e\udd16 Wave Logisti\u2026",
+                  "inline": true
+                },
+                {
+                  "value": "\u2709\ufe0f Sent: **1,942**\n\ud83d\udeab DMs disabled: **23**\n\ud83d\udc7b Not found: **0**\n\u267b\ufe0f Max retries: **0**\n\u2753 Other: **0**\n\ud83d\udcc1 Total failed: **23**",
+                  "name": "\ud83d\uddc4\ufe0f Archive (lifetime)",
+                  "inline": true
+                },
+                {
+                  "value": "\ud83d\udfe2 Armed: **81** *(active, \u226448h)*\n\u231b Expired: **132** *(pending cleanup)*\n\n*When staff replies via reply\\_dm\\_duty, a sticky note is armed for that user. If the user DMs back within 48h, the auto-reply fires with the proof channel link and the note is wiped. Notes expire after 48h and are cleaned up every 6h.*",
+                  "name": "\ud83d\udcdd Sticky Notes",
+                  "inline": true
+                },
+                {
+                  "value": "\u2705 `#2078` Wave Managem\u2026\u2192Wave Managem\u2026 u:230134 \u2022 7m\n\u2705 `#2077` Wave Managem\u2026\u2192Wave Managem\u2026 u:230134 \u2022 7m\n\u2705 `#2076` Wave Managem\u2026\u2192Wave Logisti\u2026 u:571752 \u2022 12m\n\u2705 `#2075` Wave Managem\u2026\u2192Wave Managem\u2026 u:269747 \u2022 20m\n\u2705 `#2074` Wave Managem\u2026\u2192Wave Logisti\u2026 u:505420 \u2022 1.4h\n\u2705 `#2073` Wave Managem\u2026\u2192Wave Managem\u2026 u:163904 \u2022 1.6h\n\u2705 `#2072` Wave Managem\u2026\u2192Wave Logisti\u2026 u:265846 \u2022 1.6h\n\u2705 `#2071` Wave Managem\u2026\u2192Wave Managem\u2026 u:476679 \u2022 2.4h\n\u2705 `#2070` Wave Managem\u2026\u2192Wave Logisti\u2026 u:269747 \u2022 5.4h\n\u2705 `#2069` Wave Managem\u2026\u2192Wave Managem\u2026 u:328194 \u2022 5.7h",
+                  "name": "\ud83d\udd50 Recent Activity (last 10)",
+                  "inline": false
+                }
+              ],
+              "description": "\ud83d\udfe2 **All Systems Operational**\n\nShared DM queue between both bots. Every outgoing DM from any cog is intercepted and inserted into a shared SQLite database. A coordinator loop assigns each DM to whichever bot has capacity, enabling automatic load balancing. The worker loop on each bot picks up its assigned DMs and delivers them.\n\n\ud83d\udccb `dm_shared_queue.db` \u2022 Bots online: **2/2** \u2022 Refreshes every 30s",
+              "content_scan_version": 0,
+              "color": 3066993
+            }
+          ],
+          "edited_timestamp": "2026-05-29T15:12:25.101261+00:00",
+          "content": "",
+          "components": [
+            {
+              "type": 1,
+              "id": 1,
+              "components": [
+                {
+                  "type": 2,
+                  "style": 4,
+                  "label": "Retry Transient",
+                  "id": 2,
+                  "emoji": {
+                    "name": "\ud83d\udd04"
+                  },
+                  "custom_id": "dmq:retry_failed"
+                },
+                {
+                  "type": 2,
+                  "style": 2,
+                  "label": "Clear Active Queue",
+                  "id": 3,
+                  "emoji": {
+                    "name": "\ud83d\uddd1\ufe0f"
+                  },
+                  "custom_id": "dmq:clear_db"
+                },
+                {
+                  "type": 2,
+                  "style": 1,
+                  "label": "Bypass Rate Limit",
+                  "id": 4,
+                  "emoji": {
+                    "name": "\u26a1"
+                  },
+                  "custom_id": "dmq:bypass_ratelimit"
+                },
+                {
+                  "type": 2,
+                  "style": 3,
+                  "label": "Force Send",
+                  "id": 5,
+                  "emoji": {
+                    "name": "\ud83d\udce4"
+                  },
+                  "custom_id": "dmq:force_send"
+                }
+              ]
+            }
+          ],
+          "channel_type": 0,
+          "channel_id": "1503714231566991441",
+          "author": {
+            "username": "Wave Management Bot",
+            "public_flags": 0,
+            "primary_guild": null,
+            "id": "1269188273201352768",
+            "global_name": null,
+            "display_name_styles": null,
+            "discriminator": "0661",
+            "collectibles": null,
+            "clan": null,
+            "bot": true,
+            "avatar_decoration_data": null,
+            "avatar": "9de09747d6811795ca52df1b01550d16"
+          },
+          "attachments": [],
+          "guild_id": "1041450125391835186"
+        },
+        "note": "message was not in cache \u2014 only fields in raw_data available"
+      },
+      "guild_id": "1041450125391835186",
+      "guild_name": "WAVE Drop Map Staff Hub"
+    },
+    {
+      "timestamp": "2026-05-29T15:12:37Z",
+      "bot": "server",
+      "category": "message_edit",
+      "action": "raw_message_edited",
+      "actor": null,
+      "target": null,
+      "details": {
+        "message_id": "1508644037622632610",
+        "channel_id": "1211081358458232913",
+        "raw_data": {
+          "webhook_id": "1230852112746025032",
+          "type": 0,
+          "tts": false,
+          "timestamp": "2026-05-26T01:32:47.820000+00:00",
+          "pinned": false,
+          "mentions": [],
+          "mention_roles": [],
+          "mention_everyone": false,
+          "id": "1508644037622632610",
+          "flags": 0,
+          "embeds": [
+            {
+              "type": "rich",
+              "title": "*christiagnes has been warned!*",
+              "id": "1508644037622632611",
+              "description": "<:rightSort:660836685843529759> **Automod Filter:** *Using too many newlines*\n<:rightSort:660836685843529759> **Channel:** <#1301478991097630730> **[\ud83d\udcac\u30fbgeneral]**\n<:rightSort:660836685843529759> **Message:** `\u26a0`|| *Heyyy, I\u2019m Christi Agnes \ud83d\udc97\n\nBirmingham girl with soft-lux energy, iced coffee addiction, late-night music sessions & random little disappearances when life gets too loud \u2728\n\nI\u2019m usually somewhere betw`...`* ||\n<:rightSort:660836685843529759> **Member:** <@1045413592914206771> **[christiagnes]**\n<:rightSort:660836685843529759> **Warn Points:** `10`\n<:rightSort:660836685843529759> **Next Trigger:** `15` points",
+              "content_scan_version": 4,
+              "color": 3092790
+            }
+          ],
+          "edited_timestamp": null,
+          "content": "",
+          "components": [],
+          "channel_type": 0,
+          "channel_id": "1211081358458232913",
+          "author": {
+            "username": "Wick",
+            "id": "1230852112746025032",
+            "global_name": null,
+            "discriminator": "0000",
+            "bot": true,
+            "avatar": "17cca7d49c2282512b6c8c01c1598ffa"
+          },
+          "attachments": [],
+          "application_id": "536991182035746816",
+          "guild_id": "988564962802810961"
+        },
+        "note": "message was not in cache \u2014 only fields in raw_data available"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-05-29T15:12:37Z",
+      "bot": "server",
+      "category": "message_edit",
+      "action": "raw_message_edited",
+      "actor": null,
+      "target": null,
+      "details": {
+        "message_id": "1508659129734922271",
+        "channel_id": "1211081358458232913",
+        "raw_data": {
+          "webhook_id": "1230852112746025032",
+          "type": 0,
+          "tts": false,
+          "timestamp": "2026-05-26T02:32:46.060000+00:00",
+          "pinned": false,
+          "mentions": [],
+          "mention_roles": [],
+          "mention_everyone": false,
+          "id": "1508659129734922271",
+          "flags": 0,
+          "embeds": [
+            {
+              "type": "rich",
+              "title": "*solombode171 has been timed out for 1h!*",
+              "id": "1508659129734922272",
+              "description": "<:rightSort:660836685843529759> **Automod Filter:** *Posting Discord Server Invites*\n<:rightSort:660836685843529759> **Channel:** <#1301478991097630730> **[\ud83d\udcac\u30fbgeneral]**\n<:rightSort:660836685843529759> **Message:** `\u26a0`|| *https://discord.gg/EUpPntaCY\\* ||\n<:rightSort:660836685843529759> **Member:** <@1477867572748619828> **[solombode171]**\n<:rightSort:660836685843529759> **Purge:** <:cancel:660789591900684329>",
+              "content_scan_version": 4,
+              "color": 3092790
+            }
+          ],
+          "edited_timestamp": null,
+          "content": "",
+          "components": [],
+          "channel_type": 0,
+          "channel_id": "1211081358458232913",
+          "author": {
+            "username": "Wick",
+            "id": "1230852112746025032",
+            "global_name": null,
+            "discriminator": "0000",
+            "bot": true,
+            "avatar": "17cca7d49c2282512b6c8c01c1598ffa"
+          },
+          "attachments": [],
+          "application_id": "536991182035746816",
+          "guild_id": "988564962802810961"
+        },
+        "note": "message was not in cache \u2014 only fields in raw_data available"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-05-29T15:12:37Z",
+      "bot": "server",
+      "category": "message_edit",
+      "action": "raw_message_edited",
+      "actor": null,
+      "target": null,
+      "details": {
+        "message_id": "1508566650700431433",
+        "channel_id": "1211081358458232913",
+        "raw_data": {
+          "webhook_id": "1230852112746025032",
+          "type": 0,
+          "tts": false,
+          "timestamp": "2026-05-25T20:25:17.340000+00:00",
+          "pinned": false,
+          "mentions": [],
+          "mention_roles": [],
+          "mention_everyone": false,
+          "id": "1508566650700431433",
+          "flags": 0,
+          "embeds": [
+            {
+              "type": "rich",
+              "title": "*kayne0159 has been timed out for 3d!*",
+              "id": "1508566651262730453",
+              "description": "<:alarm:660789592160600103> **Reached a warn trigger [15 points].**\n<:rightSort:660836685843529759> **Automod Filter:** *Using too many newlines*\n<:rightSort:660836685843529759> **Channel:** <#1301479085708546098> **[\ud83d\ude46\u30fblf-players]**\n<:rightSort:660836685843529759> **Message:** `\u26a0`|| *```LF PERM DUO \nAbout me - \nCurrent 25pr, had 160 before i took long break (ch6)\nFragger\n- Good game sense\n- Grinding alot\n- Good vibes\n- 16\nReq for you - \n- Be a hard igl\n- Have a gameplan ( i can he`...`* ||\n<:rightSort:660836685843529759> **Member:** <@1137344053365719140> **[kayne0159]**\n<:rightSort:660836685843529759> **Purge:** <:success:660789936651370497>",
+              "content_scan_version": 4,
+              "color": 3092790
+            }
+          ],
+          "edited_timestamp": null,
+          "content": "",
+          "components": [],
+          "channel_type": 0,
+          "channel_id": "1211081358458232913",
+          "author": {
+            "username": "Wick",
+            "id": "1230852112746025032",
+            "global_name": null,
+            "discriminator": "0000",
+            "bot": true,
+            "avatar": "17cca7d49c2282512b6c8c01c1598ffa"
+          },
+          "attachments": [
+            {
+              "url": "https://cdn.discordapp.com/attachments/1211081358458232913/1508566651388301515/messagesPurged_1137344053365719140.txt?ex=6a1a9eed&is=6a194d6d&hm=eade6810dec50ebc87066a593a57099497a7fc5a8d5f98438c4b59c49fbad911&",
+              "size": 764,
+              "proxy_url": "https://media.discordapp.net/attachments/1211081358458232913/1508566651388301515/messagesPurged_1137344053365719140.txt?ex=6a1a9eed&is=6a194d6d&hm=eade6810dec50ebc87066a593a57099497a7fc5a8d5f98438c4b59c49fbad911&",
+              "id": "1508566651388301515",
+              "filename": "messagesPurged_1137344053365719140.txt",
+              "content_type": "text/plain; charset=utf-8",
+              "content_scan_version": 4
+            }
+          ],
+          "application_id": "536991182035746816",
+          "guild_id": "988564962802810961"
+        },
+        "note": "message was not in cache \u2014 only fields in raw_data available"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-05-29T15:12:37Z",
+      "bot": "server",
+      "category": "message_edit",
+      "action": "raw_message_edited",
+      "actor": null,
+      "target": null,
+      "details": {
+        "message_id": "1509616542709584063",
+        "channel_id": "1211081358458232913",
+        "raw_data": {
+          "webhook_id": "1230852112746025032",
+          "type": 0,
+          "tts": false,
+          "timestamp": "2026-05-28T17:57:11.101000+00:00",
+          "pinned": false,
+          "mentions": [],
+          "mention_roles": [],
+          "mention_everyone": false,
+          "id": "1509616542709584063",
+          "flags": 0,
+          "embeds": [
+            {
+              "type": "rich",
+              "title": "*nexonrage25 has been timed out for 3d!*",
+              "id": "1509616543296651395",
+              "description": "<:alarm:660789592160600103> **Reached a warn trigger [15 points].**\n<:rightSort:660836685843529759> **Automod Filter:** *Using too many newlines*\n<:rightSort:660836685843529759> **Channel:** <#1301478991097630730> **[\ud83d\udcac\u30fbgeneral]**\n<:rightSort:660836685843529759> **Message:** `\u26a0`|| *Busco d\u00fao para grindear Fortnite competitivo y llegar lejos. Mi sue\u00f1o es llegar a Divisi\u00f3n 2 y estoy meti\u00e9ndole full al competitivo.\n\n\ud83d\udccc Sobre m\u00ed:\n\u2022 Div 3 actualmente\n\u2022 70 PR (reci\u00e9n empiezo a competi`...`* ||\n<:rightSort:660836685843529759> **Member:** <@833668177636360204> **[nexonrage25]**\n<:rightSort:660836685843529759> **Purge:** <:cancel:660789591900684329>",
+              "content_scan_version": 4,
+              "color": 3092790
+            }
+          ],
+          "edited_timestamp": null,
+          "content": "",
+          "components": [],
+          "channel_type": 0,
+          "channel_id": "1211081358458232913",
+          "author": {
+            "username": "Wick",
+            "id": "1230852112746025032",
+            "global_name": null,
+            "discriminator": "0000",
+            "bot": true,
+            "avatar": "17cca7d49c2282512b6c8c01c1598ffa"
+          },
+          "attachments": [],
+          "application_id": "536991182035746816",
+          "guild_id": "988564962802810961"
+        },
+        "note": "message was not in cache \u2014 only fields in raw_data available"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-05-29T15:12:37Z",
+      "bot": "server",
+      "category": "message_edit",
+      "action": "raw_message_edited",
+      "actor": null,
+      "target": null,
+      "details": {
+        "message_id": "1508857769241870439",
+        "channel_id": "1211081358458232913",
+        "raw_data": {
+          "webhook_id": "1230852112746025032",
+          "type": 0,
+          "tts": false,
+          "timestamp": "2026-05-26T15:42:05.409000+00:00",
+          "pinned": false,
+          "mentions": [],
+          "mention_roles": [],
+          "mention_everyone": false,
+          "id": "1508857769241870439",
+          "flags": 0,
+          "embeds": [
+            {
+              "type": "rich",
+              "title": "*luftfart74 has been timed out for 3d!*",
+              "id": "1508857770085056593",
+              "description": "<:alarm:660789592160600103> **Reached a warn trigger [15 points].**\n<:rightSort:660836685843529759> **Automod Filter:** *Using too many newlines*\n<:rightSort:660836685843529759> **Channel:** <#1301479085708546098> **[\ud83d\ude46\u30fblf-players]**\n<:rightSort:660836685843529759> **Message:** `\u26a0`|| *LF1 Duo Cups Next Season And Stick With Perm For The Year! \ud83c\uddf3\ud83c\uddf4\ud83c\uddec\ud83c\udde7\n\nMe: 100 PR Fragger \u2014 plays like 300-400 PR, recently came back and fully grinding again. Strong mechanics, game sense, comms, and t`...`* ||\n<:rightSort:660836685843529759> **Member:** <@949999776668188722> **[luftfart74]**\n<:rightSort:660836685843529759> **Purge:** <:cancel:660789591900684329>",
+              "content_scan_version": 4,
+              "color": 3092790
+            }
+          ],
+          "edited_timestamp": null,
+          "content": "",
+          "components": [],
+          "channel_type": 0,
+          "channel_id": "1211081358458232913",
+          "author": {
+            "username": "Wick",
+            "id": "1230852112746025032",
+            "global_name": null,
+            "discriminator": "0000",
+            "bot": true,
+            "avatar": "17cca7d49c2282512b6c8c01c1598ffa"
+          },
+          "attachments": [],
+          "application_id": "536991182035746816",
+          "guild_id": "988564962802810961"
+        },
+        "note": "message was not in cache \u2014 only fields in raw_data available"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-05-29T15:12:37Z",
+      "bot": "server",
+      "category": "message_edit",
+      "action": "raw_message_edited",
+      "actor": null,
+      "target": null,
+      "details": {
+        "message_id": "1509644799290904606",
+        "channel_id": "1211081358458232913",
+        "raw_data": {
+          "webhook_id": "1230852112746025032",
+          "type": 0,
+          "tts": false,
+          "timestamp": "2026-05-28T19:49:27.995000+00:00",
+          "pinned": false,
+          "mentions": [],
+          "mention_roles": [],
+          "mention_everyone": false,
+          "id": "1509644799290904606",
+          "flags": 0,
+          "embeds": [
+            {
+              "type": "rich",
+              "title": "*keezyfnr_ has been warned!*",
+              "id": "1509644799290904607",
+              "description": "<:rightSort:660836685843529759> **Automod Filter:** *Using too many newlines*\n<:rightSort:660836685843529759> **Channel:** <#1301479085708546098> **[\ud83d\ude46\u30fblf-players]**\n<:rightSort:660836685843529759> **Message:** `\u26a0`|| *LFD need igl\n- im fragger 18 combined pr because i didnt had a good mate or had one\n-im english and german\n-im 15..\n-want to go pro i believe in my dream\n- and im pc\nYou:\n-igl\n- 8pr+\n- Pc\n-want to go `...`* ||\n<:rightSort:660836685843529759> **Member:** <@1229044889224871996> **[keezyfnr_]**\n<:rightSort:660836685843529759> **Warn Points:** `5`",
+              "content_scan_version": 4,
+              "color": 3092790
+            }
+          ],
+          "edited_timestamp": null,
+          "content": "",
+          "components": [],
+          "channel_type": 0,
+          "channel_id": "1211081358458232913",
+          "author": {
+            "username": "Wick",
+            "id": "1230852112746025032",
+            "global_name": null,
+            "discriminator": "0000",
+            "bot": true,
+            "avatar": "17cca7d49c2282512b6c8c01c1598ffa"
+          },
+          "attachments": [],
+          "application_id": "536991182035746816",
+          "guild_id": "988564962802810961"
+        },
+        "note": "message was not in cache \u2014 only fields in raw_data available"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-05-29T15:12:37Z",
+      "bot": "server",
+      "category": "message_edit",
+      "action": "raw_message_edited",
+      "actor": null,
+      "target": null,
+      "details": {
+        "message_id": "1508803760187768902",
+        "channel_id": "1211081358458232913",
+        "raw_data": {
+          "webhook_id": "1230852112746025032",
+          "type": 0,
+          "tts": false,
+          "timestamp": "2026-05-26T12:07:28.647000+00:00",
+          "pinned": false,
+          "mentions": [],
+          "mention_roles": [],
+          "mention_everyone": false,
+          "id": "1508803760187768902",
+          "flags": 0,
+          "embeds": [
+            {
+              "type": "rich",
+              "title": "loki094508 has been timed out!",
+              "id": "1508803760640495616",
+              "fields": [
+                {
+                  "value": "<:rightSort:660836685843529759> **Member DM:** <:success:660789936651370497>\n<:rightSort:660836685843529759> **Action Applied:** <:success:660789936651370497>\n<:rightSort:660836685843529759> **Channel Informed:** <:success:660789936651370497>",
+                  "name": "More Details:",
+                  "inline": false
+                }
+              ],
+              "description": "<:rightSort:660836685843529759> **Automod Filter:** *Posting Discord Server Invites*\n<:rightSort:660836685843529759> **Channel:** <#1301478991097630730> **[\ud83d\udcac\u30fbgeneral]**\n<:rightSort:660836685843529759> **Message:** `\u26a0`|| *https://discord.gg/gsHpjEjf5* ||\n<:rightSort:660836685843529759> **Member:** <@1506774633691746435> **[loki094508]**",
+              "content_scan_version": 4
+            }
+          ],
+          "edited_timestamp": null,
+          "content": "",
+          "components": [],
+          "channel_type": 0,
+          "channel_id": "1211081358458232913",
+          "author": {
+            "username": "Wick",
+            "id": "1230852112746025032",
+            "global_name": null,
+            "discriminator": "0000",
+            "bot": true,
+            "avatar": "17cca7d49c2282512b6c8c01c1598ffa"
+          },
+          "attachments": [],
+          "application_id": "536991182035746816",
+          "guild_id": "988564962802810961"
+        },
+        "note": "message was not in cache \u2014 only fields in raw_data available"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-05-29T15:12:37Z",
+      "bot": "server",
+      "category": "message_edit",
+      "action": "raw_message_edited",
+      "actor": null,
+      "target": null,
+      "details": {
+        "message_id": "1509655712404607016",
+        "channel_id": "1211081358458232913",
+        "raw_data": {
+          "webhook_id": "1230852112746025032",
+          "type": 0,
+          "tts": false,
+          "timestamp": "2026-05-28T20:32:49.884000+00:00",
+          "pinned": false,
+          "mentions": [],
+          "mention_roles": [],
+          "mention_everyone": false,
+          "id": "1509655712404607016",
+          "flags": 0,
+          "embeds": [
+            {
+              "type": "rich",
+              "title": "*vxrblol has been timed out for 1h!*",
+              "id": "1509655712404607020",
+              "description": "<:rightSort:660836685843529759> **Automod Filter:** *Posting Discord Server Invites*\n<:rightSort:660836685843529759> **Channel:** <#1301479151324237844> **[\ud83d\udce6\u30fbself-promo]**\n<:rightSort:660836685843529759> **Message:** `\u26a0`|| *@everyone made a new server so join if u want https://discord.gg/kPD5KUTsCU* ||\n<:rightSort:660836685843529759> **Member:** <@1508750694847352914> **[vxrblol]**\n<:rightSort:660836685843529759> **Purge:** <:cancel:660789591900684329>",
+              "content_scan_version": 4,
+              "color": 3092790
+            }
+          ],
+          "edited_timestamp": null,
+          "content": "",
+          "components": [],
+          "channel_type": 0,
+          "channel_id": "1211081358458232913",
+          "author": {
+            "username": "Wick",
+            "id": "1230852112746025032",
+            "global_name": null,
+            "discriminator": "0000",
+            "bot": true,
+            "avatar": "17cca7d49c2282512b6c8c01c1598ffa"
+          },
+          "attachments": [],
+          "application_id": "536991182035746816",
+          "guild_id": "988564962802810961"
+        },
+        "note": "message was not in cache \u2014 only fields in raw_data available"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-05-29T15:12:37Z",
+      "bot": "server",
+      "category": "message_edit",
+      "action": "raw_message_edited",
+      "actor": null,
+      "target": null,
+      "details": {
+        "message_id": "1508722100947386460",
+        "channel_id": "1211081358458232913",
+        "raw_data": {
+          "webhook_id": "1230852112746025032",
+          "type": 0,
+          "tts": false,
+          "timestamp": "2026-05-26T06:42:59.567000+00:00",
+          "pinned": false,
+          "mentions": [],
+          "mention_roles": [],
+          "mention_everyone": false,
+          "id": "1508722100947386460",
+          "flags": 0,
+          "embeds": [
+            {
+              "type": "rich",
+              "title": "*suffy4999 has been warned!*",
+              "id": "1508722101681655849",
+              "description": "<:rightSort:660836685843529759> **Automod Filter:** *Using too many newlines*\n<:rightSort:660836685843529759> **Channel:** <#1301478991097630730> **[\ud83d\udcac\u30fbgeneral]**\n<:rightSort:660836685843529759> **Message:** `\u26a0`|| *Hey I wants a Fortnite UEFN tycoon/grinder map inspired by another map they shared, but with a unique brainrot/meme Roblox-style theme.\n\nMain things we want:\n\nAround 8 different floors/levels that loo`...`* ||\n<:rightSort:660836685843529759> **Member:** <@1147061339949387806> **[suffy4999]**\n<:rightSort:660836685843529759> **Warn Points:** `5`",
+              "content_scan_version": 4,
+              "color": 3092790
+            }
+          ],
+          "edited_timestamp": null,
+          "content": "",
+          "components": [],
+          "channel_type": 0,
+          "channel_id": "1211081358458232913",
+          "author": {
+            "username": "Wick",
+            "id": "1230852112746025032",
+            "global_name": null,
+            "discriminator": "0000",
+            "bot": true,
+            "avatar": "17cca7d49c2282512b6c8c01c1598ffa"
+          },
+          "attachments": [],
+          "application_id": "536991182035746816",
+          "guild_id": "988564962802810961"
+        },
+        "note": "message was not in cache \u2014 only fields in raw_data available"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-05-29T15:12:37Z",
+      "bot": "server",
+      "category": "message_edit",
+      "action": "raw_message_edited",
+      "actor": null,
+      "target": null,
+      "details": {
+        "message_id": "1508798689106198539",
+        "channel_id": "1211081358458232913",
+        "raw_data": {
+          "webhook_id": "1230852112746025032",
+          "type": 0,
+          "tts": false,
+          "timestamp": "2026-05-26T11:47:19.607000+00:00",
+          "pinned": false,
+          "mentions": [],
+          "mention_roles": [],
+          "mention_everyone": false,
+          "id": "1508798689106198539",
+          "flags": 0,
+          "embeds": [
+            {
+              "type": "rich",
+              "title": "*clickzyyfv has been timed out for 1h!*",
+              "id": "1508798690113093772",
+              "description": "<:rightSort:660836685843529759> **Automod Filter:** *Posting Discord Server Invites*\n<:rightSort:660836685843529759> **Channel:** <#1301479151324237844> **[\ud83d\udce6\u30fbself-promo]**\n<:rightSort:660836685843529759> **Message:** `\u26a0`|| *https://discord.gg/RPqytkKq3 every one join best grinder server* ||\n<:rightSort:660836685843529759> **Member:** <@1391464667192365056> **[clickzyyfv]**\n<:rightSort:660836685843529759> **Purge:** <:success:660789936651370497>",
+              "content_scan_version": 4,
+              "color": 3092790
+            }
+          ],
+          "edited_timestamp": null,
+          "content": "",
+          "components": [],
+          "channel_type": 0,
+          "channel_id": "1211081358458232913",
+          "author": {
+            "username": "Wick",
+            "id": "1230852112746025032",
+            "global_name": null,
+            "discriminator": "0000",
+            "bot": true,
+            "avatar": "17cca7d49c2282512b6c8c01c1598ffa"
+          },
+          "attachments": [
+            {
+              "url": "https://cdn.discordapp.com/attachments/1211081358458232913/1508798689773359224/messagesPurged_1391464667192365056.txt?ex=6a1ace47&is=6a197cc7&hm=513bd39ec784adddbcce91ba068a548386715dd8241d61b602ebed57b60e2a79&",
+              "size": 56,
+              "proxy_url": "https://media.discordapp.net/attachments/1211081358458232913/1508798689773359224/messagesPurged_1391464667192365056.txt?ex=6a1ace47&is=6a197cc7&hm=513bd39ec784adddbcce91ba068a548386715dd8241d61b602ebed57b60e2a79&",
+              "id": "1508798689773359224",
+              "filename": "messagesPurged_1391464667192365056.txt",
+              "content_type": "text/plain; charset=utf-8",
+              "content_scan_version": 4
+            }
+          ],
+          "application_id": "536991182035746816",
+          "guild_id": "988564962802810961"
+        },
+        "note": "message was not in cache \u2014 only fields in raw_data available"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-05-29T15:12:37Z",
+      "bot": "server",
+      "category": "message_edit",
+      "action": "raw_message_edited",
+      "actor": null,
+      "target": null,
+      "details": {
+        "message_id": "1509545714408095815",
+        "channel_id": "1211081358458232913",
+        "raw_data": {
+          "webhook_id": "1230852112746025032",
+          "type": 0,
+          "tts": false,
+          "timestamp": "2026-05-28T13:15:44.318000+00:00",
+          "pinned": false,
+          "mentions": [],
+          "mention_roles": [],
+          "mention_everyone": false,
+          "id": "1509545714408095815",
+          "flags": 0,
+          "embeds": [
+            {
+              "type": "rich",
+              "title": "kuehlschran has been timed out!",
+              "id": "1509545714945101985",
+              "fields": [
+                {
+                  "value": "<:rightSort:660836685843529759> **Member DM:** <:success:660789936651370497>\n<:rightSort:660836685843529759> **Action Applied:** <:success:660789936651370497>\n<:rightSort:660836685843529759> **Channel Informed:** <:success:660789936651370497>\n<:rightSort:660836685843529759> **Purge:** <:cancel:660789591900684329>",
+                  "name": "More Details:",
+                  "inline": false
+                }
+              ],
+              "description": "<:alarm:660789592160600103> **Reached a warn trigger [15 points].**\n<:rightSort:660836685843529759> **Automod Filter:** *Using too many newlines*\n<:rightSort:660836685843529759> **Channel:** <#1301479085708546098> **[\ud83d\ude46\u30fblf-players]**\n<:rightSort:660836685843529759> **Message:** `\u26a0`|| *ou:\n-Prefer IGL\n-EU servers\n-100pr +\n-\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f \ud83c\udde9\ud83c\uddea \n-don\u2019t care abt PR\n-240fpd\n-want to grind as much as possible, play scrims, tournaments,\u2026 \nMe\n-\ud83c\udde9\ud83c\uddea \ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f \n-16\n-fragger\n-EU\n-German\n`...`* ||\n<:rightSort:660836685843529759> **Member:** <@975028065115709510> **[kuehlschran]**",
+              "content_scan_version": 4
+            }
+          ],
+          "edited_timestamp": null,
+          "content": "",
+          "components": [],
+          "channel_type": 0,
+          "channel_id": "1211081358458232913",
+          "author": {
+            "username": "Wick",
+            "id": "1230852112746025032",
+            "global_name": null,
+            "discriminator": "0000",
+            "bot": true,
+            "avatar": "17cca7d49c2282512b6c8c01c1598ffa"
+          },
+          "attachments": [],
+          "application_id": "536991182035746816",
+          "guild_id": "988564962802810961"
+        },
+        "note": "message was not in cache \u2014 only fields in raw_data available"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-05-29T15:12:37Z",
+      "bot": "server",
+      "category": "message_edit",
+      "action": "raw_message_edited",
+      "actor": null,
+      "target": null,
+      "details": {
+        "message_id": "1509645220411736285",
+        "channel_id": "1211081358458232913",
+        "raw_data": {
+          "webhook_id": "1230852112746025032",
+          "type": 0,
+          "tts": false,
+          "timestamp": "2026-05-28T19:51:08.398000+00:00",
+          "pinned": false,
+          "mentions": [],
+          "mention_roles": [],
+          "mention_everyone": false,
+          "id": "1509645220411736285",
+          "flags": 0,
+          "embeds": [
+            {
+              "type": "rich",
+              "title": "*ra1xgoty has been timed out for 1h!*",
+              "id": "1509645221271437325",
+              "description": "<:rightSort:660836685843529759> **Automod Filter:** *Posting Discord Server Invites*\n<:rightSort:660836685843529759> **Channel:** <#1301479151324237844> **[\ud83d\udce6\u30fbself-promo]**\n<:rightSort:660836685843529759> **Message:** `\u26a0`|| *https://discord.gg/AUPnbc27w* ||\n<:rightSort:660836685843529759> **Member:** <@1209733562593579010> **[ra1xgoty]**\n<:rightSort:660836685843529759> **Purge:** <:cancel:660789591900684329>",
+              "content_scan_version": 4,
+              "color": 3092790
+            }
+          ],
+          "edited_timestamp": null,
+          "content": "",
+          "components": [],
+          "channel_type": 0,
+          "channel_id": "1211081358458232913",
+          "author": {
+            "username": "Wick",
+            "id": "1230852112746025032",
+            "global_name": null,
+            "discriminator": "0000",
+            "bot": true,
+            "avatar": "17cca7d49c2282512b6c8c01c1598ffa"
+          },
+          "attachments": [],
+          "application_id": "536991182035746816",
+          "guild_id": "988564962802810961"
+        },
+        "note": "message was not in cache \u2014 only fields in raw_data available"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-05-29T15:12:37Z",
+      "bot": "server",
+      "category": "message_edit",
+      "action": "raw_message_edited",
+      "actor": null,
+      "target": null,
+      "details": {
+        "message_id": "1508793085193359391",
+        "channel_id": "1211081358458232913",
+        "raw_data": {
+          "webhook_id": "1230852112746025032",
+          "type": 0,
+          "tts": false,
+          "timestamp": "2026-05-26T11:25:03.530000+00:00",
+          "pinned": false,
+          "mentions": [],
+          "mention_roles": [],
+          "mention_everyone": false,
+          "id": "1508793085193359391",
+          "flags": 0,
+          "embeds": [
+            {
+              "type": "rich",
+              "title": "*worstplayerfn1 has been warned!*",
+              "id": "1508793085193359392",
+              "description": "<:rightSort:660836685843529759> **Automod Filter:** *Using too many newlines*\n<:rightSort:660836685843529759> **Channel:** <#1301478991097630730> **[\ud83d\udcac\u30fbgeneral]**\n<:rightSort:660836685843529759> **Message:** `\u26a0`|| *Looking for players to coach for the Skin Cup / next season.\n\nI\u2019m a competitive Fortnite coach and I\u2019m currently taking a few players to coach live.\n\nResults:\n\u2022 Helped multiple players place TOP 300\u20134`...`* ||\n<:rightSort:660836685843529759> **Member:** <@1289895516095778816> **[worstplayerfn1]**\n<:rightSort:660836685843529759> **Warn Points:** `5`",
+              "content_scan_version": 4,
+              "color": 3092790
+            }
+          ],
+          "edited_timestamp": null,
+          "content": "",
+          "components": [],
+          "channel_type": 0,
+          "channel_id": "1211081358458232913",
+          "author": {
+            "username": "Wick",
+            "id": "1230852112746025032",
+            "global_name": null,
+            "discriminator": "0000",
+            "bot": true,
+            "avatar": "17cca7d49c2282512b6c8c01c1598ffa"
+          },
+          "attachments": [],
+          "application_id": "536991182035746816",
+          "guild_id": "988564962802810961"
+        },
+        "note": "message was not in cache \u2014 only fields in raw_data available"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-05-29T15:12:55Z",
+      "bot": "server",
+      "category": "message_edit",
+      "action": "raw_message_edited",
+      "actor": null,
+      "target": null,
+      "details": {
+        "message_id": "1503938772323008522",
+        "channel_id": "1503714231566991441",
+        "raw_data": {
+          "type": 0,
+          "tts": false,
+          "timestamp": "2026-05-13T01:55:45.153000+00:00",
+          "pinned": true,
+          "mentions": [],
+          "mention_roles": [],
+          "mention_everyone": false,
+          "member": {
+            "roles": [
+              "1411017609243267123",
+              "1491225386804314132"
+            ],
+            "premium_since": null,
+            "pending": false,
+            "nick": null,
+            "mute": false,
+            "joined_at": "2025-08-29T16:00:13.519000+00:00",
+            "flags": 0,
+            "deaf": false,
+            "communication_disabled_until": null,
+            "banner": null,
+            "avatar": null
+          },
+          "id": "1503938772323008522",
+          "flags": 0,
+          "embeds": [
+            {
+              "type": "rich",
+              "title": "\ud83d\udcca DM Queue \u2014 System Dashboard",
+              "timestamp": "2026-05-29T15:12:54.771708+00:00",
+              "id": "1509937596090810438",
+              "footer": {
+                "text": "Rendered by Wave Managem\u2026 \u2022 Refreshes every 30s \u2022 Pipeline: enqueue \u2192 pending \u2192 assigned \u2192 sending \u2192 sent \u2192 archive (24h)"
+              },
+              "fields": [
+                {
+                  "value": "\ud83d\udfe6 Pending: **0** *(awaiting assignment)*\n\ud83d\udfe8 Assigned: **0** *(bot picked up)*\n\ud83d\udfe7 Sending: **0** *(in transit)*\n\u2705 Sent: **89** *(awaiting archive)*\n\u274c Failed: **1** *(retryable)*\n\ud83d\udce6 Total active rows: **90**",
+                  "name": "\ud83d\udcec Active Queue",
+                  "inline": true
+                },
+                {
+                  "value": "Last 1h: **4** DMs\nLast 6h: **15** DMs\nLast 24h: **88** DMs\nUnique users (24h): **43**\nLifetime sent: **2,031** DMs\nRate: **0.1**/min",
+                  "name": "\u26a1 Throughput",
+                  "inline": true
+                },
+                {
+                  "value": "**Lifetime success:** 98.88%\n\u2709\ufe0f 2,031 sent / \ud83d\udeab 23 failed\n\u274c Failed (24h): **7**\n\n**Latency** *(enqueue \u2192 delivered, 24h)*\nAvg: **2.9s** \u2022 Min: 0.9s\nMax: 10s",
+                  "name": "\ud83d\udcc8 Reliability",
+                  "inline": true
+                },
+                {
+                  "value": "\ud83c\udfaf **53%** cross-bot \u2014 **Near-Perfect Balance**\n`\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591` 47/88 DMs shared\n\n*Cross-bot = DMs delivered by the OTHER bot, not the one that*\n*created them. 50% = perfect 50/50 sharing. 0% = no sharing.*\n\n**Wave Managem\u2026** created **86** DMs: \ud83d\udd04 41 self-sent \u2192 \u2194\ufe0f 45 load-shared (52%)\n**Wave Logisti\u2026** created **2** DMs: \ud83d\udd04 0 self-sent \u2192 \u2194\ufe0f 2 load-shared (100%)",
+                  "name": "\u2696\ufe0f Cross-Bot Load Sharing (24h)",
+                  "inline": false
+                },
+                {
+                  "value": "\ud83d\udfe2 Online (5s ago)\n**Capacity:** \u2705 Ready\n**Last send:** 7m ago\n**Rate window:** 0/5 *(5min rolling)*\n**Sourced:** 86 *(DMs created by this bot)*\n**Delivered:** 43 *(DMs sent out by this bot)*",
+                  "name": "\ud83e\udd16 Wave Managem\u2026",
+                  "inline": true
+                },
+                {
+                  "value": "\ud83d\udfe2 Online (5s ago)\n**Capacity:** \u2705 Ready\n**Last send:** 13m ago\n**Rate window:** 0/5 *(5min rolling)*\n**Sourced:** 2 *(DMs created by this bot)*\n**Delivered:** 45 *(DMs sent out by this bot)*",
+                  "name": "\ud83e\udd16 Wave Logisti\u2026",
+                  "inline": true
+                },
+                {
+                  "value": "\u2709\ufe0f Sent: **1,942**\n\ud83d\udeab DMs disabled: **23**\n\ud83d\udc7b Not found: **0**\n\u267b\ufe0f Max retries: **0**\n\u2753 Other: **0**\n\ud83d\udcc1 Total failed: **23**",
+                  "name": "\ud83d\uddc4\ufe0f Archive (lifetime)",
+                  "inline": true
+                },
+                {
+                  "value": "\ud83d\udfe2 Armed: **81** *(active, \u226448h)*\n\u231b Expired: **132** *(pending cleanup)*\n\n*When staff replies via reply\\_dm\\_duty, a sticky note is armed for that user. If the user DMs back within 48h, the auto-reply fires with the proof channel link and the note is wiped. Notes expire after 48h and are cleaned up every 6h.*",
+                  "name": "\ud83d\udcdd Sticky Notes",
+                  "inline": true
+                },
+                {
+                  "value": "\u2705 `#2078` Wave Managem\u2026\u2192Wave Managem\u2026 u:230134 \u2022 8m\n\u2705 `#2077` Wave Managem\u2026\u2192Wave Managem\u2026 u:230134 \u2022 8m\n\u2705 `#2076` Wave Managem\u2026\u2192Wave Logisti\u2026 u:571752 \u2022 13m\n\u2705 `#2075` Wave Managem\u2026\u2192Wave Managem\u2026 u:269747 \u2022 21m\n\u2705 `#2074` Wave Managem\u2026\u2192Wave Logisti\u2026 u:505420 \u2022 1.4h\n\u2705 `#2073` Wave Managem\u2026\u2192Wave Managem\u2026 u:163904 \u2022 1.6h\n\u2705 `#2072` Wave Managem\u2026\u2192Wave Logisti\u2026 u:265846 \u2022 1.6h\n\u2705 `#2071` Wave Managem\u2026\u2192Wave Managem\u2026 u:476679 \u2022 2.5h\n\u2705 `#2070` Wave Managem\u2026\u2192Wave Logisti\u2026 u:269747 \u2022 5.4h\n\u2705 `#2069` Wave Managem\u2026\u2192Wave Managem\u2026 u:328194 \u2022 5.7h",
+                  "name": "\ud83d\udd50 Recent Activity (last 10)",
+                  "inline": false
+                }
+              ],
+              "description": "\ud83d\udfe2 **All Systems Operational**\n\nShared DM queue between both bots. Every outgoing DM from any cog is intercepted and inserted into a shared SQLite database. A coordinator loop assigns each DM to whichever bot has capacity, enabling automatic load balancing. The worker loop on each bot picks up its assigned DMs and delivers them.\n\n\ud83d\udccb `dm_shared_queue.db` \u2022 Bots online: **2/2** \u2022 Refreshes every 30s",
+              "content_scan_version": 0,
+              "color": 3066993
+            }
+          ],
+          "edited_timestamp": "2026-05-29T15:12:56.188838+00:00",
+          "content": "",
+          "components": [
+            {
+              "type": 1,
+              "id": 1,
+              "components": [
+                {
+                  "type": 2,
+                  "style": 4,
+                  "label": "Retry Transient",
+                  "id": 2,
+                  "emoji": {
+                    "name": "\ud83d\udd04"
+                  },
+                  "custom_id": "dmq:retry_failed"
+                },
+                {
+                  "type": 2,
+                  "style": 2,
+                  "label": "Clear Active Queue",
+                  "id": 3,
+                  "emoji": {
+                    "name": "\ud83d\uddd1\ufe0f"
+                  },
+                  "custom_id": "dmq:clear_db"
+                },
+                {
+                  "type": 2,
+                  "style": 1,
+                  "label": "Bypass Rate Limit",
+                  "id": 4,
+                  "emoji": {
+                    "name": "\u26a1"
+                  },
+                  "custom_id": "dmq:bypass_ratelimit"
+                },
+                {
+                  "type": 2,
+                  "style": 3,
+                  "label": "Force Send",
+                  "id": 5,
+                  "emoji": {
+                    "name": "\ud83d\udce4"
+                  },
+                  "custom_id": "dmq:force_send"
+                }
+              ]
+            }
+          ],
+          "channel_type": 0,
+          "channel_id": "1503714231566991441",
+          "author": {
+            "username": "Wave Management Bot",
+            "public_flags": 0,
+            "primary_guild": null,
+            "id": "1269188273201352768",
+            "global_name": null,
+            "display_name_styles": null,
+            "discriminator": "0661",
+            "collectibles": null,
+            "clan": null,
+            "bot": true,
+            "avatar_decoration_data": null,
+            "avatar": "9de09747d6811795ca52df1b01550d16"
+          },
+          "attachments": [],
+          "guild_id": "1041450125391835186"
+        },
+        "note": "message was not in cache \u2014 only fields in raw_data available"
+      },
+      "guild_id": "1041450125391835186",
+      "guild_name": "WAVE Drop Map Staff Hub"
+    },
+    {
+      "timestamp": "2026-05-29T15:13:11Z",
+      "bot": "server",
+      "category": "message_edit",
+      "action": "raw_message_edited",
+      "actor": null,
+      "target": null,
+      "details": {
+        "message_id": "1508290076151513209",
+        "channel_id": "1508289287169511496",
+        "raw_data": {
+          "type": 0,
+          "tts": false,
+          "timestamp": "2026-05-25T02:06:16.829000+00:00",
+          "position": 2,
+          "pinned": false,
+          "mentions": [],
+          "mention_roles": [],
+          "mention_everyone": false,
+          "member": {
+            "roles": [
+              "1306357759163498496",
+              "1305277560086593546",
+              "1210801655663300618",
+              "1210764975090438155",
+              "1490579498884665425",
+              "1408104953469341726"
+            ],
+            "premium_since": null,
+            "pending": false,
+            "nick": null,
+            "mute": false,
+            "joined_at": "2025-08-21T15:06:22.267000+00:00",
+            "flags": 0,
+            "deaf": false,
+            "communication_disabled_until": "2025-08-22T17:12:12.025000+00:00",
+            "banner": null,
+            "avatar": null
+          },
+          "id": "1508290076151513209",
+          "flags": 0,
+          "embeds": [
+            {
+              "type": "rich",
+              "title": "\ud83e\udd47  #1   Hostile Hold",
+              "timestamp": "2026-05-29T15:13:10.775933+00:00",
+              "image": {
+                "width": 1326,
+                "url": "https://cdn.discordapp.com/attachments/1508289287169511496/1508290161203744819/6.png?ex=6a1aeeed&is=6a199d6d&hm=42cbc1a86f88f679ba21f3550756854a22000511f45912163c766fe897e97ef5&",
+                "proxy_url": "https://media.discordapp.net/attachments/1508289287169511496/1508290161203744819/6.png?ex=6a1aeeed&is=6a199d6d&hm=42cbc1a86f88f679ba21f3550756854a22000511f45912163c766fe897e97ef5&",
+                "placeholder_version": 1,
+                "placeholder": "3RgGH4AUSHh4aHmQa3l4OIl4Y3AYXq8I",
+                "height": 1248,
+                "flags": 0,
+                "description": null,
+                "content_type": "image/png"
+              },
+              "id": "1509937661069103125",
+              "footer": {
+                "text": "Top voted spot wins every Sunday \u00b7 00:00 UTC"
+              },
+              "fields": [
+                {
+                  "value": "Reloaded Map",
+                  "name": "\ud83d\udcdd Description",
+                  "inline": false
+                },
+                {
+                  "value": "\u200b",
+                  "name": "Votes  \u00b7  4",
+                  "inline": false
+                }
+              ],
+              "content_scan_version": 4,
+              "color": 16766720,
+              "author": {
+                "proxy_icon_url": "https://images-ext-1.discordapp.net/external/ZpygbJ5Ltj-T2fDjnEAaVTJeM1_0Q4MSnhZFNYaioLI/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/987843990734905414/92bfad96c66e3d59b26f219a08f185b1.png",
+                "name": "Submitted by fruss.",
+                "icon_url": "https://cdn.discordapp.com/avatars/987843990734905414/92bfad96c66e3d59b26f219a08f185b1.png?size=1024"
+              }
+            }
+          ],
+          "edited_timestamp": "2026-05-29T15:13:11.770462+00:00",
+          "content": "",
+          "components": [
+            {
+              "type": 1,
+              "id": 1,
+              "components": [
+                {
+                  "type": 2,
+                  "style": 1,
+                  "label": "\u25b2 4",
+                  "id": 2,
+                  "custom_id": "dmv_vote_6"
+                }
+              ]
+            }
+          ],
+          "channel_type": 11,
+          "channel_id": "1508289287169511496",
+          "author": {
+            "username": "Wave Management Bot",
+            "public_flags": 0,
+            "primary_guild": null,
+            "id": "1269188273201352768",
+            "global_name": null,
+            "display_name_styles": null,
+            "discriminator": "0661",
+            "collectibles": null,
+            "clan": null,
+            "bot": true,
+            "avatar_decoration_data": null,
+            "avatar": "9de09747d6811795ca52df1b01550d16"
+          },
+          "attachments": [],
+          "guild_id": "988564962802810961"
+        },
+        "note": "message was not in cache \u2014 only fields in raw_data available"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-05-29T15:13:12Z",
+      "bot": "server",
+      "category": "message_edit",
+      "action": "message_edited",
+      "actor": {
+        "id": "1488059422109470840",
+        "name": "Wave Logistics Bot",
+        "discriminator": "3049",
+        "display_name": "Wave Logistics Bot",
+        "bot": true,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/1488059422109470840/290ef2187e60e8510d878e1318912628.png?size=1024",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2026-03-30T06:16:53.038000+00:00",
+        "joined_at": "2026-03-30T06:42:07.369000+00:00",
+        "roles": [
+          {
+            "id": "1491225386804314132",
+            "name": "*",
+            "position": 4,
+            "color": "#000000"
+          },
+          {
+            "id": "1488065773220921399",
+            "name": "Wave Logistics Bot",
+            "position": 83,
+            "color": "#000000"
+          }
+        ],
+        "top_role": "Wave Logistics Bot",
+        "guild_permissions": 1829587348619263
+      },
+      "target": null,
+      "details": {
+        "change_type": [
+          "embeds"
+        ],
+        "before": {
+          "id": "1509937666458652694",
+          "content": "",
+          "tts": false,
+          "pinned": false,
+          "type": "MessageType.default",
+          "jump_url": "https://discord.com/channels/1041450125391835186/1488725444357263390/1509937666458652694",
+          "channel_id": "1488725444357263390",
+          "channel_name": "dms-sent",
+          "author": {
+            "id": "1488059422109470840",
+            "name": "Wave Logistics Bot",
+            "discriminator": "3049",
+            "display_name": "Wave Logistics Bot",
+            "bot": true,
+            "system": false,
+            "pending": false,
+            "avatar_url": "https://cdn.discordapp.com/avatars/1488059422109470840/290ef2187e60e8510d878e1318912628.png?size=1024",
+            "public_flags": 0,
+            "public_flag_names": [],
+            "created_at": "2026-03-30T06:16:53.038000+00:00",
+            "joined_at": "2026-03-30T06:42:07.369000+00:00",
+            "roles": [
+              {
+                "id": "1491225386804314132",
+                "name": "*",
+                "position": 4,
+                "color": "#000000"
+              },
+              {
+                "id": "1488065773220921399",
+                "name": "Wave Logistics Bot",
+                "position": 83,
+                "color": "#000000"
+              }
+            ],
+            "top_role": "Wave Logistics Bot",
+            "guild_permissions": 1829587348619263
+          },
+          "flags": 0,
+          "created_at": "2026-05-29T15:13:12.969000+00:00",
+          "embeds": [
+            {
+              "thumbnail": {
+                "width": 0,
+                "url": "https://cdn.discordapp.com/avatars/1495367481148182571/992f0794c0e134103f5efdf0d6fd73c3.png?size=1024",
+                "proxy_url": "https://images-ext-1.discordapp.net/external/N4KksvMUkLtJ2EpV711xirqQlY0cCNwmGt6HrmXvVbY/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/1495367481148182571/992f0794c0e134103f5efdf0d6fd73c3.png",
+                "height": 0,
+                "flags": 0,
+                "content_type": ""
+              },
+              "fields": [
+                {
+                  "value": "<@1495367481148182571> (.zeptorb.)\nID: `1495367481148182571`",
+                  "name": "To",
+                  "inline": false
+                },
+                {
+                  "value": "**Title:** \u2705 Vote Confirmed!\n**Desc:** Your vote for **Hostile Hold** has been counted! \ud83c\udf89\n\n\ud83d\udd17 [Jump to Hostile Hold](https://discord.com/channels/988564962802810961/1508289287169511496/1508290076151513209)\n\ud83d\udc64 *Submitted by fruss.*\n\n\ud83d\uddf3\ufe0f You ha",
+                  "name": "Embed",
+                  "inline": false
+                }
+              ],
+              "flags": 0,
+              "color": 3066993,
+              "timestamp": "2026-05-29T15:13:12.081714+00:00",
+              "type": "rich",
+              "title": "\ud83d\udcec DM Sent"
+            }
+          ],
+          "mentions": {
+            "users": [],
+            "roles": [],
+            "channels": [],
+            "everyone": false
+          }
+        },
+        "after": {
+          "id": "1509937666458652694",
+          "content": "",
+          "tts": false,
+          "pinned": false,
+          "type": "MessageType.default",
+          "jump_url": "https://discord.com/channels/1041450125391835186/1488725444357263390/1509937666458652694",
+          "channel_id": "1488725444357263390",
+          "channel_name": "dms-sent",
+          "author": {
+            "id": "1488059422109470840",
+            "name": "Wave Logistics Bot",
+            "discriminator": "3049",
+            "display_name": "Wave Logistics Bot",
+            "bot": true,
+            "system": false,
+            "pending": false,
+            "avatar_url": "https://cdn.discordapp.com/avatars/1488059422109470840/290ef2187e60e8510d878e1318912628.png?size=1024",
+            "public_flags": 0,
+            "public_flag_names": [],
+            "created_at": "2026-03-30T06:16:53.038000+00:00",
+            "joined_at": "2026-03-30T06:42:07.369000+00:00",
+            "roles": [
+              {
+                "id": "1491225386804314132",
+                "name": "*",
+                "position": 4,
+                "color": "#000000"
+              },
+              {
+                "id": "1488065773220921399",
+                "name": "Wave Logistics Bot",
+                "position": 83,
+                "color": "#000000"
+              }
+            ],
+            "top_role": "Wave Logistics Bot",
+            "guild_permissions": 1829587348619263
+          },
+          "flags": 0,
+          "created_at": "2026-05-29T15:13:12.969000+00:00",
+          "embeds": [
+            {
+              "thumbnail": {
+                "width": 749,
+                "url": "https://cdn.discordapp.com/avatars/1495367481148182571/992f0794c0e134103f5efdf0d6fd73c3.png?size=1024",
+                "proxy_url": "https://images-ext-1.discordapp.net/external/N4KksvMUkLtJ2EpV711xirqQlY0cCNwmGt6HrmXvVbY/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/1495367481148182571/992f0794c0e134103f5efdf0d6fd73c3.png",
+                "placeholder_version": 1,
+                "placeholder": "phgKFwRjqYhviJpmmTlkalV1lwdXeXAF",
+                "height": 749,
+                "flags": 0,
+                "content_type": "image/png"
+              },
+              "fields": [
+                {
+                  "value": "<@1495367481148182571> (.zeptorb.)\nID: `1495367481148182571`",
+                  "name": "To",
+                  "inline": false
+                },
+                {
+                  "value": "**Title:** \u2705 Vote Confirmed!\n**Desc:** Your vote for **Hostile Hold** has been counted! \ud83c\udf89\n\n\ud83d\udd17 [Jump to Hostile Hold](https://discord.com/channels/988564962802810961/1508289287169511496/1508290076151513209)\n\ud83d\udc64 *Submitted by fruss.*\n\n\ud83d\uddf3\ufe0f You ha",
+                  "name": "Embed",
+                  "inline": false
+                }
+              ],
+              "flags": 0,
+              "color": 3066993,
+              "timestamp": "2026-05-29T15:13:12.081000+00:00",
+              "type": "rich",
+              "title": "\ud83d\udcec DM Sent"
+            }
+          ],
+          "mentions": {
+            "users": [],
+            "roles": [],
+            "channels": [],
+            "everyone": false
+          }
+        }
+      },
+      "guild_id": "1041450125391835186",
+      "guild_name": "WAVE Drop Map Staff Hub"
+    },
+    {
+      "timestamp": "2026-05-29T15:13:14Z",
+      "bot": "server",
+      "category": "message_edit",
+      "action": "message_edited",
+      "actor": {
+        "id": "1488059422109470840",
+        "name": "Wave Logistics Bot",
+        "discriminator": "3049",
+        "display_name": "Wave Logistics Bot",
+        "bot": true,
+        "system": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/1488059422109470840/290ef2187e60e8510d878e1318912628.png?size=1024",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2026-03-30T06:16:53.038000+00:00"
+      },
+      "target": null,
+      "details": {
+        "change_type": [
+          "embeds"
+        ],
+        "before": {
+          "id": "1509937665343230176",
+          "content": "",
+          "tts": false,
+          "pinned": false,
+          "type": "MessageType.default",
+          "jump_url": "https://discord.com/channels/@me/1507363924205633767/1509937665343230176",
+          "channel_id": "1507363924205633767",
+          "channel_name": null,
+          "author": {
+            "id": "1488059422109470840",
+            "name": "Wave Logistics Bot",
+            "discriminator": "3049",
+            "display_name": "Wave Logistics Bot",
+            "bot": true,
+            "system": false,
+            "avatar_url": "https://cdn.discordapp.com/avatars/1488059422109470840/290ef2187e60e8510d878e1318912628.png?size=1024",
+            "public_flags": 0,
+            "public_flag_names": [],
+            "created_at": "2026-03-30T06:16:53.038000+00:00"
+          },
+          "flags": 0,
+          "created_at": "2026-05-29T15:13:12.703000+00:00",
+          "embeds": [
+            {
+              "footer": {
+                "text": "Wave Drop Maps \u00b7 Community Voting"
+              },
+              "fields": [
+                {
+                  "value": "Submit your own drop spot for a chance to win:\n1\ufe0f\u20e3 Head to https://discord.com/channels/988564962802810961/1508030522746605690\n2\ufe0f\u20e3 Run `/addvoting` and fill in spot name + description\n3\ufe0f\u20e3 DM the bot an image of your spot (or skip)\n\u2022 **1 submission** per person per week",
+                  "name": "\ud83d\udcdd Want your own spot in the running?",
+                  "inline": false
+                },
+                {
+                  "value": "\u2022 Vote for up to **2 spots** per week (click \u25b2 on cards)\n\u2022 Click \u25b2 again on a spot to remove your vote\n\u2022 Every **Sunday at 00:00 UTC**, the top-voted spot wins\n\u2022 The winner gets made into a **FREE map** for everyone who voted for it \ud83d\ude80",
+                  "name": "\ud83c\udfc6 How voting works",
+                  "inline": false
+                }
+              ],
+              "flags": 0,
+              "color": 65407,
+              "timestamp": "2026-05-29T15:13:10.361534+00:00",
+              "type": "rich",
+              "description": "Your vote for **Hostile Hold** has been counted! \ud83c\udf89\n\n\ud83d\udd17 [Jump to Hostile Hold](https://discord.com/channels/988564962802810961/1508289287169511496/1508290076151513209)\n\ud83d\udc64 *Submitted by fruss.*\n\n\ud83d\uddf3\ufe0f You have **1** vote remaining this week.",
+              "title": "\u2705 Vote Confirmed!"
+            }
+          ],
+          "mentions": {
+            "users": [],
+            "roles": [],
+            "channels": [],
+            "everyone": false
+          }
+        },
+        "after": {
+          "id": "1509937665343230176",
+          "content": "",
+          "tts": false,
+          "pinned": false,
+          "type": "MessageType.default",
+          "jump_url": "https://discord.com/channels/@me/1507363924205633767/1509937665343230176",
+          "channel_id": "1507363924205633767",
+          "channel_name": null,
+          "author": {
+            "id": "1488059422109470840",
+            "name": "Wave Logistics Bot",
+            "discriminator": "3049",
+            "display_name": "Wave Logistics Bot",
+            "bot": true,
+            "system": false,
+            "avatar_url": "https://cdn.discordapp.com/avatars/1488059422109470840/290ef2187e60e8510d878e1318912628.png?size=1024",
+            "public_flags": 0,
+            "public_flag_names": [],
+            "created_at": "2026-03-30T06:16:53.038000+00:00"
+          },
+          "flags": 0,
+          "created_at": "2026-05-29T15:13:12.703000+00:00",
+          "embeds": [
+            {
+              "footer": {
+                "text": "Wave Drop Maps \u00b7 Community Voting"
+              },
+              "fields": [
+                {
+                  "value": "Submit your own drop spot for a chance to win:\n1\ufe0f\u20e3 Head to https://discord.com/channels/988564962802810961/1508030522746605690\n2\ufe0f\u20e3 Run `/addvoting` and fill in spot name + description\n3\ufe0f\u20e3 DM the bot an image of your spot (or skip)\n\u2022 **1 submission** per person per week",
+                  "name": "\ud83d\udcdd Want your own spot in the running?",
+                  "inline": false
+                },
+                {
+                  "value": "\u2022 Vote for up to **2 spots** per week (click \u25b2 on cards)\n\u2022 Click \u25b2 again on a spot to remove your vote\n\u2022 Every **Sunday at 00:00 UTC**, the top-voted spot wins\n\u2022 The winner gets made into a **FREE map** for everyone who voted for it \ud83d\ude80",
+                  "name": "\ud83c\udfc6 How voting works",
+                  "inline": false
+                }
+              ],
+              "flags": 0,
+              "color": 65407,
+              "timestamp": "2026-05-29T15:13:10.361000+00:00",
+              "type": "rich",
+              "description": "Your vote for **Hostile Hold** has been counted! \ud83c\udf89\n\n\ud83d\udd17 [Jump to Hostile Hold](https://discord.com/channels/988564962802810961/1508289287169511496/1508290076151513209)\n\ud83d\udc64 *Submitted by fruss.*\n\n\ud83d\uddf3\ufe0f You have **1** vote remaining this week.",
+              "title": "\u2705 Vote Confirmed!"
+            }
+          ],
+          "mentions": {
+            "users": [],
+            "roles": [],
+            "channels": [],
+            "everyone": false
+          }
+        }
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-29T15:13:26Z",
+      "bot": "server",
+      "category": "message_edit",
+      "action": "raw_message_edited",
+      "actor": null,
+      "target": null,
+      "details": {
+        "message_id": "1503938772323008522",
+        "channel_id": "1503714231566991441",
+        "raw_data": {
+          "type": 0,
+          "tts": false,
+          "timestamp": "2026-05-13T01:55:45.153000+00:00",
+          "pinned": true,
+          "mentions": [],
+          "mention_roles": [],
+          "mention_everyone": false,
+          "member": {
+            "roles": [
+              "1411017609243267123",
+              "1491225386804314132"
+            ],
+            "premium_since": null,
+            "pending": false,
+            "nick": null,
+            "mute": false,
+            "joined_at": "2025-08-29T16:00:13.519000+00:00",
+            "flags": 0,
+            "deaf": false,
+            "communication_disabled_until": null,
+            "banner": null,
+            "avatar": null
+          },
+          "id": "1503938772323008522",
+          "flags": 0,
+          "embeds": [
+            {
+              "type": "rich",
+              "title": "\ud83d\udcca DM Queue \u2014 System Dashboard",
+              "timestamp": "2026-05-29T15:13:25.849784+00:00",
+              "id": "1509937726651371652",
+              "footer": {
+                "text": "Rendered by Wave Managem\u2026 \u2022 Refreshes every 30s \u2022 Pipeline: enqueue \u2192 pending \u2192 assigned \u2192 sending \u2192 sent \u2192 archive (24h)"
+              },
+              "fields": [
+                {
+                  "value": "\ud83d\udfe6 Pending: **0** *(awaiting assignment)*\n\ud83d\udfe8 Assigned: **0** *(bot picked up)*\n\ud83d\udfe7 Sending: **0** *(in transit)*\n\u2705 Sent: **90** *(awaiting archive)*\n\u274c Failed: **1** *(retryable)*\n\ud83d\udce6 Total active rows: **91**",
+                  "name": "\ud83d\udcec Active Queue",
+                  "inline": true
+                },
+                {
+                  "value": "Last 1h: **5** DMs\nLast 6h: **16** DMs\nLast 24h: **89** DMs\nUnique users (24h): **44**\nLifetime sent: **2,032** DMs\nRate: **0.1**/min",
+                  "name": "\u26a1 Throughput",
+                  "inline": true
+                },
+                {
+                  "value": "**Lifetime success:** 98.88%\n\u2709\ufe0f 2,032 sent / \ud83d\udeab 23 failed\n\u274c Failed (24h): **7**\n\n**Latency** *(enqueue \u2192 delivered, 24h)*\nAvg: **2.9s** \u2022 Min: 0.9s\nMax: 10s",
+                  "name": "\ud83d\udcc8 Reliability",
+                  "inline": true
+                },
+                {
+                  "value": "\ud83c\udfaf **54%** cross-bot \u2014 **Near-Perfect Balance**\n`\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591` 48/89 DMs shared\n\n*Cross-bot = DMs delivered by the OTHER bot, not the one that*\n*created them. 50% = perfect 50/50 sharing. 0% = no sharing.*\n\n**Wave Managem\u2026** created **87** DMs: \ud83d\udd04 41 self-sent \u2192 \u2194\ufe0f 46 load-shared (53%)\n**Wave Logisti\u2026** created **2** DMs: \ud83d\udd04 0 self-sent \u2192 \u2194\ufe0f 2 load-shared (100%)",
+                  "name": "\u2696\ufe0f Cross-Bot Load Sharing (24h)",
+                  "inline": false
+                },
+                {
+                  "value": "\ud83d\udfe2 Online (1s ago)\n**Capacity:** \u2705 Ready\n**Last send:** 8m ago\n**Rate window:** 0/5 *(5min rolling)*\n**Sourced:** 87 *(DMs created by this bot)*\n**Delivered:** 43 *(DMs sent out by this bot)*",
+                  "name": "\ud83e\udd16 Wave Managem\u2026",
+                  "inline": true
+                },
+                {
+                  "value": "\ud83d\udfe2 Online (1s ago)\n**Capacity:** \u2705 Ready\n**Last send:** 14s ago\n**Rate window:** 1/5 *(5min rolling)*\n**Sourced:** 2 *(DMs created by this bot)*\n**Delivered:** 46 *(DMs sent out by this bot)*",
+                  "name": "\ud83e\udd16 Wave Logisti\u2026",
+                  "inline": true
+                },
+                {
+                  "value": "\u2709\ufe0f Sent: **1,942**\n\ud83d\udeab DMs disabled: **23**\n\ud83d\udc7b Not found: **0**\n\u267b\ufe0f Max retries: **0**\n\u2753 Other: **0**\n\ud83d\udcc1 Total failed: **23**",
+                  "name": "\ud83d\uddc4\ufe0f Archive (lifetime)",
+                  "inline": true
+                },
+                {
+                  "value": "\ud83d\udfe2 Armed: **81** *(active, \u226448h)*\n\u231b Expired: **132** *(pending cleanup)*\n\n*When staff replies via reply\\_dm\\_duty, a sticky note is armed for that user. If the user DMs back within 48h, the auto-reply fires with the proof channel link and the note is wiped. Notes expire after 48h and are cleaned up every 6h.*",
+                  "name": "\ud83d\udcdd Sticky Notes",
+                  "inline": true
+                },
+                {
+                  "value": "\u2705 `#2079` Wave Managem\u2026\u2192Wave Logisti\u2026 u:182571 \u2022 15s\n\u2705 `#2078` Wave Managem\u2026\u2192Wave Managem\u2026 u:230134 \u2022 8m\n\u2705 `#2077` Wave Managem\u2026\u2192Wave Managem\u2026 u:230134 \u2022 8m\n\u2705 `#2076` Wave Managem\u2026\u2192Wave Logisti\u2026 u:571752 \u2022 13m\n\u2705 `#2075` Wave Managem\u2026\u2192Wave Managem\u2026 u:269747 \u2022 21m\n\u2705 `#2074` Wave Managem\u2026\u2192Wave Logisti\u2026 u:505420 \u2022 1.4h\n\u2705 `#2073` Wave Managem\u2026\u2192Wave Managem\u2026 u:163904 \u2022 1.6h\n\u2705 `#2072` Wave Managem\u2026\u2192Wave Logisti\u2026 u:265846 \u2022 1.7h\n\u2705 `#2071` Wave Managem\u2026\u2192Wave Managem\u2026 u:476679 \u2022 2.5h\n\u2705 `#2070` Wave Managem\u2026\u2192Wave Logisti\u2026 u:269747 \u2022 5.4h",
+                  "name": "\ud83d\udd50 Recent Activity (last 10)",
+                  "inline": false
+                }
+              ],
+              "description": "\ud83d\udfe2 **All Systems Operational**\n\nShared DM queue between both bots. Every outgoing DM from any cog is intercepted and inserted into a shared SQLite database. A coordinator loop assigns each DM to whichever bot has capacity, enabling automatic load balancing. The worker loop on each bot picks up its assigned DMs and delivers them.\n\n\ud83d\udccb `dm_shared_queue.db` \u2022 Bots online: **2/2** \u2022 Refreshes every 30s",
+              "content_scan_version": 0,
+              "color": 3066993
+            }
+          ],
+          "edited_timestamp": "2026-05-29T15:13:27.326818+00:00",
+          "content": "",
+          "components": [
+            {
+              "type": 1,
+              "id": 1,
+              "components": [
+                {
+                  "type": 2,
+                  "style": 4,
+                  "label": "Retry Transient",
+                  "id": 2,
+                  "emoji": {
+                    "name": "\ud83d\udd04"
+                  },
+                  "custom_id": "dmq:retry_failed"
+                },
+                {
+                  "type": 2,
+                  "style": 2,
+                  "label": "Clear Active Queue",
+                  "id": 3,
+                  "emoji": {
+                    "name": "\ud83d\uddd1\ufe0f"
+                  },
+                  "custom_id": "dmq:clear_db"
+                },
+                {
+                  "type": 2,
+                  "style": 1,
+                  "label": "Bypass Rate Limit",
+                  "id": 4,
+                  "emoji": {
+                    "name": "\u26a1"
+                  },
+                  "custom_id": "dmq:bypass_ratelimit"
+                },
+                {
+                  "type": 2,
+                  "style": 3,
+                  "label": "Force Send",
+                  "id": 5,
+                  "emoji": {
+                    "name": "\ud83d\udce4"
+                  },
+                  "custom_id": "dmq:force_send"
+                }
+              ]
+            }
+          ],
+          "channel_type": 0,
+          "channel_id": "1503714231566991441",
+          "author": {
+            "username": "Wave Management Bot",
+            "public_flags": 0,
+            "primary_guild": null,
+            "id": "1269188273201352768",
+            "global_name": null,
+            "display_name_styles": null,
+            "discriminator": "0661",
+            "collectibles": null,
+            "clan": null,
+            "bot": true,
+            "avatar_decoration_data": null,
+            "avatar": "9de09747d6811795ca52df1b01550d16"
+          },
+          "attachments": [],
+          "guild_id": "1041450125391835186"
+        },
+        "note": "message was not in cache \u2014 only fields in raw_data available"
+      },
+      "guild_id": "1041450125391835186",
+      "guild_name": "WAVE Drop Map Staff Hub"
+    },
+    {
+      "timestamp": "2026-05-29T15:13:57Z",
+      "bot": "server",
+      "category": "message_edit",
+      "action": "raw_message_edited",
+      "actor": null,
+      "target": null,
+      "details": {
+        "message_id": "1503938772323008522",
+        "channel_id": "1503714231566991441",
+        "raw_data": {
+          "type": 0,
+          "tts": false,
+          "timestamp": "2026-05-13T01:55:45.153000+00:00",
+          "pinned": true,
+          "mentions": [],
+          "mention_roles": [],
+          "mention_everyone": false,
+          "member": {
+            "roles": [
+              "1411017609243267123",
+              "1491225386804314132"
+            ],
+            "premium_since": null,
+            "pending": false,
+            "nick": null,
+            "mute": false,
+            "joined_at": "2025-08-29T16:00:13.519000+00:00",
+            "flags": 0,
+            "deaf": false,
+            "communication_disabled_until": null,
+            "banner": null,
+            "avatar": null
+          },
+          "id": "1503938772323008522",
+          "flags": 0,
+          "embeds": [
+            {
+              "type": "rich",
+              "title": "\ud83d\udcca DM Queue \u2014 System Dashboard",
+              "timestamp": "2026-05-29T15:13:56.977626+00:00",
+              "id": "1509937856691441675",
+              "footer": {
+                "text": "Rendered by Wave Managem\u2026 \u2022 Refreshes every 30s \u2022 Pipeline: enqueue \u2192 pending \u2192 assigned \u2192 sending \u2192 sent \u2192 archive (24h)"
+              },
+              "fields": [
+                {
+                  "value": "\ud83d\udfe6 Pending: **0** *(awaiting assignment)*\n\ud83d\udfe8 Assigned: **0** *(bot picked up)*\n\ud83d\udfe7 Sending: **0** *(in transit)*\n\u2705 Sent: **90** *(awaiting archive)*\n\u274c Failed: **1** *(retryable)*\n\ud83d\udce6 Total active rows: **91**",
+                  "name": "\ud83d\udcec Active Queue",
+                  "inline": true
+                },
+                {
+                  "value": "Last 1h: **5** DMs\nLast 6h: **16** DMs\nLast 24h: **89** DMs\nUnique users (24h): **44**\nLifetime sent: **2,032** DMs\nRate: **0.1**/min",
+                  "name": "\u26a1 Throughput",
+                  "inline": true
+                },
+                {
+                  "value": "**Lifetime success:** 98.88%\n\u2709\ufe0f 2,032 sent / \ud83d\udeab 23 failed\n\u274c Failed (24h): **7**\n\n**Latency** *(enqueue \u2192 delivered, 24h)*\nAvg: **2.9s** \u2022 Min: 0.9s\nMax: 10s",
+                  "name": "\ud83d\udcc8 Reliability",
+                  "inline": true
+                },
+                {
+                  "value": "\ud83c\udfaf **54%** cross-bot \u2014 **Near-Perfect Balance**\n`\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591` 48/89 DMs shared\n\n*Cross-bot = DMs delivered by the OTHER bot, not the one that*\n*created them. 50% = perfect 50/50 sharing. 0% = no sharing.*\n\n**Wave Managem\u2026** created **87** DMs: \ud83d\udd04 41 self-sent \u2192 \u2194\ufe0f 46 load-shared (53%)\n**Wave Logisti\u2026** created **2** DMs: \ud83d\udd04 0 self-sent \u2192 \u2194\ufe0f 2 load-shared (100%)",
+                  "name": "\u2696\ufe0f Cross-Bot Load Sharing (24h)",
+                  "inline": false
+                },
+                {
+                  "value": "\ud83d\udfe2 Online (2s ago)\n**Capacity:** \u2705 Ready\n**Last send:** 9m ago\n**Rate window:** 0/5 *(5min rolling)*\n**Sourced:** 87 *(DMs created by this bot)*\n**Delivered:** 43 *(DMs sent out by this bot)*",
+                  "name": "\ud83e\udd16 Wave Managem\u2026",
+                  "inline": true
+                },
+                {
+                  "value": "\ud83d\udfe2 Online (1s ago)\n**Capacity:** \u2705 Ready\n**Last send:** 45s ago\n**Rate window:** 1/5 *(5min rolling)*\n**Sourced:** 2 *(DMs created by this bot)*\n**Delivered:** 46 *(DMs sent out by this bot)*",
+                  "name": "\ud83e\udd16 Wave Logisti\u2026",
+                  "inline": true
+                },
+                {
+                  "value": "\u2709\ufe0f Sent: **1,942**\n\ud83d\udeab DMs disabled: **23**\n\ud83d\udc7b Not found: **0**\n\u267b\ufe0f Max retries: **0**\n\u2753 Other: **0**\n\ud83d\udcc1 Total failed: **23**",
+                  "name": "\ud83d\uddc4\ufe0f Archive (lifetime)",
+                  "inline": true
+                },
+                {
+                  "value": "\ud83d\udfe2 Armed: **81** *(active, \u226448h)*\n\u231b Expired: **132** *(pending cleanup)*\n\n*When staff replies via reply\\_dm\\_duty, a sticky note is armed for that user. If the user DMs back within 48h, the auto-reply fires with the proof channel link and the note is wiped. Notes expire after 48h and are cleaned up every 6h.*",
+                  "name": "\ud83d\udcdd Sticky Notes",
+                  "inline": true
+                },
+                {
+                  "value": "\u2705 `#2079` Wave Managem\u2026\u2192Wave Logisti\u2026 u:182571 \u2022 47s\n\u2705 `#2078` Wave Managem\u2026\u2192Wave Managem\u2026 u:230134 \u2022 9m\n\u2705 `#2077` Wave Managem\u2026\u2192Wave Managem\u2026 u:230134 \u2022 9m\n\u2705 `#2076` Wave Managem\u2026\u2192Wave Logisti\u2026 u:571752 \u2022 14m\n\u2705 `#2075` Wave Managem\u2026\u2192Wave Managem\u2026 u:269747 \u2022 22m\n\u2705 `#2074` Wave Managem\u2026\u2192Wave Logisti\u2026 u:505420 \u2022 1.4h\n\u2705 `#2073` Wave Managem\u2026\u2192Wave Managem\u2026 u:163904 \u2022 1.7h\n\u2705 `#2072` Wave Managem\u2026\u2192Wave Logisti\u2026 u:265846 \u2022 1.7h\n\u2705 `#2071` Wave Managem\u2026\u2192Wave Managem\u2026 u:476679 \u2022 2.5h\n\u2705 `#2070` Wave Managem\u2026\u2192Wave Logisti\u2026 u:269747 \u2022 5.4h",
+                  "name": "\ud83d\udd50 Recent Activity (last 10)",
+                  "inline": false
+                }
+              ],
+              "description": "\ud83d\udfe2 **All Systems Operational**\n\nShared DM queue between both bots. Every outgoing DM from any cog is intercepted and inserted into a shared SQLite database. A coordinator loop assigns each DM to whichever bot has capacity, enabling automatic load balancing. The worker loop on each bot picks up its assigned DMs and delivers them.\n\n\ud83d\udccb `dm_shared_queue.db` \u2022 Bots online: **2/2** \u2022 Refreshes every 30s",
+              "content_scan_version": 0,
+              "color": 3066993
+            }
+          ],
+          "edited_timestamp": "2026-05-29T15:13:58.411811+00:00",
+          "content": "",
+          "components": [
+            {
+              "type": 1,
+              "id": 1,
+              "components": [
+                {
+                  "type": 2,
+                  "style": 4,
+                  "label": "Retry Transient",
+                  "id": 2,
+                  "emoji": {
+                    "name": "\ud83d\udd04"
+                  },
+                  "custom_id": "dmq:retry_failed"
+                },
+                {
+                  "type": 2,
+                  "style": 2,
+                  "label": "Clear Active Queue",
+                  "id": 3,
+                  "emoji": {
+                    "name": "\ud83d\uddd1\ufe0f"
+                  },
+                  "custom_id": "dmq:clear_db"
+                },
+                {
+                  "type": 2,
+                  "style": 1,
+                  "label": "Bypass Rate Limit",
+                  "id": 4,
+                  "emoji": {
+                    "name": "\u26a1"
+                  },
+                  "custom_id": "dmq:bypass_ratelimit"
+                },
+                {
+                  "type": 2,
+                  "style": 3,
+                  "label": "Force Send",
+                  "id": 5,
+                  "emoji": {
+                    "name": "\ud83d\udce4"
+                  },
+                  "custom_id": "dmq:force_send"
+                }
+              ]
+            }
+          ],
+          "channel_type": 0,
+          "channel_id": "1503714231566991441",
+          "author": {
+            "username": "Wave Management Bot",
+            "public_flags": 0,
+            "primary_guild": null,
+            "id": "1269188273201352768",
+            "global_name": null,
+            "display_name_styles": null,
+            "discriminator": "0661",
+            "collectibles": null,
+            "clan": null,
+            "bot": true,
+            "avatar_decoration_data": null,
+            "avatar": "9de09747d6811795ca52df1b01550d16"
+          },
+          "attachments": [],
+          "guild_id": "1041450125391835186"
+        },
+        "note": "message was not in cache \u2014 only fields in raw_data available"
+      },
+      "guild_id": "1041450125391835186",
+      "guild_name": "WAVE Drop Map Staff Hub"
+    },
+    {
+      "timestamp": "2026-05-29T15:14:28Z",
+      "bot": "server",
+      "category": "message_edit",
+      "action": "raw_message_edited",
+      "actor": null,
+      "target": null,
+      "details": {
+        "message_id": "1503938772323008522",
+        "channel_id": "1503714231566991441",
+        "raw_data": {
+          "type": 0,
+          "tts": false,
+          "timestamp": "2026-05-13T01:55:45.153000+00:00",
+          "pinned": true,
+          "mentions": [],
+          "mention_roles": [],
+          "mention_everyone": false,
+          "member": {
+            "roles": [
+              "1411017609243267123",
+              "1491225386804314132"
+            ],
+            "premium_since": null,
+            "pending": false,
+            "nick": null,
+            "mute": false,
+            "joined_at": "2025-08-29T16:00:13.519000+00:00",
+            "flags": 0,
+            "deaf": false,
+            "communication_disabled_until": null,
+            "banner": null,
+            "avatar": null
+          },
+          "id": "1503938772323008522",
+          "flags": 0,
+          "embeds": [
+            {
+              "type": "rich",
+              "title": "\ud83d\udcca DM Queue \u2014 System Dashboard",
+              "timestamp": "2026-05-29T15:14:28.023035+00:00",
+              "id": "1509937987138355200",
+              "footer": {
+                "text": "Rendered by Wave Managem\u2026 \u2022 Refreshes every 30s \u2022 Pipeline: enqueue \u2192 pending \u2192 assigned \u2192 sending \u2192 sent \u2192 archive (24h)"
+              },
+              "fields": [
+                {
+                  "value": "\ud83d\udfe6 Pending: **0** *(awaiting assignment)*\n\ud83d\udfe8 Assigned: **0** *(bot picked up)*\n\ud83d\udfe7 Sending: **0** *(in transit)*\n\u2705 Sent: **90** *(awaiting archive)*\n\u274c Failed: **1** *(retryable)*\n\ud83d\udce6 Total active rows: **91**",
+                  "name": "\ud83d\udcec Active Queue",
+                  "inline": true
+                },
+                {
+                  "value": "Last 1h: **5** DMs\nLast 6h: **16** DMs\nLast 24h: **89** DMs\nUnique users (24h): **44**\nLifetime sent: **2,032** DMs\nRate: **0.1**/min",
+                  "name": "\u26a1 Throughput",
+                  "inline": true
+                },
+                {
+                  "value": "**Lifetime success:** 98.88%\n\u2709\ufe0f 2,032 sent / \ud83d\udeab 23 failed\n\u274c Failed (24h): **7**\n\n**Latency** *(enqueue \u2192 delivered, 24h)*\nAvg: **2.9s** \u2022 Min: 0.9s\nMax: 10s",
+                  "name": "\ud83d\udcc8 Reliability",
+                  "inline": true
+                },
+                {
+                  "value": "\ud83c\udfaf **54%** cross-bot \u2014 **Near-Perfect Balance**\n`\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591` 48/89 DMs shared\n\n*Cross-bot = DMs delivered by the OTHER bot, not the one that*\n*created them. 50% = perfect 50/50 sharing. 0% = no sharing.*\n\n**Wave Managem\u2026** created **87** DMs: \ud83d\udd04 41 self-sent \u2192 \u2194\ufe0f 46 load-shared (53%)\n**Wave Logisti\u2026** created **2** DMs: \ud83d\udd04 0 self-sent \u2192 \u2194\ufe0f 2 load-shared (100%)",
+                  "name": "\u2696\ufe0f Cross-Bot Load Sharing (24h)",
+                  "inline": false
+                },
+                {
+                  "value": "\ud83d\udfe2 Online (3s ago)\n**Capacity:** \u2705 Ready\n**Last send:** 9m ago\n**Rate window:** 0/5 *(5min rolling)*\n**Sourced:** 87 *(DMs created by this bot)*\n**Delivered:** 43 *(DMs sent out by this bot)*",
+                  "name": "\ud83e\udd16 Wave Managem\u2026",
+                  "inline": true
+                },
+                {
+                  "value": "\ud83d\udfe2 Online (2s ago)\n**Capacity:** \u2705 Ready\n**Last send:** 1m ago\n**Rate window:** 1/5 *(5min rolling)*\n**Sourced:** 2 *(DMs created by this bot)*\n**Delivered:** 46 *(DMs sent out by this bot)*",
+                  "name": "\ud83e\udd16 Wave Logisti\u2026",
+                  "inline": true
+                },
+                {
+                  "value": "\u2709\ufe0f Sent: **1,942**\n\ud83d\udeab DMs disabled: **23**\n\ud83d\udc7b Not found: **0**\n\u267b\ufe0f Max retries: **0**\n\u2753 Other: **0**\n\ud83d\udcc1 Total failed: **23**",
+                  "name": "\ud83d\uddc4\ufe0f Archive (lifetime)",
+                  "inline": true
+                },
+                {
+                  "value": "\ud83d\udfe2 Armed: **81** *(active, \u226448h)*\n\u231b Expired: **132** *(pending cleanup)*\n\n*When staff replies via reply\\_dm\\_duty, a sticky note is armed for that user. If the user DMs back within 48h, the auto-reply fires with the proof channel link and the note is wiped. Notes expire after 48h and are cleaned up every 6h.*",
+                  "name": "\ud83d\udcdd Sticky Notes",
+                  "inline": true
+                },
+                {
+                  "value": "\u2705 `#2079` Wave Managem\u2026\u2192Wave Logisti\u2026 u:182571 \u2022 1m\n\u2705 `#2078` Wave Managem\u2026\u2192Wave Managem\u2026 u:230134 \u2022 9m\n\u2705 `#2077` Wave Managem\u2026\u2192Wave Managem\u2026 u:230134 \u2022 9m\n\u2705 `#2076` Wave Managem\u2026\u2192Wave Logisti\u2026 u:571752 \u2022 14m\n\u2705 `#2075` Wave Managem\u2026\u2192Wave Managem\u2026 u:269747 \u2022 22m\n\u2705 `#2074` Wave Managem\u2026\u2192Wave Logisti\u2026 u:505420 \u2022 1.4h\n\u2705 `#2073` Wave Managem\u2026\u2192Wave Managem\u2026 u:163904 \u2022 1.7h\n\u2705 `#2072` Wave Managem\u2026\u2192Wave Logisti\u2026 u:265846 \u2022 1.7h\n\u2705 `#2071` Wave Managem\u2026\u2192Wave Managem\u2026 u:476679 \u2022 2.5h\n\u2705 `#2070` Wave Managem\u2026\u2192Wave Logisti\u2026 u:269747 \u2022 5.4h",
+                  "name": "\ud83d\udd50 Recent Activity (last 10)",
+                  "inline": false
+                }
+              ],
+              "description": "\ud83d\udfe2 **All Systems Operational**\n\nShared DM queue between both bots. Every outgoing DM from any cog is intercepted and inserted into a shared SQLite database. A coordinator loop assigns each DM to whichever bot has capacity, enabling automatic load balancing. The worker loop on each bot picks up its assigned DMs and delivers them.\n\n\ud83d\udccb `dm_shared_queue.db` \u2022 Bots online: **2/2** \u2022 Refreshes every 30s",
+              "content_scan_version": 0,
+              "color": 3066993
+            }
+          ],
+          "edited_timestamp": "2026-05-29T15:14:29.420962+00:00",
+          "content": "",
+          "components": [
+            {
+              "type": 1,
+              "id": 1,
+              "components": [
+                {
+                  "type": 2,
+                  "style": 4,
+                  "label": "Retry Transient",
+                  "id": 2,
+                  "emoji": {
+                    "name": "\ud83d\udd04"
+                  },
+                  "custom_id": "dmq:retry_failed"
+                },
+                {
+                  "type": 2,
+                  "style": 2,
+                  "label": "Clear Active Queue",
+                  "id": 3,
+                  "emoji": {
+                    "name": "\ud83d\uddd1\ufe0f"
+                  },
+                  "custom_id": "dmq:clear_db"
+                },
+                {
+                  "type": 2,
+                  "style": 1,
+                  "label": "Bypass Rate Limit",
+                  "id": 4,
+                  "emoji": {
+                    "name": "\u26a1"
+                  },
+                  "custom_id": "dmq:bypass_ratelimit"
+                },
+                {
+                  "type": 2,
+                  "style": 3,
+                  "label": "Force Send",
+                  "id": 5,
+                  "emoji": {
+                    "name": "\ud83d\udce4"
+                  },
+                  "custom_id": "dmq:force_send"
+                }
+              ]
+            }
+          ],
+          "channel_type": 0,
+          "channel_id": "1503714231566991441",
+          "author": {
+            "username": "Wave Management Bot",
+            "public_flags": 0,
+            "primary_guild": null,
+            "id": "1269188273201352768",
+            "global_name": null,
+            "display_name_styles": null,
+            "discriminator": "0661",
+            "collectibles": null,
+            "clan": null,
+            "bot": true,
+            "avatar_decoration_data": null,
+            "avatar": "9de09747d6811795ca52df1b01550d16"
+          },
+          "attachments": [],
+          "guild_id": "1041450125391835186"
+        },
+        "note": "message was not in cache \u2014 only fields in raw_data available"
+      },
+      "guild_id": "1041450125391835186",
+      "guild_name": "WAVE Drop Map Staff Hub"
+    }
+  ]
+}
