@@ -1,0 +1,104 @@
+{
+  "pushed_at": "2026-05-29T06:09:51Z",
+  "events": [
+    {
+      "timestamp": "2026-05-29T06:04:59Z",
+      "bot": "server",
+      "category": "member_role_update",
+      "action": "member_roles_changed",
+      "actor": null,
+      "target": {
+        "id": "1418703121097687051",
+        "name": "nortonfv",
+        "discriminator": "0",
+        "global_name": "Norton",
+        "display_name": "Norton",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/1418703121097687051/2e44504665c09dc693f76464b64374e2.png?size=1024",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2025-09-19T20:59:42.299000+00:00",
+        "joined_at": "2026-05-29T06:04:38.579136+00:00",
+        "roles": [
+          {
+            "id": "1188092082540261486",
+            "name": "Code Way",
+            "position": 11,
+            "color": "#000000"
+          },
+          {
+            "id": "1149680236041080832",
+            "name": "Member",
+            "position": 21,
+            "color": "#ff0000"
+          }
+        ],
+        "top_role": "Member",
+        "guild_permissions": 4949986577921
+      },
+      "details": {
+        "added": [
+          {
+            "id": "1188092082540261486",
+            "name": "Code Way",
+            "position": 11,
+            "color": "#000000",
+            "hoist": false,
+            "mentionable": false,
+            "managed": false,
+            "permissions": 0,
+            "permission_names": []
+          }
+        ],
+        "removed": [],
+        "audit": {
+          "audit_id": "1509799690894311574",
+          "actor": {
+            "id": "1418703121097687051",
+            "name": "nortonfv",
+            "discriminator": "0",
+            "global_name": "Norton",
+            "display_name": "Norton",
+            "bot": false,
+            "system": false,
+            "pending": false,
+            "avatar_url": "https://cdn.discordapp.com/avatars/1418703121097687051/2e44504665c09dc693f76464b64374e2.png?size=1024",
+            "public_flags": 0,
+            "public_flag_names": [],
+            "created_at": "2025-09-19T20:59:42.299000+00:00",
+            "joined_at": "2026-05-29T06:04:38.579136+00:00",
+            "roles": [
+              {
+                "id": "1188092082540261486",
+                "name": "Code Way",
+                "position": 11,
+                "color": "#000000"
+              },
+              {
+                "id": "1149680236041080832",
+                "name": "Member",
+                "position": 21,
+                "color": "#ff0000"
+              }
+            ],
+            "top_role": "Member",
+            "guild_permissions": 4949986577921
+          },
+          "reason": null,
+          "created_at": "2026-05-29T06:04:57.031000+00:00",
+          "changes": [
+            {
+              "key": "roles",
+              "before": "[]",
+              "after": "[<Role id=1188092082540261486 name='Code Way'>]"
+            }
+          ]
+        }
+      },
+      "guild_id": "971731167621574666",
+      "guild_name": "Wave Improvement Cord! | Loot Routes + Tips & Tricks"
+    }
+  ]
+}
