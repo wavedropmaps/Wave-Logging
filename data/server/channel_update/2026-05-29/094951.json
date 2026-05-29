@@ -1,0 +1,97 @@
+{
+  "pushed_at": "2026-05-29T09:49:51Z",
+  "events": [
+    {
+      "timestamp": "2026-05-29T09:46:42Z",
+      "bot": "server",
+      "category": "channel_update",
+      "action": "channel_edited",
+      "actor": null,
+      "target": null,
+      "details": {
+        "channel": {
+          "id": "1509855487024304138",
+          "name": "ticket-i-ow",
+          "type": "text",
+          "position": 394,
+          "category": {
+            "id": "1231429393642029076",
+            "name": "--- Tickets (Waiting for users) ---"
+          },
+          "nsfw": false,
+          "slowmode_delay": 0,
+          "default_auto_archive_duration": 1440,
+          "overwrites": [
+            {
+              "target_type": "role",
+              "target_id": "971731167621574666",
+              "target_name": "@everyone",
+              "allow": 0,
+              "deny": 1024
+            },
+            {
+              "target_type": "member",
+              "target_id": "538616861240328194",
+              "target_name": "ractpalerdania1431",
+              "allow": 117760,
+              "deny": 0
+            },
+            {
+              "target_type": "role",
+              "target_id": "1057292093057400912",
+              "target_name": "Quarantine",
+              "allow": 0,
+              "deny": 377957125121
+            }
+          ]
+        },
+        "changes": {
+          "overwrites": {
+            "before": [
+              {
+                "target_type": "role",
+                "target_id": "971731167621574666",
+                "target_name": "@everyone",
+                "allow": 0,
+                "deny": 1024
+              },
+              {
+                "target_type": "member",
+                "target_id": "538616861240328194",
+                "target_name": "ractpalerdania1431",
+                "allow": 117760,
+                "deny": 0
+              }
+            ],
+            "after": [
+              {
+                "target_type": "role",
+                "target_id": "971731167621574666",
+                "target_name": "@everyone",
+                "allow": 0,
+                "deny": 1024
+              },
+              {
+                "target_type": "member",
+                "target_id": "538616861240328194",
+                "target_name": "ractpalerdania1431",
+                "allow": 117760,
+                "deny": 0
+              },
+              {
+                "target_type": "role",
+                "target_id": "1057292093057400912",
+                "target_name": "Quarantine",
+                "allow": 0,
+                "deny": 377957125121
+              }
+            ]
+          }
+        },
+        "audit": null
+      },
+      "guild_id": "971731167621574666",
+      "guild_name": "Wave Improvement Cord! | Loot Routes + Tips & Tricks"
+    }
+  ]
+}
