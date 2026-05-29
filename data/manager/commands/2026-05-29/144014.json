@@ -1,0 +1,671 @@
+{
+  "pushed_at": "2026-05-29T14:40:14Z",
+  "events": [
+    {
+      "timestamp": "2026-05-29T14:33:19Z",
+      "bot": "manager",
+      "category": "commands",
+      "action": "prefix_command_completed",
+      "actor": {
+        "id": "327850147969236994",
+        "name": "xenoborg_",
+        "discriminator": "0",
+        "global_name": "Numifv!",
+        "display_name": "Numifv! ( @ for Help )",
+        "nick": "Numifv! ( @ for Help )",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/327850147969236994/14cfc9b8f6531bd4a94808ec2c4fdac3.png?size=1024",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2017-06-23T16:39:26.437000+00:00",
+        "joined_at": "2026-05-15T07:28:00.653000+00:00",
+        "roles": [
+          {
+            "id": "1483009677137547415",
+            "name": "Deutsch \ud83c\udde9\ud83c\uddea",
+            "position": 8,
+            "color": "#000000"
+          },
+          {
+            "id": "1220671809234407504",
+            "name": "Loot Route Maker",
+            "position": 15,
+            "color": "#000000"
+          },
+          {
+            "id": "1408648789363003462",
+            "name": "Map Request Helper",
+            "position": 18,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764376676634684",
+            "name": "Invite Way",
+            "position": 20,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764975090438155",
+            "name": "Member",
+            "position": 22,
+            "color": "#ff0000"
+          },
+          {
+            "id": "1305277560086593546",
+            "name": "Manual Named Locations",
+            "position": 23,
+            "color": "#ff8000"
+          },
+          {
+            "id": "1055713830988157039",
+            "name": "Manual Landmarks",
+            "position": 24,
+            "color": "#ffff00"
+          },
+          {
+            "id": "1210819996372959243",
+            "name": "Bronze (LVL 5)",
+            "position": 29,
+            "color": "#bfff00"
+          },
+          {
+            "id": "1210868595635134514",
+            "name": "Silver (LVL 10)",
+            "position": 30,
+            "color": "#40ff00"
+          },
+          {
+            "id": "1210820151629586494",
+            "name": "Gold (LVL 15)",
+            "position": 31,
+            "color": "#00ff40"
+          },
+          {
+            "id": "1210803062080409600",
+            "name": "Staff",
+            "position": 46,
+            "color": "#c9ff8b"
+          },
+          {
+            "id": "1210847437728649266",
+            "name": "Support",
+            "position": 50,
+            "color": "#82ffff"
+          }
+        ],
+        "top_role": "Support",
+        "guild_permissions": 858446118326081
+      },
+      "target": null,
+      "details": {
+        "command": "wavepoints",
+        "prefix": ">",
+        "invoked_with": "wavepoints",
+        "args": [
+          "None"
+        ],
+        "kwargs": {},
+        "channel_id": "1301481065067708497",
+        "channel_name": "staff-commands",
+        "message": {
+          "id": "1509927628646383616",
+          "content": ">wavepoints",
+          "tts": false,
+          "pinned": false,
+          "type": "MessageType.default",
+          "jump_url": "https://discord.com/channels/988564962802810961/1301481065067708497/1509927628646383616",
+          "channel_id": "1301481065067708497",
+          "channel_name": "staff-commands",
+          "author": {
+            "id": "327850147969236994",
+            "name": "xenoborg_",
+            "discriminator": "0",
+            "global_name": "Numifv!",
+            "display_name": "Numifv! ( @ for Help )",
+            "nick": "Numifv! ( @ for Help )",
+            "bot": false,
+            "system": false,
+            "pending": false,
+            "avatar_url": "https://cdn.discordapp.com/avatars/327850147969236994/14cfc9b8f6531bd4a94808ec2c4fdac3.png?size=1024",
+            "public_flags": 0,
+            "public_flag_names": [],
+            "created_at": "2017-06-23T16:39:26.437000+00:00",
+            "joined_at": "2026-05-15T07:28:00.653000+00:00",
+            "roles": [
+              {
+                "id": "1483009677137547415",
+                "name": "Deutsch \ud83c\udde9\ud83c\uddea",
+                "position": 8,
+                "color": "#000000"
+              },
+              {
+                "id": "1220671809234407504",
+                "name": "Loot Route Maker",
+                "position": 15,
+                "color": "#000000"
+              },
+              {
+                "id": "1408648789363003462",
+                "name": "Map Request Helper",
+                "position": 18,
+                "color": "#000000"
+              },
+              {
+                "id": "1210764376676634684",
+                "name": "Invite Way",
+                "position": 20,
+                "color": "#000000"
+              },
+              {
+                "id": "1210764975090438155",
+                "name": "Member",
+                "position": 22,
+                "color": "#ff0000"
+              },
+              {
+                "id": "1305277560086593546",
+                "name": "Manual Named Locations",
+                "position": 23,
+                "color": "#ff8000"
+              },
+              {
+                "id": "1055713830988157039",
+                "name": "Manual Landmarks",
+                "position": 24,
+                "color": "#ffff00"
+              },
+              {
+                "id": "1210819996372959243",
+                "name": "Bronze (LVL 5)",
+                "position": 29,
+                "color": "#bfff00"
+              },
+              {
+                "id": "1210868595635134514",
+                "name": "Silver (LVL 10)",
+                "position": 30,
+                "color": "#40ff00"
+              },
+              {
+                "id": "1210820151629586494",
+                "name": "Gold (LVL 15)",
+                "position": 31,
+                "color": "#00ff40"
+              },
+              {
+                "id": "1210803062080409600",
+                "name": "Staff",
+                "position": 46,
+                "color": "#c9ff8b"
+              },
+              {
+                "id": "1210847437728649266",
+                "name": "Support",
+                "position": 50,
+                "color": "#82ffff"
+              }
+            ],
+            "top_role": "Support",
+            "guild_permissions": 858446118326081
+          },
+          "flags": 0,
+          "created_at": "2026-05-29T14:33:19.768000+00:00",
+          "mentions": {
+            "users": [],
+            "roles": [],
+            "channels": [],
+            "everyone": false
+          }
+        }
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-05-29T14:33:46Z",
+      "bot": "manager",
+      "category": "commands",
+      "action": "prefix_command_completed",
+      "actor": {
+        "id": "327850147969236994",
+        "name": "xenoborg_",
+        "discriminator": "0",
+        "global_name": "Numifv!",
+        "display_name": "Numifv! ( @ for Help )",
+        "nick": "Numifv! ( @ for Help )",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/327850147969236994/14cfc9b8f6531bd4a94808ec2c4fdac3.png?size=1024",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2017-06-23T16:39:26.437000+00:00",
+        "joined_at": "2026-05-15T07:28:00.653000+00:00",
+        "roles": [
+          {
+            "id": "1483009677137547415",
+            "name": "Deutsch \ud83c\udde9\ud83c\uddea",
+            "position": 8,
+            "color": "#000000"
+          },
+          {
+            "id": "1220671809234407504",
+            "name": "Loot Route Maker",
+            "position": 15,
+            "color": "#000000"
+          },
+          {
+            "id": "1408648789363003462",
+            "name": "Map Request Helper",
+            "position": 18,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764376676634684",
+            "name": "Invite Way",
+            "position": 20,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764975090438155",
+            "name": "Member",
+            "position": 22,
+            "color": "#ff0000"
+          },
+          {
+            "id": "1305277560086593546",
+            "name": "Manual Named Locations",
+            "position": 23,
+            "color": "#ff8000"
+          },
+          {
+            "id": "1055713830988157039",
+            "name": "Manual Landmarks",
+            "position": 24,
+            "color": "#ffff00"
+          },
+          {
+            "id": "1210819996372959243",
+            "name": "Bronze (LVL 5)",
+            "position": 29,
+            "color": "#bfff00"
+          },
+          {
+            "id": "1210868595635134514",
+            "name": "Silver (LVL 10)",
+            "position": 30,
+            "color": "#40ff00"
+          },
+          {
+            "id": "1210820151629586494",
+            "name": "Gold (LVL 15)",
+            "position": 31,
+            "color": "#00ff40"
+          },
+          {
+            "id": "1210803062080409600",
+            "name": "Staff",
+            "position": 46,
+            "color": "#c9ff8b"
+          },
+          {
+            "id": "1210847437728649266",
+            "name": "Support",
+            "position": 50,
+            "color": "#82ffff"
+          }
+        ],
+        "top_role": "Support",
+        "guild_permissions": 858446118326081
+      },
+      "target": null,
+      "details": {
+        "command": "pointstovbucks",
+        "prefix": ">",
+        "invoked_with": "pointstovbucks",
+        "args": [
+          "None"
+        ],
+        "kwargs": {},
+        "channel_id": "1301481065067708497",
+        "channel_name": "staff-commands",
+        "message": {
+          "id": "1509927743100293193",
+          "content": ">pointstovbucks",
+          "tts": false,
+          "pinned": false,
+          "type": "MessageType.default",
+          "jump_url": "https://discord.com/channels/988564962802810961/1301481065067708497/1509927743100293193",
+          "channel_id": "1301481065067708497",
+          "channel_name": "staff-commands",
+          "author": {
+            "id": "327850147969236994",
+            "name": "xenoborg_",
+            "discriminator": "0",
+            "global_name": "Numifv!",
+            "display_name": "Numifv! ( @ for Help )",
+            "nick": "Numifv! ( @ for Help )",
+            "bot": false,
+            "system": false,
+            "pending": false,
+            "avatar_url": "https://cdn.discordapp.com/avatars/327850147969236994/14cfc9b8f6531bd4a94808ec2c4fdac3.png?size=1024",
+            "public_flags": 0,
+            "public_flag_names": [],
+            "created_at": "2017-06-23T16:39:26.437000+00:00",
+            "joined_at": "2026-05-15T07:28:00.653000+00:00",
+            "roles": [
+              {
+                "id": "1483009677137547415",
+                "name": "Deutsch \ud83c\udde9\ud83c\uddea",
+                "position": 8,
+                "color": "#000000"
+              },
+              {
+                "id": "1220671809234407504",
+                "name": "Loot Route Maker",
+                "position": 15,
+                "color": "#000000"
+              },
+              {
+                "id": "1408648789363003462",
+                "name": "Map Request Helper",
+                "position": 18,
+                "color": "#000000"
+              },
+              {
+                "id": "1210764376676634684",
+                "name": "Invite Way",
+                "position": 20,
+                "color": "#000000"
+              },
+              {
+                "id": "1210764975090438155",
+                "name": "Member",
+                "position": 22,
+                "color": "#ff0000"
+              },
+              {
+                "id": "1305277560086593546",
+                "name": "Manual Named Locations",
+                "position": 23,
+                "color": "#ff8000"
+              },
+              {
+                "id": "1055713830988157039",
+                "name": "Manual Landmarks",
+                "position": 24,
+                "color": "#ffff00"
+              },
+              {
+                "id": "1210819996372959243",
+                "name": "Bronze (LVL 5)",
+                "position": 29,
+                "color": "#bfff00"
+              },
+              {
+                "id": "1210868595635134514",
+                "name": "Silver (LVL 10)",
+                "position": 30,
+                "color": "#40ff00"
+              },
+              {
+                "id": "1210820151629586494",
+                "name": "Gold (LVL 15)",
+                "position": 31,
+                "color": "#00ff40"
+              },
+              {
+                "id": "1210803062080409600",
+                "name": "Staff",
+                "position": 46,
+                "color": "#c9ff8b"
+              },
+              {
+                "id": "1210847437728649266",
+                "name": "Support",
+                "position": 50,
+                "color": "#82ffff"
+              }
+            ],
+            "top_role": "Support",
+            "guild_permissions": 858446118326081
+          },
+          "flags": 0,
+          "created_at": "2026-05-29T14:33:47.056000+00:00",
+          "mentions": {
+            "users": [],
+            "roles": [],
+            "channels": [],
+            "everyone": false
+          }
+        }
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-05-29T14:34:06Z",
+      "bot": "manager",
+      "category": "commands",
+      "action": "prefix_command_completed",
+      "actor": {
+        "id": "327850147969236994",
+        "name": "xenoborg_",
+        "discriminator": "0",
+        "global_name": "Numifv!",
+        "display_name": "Numifv! ( @ for Help )",
+        "nick": "Numifv! ( @ for Help )",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/327850147969236994/14cfc9b8f6531bd4a94808ec2c4fdac3.png?size=1024",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2017-06-23T16:39:26.437000+00:00",
+        "joined_at": "2026-05-15T07:28:00.653000+00:00",
+        "roles": [
+          {
+            "id": "1483009677137547415",
+            "name": "Deutsch \ud83c\udde9\ud83c\uddea",
+            "position": 8,
+            "color": "#000000"
+          },
+          {
+            "id": "1220671809234407504",
+            "name": "Loot Route Maker",
+            "position": 15,
+            "color": "#000000"
+          },
+          {
+            "id": "1408648789363003462",
+            "name": "Map Request Helper",
+            "position": 18,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764376676634684",
+            "name": "Invite Way",
+            "position": 20,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764975090438155",
+            "name": "Member",
+            "position": 22,
+            "color": "#ff0000"
+          },
+          {
+            "id": "1305277560086593546",
+            "name": "Manual Named Locations",
+            "position": 23,
+            "color": "#ff8000"
+          },
+          {
+            "id": "1055713830988157039",
+            "name": "Manual Landmarks",
+            "position": 24,
+            "color": "#ffff00"
+          },
+          {
+            "id": "1210819996372959243",
+            "name": "Bronze (LVL 5)",
+            "position": 29,
+            "color": "#bfff00"
+          },
+          {
+            "id": "1210868595635134514",
+            "name": "Silver (LVL 10)",
+            "position": 30,
+            "color": "#40ff00"
+          },
+          {
+            "id": "1210820151629586494",
+            "name": "Gold (LVL 15)",
+            "position": 31,
+            "color": "#00ff40"
+          },
+          {
+            "id": "1210803062080409600",
+            "name": "Staff",
+            "position": 46,
+            "color": "#c9ff8b"
+          },
+          {
+            "id": "1210847437728649266",
+            "name": "Support",
+            "position": 50,
+            "color": "#82ffff"
+          }
+        ],
+        "top_role": "Support",
+        "guild_permissions": 858446118326081
+      },
+      "target": null,
+      "details": {
+        "command": "pointstovbucks",
+        "prefix": ">",
+        "invoked_with": "pointstovbucks",
+        "args": [
+          "30"
+        ],
+        "kwargs": {},
+        "channel_id": "1301481065067708497",
+        "channel_name": "staff-commands",
+        "message": {
+          "id": "1509927826827251895",
+          "content": ">pointstovbucks 30",
+          "tts": false,
+          "pinned": false,
+          "type": "MessageType.default",
+          "jump_url": "https://discord.com/channels/988564962802810961/1301481065067708497/1509927826827251895",
+          "channel_id": "1301481065067708497",
+          "channel_name": "staff-commands",
+          "author": {
+            "id": "327850147969236994",
+            "name": "xenoborg_",
+            "discriminator": "0",
+            "global_name": "Numifv!",
+            "display_name": "Numifv! ( @ for Help )",
+            "nick": "Numifv! ( @ for Help )",
+            "bot": false,
+            "system": false,
+            "pending": false,
+            "avatar_url": "https://cdn.discordapp.com/avatars/327850147969236994/14cfc9b8f6531bd4a94808ec2c4fdac3.png?size=1024",
+            "public_flags": 0,
+            "public_flag_names": [],
+            "created_at": "2017-06-23T16:39:26.437000+00:00",
+            "joined_at": "2026-05-15T07:28:00.653000+00:00",
+            "roles": [
+              {
+                "id": "1483009677137547415",
+                "name": "Deutsch \ud83c\udde9\ud83c\uddea",
+                "position": 8,
+                "color": "#000000"
+              },
+              {
+                "id": "1220671809234407504",
+                "name": "Loot Route Maker",
+                "position": 15,
+                "color": "#000000"
+              },
+              {
+                "id": "1408648789363003462",
+                "name": "Map Request Helper",
+                "position": 18,
+                "color": "#000000"
+              },
+              {
+                "id": "1210764376676634684",
+                "name": "Invite Way",
+                "position": 20,
+                "color": "#000000"
+              },
+              {
+                "id": "1210764975090438155",
+                "name": "Member",
+                "position": 22,
+                "color": "#ff0000"
+              },
+              {
+                "id": "1305277560086593546",
+                "name": "Manual Named Locations",
+                "position": 23,
+                "color": "#ff8000"
+              },
+              {
+                "id": "1055713830988157039",
+                "name": "Manual Landmarks",
+                "position": 24,
+                "color": "#ffff00"
+              },
+              {
+                "id": "1210819996372959243",
+                "name": "Bronze (LVL 5)",
+                "position": 29,
+                "color": "#bfff00"
+              },
+              {
+                "id": "1210868595635134514",
+                "name": "Silver (LVL 10)",
+                "position": 30,
+                "color": "#40ff00"
+              },
+              {
+                "id": "1210820151629586494",
+                "name": "Gold (LVL 15)",
+                "position": 31,
+                "color": "#00ff40"
+              },
+              {
+                "id": "1210803062080409600",
+                "name": "Staff",
+                "position": 46,
+                "color": "#c9ff8b"
+              },
+              {
+                "id": "1210847437728649266",
+                "name": "Support",
+                "position": 50,
+                "color": "#82ffff"
+              }
+            ],
+            "top_role": "Support",
+            "guild_permissions": 858446118326081
+          },
+          "flags": 0,
+          "created_at": "2026-05-29T14:34:07.018000+00:00",
+          "mentions": {
+            "users": [],
+            "roles": [],
+            "channels": [],
+            "everyone": false
+          }
+        }
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    }
+  ]
+}
