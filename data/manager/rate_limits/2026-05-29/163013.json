@@ -1,0 +1,43 @@
+{
+  "pushed_at": "2026-05-29T16:30:13Z",
+  "events": [
+    {
+      "timestamp": "2026-05-29T16:27:22Z",
+      "bot": "manager",
+      "category": "rate_limits",
+      "action": "rate_limit_hit",
+      "actor": null,
+      "target": null,
+      "details": {
+        "hit_number": 1,
+        "route": "<discord.http.Route object at 0x000002183F0D0D10>",
+        "bucket": "481e0bf1883da82f2e83411bc2da9c89",
+        "scope": "user",
+        "global": false,
+        "retry_after": "30",
+        "error_text": "You are being rate limited."
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-29T16:27:22Z",
+      "bot": "manager",
+      "category": "rate_limits",
+      "action": "rate_limit_hit",
+      "actor": null,
+      "target": null,
+      "details": {
+        "hit_number": 1,
+        "route": "<discord.http.Route object at 0x000002183F0D0D10>",
+        "bucket": "481e0bf1883da82f2e83411bc2da9c89",
+        "scope": "user",
+        "global": false,
+        "retry_after": "30",
+        "error_text": "You are being rate limited."
+      },
+      "guild_id": null,
+      "guild_name": null
+    }
+  ]
+}
