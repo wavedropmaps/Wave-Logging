@@ -1,0 +1,140 @@
+{
+  "pushed_at": "2026-05-29T09:49:51Z",
+  "events": [
+    {
+      "timestamp": "2026-05-29T09:46:41Z",
+      "bot": "server",
+      "category": "channel_create",
+      "action": "channel_created",
+      "actor": null,
+      "target": null,
+      "details": {
+        "channel": {
+          "id": "1509855487024304138",
+          "name": "ticket-i-ow",
+          "type": "text",
+          "position": 394,
+          "category": {
+            "id": "1231429393642029076",
+            "name": "--- Tickets (Waiting for users) ---"
+          },
+          "nsfw": false,
+          "slowmode_delay": 0,
+          "default_auto_archive_duration": 1440,
+          "overwrites": [
+            {
+              "target_type": "role",
+              "target_id": "971731167621574666",
+              "target_name": "@everyone",
+              "allow": 0,
+              "deny": 1024
+            },
+            {
+              "target_type": "member",
+              "target_id": "538616861240328194",
+              "target_name": "ractpalerdania1431",
+              "allow": 117760,
+              "deny": 0
+            },
+            {
+              "target_type": "role",
+              "target_id": "1057292093057400912",
+              "target_name": "Quarantine",
+              "allow": 0,
+              "deny": 377957125121
+            }
+          ]
+        },
+        "audit": {
+          "audit_id": "1509855487024304139",
+          "actor": {
+            "id": "576395920787111936",
+            "name": "Ticket Bot",
+            "discriminator": "7812",
+            "display_name": "Ticket Bot",
+            "bot": true,
+            "system": false,
+            "pending": false,
+            "avatar_url": "https://cdn.discordapp.com/avatars/576395920787111936/7d08f80c3f051ab6daa341177e2d10ea.png?size=1024",
+            "public_flags": 65536,
+            "public_flag_names": [
+              "verified_bot"
+            ],
+            "created_at": "2019-05-10T13:11:36.434000+00:00",
+            "joined_at": "2024-04-20T09:40:38.904000+00:00",
+            "roles": [
+              {
+                "id": "1307486678231023736",
+                "name": "*",
+                "position": 1,
+                "color": "#000000"
+              },
+              {
+                "id": "1149680236041080832",
+                "name": "Member",
+                "position": 21,
+                "color": "#ff0000"
+              },
+              {
+                "id": "1105873031450075227",
+                "name": "Access",
+                "position": 23,
+                "color": "#ff8000"
+              },
+              {
+                "id": "1144226524279615519",
+                "name": "bots",
+                "position": 65,
+                "color": "#000000"
+              },
+              {
+                "id": "1231177704288813067",
+                "name": "Ticket Bot",
+                "position": 70,
+                "color": "#000000"
+              }
+            ],
+            "top_role": "Ticket Bot",
+            "guild_permissions": 1829587348619263
+          },
+          "reason": "Ticket created",
+          "created_at": "2026-05-29T09:46:39.865000+00:00",
+          "changes": [
+            {
+              "key": "flags",
+              "before": null,
+              "after": "<ChannelFlags value=0>"
+            },
+            {
+              "key": "type",
+              "before": null,
+              "after": "text"
+            },
+            {
+              "key": "nsfw",
+              "before": null,
+              "after": "False"
+            },
+            {
+              "key": "name",
+              "before": null,
+              "after": "ticket-i-ow"
+            },
+            {
+              "key": "overwrites",
+              "before": null,
+              "after": "[(<Object id=538616861240328194 type=<class 'discord.member.Member'>>, <discord.permissions.PermissionOverwrite object at 0x0000020AB3553C10>), (<Object id=971731167621574666 type=<class 'discord.member.Member'>>, <discord.permissions.PermissionOverwrite object at 0x0000020AB3553280>)]"
+            },
+            {
+              "key": "slowmode_delay",
+              "before": null,
+              "after": "0"
+            }
+          ]
+        }
+      },
+      "guild_id": "971731167621574666",
+      "guild_name": "Wave Improvement Cord! | Loot Routes + Tips & Tricks"
+    }
+  ]
+}
