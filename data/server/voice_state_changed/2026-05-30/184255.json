@@ -1,0 +1,187 @@
+{
+  "pushed_at": "2026-05-30T18:42:55Z",
+  "events": [
+    {
+      "timestamp": "2026-05-30T18:38:29Z",
+      "bot": "server",
+      "category": "voice_state_changed",
+      "action": "voice_joined",
+      "actor": {
+        "id": "702932647793393664",
+        "name": "cosbellico",
+        "discriminator": "0",
+        "global_name": "COKIXX",
+        "display_name": "COKIXX",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/702932647793393664/a1576912f56fdb046c02481ecfaaf189.png?size=1024",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2020-04-23T17:23:23.091000+00:00",
+        "joined_at": "2023-08-14T15:04:07.541000+00:00",
+        "roles": [
+          {
+            "id": "1490579498884665425",
+            "name": "*",
+            "position": 1,
+            "color": "#000000"
+          },
+          {
+            "id": "1306357759163498496",
+            "name": "English \ud83c\uddec\ud83c\udde7",
+            "position": 9,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764975090438155",
+            "name": "Member",
+            "position": 22,
+            "color": "#ff0000"
+          },
+          {
+            "id": "1305277560086593546",
+            "name": "Manual Named Locations",
+            "position": 23,
+            "color": "#ff8000"
+          }
+        ],
+        "top_role": "Manual Named Locations",
+        "guild_permissions": 5224864484865,
+        "voice": {
+          "self_mute": true,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "0d5db2c39c28938ccb00cf70cd1ed8d3",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        }
+      },
+      "target": null,
+      "details": {
+        "before": {
+          "self_mute": true,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "0d5db2c39c28938ccb00cf70cd1ed8d3"
+        },
+        "after": {
+          "self_mute": true,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "0d5db2c39c28938ccb00cf70cd1ed8d3",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        },
+        "channel_before_id": null,
+        "channel_after_id": "1210798926794588191"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-05-30T18:38:34Z",
+      "bot": "server",
+      "category": "voice_state_changed",
+      "action": "voice_left",
+      "actor": {
+        "id": "702932647793393664",
+        "name": "cosbellico",
+        "discriminator": "0",
+        "global_name": "COKIXX",
+        "display_name": "COKIXX",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/702932647793393664/a1576912f56fdb046c02481ecfaaf189.png?size=1024",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2020-04-23T17:23:23.091000+00:00",
+        "joined_at": "2023-08-14T15:04:07.541000+00:00",
+        "roles": [
+          {
+            "id": "1490579498884665425",
+            "name": "*",
+            "position": 1,
+            "color": "#000000"
+          },
+          {
+            "id": "1306357759163498496",
+            "name": "English \ud83c\uddec\ud83c\udde7",
+            "position": 9,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764975090438155",
+            "name": "Member",
+            "position": 22,
+            "color": "#ff0000"
+          },
+          {
+            "id": "1305277560086593546",
+            "name": "Manual Named Locations",
+            "position": 23,
+            "color": "#ff8000"
+          }
+        ],
+        "top_role": "Manual Named Locations",
+        "guild_permissions": 5224864484865
+      },
+      "target": null,
+      "details": {
+        "before": {
+          "self_mute": true,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "0d5db2c39c28938ccb00cf70cd1ed8d3",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        },
+        "after": {
+          "self_mute": true,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "0d5db2c39c28938ccb00cf70cd1ed8d3"
+        },
+        "channel_before_id": "1210798926794588191",
+        "channel_after_id": null
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    }
+  ]
+}
