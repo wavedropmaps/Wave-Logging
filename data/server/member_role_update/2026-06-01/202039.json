@@ -1,0 +1,811 @@
+{
+  "pushed_at": "2026-06-01T20:20:39Z",
+  "events": [
+    {
+      "timestamp": "2026-06-01T20:16:11Z",
+      "bot": "server",
+      "category": "member_role_update",
+      "action": "member_roles_changed",
+      "actor": null,
+      "target": {
+        "id": "1509204267989471333",
+        "name": "arqbear",
+        "discriminator": "0",
+        "global_name": "Arq",
+        "display_name": "Arq",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/1509204267989471333/8a3032e9f134728d33c80dca114d7d63.png?size=1024",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2026-05-27T14:38:57.148000+00:00",
+        "joined_at": "2026-06-01T20:16:09.457941+00:00",
+        "roles": [
+          {
+            "id": "1149680236041080832",
+            "name": "Member",
+            "position": 21,
+            "color": "#ff0000"
+          }
+        ],
+        "top_role": "Member",
+        "guild_permissions": 4949986577921
+      },
+      "details": {
+        "added": [
+          {
+            "id": "1149680236041080832",
+            "name": "Member",
+            "position": 21,
+            "color": "#ff0000",
+            "hoist": true,
+            "mentionable": false,
+            "managed": false,
+            "permissions": 4949986577921,
+            "permission_names": [
+              "create_instant_invite",
+              "stream",
+              "read_messages",
+              "send_messages",
+              "read_message_history",
+              "connect",
+              "speak",
+              "use_voice_activation",
+              "use_application_commands",
+              "use_embedded_activities",
+              "use_soundboard"
+            ],
+            "tags": {
+              "bot_id": null,
+              "integration_id": null,
+              "is_premium_subscriber": false
+            }
+          }
+        ],
+        "removed": [],
+        "audit": {
+          "audit_id": "1511101072159281272",
+          "actor": {
+            "id": "697487580522086431",
+            "name": "AutoMod",
+            "discriminator": "8695",
+            "display_name": "Use Code WaveDropMap For Access!",
+            "nick": "Use Code WaveDropMap For Access!",
+            "bot": true,
+            "system": false,
+            "pending": false,
+            "avatar_url": "https://cdn.discordapp.com/avatars/697487580522086431/932397508df8560ddf1514619184947c.png?size=1024",
+            "public_flags": 65536,
+            "public_flag_names": [
+              "verified_bot"
+            ],
+            "created_at": "2020-04-08T16:46:37.889000+00:00",
+            "joined_at": "2024-05-27T12:12:41.955000+00:00",
+            "roles": [
+              {
+                "id": "1307486678231023736",
+                "name": "*",
+                "position": 1,
+                "color": "#000000"
+              },
+              {
+                "id": "1149680236041080832",
+                "name": "Member",
+                "position": 21,
+                "color": "#ff0000"
+              },
+              {
+                "id": "1105873031450075227",
+                "name": "Access",
+                "position": 23,
+                "color": "#ff8000"
+              },
+              {
+                "id": "1144226524279615519",
+                "name": "bots",
+                "position": 65,
+                "color": "#000000"
+              },
+              {
+                "id": "1244624319779307574",
+                "name": "AutoMod",
+                "position": 71,
+                "color": "#000000"
+              }
+            ],
+            "top_role": "AutoMod",
+            "guild_permissions": 1829587348619263
+          },
+          "reason": null,
+          "created_at": "2026-06-01T20:16:10.503000+00:00",
+          "changes": [
+            {
+              "key": "roles",
+              "before": "[]",
+              "after": "[<Role id=1149680236041080832 name='Member'>]"
+            }
+          ]
+        }
+      },
+      "guild_id": "971731167621574666",
+      "guild_name": "Wave Improvement Cord! | Loot Routes + Tips & Tricks"
+    },
+    {
+      "timestamp": "2026-06-01T20:16:22Z",
+      "bot": "server",
+      "category": "member_role_update",
+      "action": "member_roles_changed",
+      "actor": null,
+      "target": {
+        "id": "1509204267989471333",
+        "name": "arqbear",
+        "discriminator": "0",
+        "global_name": "Arq",
+        "display_name": "Arq",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/1509204267989471333/8a3032e9f134728d33c80dca114d7d63.png?size=1024",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2026-05-27T14:38:57.148000+00:00",
+        "joined_at": "2026-06-01T20:16:09.457941+00:00",
+        "roles": [
+          {
+            "id": "1188090112987377705",
+            "name": "Invite Way",
+            "position": 12,
+            "color": "#000000"
+          },
+          {
+            "id": "1149680236041080832",
+            "name": "Member",
+            "position": 21,
+            "color": "#ff0000"
+          }
+        ],
+        "top_role": "Member",
+        "guild_permissions": 4949986577921
+      },
+      "details": {
+        "added": [
+          {
+            "id": "1188090112987377705",
+            "name": "Invite Way",
+            "position": 12,
+            "color": "#000000",
+            "hoist": false,
+            "mentionable": false,
+            "managed": false,
+            "permissions": 0,
+            "permission_names": [],
+            "tags": {
+              "bot_id": null,
+              "integration_id": null,
+              "is_premium_subscriber": false
+            }
+          }
+        ],
+        "removed": [],
+        "audit": {
+          "audit_id": "1511101115343700270",
+          "actor": {
+            "id": "1509204267989471333",
+            "name": "arqbear",
+            "discriminator": "0",
+            "global_name": "Arq",
+            "display_name": "Arq",
+            "bot": false,
+            "system": false,
+            "pending": false,
+            "avatar_url": "https://cdn.discordapp.com/avatars/1509204267989471333/8a3032e9f134728d33c80dca114d7d63.png?size=1024",
+            "public_flags": 0,
+            "public_flag_names": [],
+            "created_at": "2026-05-27T14:38:57.148000+00:00",
+            "joined_at": "2026-06-01T20:16:09.457941+00:00",
+            "roles": [
+              {
+                "id": "1188090112987377705",
+                "name": "Invite Way",
+                "position": 12,
+                "color": "#000000"
+              },
+              {
+                "id": "1149680236041080832",
+                "name": "Member",
+                "position": 21,
+                "color": "#ff0000"
+              }
+            ],
+            "top_role": "Member",
+            "guild_permissions": 4949986577921
+          },
+          "reason": null,
+          "created_at": "2026-06-01T20:16:20.799000+00:00",
+          "changes": [
+            {
+              "key": "roles",
+              "before": "[]",
+              "after": "[<Role id=1188090112987377705 name='Invite Way'>]"
+            }
+          ]
+        }
+      },
+      "guild_id": "971731167621574666",
+      "guild_name": "Wave Improvement Cord! | Loot Routes + Tips & Tricks"
+    },
+    {
+      "timestamp": "2026-06-01T20:17:10Z",
+      "bot": "server",
+      "category": "member_role_update",
+      "action": "member_roles_changed",
+      "actor": null,
+      "target": {
+        "id": "1307923505127489547",
+        "name": "ckzr",
+        "discriminator": "0",
+        "global_name": "serenereyli",
+        "display_name": "serenereyli",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/1307923505127489547/83db3c00830e4da0d04fa323f813b846.png?size=1024",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2024-11-18T04:21:03.666000+00:00",
+        "joined_at": "2024-12-19T03:18:19.824000+00:00",
+        "timed_out_until": "2025-04-06T21:35:06.344000+00:00",
+        "roles": [
+          {
+            "id": "1307486678231023736",
+            "name": "*",
+            "position": 1,
+            "color": "#000000"
+          },
+          {
+            "id": "1188092082540261486",
+            "name": "Code Way",
+            "position": 11,
+            "color": "#000000"
+          },
+          {
+            "id": "1123524595392188447",
+            "name": "Xbox",
+            "position": 16,
+            "color": "#000000"
+          },
+          {
+            "id": "1123524556162863175",
+            "name": "Pc",
+            "position": 17,
+            "color": "#000000"
+          },
+          {
+            "id": "1124100113585934506",
+            "name": "Support \ud83e\udd1d",
+            "position": 18,
+            "color": "#000000"
+          },
+          {
+            "id": "1123522501075542067",
+            "name": "Fragger \ud83d\udee0\ufe0f",
+            "position": 19,
+            "color": "#000000"
+          },
+          {
+            "id": "1123522475079254077",
+            "name": "IGL \ud83e\udde0",
+            "position": 20,
+            "color": "#000000"
+          },
+          {
+            "id": "1149680236041080832",
+            "name": "Member",
+            "position": 21,
+            "color": "#ff0000"
+          },
+          {
+            "id": "1105873031450075227",
+            "name": "Access",
+            "position": 23,
+            "color": "#ff8000"
+          }
+        ],
+        "top_role": "Access",
+        "guild_permissions": 4949986577921
+      },
+      "details": {
+        "added": [],
+        "removed": [
+          {
+            "id": "1199151986092814374",
+            "name": "Access Invite way",
+            "position": 22,
+            "color": "#ff8000",
+            "hoist": true,
+            "mentionable": false,
+            "managed": false,
+            "permissions": 0,
+            "permission_names": [],
+            "tags": {
+              "bot_id": null,
+              "integration_id": null,
+              "is_premium_subscriber": false
+            }
+          }
+        ],
+        "audit": {
+          "audit_id": "1511101318704402522",
+          "actor": {
+            "id": "789797049746980895",
+            "name": "InviteManager",
+            "discriminator": "8551",
+            "display_name": "InviteManager",
+            "bot": true,
+            "system": false,
+            "pending": false,
+            "avatar_url": "https://cdn.discordapp.com/avatars/789797049746980895/7e135a63c757b2021d5cab163c8c6db0.png?size=1024",
+            "public_flags": 65536,
+            "public_flag_names": [
+              "verified_bot"
+            ],
+            "created_at": "2020-12-19T10:11:30.379000+00:00",
+            "joined_at": "2023-07-20T11:37:49.900000+00:00",
+            "roles": [
+              {
+                "id": "1307486678231023736",
+                "name": "*",
+                "position": 1,
+                "color": "#000000"
+              },
+              {
+                "id": "1149680236041080832",
+                "name": "Member",
+                "position": 21,
+                "color": "#ff0000"
+              },
+              {
+                "id": "1105873031450075227",
+                "name": "Access",
+                "position": 23,
+                "color": "#ff8000"
+              },
+              {
+                "id": "1144226524279615519",
+                "name": "bots",
+                "position": 65,
+                "color": "#000000"
+              },
+              {
+                "id": "1131550531345715241",
+                "name": "InviteManager",
+                "position": 72,
+                "color": "#000000"
+              }
+            ],
+            "top_role": "InviteManager",
+            "guild_permissions": 1829587348619263
+          },
+          "reason": "Not have enough invites for rank",
+          "created_at": "2026-06-01T20:17:09.284000+00:00",
+          "changes": [
+            {
+              "key": "roles",
+              "before": "[<Role id=1199151986092814374 name='Access Invite way'>]",
+              "after": "[]"
+            }
+          ]
+        }
+      },
+      "guild_id": "971731167621574666",
+      "guild_name": "Wave Improvement Cord! | Loot Routes + Tips & Tricks"
+    },
+    {
+      "timestamp": "2026-06-01T20:17:24Z",
+      "bot": "server",
+      "category": "member_role_update",
+      "action": "member_roles_changed",
+      "actor": null,
+      "target": {
+        "id": "1469674086606045205",
+        "name": "henrik770032",
+        "discriminator": "0",
+        "global_name": "9E Henrik",
+        "display_name": "9E Henrik",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/1469674086606045205/e26c59cff8e3ffa49ceb4e4007e9fe74.png?size=1024",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2026-02-07T12:40:07.471000+00:00",
+        "joined_at": "2026-06-01T20:17:22.893148+00:00",
+        "roles": [
+          {
+            "id": "1149680236041080832",
+            "name": "Member",
+            "position": 21,
+            "color": "#ff0000"
+          }
+        ],
+        "top_role": "Member",
+        "guild_permissions": 4949986577921
+      },
+      "details": {
+        "added": [
+          {
+            "id": "1149680236041080832",
+            "name": "Member",
+            "position": 21,
+            "color": "#ff0000",
+            "hoist": true,
+            "mentionable": false,
+            "managed": false,
+            "permissions": 4949986577921,
+            "permission_names": [
+              "create_instant_invite",
+              "stream",
+              "read_messages",
+              "send_messages",
+              "read_message_history",
+              "connect",
+              "speak",
+              "use_voice_activation",
+              "use_application_commands",
+              "use_embedded_activities",
+              "use_soundboard"
+            ],
+            "tags": {
+              "bot_id": null,
+              "integration_id": null,
+              "is_premium_subscriber": false
+            }
+          }
+        ],
+        "removed": [],
+        "audit": {
+          "audit_id": "1511101378012123136",
+          "actor": {
+            "id": "697487580522086431",
+            "name": "AutoMod",
+            "discriminator": "8695",
+            "display_name": "Use Code WaveDropMap For Access!",
+            "nick": "Use Code WaveDropMap For Access!",
+            "bot": true,
+            "system": false,
+            "pending": false,
+            "avatar_url": "https://cdn.discordapp.com/avatars/697487580522086431/932397508df8560ddf1514619184947c.png?size=1024",
+            "public_flags": 65536,
+            "public_flag_names": [
+              "verified_bot"
+            ],
+            "created_at": "2020-04-08T16:46:37.889000+00:00",
+            "joined_at": "2024-05-27T12:12:41.955000+00:00",
+            "roles": [
+              {
+                "id": "1307486678231023736",
+                "name": "*",
+                "position": 1,
+                "color": "#000000"
+              },
+              {
+                "id": "1149680236041080832",
+                "name": "Member",
+                "position": 21,
+                "color": "#ff0000"
+              },
+              {
+                "id": "1105873031450075227",
+                "name": "Access",
+                "position": 23,
+                "color": "#ff8000"
+              },
+              {
+                "id": "1144226524279615519",
+                "name": "bots",
+                "position": 65,
+                "color": "#000000"
+              },
+              {
+                "id": "1244624319779307574",
+                "name": "AutoMod",
+                "position": 71,
+                "color": "#000000"
+              }
+            ],
+            "top_role": "AutoMod",
+            "guild_permissions": 1829587348619263
+          },
+          "reason": null,
+          "created_at": "2026-06-01T20:17:23.424000+00:00",
+          "changes": [
+            {
+              "key": "roles",
+              "before": "[]",
+              "after": "[<Role id=1149680236041080832 name='Member'>]"
+            }
+          ]
+        }
+      },
+      "guild_id": "971731167621574666",
+      "guild_name": "Wave Improvement Cord! | Loot Routes + Tips & Tricks"
+    },
+    {
+      "timestamp": "2026-06-01T20:17:26Z",
+      "bot": "server",
+      "category": "member_role_update",
+      "action": "member_roles_changed",
+      "actor": null,
+      "target": {
+        "id": "1307923505127489547",
+        "name": "ckzr",
+        "discriminator": "0",
+        "global_name": "serenereyli",
+        "display_name": "serenereyli",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/1307923505127489547/83db3c00830e4da0d04fa323f813b846.png?size=1024",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2024-11-18T04:21:03.666000+00:00",
+        "joined_at": "2024-12-19T03:18:19.824000+00:00",
+        "timed_out_until": "2025-04-06T21:35:06.344000+00:00",
+        "roles": [
+          {
+            "id": "1307486678231023736",
+            "name": "*",
+            "position": 1,
+            "color": "#000000"
+          },
+          {
+            "id": "1188092082540261486",
+            "name": "Code Way",
+            "position": 11,
+            "color": "#000000"
+          },
+          {
+            "id": "1123524595392188447",
+            "name": "Xbox",
+            "position": 16,
+            "color": "#000000"
+          },
+          {
+            "id": "1123524556162863175",
+            "name": "Pc",
+            "position": 17,
+            "color": "#000000"
+          },
+          {
+            "id": "1124100113585934506",
+            "name": "Support \ud83e\udd1d",
+            "position": 18,
+            "color": "#000000"
+          },
+          {
+            "id": "1123522501075542067",
+            "name": "Fragger \ud83d\udee0\ufe0f",
+            "position": 19,
+            "color": "#000000"
+          },
+          {
+            "id": "1123522475079254077",
+            "name": "IGL \ud83e\udde0",
+            "position": 20,
+            "color": "#000000"
+          },
+          {
+            "id": "1149680236041080832",
+            "name": "Member",
+            "position": 21,
+            "color": "#ff0000"
+          },
+          {
+            "id": "1199151986092814374",
+            "name": "Access Invite way",
+            "position": 22,
+            "color": "#ff8000"
+          },
+          {
+            "id": "1105873031450075227",
+            "name": "Access",
+            "position": 23,
+            "color": "#ff8000"
+          }
+        ],
+        "top_role": "Access",
+        "guild_permissions": 4949986577921
+      },
+      "details": {
+        "added": [
+          {
+            "id": "1199151986092814374",
+            "name": "Access Invite way",
+            "position": 22,
+            "color": "#ff8000",
+            "hoist": true,
+            "mentionable": false,
+            "managed": false,
+            "permissions": 0,
+            "permission_names": [],
+            "tags": {
+              "bot_id": null,
+              "integration_id": null,
+              "is_premium_subscriber": false
+            }
+          }
+        ],
+        "removed": [],
+        "audit": {
+          "audit_id": "1511101385201029351",
+          "actor": {
+            "id": "789797049746980895",
+            "name": "InviteManager",
+            "discriminator": "8551",
+            "display_name": "InviteManager",
+            "bot": true,
+            "system": false,
+            "pending": false,
+            "avatar_url": "https://cdn.discordapp.com/avatars/789797049746980895/7e135a63c757b2021d5cab163c8c6db0.png?size=1024",
+            "public_flags": 65536,
+            "public_flag_names": [
+              "verified_bot"
+            ],
+            "created_at": "2020-12-19T10:11:30.379000+00:00",
+            "joined_at": "2023-07-20T11:37:49.900000+00:00",
+            "roles": [
+              {
+                "id": "1307486678231023736",
+                "name": "*",
+                "position": 1,
+                "color": "#000000"
+              },
+              {
+                "id": "1149680236041080832",
+                "name": "Member",
+                "position": 21,
+                "color": "#ff0000"
+              },
+              {
+                "id": "1105873031450075227",
+                "name": "Access",
+                "position": 23,
+                "color": "#ff8000"
+              },
+              {
+                "id": "1144226524279615519",
+                "name": "bots",
+                "position": 65,
+                "color": "#000000"
+              },
+              {
+                "id": "1131550531345715241",
+                "name": "InviteManager",
+                "position": 72,
+                "color": "#000000"
+              }
+            ],
+            "top_role": "InviteManager",
+            "guild_permissions": 1829587348619263
+          },
+          "reason": "Reached a new rank by invites",
+          "created_at": "2026-06-01T20:17:25.138000+00:00",
+          "changes": [
+            {
+              "key": "roles",
+              "before": "[]",
+              "after": "[<Role id=1199151986092814374 name='Access Invite way'>]"
+            }
+          ]
+        }
+      },
+      "guild_id": "971731167621574666",
+      "guild_name": "Wave Improvement Cord! | Loot Routes + Tips & Tricks"
+    },
+    {
+      "timestamp": "2026-06-01T20:17:31Z",
+      "bot": "server",
+      "category": "member_role_update",
+      "action": "member_roles_changed",
+      "actor": null,
+      "target": {
+        "id": "1469674086606045205",
+        "name": "henrik770032",
+        "discriminator": "0",
+        "global_name": "9E Henrik",
+        "display_name": "9E Henrik",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/1469674086606045205/e26c59cff8e3ffa49ceb4e4007e9fe74.png?size=1024",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2026-02-07T12:40:07.471000+00:00",
+        "joined_at": "2026-06-01T20:17:22.893148+00:00",
+        "roles": [
+          {
+            "id": "1188090112987377705",
+            "name": "Invite Way",
+            "position": 12,
+            "color": "#000000"
+          },
+          {
+            "id": "1149680236041080832",
+            "name": "Member",
+            "position": 21,
+            "color": "#ff0000"
+          }
+        ],
+        "top_role": "Member",
+        "guild_permissions": 4949986577921
+      },
+      "details": {
+        "added": [
+          {
+            "id": "1188090112987377705",
+            "name": "Invite Way",
+            "position": 12,
+            "color": "#000000",
+            "hoist": false,
+            "mentionable": false,
+            "managed": false,
+            "permissions": 0,
+            "permission_names": [],
+            "tags": {
+              "bot_id": null,
+              "integration_id": null,
+              "is_premium_subscriber": false
+            }
+          }
+        ],
+        "removed": [],
+        "audit": {
+          "audit_id": "1511101405627158688",
+          "actor": {
+            "id": "1469674086606045205",
+            "name": "henrik770032",
+            "discriminator": "0",
+            "global_name": "9E Henrik",
+            "display_name": "9E Henrik",
+            "bot": false,
+            "system": false,
+            "pending": false,
+            "avatar_url": "https://cdn.discordapp.com/avatars/1469674086606045205/e26c59cff8e3ffa49ceb4e4007e9fe74.png?size=1024",
+            "public_flags": 0,
+            "public_flag_names": [],
+            "created_at": "2026-02-07T12:40:07.471000+00:00",
+            "joined_at": "2026-06-01T20:17:22.893148+00:00",
+            "roles": [
+              {
+                "id": "1188090112987377705",
+                "name": "Invite Way",
+                "position": 12,
+                "color": "#000000"
+              },
+              {
+                "id": "1149680236041080832",
+                "name": "Member",
+                "position": 21,
+                "color": "#ff0000"
+              }
+            ],
+            "top_role": "Member",
+            "guild_permissions": 4949986577921
+          },
+          "reason": null,
+          "created_at": "2026-06-01T20:17:30.008000+00:00",
+          "changes": [
+            {
+              "key": "roles",
+              "before": "[]",
+              "after": "[<Role id=1188090112987377705 name='Invite Way'>]"
+            }
+          ]
+        }
+      },
+      "guild_id": "971731167621574666",
+      "guild_name": "Wave Improvement Cord! | Loot Routes + Tips & Tricks"
+    }
+  ]
+}
