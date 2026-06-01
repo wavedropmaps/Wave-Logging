@@ -1,0 +1,773 @@
+{
+  "pushed_at": "2026-06-01T18:25:39Z",
+  "events": [
+    {
+      "timestamp": "2026-06-01T18:21:08Z",
+      "bot": "server",
+      "category": "voice_state_changed",
+      "action": "voice_joined",
+      "actor": {
+        "id": "1322663710862344313",
+        "name": "fahad_121212",
+        "discriminator": "0",
+        "global_name": "Fahad",
+        "display_name": "Fahad",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/1322663710862344313/552e0809444da3020fd416e1fc1038a8.png?size=1024",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2024-12-28T20:33:22.573000+00:00",
+        "joined_at": "2026-04-02T14:56:47.685000+00:00",
+        "roles": [
+          {
+            "id": "1491225386804314132",
+            "name": "*",
+            "position": 4,
+            "color": "#000000"
+          },
+          {
+            "id": "1503649126192119839",
+            "name": "Loot Route Inspector",
+            "position": 30,
+            "color": "#000000"
+          },
+          {
+            "id": "1231188006757728266",
+            "name": "Loot Route Maker",
+            "position": 35,
+            "color": "#01665b"
+          },
+          {
+            "id": "1261142546814468136",
+            "name": "Tips and Tricks Helper",
+            "position": 37,
+            "color": "#af4700"
+          },
+          {
+            "id": "1041582141340917870",
+            "name": "Staff",
+            "position": 39,
+            "color": "#c9ff8b"
+          },
+          {
+            "id": "1041582129500397658",
+            "name": "Support",
+            "position": 40,
+            "color": "#82ffff"
+          }
+        ],
+        "top_role": "Support",
+        "guild_permissions": 673594790501952,
+        "voice": {
+          "self_mute": false,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "3e1f235e984fe6ed4d73f2e1e58da918",
+          "channel": {
+            "id": "1261249012388986953",
+            "name": "General VC",
+            "type": "voice"
+          }
+        }
+      },
+      "target": null,
+      "details": {
+        "before": {
+          "self_mute": false,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "3e1f235e984fe6ed4d73f2e1e58da918"
+        },
+        "after": {
+          "self_mute": false,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "3e1f235e984fe6ed4d73f2e1e58da918",
+          "channel": {
+            "id": "1261249012388986953",
+            "name": "General VC",
+            "type": "voice"
+          }
+        },
+        "channel_before_id": null,
+        "channel_after_id": "1261249012388986953"
+      },
+      "guild_id": "1041450125391835186",
+      "guild_name": "WAVE Drop Map Staff Hub"
+    },
+    {
+      "timestamp": "2026-06-01T18:21:14Z",
+      "bot": "server",
+      "category": "voice_state_changed",
+      "action": "voice_moved",
+      "actor": {
+        "id": "1322663710862344313",
+        "name": "fahad_121212",
+        "discriminator": "0",
+        "global_name": "Fahad",
+        "display_name": "Fahad",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/1322663710862344313/552e0809444da3020fd416e1fc1038a8.png?size=1024",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2024-12-28T20:33:22.573000+00:00",
+        "joined_at": "2026-04-02T14:56:47.685000+00:00",
+        "roles": [
+          {
+            "id": "1491225386804314132",
+            "name": "*",
+            "position": 4,
+            "color": "#000000"
+          },
+          {
+            "id": "1503649126192119839",
+            "name": "Loot Route Inspector",
+            "position": 30,
+            "color": "#000000"
+          },
+          {
+            "id": "1231188006757728266",
+            "name": "Loot Route Maker",
+            "position": 35,
+            "color": "#01665b"
+          },
+          {
+            "id": "1261142546814468136",
+            "name": "Tips and Tricks Helper",
+            "position": 37,
+            "color": "#af4700"
+          },
+          {
+            "id": "1041582141340917870",
+            "name": "Staff",
+            "position": 39,
+            "color": "#c9ff8b"
+          },
+          {
+            "id": "1041582129500397658",
+            "name": "Support",
+            "position": 40,
+            "color": "#82ffff"
+          }
+        ],
+        "top_role": "Support",
+        "guild_permissions": 673594790501952,
+        "voice": {
+          "self_mute": false,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "3e1f235e984fe6ed4d73f2e1e58da918",
+          "channel": {
+            "id": "1240252454205919263",
+            "name": "Staff-VC",
+            "type": "voice"
+          }
+        }
+      },
+      "target": null,
+      "details": {
+        "before": {
+          "self_mute": false,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "3e1f235e984fe6ed4d73f2e1e58da918",
+          "channel": {
+            "id": "1261249012388986953",
+            "name": "General VC",
+            "type": "voice"
+          }
+        },
+        "after": {
+          "self_mute": false,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "3e1f235e984fe6ed4d73f2e1e58da918",
+          "channel": {
+            "id": "1240252454205919263",
+            "name": "Staff-VC",
+            "type": "voice"
+          }
+        },
+        "channel_before_id": "1261249012388986953",
+        "channel_after_id": "1240252454205919263"
+      },
+      "guild_id": "1041450125391835186",
+      "guild_name": "WAVE Drop Map Staff Hub"
+    },
+    {
+      "timestamp": "2026-06-01T18:21:31Z",
+      "bot": "server",
+      "category": "voice_state_changed",
+      "action": "voice_joined",
+      "actor": {
+        "id": "1359388386636337253",
+        "name": "jayreyli_6767",
+        "discriminator": "0",
+        "global_name": "Jay .",
+        "display_name": "Jay .",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/1359388386636337253/981e5d74472076c62e82aaf3b7262663.png?size=1024",
+        "public_flags": 128,
+        "public_flag_names": [
+          "hypesquad_brilliance"
+        ],
+        "created_at": "2025-04-09T04:44:07.589000+00:00",
+        "joined_at": "2026-04-21T18:44:11.514000+00:00",
+        "roles": [
+          {
+            "id": "1491225386804314132",
+            "name": "*",
+            "position": 4,
+            "color": "#000000"
+          },
+          {
+            "id": "1455057447172444212",
+            "name": "Middle East",
+            "position": 18,
+            "color": "#000000"
+          },
+          {
+            "id": "1231188006757728266",
+            "name": "Loot Route Maker",
+            "position": 35,
+            "color": "#01665b"
+          },
+          {
+            "id": "1041582141340917870",
+            "name": "Staff",
+            "position": 39,
+            "color": "#c9ff8b"
+          },
+          {
+            "id": "1466666807183147049",
+            "name": "Active Code User",
+            "position": 47,
+            "color": "#d900ff"
+          }
+        ],
+        "top_role": "Active Code User",
+        "guild_permissions": 673594790501952,
+        "voice": {
+          "self_mute": false,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "e11856ce96fbef1fc91e3eaf15cfda51",
+          "channel": {
+            "id": "1240252454205919263",
+            "name": "Staff-VC",
+            "type": "voice"
+          }
+        }
+      },
+      "target": null,
+      "details": {
+        "before": {
+          "self_mute": false,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "e11856ce96fbef1fc91e3eaf15cfda51"
+        },
+        "after": {
+          "self_mute": false,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "e11856ce96fbef1fc91e3eaf15cfda51",
+          "channel": {
+            "id": "1240252454205919263",
+            "name": "Staff-VC",
+            "type": "voice"
+          }
+        },
+        "channel_before_id": null,
+        "channel_after_id": "1240252454205919263"
+      },
+      "guild_id": "1041450125391835186",
+      "guild_name": "WAVE Drop Map Staff Hub"
+    },
+    {
+      "timestamp": "2026-06-01T18:22:02Z",
+      "bot": "server",
+      "category": "voice_state_changed",
+      "action": "voice_stream_start",
+      "actor": {
+        "id": "1322663710862344313",
+        "name": "fahad_121212",
+        "discriminator": "0",
+        "global_name": "Fahad",
+        "display_name": "Fahad",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/1322663710862344313/552e0809444da3020fd416e1fc1038a8.png?size=1024",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2024-12-28T20:33:22.573000+00:00",
+        "joined_at": "2026-04-02T14:56:47.685000+00:00",
+        "roles": [
+          {
+            "id": "1491225386804314132",
+            "name": "*",
+            "position": 4,
+            "color": "#000000"
+          },
+          {
+            "id": "1503649126192119839",
+            "name": "Loot Route Inspector",
+            "position": 30,
+            "color": "#000000"
+          },
+          {
+            "id": "1231188006757728266",
+            "name": "Loot Route Maker",
+            "position": 35,
+            "color": "#01665b"
+          },
+          {
+            "id": "1261142546814468136",
+            "name": "Tips and Tricks Helper",
+            "position": 37,
+            "color": "#af4700"
+          },
+          {
+            "id": "1041582141340917870",
+            "name": "Staff",
+            "position": 39,
+            "color": "#c9ff8b"
+          },
+          {
+            "id": "1041582129500397658",
+            "name": "Support",
+            "position": 40,
+            "color": "#82ffff"
+          }
+        ],
+        "top_role": "Support",
+        "guild_permissions": 673594790501952,
+        "voice": {
+          "self_mute": false,
+          "self_deaf": false,
+          "self_stream": true,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "3e1f235e984fe6ed4d73f2e1e58da918",
+          "channel": {
+            "id": "1240252454205919263",
+            "name": "Staff-VC",
+            "type": "voice"
+          }
+        }
+      },
+      "target": null,
+      "details": {
+        "before": {
+          "self_mute": false,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "3e1f235e984fe6ed4d73f2e1e58da918",
+          "channel": {
+            "id": "1240252454205919263",
+            "name": "Staff-VC",
+            "type": "voice"
+          }
+        },
+        "after": {
+          "self_mute": false,
+          "self_deaf": false,
+          "self_stream": true,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "3e1f235e984fe6ed4d73f2e1e58da918",
+          "channel": {
+            "id": "1240252454205919263",
+            "name": "Staff-VC",
+            "type": "voice"
+          }
+        },
+        "channel_before_id": "1240252454205919263",
+        "channel_after_id": "1240252454205919263"
+      },
+      "guild_id": "1041450125391835186",
+      "guild_name": "WAVE Drop Map Staff Hub"
+    },
+    {
+      "timestamp": "2026-06-01T18:22:03Z",
+      "bot": "server",
+      "category": "voice_state_changed",
+      "action": "voice_joined",
+      "actor": {
+        "id": "934497779382902794",
+        "name": "srati_",
+        "discriminator": "0",
+        "global_name": "kuktasowy  mattt",
+        "display_name": "kuktasowy  mattt",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/934497779382902794/8fd1632169c3c95667909f4bee0f0350.png?size=1024",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2022-01-22T17:20:32.734000+00:00",
+        "joined_at": "2025-11-02T19:16:49.303000+00:00",
+        "roles": [
+          {
+            "id": "1490579498884665425",
+            "name": "*",
+            "position": 1,
+            "color": "#000000"
+          },
+          {
+            "id": "1306357759163498496",
+            "name": "English \ud83c\uddec\ud83c\udde7",
+            "position": 9,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764292719247400",
+            "name": "Twitter",
+            "position": 21,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764975090438155",
+            "name": "Member",
+            "position": 22,
+            "color": "#ff0000"
+          },
+          {
+            "id": "1305277560086593546",
+            "name": "Manual Named Locations",
+            "position": 23,
+            "color": "#ff8000"
+          },
+          {
+            "id": "1055713830988157039",
+            "name": "Manual Landmarks",
+            "position": 24,
+            "color": "#ffff00"
+          }
+        ],
+        "top_role": "Manual Landmarks",
+        "guild_permissions": 5224864484865,
+        "voice": {
+          "self_mute": true,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "b97ffe10cd7494f66bc12b191dcd447a",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        }
+      },
+      "target": null,
+      "details": {
+        "before": {
+          "self_mute": true,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "b97ffe10cd7494f66bc12b191dcd447a"
+        },
+        "after": {
+          "self_mute": true,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "b97ffe10cd7494f66bc12b191dcd447a",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        },
+        "channel_before_id": null,
+        "channel_after_id": "1210798926794588191"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-06-01T18:22:07Z",
+      "bot": "server",
+      "category": "voice_state_changed",
+      "action": "voice_left",
+      "actor": {
+        "id": "934497779382902794",
+        "name": "srati_",
+        "discriminator": "0",
+        "global_name": "kuktasowy  mattt",
+        "display_name": "kuktasowy  mattt",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/934497779382902794/8fd1632169c3c95667909f4bee0f0350.png?size=1024",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2022-01-22T17:20:32.734000+00:00",
+        "joined_at": "2025-11-02T19:16:49.303000+00:00",
+        "roles": [
+          {
+            "id": "1490579498884665425",
+            "name": "*",
+            "position": 1,
+            "color": "#000000"
+          },
+          {
+            "id": "1306357759163498496",
+            "name": "English \ud83c\uddec\ud83c\udde7",
+            "position": 9,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764292719247400",
+            "name": "Twitter",
+            "position": 21,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764975090438155",
+            "name": "Member",
+            "position": 22,
+            "color": "#ff0000"
+          },
+          {
+            "id": "1305277560086593546",
+            "name": "Manual Named Locations",
+            "position": 23,
+            "color": "#ff8000"
+          },
+          {
+            "id": "1055713830988157039",
+            "name": "Manual Landmarks",
+            "position": 24,
+            "color": "#ffff00"
+          }
+        ],
+        "top_role": "Manual Landmarks",
+        "guild_permissions": 5224864484865
+      },
+      "target": null,
+      "details": {
+        "before": {
+          "self_mute": true,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "b97ffe10cd7494f66bc12b191dcd447a",
+          "channel": {
+            "id": "1210798926794588191",
+            "name": "\u2615\u30fbgeneral",
+            "type": "voice"
+          }
+        },
+        "after": {
+          "self_mute": true,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "b97ffe10cd7494f66bc12b191dcd447a"
+        },
+        "channel_before_id": "1210798926794588191",
+        "channel_after_id": null
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-06-01T18:25:19Z",
+      "bot": "server",
+      "category": "voice_state_changed",
+      "action": "voice_stream_start",
+      "actor": {
+        "id": "1359388386636337253",
+        "name": "jayreyli_6767",
+        "discriminator": "0",
+        "global_name": "Jay .",
+        "display_name": "Jay .",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/1359388386636337253/981e5d74472076c62e82aaf3b7262663.png?size=1024",
+        "public_flags": 128,
+        "public_flag_names": [
+          "hypesquad_brilliance"
+        ],
+        "created_at": "2025-04-09T04:44:07.589000+00:00",
+        "joined_at": "2026-04-21T18:44:11.514000+00:00",
+        "roles": [
+          {
+            "id": "1491225386804314132",
+            "name": "*",
+            "position": 4,
+            "color": "#000000"
+          },
+          {
+            "id": "1455057447172444212",
+            "name": "Middle East",
+            "position": 18,
+            "color": "#000000"
+          },
+          {
+            "id": "1231188006757728266",
+            "name": "Loot Route Maker",
+            "position": 35,
+            "color": "#01665b"
+          },
+          {
+            "id": "1041582141340917870",
+            "name": "Staff",
+            "position": 39,
+            "color": "#c9ff8b"
+          },
+          {
+            "id": "1466666807183147049",
+            "name": "Active Code User",
+            "position": 47,
+            "color": "#d900ff"
+          }
+        ],
+        "top_role": "Active Code User",
+        "guild_permissions": 673594790501952,
+        "voice": {
+          "self_mute": false,
+          "self_deaf": false,
+          "self_stream": true,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "e11856ce96fbef1fc91e3eaf15cfda51",
+          "channel": {
+            "id": "1240252454205919263",
+            "name": "Staff-VC",
+            "type": "voice"
+          }
+        }
+      },
+      "target": null,
+      "details": {
+        "before": {
+          "self_mute": false,
+          "self_deaf": false,
+          "self_stream": false,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "e11856ce96fbef1fc91e3eaf15cfda51",
+          "channel": {
+            "id": "1240252454205919263",
+            "name": "Staff-VC",
+            "type": "voice"
+          }
+        },
+        "after": {
+          "self_mute": false,
+          "self_deaf": false,
+          "self_stream": true,
+          "self_video": false,
+          "mute": false,
+          "deaf": false,
+          "suppress": false,
+          "afk": false,
+          "session_id": "e11856ce96fbef1fc91e3eaf15cfda51",
+          "channel": {
+            "id": "1240252454205919263",
+            "name": "Staff-VC",
+            "type": "voice"
+          }
+        },
+        "channel_before_id": "1240252454205919263",
+        "channel_after_id": "1240252454205919263"
+      },
+      "guild_id": "1041450125391835186",
+      "guild_name": "WAVE Drop Map Staff Hub"
+    }
+  ]
+}
