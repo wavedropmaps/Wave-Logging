@@ -1,0 +1,23 @@
+{
+  "pushed_at": "2026-06-01T17:10:39Z",
+  "events": [
+    {
+      "timestamp": "2026-06-01T17:06:20Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "warning",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "WARNING",
+        "message": "[DMQueue:RESOLVE] Falling back to sys.modules singleton",
+        "module": "Main",
+        "func": "_resolve_dm_queue_cog",
+        "line": 369
+      },
+      "guild_id": null,
+      "guild_name": null
+    }
+  ]
+}
