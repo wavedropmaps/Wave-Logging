@@ -1,0 +1,462 @@
+{
+  "pushed_at": "2026-06-01T15:50:39Z",
+  "events": [
+    {
+      "timestamp": "2026-06-01T15:45:56Z",
+      "bot": "server",
+      "category": "member_role_update",
+      "action": "member_roles_changed",
+      "actor": null,
+      "target": {
+        "id": "1250261619141775402",
+        "name": "ectix",
+        "discriminator": "0",
+        "global_name": "Coach Ectix",
+        "display_name": "Coach Ectix",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/1250261619141775402/95110a1d288e3802c0d59f1827953fe8.png?size=1024",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2024-06-12T01:33:18.741000+00:00",
+        "joined_at": "2026-03-27T13:46:33.089000+00:00",
+        "roles": [
+          {
+            "id": "1491225386804314132",
+            "name": "*",
+            "position": 4,
+            "color": "#000000"
+          },
+          {
+            "id": "1455057454348894228",
+            "name": "Europe",
+            "position": 16,
+            "color": "#000000"
+          },
+          {
+            "id": "1443750844636856412",
+            "name": "Poll Ping",
+            "position": 20,
+            "color": "#000000"
+          },
+          {
+            "id": "1061636163644952576",
+            "name": "Drop Map Tester",
+            "position": 32,
+            "color": "#ffbebf"
+          },
+          {
+            "id": "1417086287025934346",
+            "name": "Drop Map Reviewer",
+            "position": 33,
+            "color": "#1aabbc"
+          }
+        ],
+        "top_role": "Drop Map Reviewer",
+        "guild_permissions": 673594790501952
+      },
+      "details": {
+        "added": [
+          {
+            "id": "1417086287025934346",
+            "name": "Drop Map Reviewer",
+            "position": 33,
+            "color": "#1aabbc",
+            "hoist": true,
+            "mentionable": true,
+            "managed": false,
+            "permissions": 673590495534656,
+            "permission_names": [
+              "add_reactions",
+              "stream",
+              "read_messages",
+              "send_messages",
+              "send_tts_messages",
+              "embed_links",
+              "attach_files",
+              "read_message_history",
+              "external_emojis",
+              "connect",
+              "speak",
+              "use_voice_activation",
+              "use_application_commands",
+              "external_stickers",
+              "use_embedded_activities",
+              "use_soundboard",
+              "use_external_sounds",
+              "send_voice_messages",
+              "send_polls"
+            ],
+            "tags": {
+              "bot_id": null,
+              "integration_id": null,
+              "is_premium_subscriber": false
+            }
+          }
+        ],
+        "removed": [],
+        "audit": {
+          "audit_id": "1511033061985353828",
+          "actor": {
+            "id": "1269188273201352768",
+            "name": "Wave Management Bot",
+            "discriminator": "0661",
+            "display_name": "Wave Management Bot",
+            "bot": true,
+            "system": false,
+            "pending": false,
+            "avatar_url": "https://cdn.discordapp.com/avatars/1269188273201352768/9de09747d6811795ca52df1b01550d16.png?size=1024",
+            "public_flags": 0,
+            "public_flag_names": [],
+            "created_at": "2024-08-03T07:01:04.709000+00:00",
+            "joined_at": "2025-08-29T16:00:13.519000+00:00",
+            "roles": [
+              {
+                "id": "1491225386804314132",
+                "name": "*",
+                "position": 4,
+                "color": "#000000"
+              },
+              {
+                "id": "1411017609243267123",
+                "name": "Wave Management Bot",
+                "position": 75,
+                "color": "#000000"
+              }
+            ],
+            "top_role": "Wave Management Bot",
+            "guild_permissions": 1829587348619263
+          },
+          "reason": "Added as Drop Map Reviewer",
+          "created_at": "2026-06-01T15:45:55.614000+00:00",
+          "changes": [
+            {
+              "key": "roles",
+              "before": "[]",
+              "after": "[<Role id=1417086287025934346 name='Drop Map Reviewer'>]"
+            }
+          ]
+        }
+      },
+      "guild_id": "1041450125391835186",
+      "guild_name": "WAVE Drop Map Staff Hub"
+    },
+    {
+      "timestamp": "2026-06-01T15:45:57Z",
+      "bot": "server",
+      "category": "member_role_update",
+      "action": "member_roles_changed",
+      "actor": null,
+      "target": {
+        "id": "1250261619141775402",
+        "name": "ectix",
+        "discriminator": "0",
+        "global_name": "Coach Ectix",
+        "display_name": "Coach Ectix",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/1250261619141775402/95110a1d288e3802c0d59f1827953fe8.png?size=1024",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2024-06-12T01:33:18.741000+00:00",
+        "joined_at": "2026-03-23T14:02:33.746000+00:00",
+        "roles": [
+          {
+            "id": "1490579498884665425",
+            "name": "*",
+            "position": 1,
+            "color": "#000000"
+          },
+          {
+            "id": "1499037003004772402",
+            "name": "Training",
+            "position": 2,
+            "color": "#000000"
+          },
+          {
+            "id": "1306357759163498496",
+            "name": "English \ud83c\uddec\ud83c\udde7",
+            "position": 9,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764376676634684",
+            "name": "Invite Way",
+            "position": 20,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764975090438155",
+            "name": "Member",
+            "position": 22,
+            "color": "#ff0000"
+          },
+          {
+            "id": "1305277560086593546",
+            "name": "Manual Named Locations",
+            "position": 23,
+            "color": "#ff8000"
+          },
+          {
+            "id": "1055713830988157039",
+            "name": "Manual Landmarks",
+            "position": 24,
+            "color": "#ffff00"
+          },
+          {
+            "id": "1417086738563858483",
+            "name": "Drop Map Reviewer",
+            "position": 43,
+            "color": "#1aabbc"
+          },
+          {
+            "id": "1407570820695588864",
+            "name": "Drop Map Tester",
+            "position": 44,
+            "color": "#ffbebf"
+          }
+        ],
+        "top_role": "Drop Map Tester",
+        "guild_permissions": 5224864484865
+      },
+      "details": {
+        "added": [
+          {
+            "id": "1417086738563858483",
+            "name": "Drop Map Reviewer",
+            "position": 43,
+            "color": "#1aabbc",
+            "hoist": false,
+            "mentionable": false,
+            "managed": false,
+            "permissions": 0,
+            "permission_names": [],
+            "icon_url": "https://cdn.discordapp.com/role-icons/1417086738563858483/1c45104e764d2a1f4b050575058c60bf.png?size=1024",
+            "tags": {
+              "bot_id": null,
+              "integration_id": null,
+              "is_premium_subscriber": false
+            }
+          }
+        ],
+        "removed": [],
+        "audit": {
+          "audit_id": "1511033063889567778",
+          "actor": {
+            "id": "1269188273201352768",
+            "name": "Wave Management Bot",
+            "discriminator": "0661",
+            "display_name": "Wave Management Bot",
+            "bot": true,
+            "system": false,
+            "pending": false,
+            "avatar_url": "https://cdn.discordapp.com/avatars/1269188273201352768/9de09747d6811795ca52df1b01550d16.png?size=1024",
+            "public_flags": 0,
+            "public_flag_names": [],
+            "created_at": "2024-08-03T07:01:04.709000+00:00",
+            "joined_at": "2025-08-21T15:06:22.267000+00:00",
+            "timed_out_until": "2025-08-22T17:12:12.025000+00:00",
+            "roles": [
+              {
+                "id": "1490579498884665425",
+                "name": "*",
+                "position": 1,
+                "color": "#000000"
+              },
+              {
+                "id": "1306357759163498496",
+                "name": "English \ud83c\uddec\ud83c\udde7",
+                "position": 9,
+                "color": "#000000"
+              },
+              {
+                "id": "1210764975090438155",
+                "name": "Member",
+                "position": 22,
+                "color": "#ff0000"
+              },
+              {
+                "id": "1305277560086593546",
+                "name": "Manual Named Locations",
+                "position": 23,
+                "color": "#ff8000"
+              },
+              {
+                "id": "1210801655663300618",
+                "name": "Bots",
+                "position": 72,
+                "color": "#000000"
+              },
+              {
+                "id": "1408104953469341726",
+                "name": "Wave Management Bot",
+                "position": 77,
+                "color": "#000000"
+              }
+            ],
+            "top_role": "Wave Management Bot",
+            "guild_permissions": 1829587348619263
+          },
+          "reason": "Added as Drop Map Reviewer",
+          "created_at": "2026-06-01T15:45:56.068000+00:00",
+          "changes": [
+            {
+              "key": "roles",
+              "before": "[]",
+              "after": "[<Role id=1417086738563858483 name='Drop Map Reviewer'>]"
+            }
+          ]
+        }
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-06-01T15:45:58Z",
+      "bot": "server",
+      "category": "member_role_update",
+      "action": "member_roles_changed",
+      "actor": null,
+      "target": {
+        "id": "1250261619141775402",
+        "name": "ectix",
+        "discriminator": "0",
+        "global_name": "Coach Ectix",
+        "display_name": "Coach Ectix",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/1250261619141775402/95110a1d288e3802c0d59f1827953fe8.png?size=1024",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2024-06-12T01:33:18.741000+00:00",
+        "joined_at": "2026-03-23T14:03:30.626000+00:00",
+        "roles": [
+          {
+            "id": "1507991113561014354",
+            "name": "Drop Map Tester",
+            "position": 4,
+            "color": "#000000"
+          },
+          {
+            "id": "1507991082678489178",
+            "name": "Drop Map Reviewer",
+            "position": 5,
+            "color": "#000000"
+          },
+          {
+            "id": "1188090112987377705",
+            "name": "Invite Way",
+            "position": 12,
+            "color": "#000000"
+          },
+          {
+            "id": "1149680236041080832",
+            "name": "Member",
+            "position": 21,
+            "color": "#ff0000"
+          },
+          {
+            "id": "1199151986092814374",
+            "name": "Access Invite way",
+            "position": 22,
+            "color": "#ff8000"
+          },
+          {
+            "id": "1105873031450075227",
+            "name": "Access",
+            "position": 23,
+            "color": "#ff8000"
+          }
+        ],
+        "top_role": "Access",
+        "guild_permissions": 4949986577921
+      },
+      "details": {
+        "added": [
+          {
+            "id": "1507991082678489178",
+            "name": "Drop Map Reviewer",
+            "position": 5,
+            "color": "#000000",
+            "hoist": false,
+            "mentionable": false,
+            "managed": false,
+            "permissions": 0,
+            "permission_names": [],
+            "tags": {
+              "bot_id": null,
+              "integration_id": null,
+              "is_premium_subscriber": false
+            }
+          }
+        ],
+        "removed": [],
+        "audit": {
+          "audit_id": "1511033066070605896",
+          "actor": {
+            "id": "1269188273201352768",
+            "name": "Wave Management Bot",
+            "discriminator": "0661",
+            "display_name": "Wave Management Bot",
+            "bot": true,
+            "system": false,
+            "pending": false,
+            "avatar_url": "https://cdn.discordapp.com/avatars/1269188273201352768/9de09747d6811795ca52df1b01550d16.png?size=1024",
+            "public_flags": 0,
+            "public_flag_names": [],
+            "created_at": "2024-08-03T07:01:04.709000+00:00",
+            "joined_at": "2025-08-21T15:06:11.665000+00:00",
+            "roles": [
+              {
+                "id": "1307486678231023736",
+                "name": "*",
+                "position": 1,
+                "color": "#000000"
+              },
+              {
+                "id": "1149680236041080832",
+                "name": "Member",
+                "position": 21,
+                "color": "#ff0000"
+              },
+              {
+                "id": "1105873031450075227",
+                "name": "Access",
+                "position": 23,
+                "color": "#ff8000"
+              },
+              {
+                "id": "1144226524279615519",
+                "name": "bots",
+                "position": 65,
+                "color": "#000000"
+              },
+              {
+                "id": "1408104908971970623",
+                "name": "Wave Management Bot",
+                "position": 73,
+                "color": "#000000"
+              }
+            ],
+            "top_role": "Wave Management Bot",
+            "guild_permissions": 1829587348619263
+          },
+          "reason": "Added as Drop Map Reviewer",
+          "created_at": "2026-06-01T15:45:56.588000+00:00",
+          "changes": [
+            {
+              "key": "roles",
+              "before": "[]",
+              "after": "[<Role id=1507991082678489178 name='Drop Map Reviewer'>]"
+            }
+          ]
+        }
+      },
+      "guild_id": "971731167621574666",
+      "guild_name": "Wave Improvement Cord! | Loot Routes + Tips & Tricks"
+    }
+  ]
+}
