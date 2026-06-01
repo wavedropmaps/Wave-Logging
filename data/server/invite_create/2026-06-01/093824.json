@@ -1,0 +1,133 @@
+{
+  "pushed_at": "2026-06-01T09:38:24Z",
+  "events": [
+    {
+      "timestamp": "2026-06-01T09:31:56Z",
+      "bot": "server",
+      "category": "invite_create",
+      "action": "invite_created",
+      "actor": {
+        "id": "1288892059968602122",
+        "name": "perky06",
+        "discriminator": "0",
+        "global_name": "Perkyy!",
+        "display_name": "Perkyy!",
+        "bot": false,
+        "system": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/1288892059968602122/7d30118694425161f38b7db1b38d0eb3.png?size=1024",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2024-09-26T15:56:53.553000+00:00"
+      },
+      "target": null,
+      "details": {
+        "invite": {
+          "code": "qq2zCDGtG",
+          "url": "https://discord.gg/qq2zCDGtG",
+          "uses": 0,
+          "max_uses": 0,
+          "max_age": 2592000,
+          "temporary": false,
+          "created_at": "2026-06-01T09:31:53.814702+00:00",
+          "expires_at": "2026-07-01T09:31:53+00:00",
+          "channel": {
+            "id": "1210768660101210192",
+            "name": "\ud83d\udea7\u30fbinvite-check\u30fb\ud83d\udea7",
+            "type": "text"
+          },
+          "inviter": {
+            "id": "1288892059968602122",
+            "name": "perky06"
+          },
+          "target_type": "InviteTarget.unknown"
+        },
+        "audit": {
+          "audit_id": "1510938934262366209",
+          "actor": {
+            "id": "1288892059968602122",
+            "name": "perky06",
+            "discriminator": "0",
+            "global_name": "Perkyy!",
+            "display_name": "Perkyy!",
+            "bot": false,
+            "system": false,
+            "pending": false,
+            "avatar_url": "https://cdn.discordapp.com/avatars/1288892059968602122/7d30118694425161f38b7db1b38d0eb3.png?size=1024",
+            "public_flags": 0,
+            "public_flag_names": [],
+            "created_at": "2024-09-26T15:56:53.553000+00:00",
+            "joined_at": "2026-06-01T09:31:00.563078+00:00",
+            "roles": [
+              {
+                "id": "1306357759163498496",
+                "name": "English \ud83c\uddec\ud83c\udde7",
+                "position": 9,
+                "color": "#000000"
+              },
+              {
+                "id": "1210764376676634684",
+                "name": "Invite Way",
+                "position": 20,
+                "color": "#000000"
+              },
+              {
+                "id": "1210764975090438155",
+                "name": "Member",
+                "position": 22,
+                "color": "#ff0000"
+              }
+            ],
+            "top_role": "Member",
+            "guild_permissions": 5224864484865
+          },
+          "reason": null,
+          "created_at": "2026-06-01T09:31:53.816000+00:00",
+          "changes": [
+            {
+              "key": "max_age",
+              "before": null,
+              "after": "2592000"
+            },
+            {
+              "key": "uses",
+              "before": null,
+              "after": "0"
+            },
+            {
+              "key": "channel",
+              "before": null,
+              "after": "\ud83d\udea7\u30fbinvite-check\u30fb\ud83d\udea7"
+            },
+            {
+              "key": "max_uses",
+              "before": null,
+              "after": "0"
+            },
+            {
+              "key": "temporary",
+              "before": null,
+              "after": "False"
+            },
+            {
+              "key": "inviter",
+              "before": null,
+              "after": "perky06"
+            },
+            {
+              "key": "code",
+              "before": null,
+              "after": "qq2zCDGtG"
+            },
+            {
+              "key": "flags",
+              "before": null,
+              "after": "<InviteFlags value=0>"
+            }
+          ]
+        }
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    }
+  ]
+}
