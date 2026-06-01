@@ -1,0 +1,796 @@
+{
+  "pushed_at": "2026-06-01T05:02:51Z",
+  "events": [
+    {
+      "timestamp": "2026-06-01T05:01:27Z",
+      "bot": "manager",
+      "category": "errors",
+      "action": "prefix_command_error",
+      "actor": {
+        "id": "987843990734905414",
+        "name": "fruss.",
+        "discriminator": "0",
+        "global_name": "! Free Drop Maps Bio",
+        "display_name": "Use Code Wavedropmaps",
+        "nick": "Use Code Wavedropmaps",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/987843990734905414/92bfad96c66e3d59b26f219a08f185b1.png?size=1024",
+        "public_flags": 128,
+        "public_flag_names": [
+          "hypesquad_brilliance"
+        ],
+        "created_at": "2022-06-18T22:19:20.645000+00:00",
+        "joined_at": "2022-06-20T22:04:13.873000+00:00",
+        "roles": [
+          {
+            "id": "1490579498884665425",
+            "name": "*",
+            "position": 1,
+            "color": "#000000"
+          },
+          {
+            "id": "1306357759163498496",
+            "name": "English \ud83c\uddec\ud83c\udde7",
+            "position": 9,
+            "color": "#000000"
+          },
+          {
+            "id": "1467355713692106752",
+            "name": "Server Tag User",
+            "position": 19,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764292719247400",
+            "name": "Twitter",
+            "position": 21,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764975090438155",
+            "name": "Member",
+            "position": 22,
+            "color": "#ff0000"
+          },
+          {
+            "id": "1305277560086593546",
+            "name": "Manual Named Locations",
+            "position": 23,
+            "color": "#ff8000"
+          },
+          {
+            "id": "1055713830988157039",
+            "name": "Manual Landmarks",
+            "position": 24,
+            "color": "#ffff00"
+          },
+          {
+            "id": "1210819996372959243",
+            "name": "Bronze (LVL 5)",
+            "position": 29,
+            "color": "#bfff00"
+          },
+          {
+            "id": "1210868595635134514",
+            "name": "Silver (LVL 10)",
+            "position": 30,
+            "color": "#40ff00"
+          },
+          {
+            "id": "1210820151629586494",
+            "name": "Gold (LVL 15)",
+            "position": 31,
+            "color": "#00ff40"
+          },
+          {
+            "id": "1210820151646228490",
+            "name": "Platinum (LVL 20)",
+            "position": 32,
+            "color": "#00ffbf"
+          },
+          {
+            "id": "1210820152925487114",
+            "name": "Diamond (LVL 25)",
+            "position": 33,
+            "color": "#00ffff"
+          },
+          {
+            "id": "1231621074362568715",
+            "name": "Elite (LVL 30)",
+            "position": 34,
+            "color": "#00bfff"
+          },
+          {
+            "id": "1210851932877357066",
+            "name": "Battle Pass Supporter",
+            "position": 37,
+            "color": "#8000ff"
+          },
+          {
+            "id": "1210803062080409600",
+            "name": "Staff",
+            "position": 46,
+            "color": "#c9ff8b"
+          },
+          {
+            "id": "1210847437728649266",
+            "name": "Support",
+            "position": 50,
+            "color": "#82ffff"
+          },
+          {
+            "id": "1417348759377018921",
+            "name": "Senior Support",
+            "position": 51,
+            "color": "#828fff"
+          },
+          {
+            "id": "1210847620243787776",
+            "name": "Admin",
+            "position": 53,
+            "color": "#a6b4ff"
+          },
+          {
+            "id": "1502629831538380841",
+            "name": "Senior Admin",
+            "position": 54,
+            "color": "#cd9cff"
+          },
+          {
+            "id": "1308389838663450685",
+            "name": "Head Admin",
+            "position": 55,
+            "color": "#f484ff"
+          },
+          {
+            "id": "1210811203098517614",
+            "name": "Management",
+            "position": 57,
+            "color": "#ff7baa"
+          },
+          {
+            "id": "1210851377572741160",
+            "name": "Head Marketing | Management",
+            "position": 66,
+            "color": "#ffcd8b"
+          },
+          {
+            "id": "1210746214388207696",
+            "name": "Owner",
+            "position": 70,
+            "color": "#a9c9ff"
+          },
+          {
+            "id": "1210851168494817280",
+            "name": "Founder",
+            "position": 71,
+            "color": "#020000"
+          },
+          {
+            "id": "1360979882921951342",
+            "name": "007",
+            "position": 86,
+            "color": "#000000"
+          },
+          {
+            "id": "1414254867396034631",
+            "name": "Fruss",
+            "position": 90,
+            "color": "#000000"
+          }
+        ],
+        "top_role": "Fruss",
+        "guild_permissions": 1829587348619263
+      },
+      "target": null,
+      "details": {
+        "command": "unknown",
+        "error_type": "CommandNotFound",
+        "error_message": "Command \"wm\" is not found",
+        "traceback": "discord.ext.commands.errors.CommandNotFound: Command \"wm\" is not found\n",
+        "message": {
+          "id": "1510870875245908028",
+          "content": ">wm full",
+          "tts": false,
+          "pinned": false,
+          "type": "MessageType.default",
+          "jump_url": "https://discord.com/channels/988564962802810961/1210746994394669097/1510870875245908028",
+          "channel_id": "1210746994394669097",
+          "channel_name": "top-serect",
+          "author": {
+            "id": "987843990734905414",
+            "name": "fruss.",
+            "discriminator": "0",
+            "global_name": "! Free Drop Maps Bio",
+            "display_name": "Use Code Wavedropmaps",
+            "nick": "Use Code Wavedropmaps",
+            "bot": false,
+            "system": false,
+            "pending": false,
+            "avatar_url": "https://cdn.discordapp.com/avatars/987843990734905414/92bfad96c66e3d59b26f219a08f185b1.png?size=1024",
+            "public_flags": 128,
+            "public_flag_names": [
+              "hypesquad_brilliance"
+            ],
+            "created_at": "2022-06-18T22:19:20.645000+00:00",
+            "joined_at": "2022-06-20T22:04:13.873000+00:00",
+            "roles": [
+              {
+                "id": "1490579498884665425",
+                "name": "*",
+                "position": 1,
+                "color": "#000000"
+              },
+              {
+                "id": "1306357759163498496",
+                "name": "English \ud83c\uddec\ud83c\udde7",
+                "position": 9,
+                "color": "#000000"
+              },
+              {
+                "id": "1467355713692106752",
+                "name": "Server Tag User",
+                "position": 19,
+                "color": "#000000"
+              },
+              {
+                "id": "1210764292719247400",
+                "name": "Twitter",
+                "position": 21,
+                "color": "#000000"
+              },
+              {
+                "id": "1210764975090438155",
+                "name": "Member",
+                "position": 22,
+                "color": "#ff0000"
+              },
+              {
+                "id": "1305277560086593546",
+                "name": "Manual Named Locations",
+                "position": 23,
+                "color": "#ff8000"
+              },
+              {
+                "id": "1055713830988157039",
+                "name": "Manual Landmarks",
+                "position": 24,
+                "color": "#ffff00"
+              },
+              {
+                "id": "1210819996372959243",
+                "name": "Bronze (LVL 5)",
+                "position": 29,
+                "color": "#bfff00"
+              },
+              {
+                "id": "1210868595635134514",
+                "name": "Silver (LVL 10)",
+                "position": 30,
+                "color": "#40ff00"
+              },
+              {
+                "id": "1210820151629586494",
+                "name": "Gold (LVL 15)",
+                "position": 31,
+                "color": "#00ff40"
+              },
+              {
+                "id": "1210820151646228490",
+                "name": "Platinum (LVL 20)",
+                "position": 32,
+                "color": "#00ffbf"
+              },
+              {
+                "id": "1210820152925487114",
+                "name": "Diamond (LVL 25)",
+                "position": 33,
+                "color": "#00ffff"
+              },
+              {
+                "id": "1231621074362568715",
+                "name": "Elite (LVL 30)",
+                "position": 34,
+                "color": "#00bfff"
+              },
+              {
+                "id": "1210851932877357066",
+                "name": "Battle Pass Supporter",
+                "position": 37,
+                "color": "#8000ff"
+              },
+              {
+                "id": "1210803062080409600",
+                "name": "Staff",
+                "position": 46,
+                "color": "#c9ff8b"
+              },
+              {
+                "id": "1210847437728649266",
+                "name": "Support",
+                "position": 50,
+                "color": "#82ffff"
+              },
+              {
+                "id": "1417348759377018921",
+                "name": "Senior Support",
+                "position": 51,
+                "color": "#828fff"
+              },
+              {
+                "id": "1210847620243787776",
+                "name": "Admin",
+                "position": 53,
+                "color": "#a6b4ff"
+              },
+              {
+                "id": "1502629831538380841",
+                "name": "Senior Admin",
+                "position": 54,
+                "color": "#cd9cff"
+              },
+              {
+                "id": "1308389838663450685",
+                "name": "Head Admin",
+                "position": 55,
+                "color": "#f484ff"
+              },
+              {
+                "id": "1210811203098517614",
+                "name": "Management",
+                "position": 57,
+                "color": "#ff7baa"
+              },
+              {
+                "id": "1210851377572741160",
+                "name": "Head Marketing | Management",
+                "position": 66,
+                "color": "#ffcd8b"
+              },
+              {
+                "id": "1210746214388207696",
+                "name": "Owner",
+                "position": 70,
+                "color": "#a9c9ff"
+              },
+              {
+                "id": "1210851168494817280",
+                "name": "Founder",
+                "position": 71,
+                "color": "#020000"
+              },
+              {
+                "id": "1360979882921951342",
+                "name": "007",
+                "position": 86,
+                "color": "#000000"
+              },
+              {
+                "id": "1414254867396034631",
+                "name": "Fruss",
+                "position": 90,
+                "color": "#000000"
+              }
+            ],
+            "top_role": "Fruss",
+            "guild_permissions": 1829587348619263
+          },
+          "flags": 0,
+          "created_at": "2026-06-01T05:01:27.282000+00:00",
+          "mentions": {
+            "users": [],
+            "roles": [],
+            "channels": [],
+            "everyone": false
+          }
+        }
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-06-01T05:01:54Z",
+      "bot": "manager",
+      "category": "errors",
+      "action": "prefix_command_error",
+      "actor": {
+        "id": "987843990734905414",
+        "name": "fruss.",
+        "discriminator": "0",
+        "global_name": "! Free Drop Maps Bio",
+        "display_name": "Use Code Wavedropmaps",
+        "nick": "Use Code Wavedropmaps",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/987843990734905414/92bfad96c66e3d59b26f219a08f185b1.png?size=1024",
+        "public_flags": 128,
+        "public_flag_names": [
+          "hypesquad_brilliance"
+        ],
+        "created_at": "2022-06-18T22:19:20.645000+00:00",
+        "joined_at": "2022-06-20T22:04:13.873000+00:00",
+        "roles": [
+          {
+            "id": "1490579498884665425",
+            "name": "*",
+            "position": 1,
+            "color": "#000000"
+          },
+          {
+            "id": "1306357759163498496",
+            "name": "English \ud83c\uddec\ud83c\udde7",
+            "position": 9,
+            "color": "#000000"
+          },
+          {
+            "id": "1467355713692106752",
+            "name": "Server Tag User",
+            "position": 19,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764292719247400",
+            "name": "Twitter",
+            "position": 21,
+            "color": "#000000"
+          },
+          {
+            "id": "1210764975090438155",
+            "name": "Member",
+            "position": 22,
+            "color": "#ff0000"
+          },
+          {
+            "id": "1305277560086593546",
+            "name": "Manual Named Locations",
+            "position": 23,
+            "color": "#ff8000"
+          },
+          {
+            "id": "1055713830988157039",
+            "name": "Manual Landmarks",
+            "position": 24,
+            "color": "#ffff00"
+          },
+          {
+            "id": "1210819996372959243",
+            "name": "Bronze (LVL 5)",
+            "position": 29,
+            "color": "#bfff00"
+          },
+          {
+            "id": "1210868595635134514",
+            "name": "Silver (LVL 10)",
+            "position": 30,
+            "color": "#40ff00"
+          },
+          {
+            "id": "1210820151629586494",
+            "name": "Gold (LVL 15)",
+            "position": 31,
+            "color": "#00ff40"
+          },
+          {
+            "id": "1210820151646228490",
+            "name": "Platinum (LVL 20)",
+            "position": 32,
+            "color": "#00ffbf"
+          },
+          {
+            "id": "1210820152925487114",
+            "name": "Diamond (LVL 25)",
+            "position": 33,
+            "color": "#00ffff"
+          },
+          {
+            "id": "1231621074362568715",
+            "name": "Elite (LVL 30)",
+            "position": 34,
+            "color": "#00bfff"
+          },
+          {
+            "id": "1210851932877357066",
+            "name": "Battle Pass Supporter",
+            "position": 37,
+            "color": "#8000ff"
+          },
+          {
+            "id": "1210803062080409600",
+            "name": "Staff",
+            "position": 46,
+            "color": "#c9ff8b"
+          },
+          {
+            "id": "1210847437728649266",
+            "name": "Support",
+            "position": 50,
+            "color": "#82ffff"
+          },
+          {
+            "id": "1417348759377018921",
+            "name": "Senior Support",
+            "position": 51,
+            "color": "#828fff"
+          },
+          {
+            "id": "1210847620243787776",
+            "name": "Admin",
+            "position": 53,
+            "color": "#a6b4ff"
+          },
+          {
+            "id": "1502629831538380841",
+            "name": "Senior Admin",
+            "position": 54,
+            "color": "#cd9cff"
+          },
+          {
+            "id": "1308389838663450685",
+            "name": "Head Admin",
+            "position": 55,
+            "color": "#f484ff"
+          },
+          {
+            "id": "1210811203098517614",
+            "name": "Management",
+            "position": 57,
+            "color": "#ff7baa"
+          },
+          {
+            "id": "1210851377572741160",
+            "name": "Head Marketing | Management",
+            "position": 66,
+            "color": "#ffcd8b"
+          },
+          {
+            "id": "1210746214388207696",
+            "name": "Owner",
+            "position": 70,
+            "color": "#a9c9ff"
+          },
+          {
+            "id": "1210851168494817280",
+            "name": "Founder",
+            "position": 71,
+            "color": "#020000"
+          },
+          {
+            "id": "1360979882921951342",
+            "name": "007",
+            "position": 86,
+            "color": "#000000"
+          },
+          {
+            "id": "1414254867396034631",
+            "name": "Fruss",
+            "position": 90,
+            "color": "#000000"
+          }
+        ],
+        "top_role": "Fruss",
+        "guild_permissions": 1829587348619263
+      },
+      "target": null,
+      "details": {
+        "command": "wmfull",
+        "error_type": "CommandInvokeError",
+        "error_message": "Command raised an exception: AttributeError: 'Message' object has no attribute 'view'",
+        "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\kiere\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\discord\\ext\\commands\\core.py\", line 266, in wrapped\n    ret = await coro(*args, **kwargs)\n          ^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"c:\\Users\\kiere\\Desktop\\Wave Management Bot\\commands\\image_editor.py\", line 1156, in watermark_full\n    view = processing_msg.view\n           ^^^^^^^^^^^^^^^^^^^\nAttributeError: 'Message' object has no attribute 'view'\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"C:\\Users\\kiere\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\discord\\ext\\commands\\bot.py\", line 1376, in invoke\n    await ctx.command.invoke(ctx)\n  File \"C:\\Users\\kiere\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\discord\\ext\\commands\\core.py\", line 1064, in invoke\n    await injected(*ctx.args, **ctx.kwargs)  # type: ignore\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\kiere\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\discord\\ext\\commands\\core.py\", line 275, in wrapped\n    raise CommandInvokeError(exc) from exc\ndiscord.ext.commands.errors.CommandInvokeError: Command raised an exception: AttributeError: 'Message' object has no attribute 'view'\n",
+        "message": {
+          "id": "1510870962193567894",
+          "content": ">wmfull",
+          "tts": false,
+          "pinned": false,
+          "type": "MessageType.default",
+          "jump_url": "https://discord.com/channels/988564962802810961/1210746994394669097/1510870962193567894",
+          "channel_id": "1210746994394669097",
+          "channel_name": "top-serect",
+          "author": {
+            "id": "987843990734905414",
+            "name": "fruss.",
+            "discriminator": "0",
+            "global_name": "! Free Drop Maps Bio",
+            "display_name": "Use Code Wavedropmaps",
+            "nick": "Use Code Wavedropmaps",
+            "bot": false,
+            "system": false,
+            "pending": false,
+            "avatar_url": "https://cdn.discordapp.com/avatars/987843990734905414/92bfad96c66e3d59b26f219a08f185b1.png?size=1024",
+            "public_flags": 128,
+            "public_flag_names": [
+              "hypesquad_brilliance"
+            ],
+            "created_at": "2022-06-18T22:19:20.645000+00:00",
+            "joined_at": "2022-06-20T22:04:13.873000+00:00",
+            "roles": [
+              {
+                "id": "1490579498884665425",
+                "name": "*",
+                "position": 1,
+                "color": "#000000"
+              },
+              {
+                "id": "1306357759163498496",
+                "name": "English \ud83c\uddec\ud83c\udde7",
+                "position": 9,
+                "color": "#000000"
+              },
+              {
+                "id": "1467355713692106752",
+                "name": "Server Tag User",
+                "position": 19,
+                "color": "#000000"
+              },
+              {
+                "id": "1210764292719247400",
+                "name": "Twitter",
+                "position": 21,
+                "color": "#000000"
+              },
+              {
+                "id": "1210764975090438155",
+                "name": "Member",
+                "position": 22,
+                "color": "#ff0000"
+              },
+              {
+                "id": "1305277560086593546",
+                "name": "Manual Named Locations",
+                "position": 23,
+                "color": "#ff8000"
+              },
+              {
+                "id": "1055713830988157039",
+                "name": "Manual Landmarks",
+                "position": 24,
+                "color": "#ffff00"
+              },
+              {
+                "id": "1210819996372959243",
+                "name": "Bronze (LVL 5)",
+                "position": 29,
+                "color": "#bfff00"
+              },
+              {
+                "id": "1210868595635134514",
+                "name": "Silver (LVL 10)",
+                "position": 30,
+                "color": "#40ff00"
+              },
+              {
+                "id": "1210820151629586494",
+                "name": "Gold (LVL 15)",
+                "position": 31,
+                "color": "#00ff40"
+              },
+              {
+                "id": "1210820151646228490",
+                "name": "Platinum (LVL 20)",
+                "position": 32,
+                "color": "#00ffbf"
+              },
+              {
+                "id": "1210820152925487114",
+                "name": "Diamond (LVL 25)",
+                "position": 33,
+                "color": "#00ffff"
+              },
+              {
+                "id": "1231621074362568715",
+                "name": "Elite (LVL 30)",
+                "position": 34,
+                "color": "#00bfff"
+              },
+              {
+                "id": "1210851932877357066",
+                "name": "Battle Pass Supporter",
+                "position": 37,
+                "color": "#8000ff"
+              },
+              {
+                "id": "1210803062080409600",
+                "name": "Staff",
+                "position": 46,
+                "color": "#c9ff8b"
+              },
+              {
+                "id": "1210847437728649266",
+                "name": "Support",
+                "position": 50,
+                "color": "#82ffff"
+              },
+              {
+                "id": "1417348759377018921",
+                "name": "Senior Support",
+                "position": 51,
+                "color": "#828fff"
+              },
+              {
+                "id": "1210847620243787776",
+                "name": "Admin",
+                "position": 53,
+                "color": "#a6b4ff"
+              },
+              {
+                "id": "1502629831538380841",
+                "name": "Senior Admin",
+                "position": 54,
+                "color": "#cd9cff"
+              },
+              {
+                "id": "1308389838663450685",
+                "name": "Head Admin",
+                "position": 55,
+                "color": "#f484ff"
+              },
+              {
+                "id": "1210811203098517614",
+                "name": "Management",
+                "position": 57,
+                "color": "#ff7baa"
+              },
+              {
+                "id": "1210851377572741160",
+                "name": "Head Marketing | Management",
+                "position": 66,
+                "color": "#ffcd8b"
+              },
+              {
+                "id": "1210746214388207696",
+                "name": "Owner",
+                "position": 70,
+                "color": "#a9c9ff"
+              },
+              {
+                "id": "1210851168494817280",
+                "name": "Founder",
+                "position": 71,
+                "color": "#020000"
+              },
+              {
+                "id": "1360979882921951342",
+                "name": "007",
+                "position": 86,
+                "color": "#000000"
+              },
+              {
+                "id": "1414254867396034631",
+                "name": "Fruss",
+                "position": 90,
+                "color": "#000000"
+              }
+            ],
+            "top_role": "Fruss",
+            "guild_permissions": 1829587348619263
+          },
+          "flags": 0,
+          "created_at": "2026-06-01T05:01:48.012000+00:00",
+          "attachments": [
+            {
+              "id": "1510870961019424798",
+              "filename": "image.png",
+              "url": "https://cdn.discordapp.com/attachments/1210746994394669097/1510870961019424798/image.png?ex=6a1e63bb&is=6a1d123b&hm=ae1c87b966de5b6b13157fc021a59475580b90eeaab4d1cef9f9acf5ae3cdd2f&",
+              "proxy_url": "https://media.discordapp.net/attachments/1210746994394669097/1510870961019424798/image.png?ex=6a1e63bb&is=6a1d123b&hm=ae1c87b966de5b6b13157fc021a59475580b90eeaab4d1cef9f9acf5ae3cdd2f&",
+              "size": 21178832,
+              "content_type": "image/png",
+              "width": 4268,
+              "height": 3780,
+              "is_spoiler": false
+            }
+          ],
+          "mentions": {
+            "users": [],
+            "roles": [],
+            "channels": [],
+            "everyone": false
+          }
+        }
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    }
+  ]
+}
