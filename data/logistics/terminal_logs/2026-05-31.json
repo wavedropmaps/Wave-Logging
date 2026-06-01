@@ -1,0 +1,4128 @@
+{
+  "day": "2026-05-31",
+  "rolled_at": "2026-06-01T00:08:50Z",
+  "events": [
+    {
+      "timestamp": "2026-05-31T03:08:23Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Bot is in 3 server(s)",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 280
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T03:08:23Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Running startup role audit...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 296
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T03:08:23Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Logged in as Wave Logistics Bot#3049",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 279
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T03:08:27Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "[Startup Audit] Wave Improvement Cord! | Loot Routes + Tips & Tricks \u2014 0 missed assignment(s) recovered",
+        "module": "Main",
+        "func": "startup_role_audit",
+        "line": 271
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T03:08:32Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "[Startup Audit] Wave Free Dropmaps! \u2014 0 missed assignment(s) recovered",
+        "module": "Main",
+        "func": "startup_role_audit",
+        "line": 271
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T03:08:34Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Posting streak leaderboard...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 300
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T03:08:34Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "[Startup Audit] WAVE Drop Map Staff Hub \u2014 0 missed assignment(s) recovered",
+        "module": "Main",
+        "func": "startup_role_audit",
+        "line": 271
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T03:08:36Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Syncing slash commands...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 305
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T03:08:37Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Global slash command sync done.",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 307
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T03:08:37Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Slash commands synced to Wave Improvement Cord! | Loot Routes + Tips & Tricks",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 310
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T03:08:37Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Slash commands synced to Wave Free Dropmaps!",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 310
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T03:08:38Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Slash commands synced to WAVE Drop Map Staff Hub",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 310
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T03:08:38Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Refreshing sticky messages for drop_map guilds...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 312
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T03:08:39Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Sticky message refreshed for Wave Free Dropmaps!",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 323
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T03:08:39Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Startup complete.",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 327
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T03:08:23Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Bot is in 3 server(s)",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 280
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T03:08:23Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Running startup role audit...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 296
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T03:08:23Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Logged in as Wave Logistics Bot#3049",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 279
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T03:08:27Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "[Startup Audit] Wave Improvement Cord! | Loot Routes + Tips & Tricks \u2014 0 missed assignment(s) recovered",
+        "module": "Main",
+        "func": "startup_role_audit",
+        "line": 271
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T03:08:32Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "[Startup Audit] Wave Free Dropmaps! \u2014 0 missed assignment(s) recovered",
+        "module": "Main",
+        "func": "startup_role_audit",
+        "line": 271
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T03:08:34Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Posting streak leaderboard...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 300
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T03:08:34Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "[Startup Audit] WAVE Drop Map Staff Hub \u2014 0 missed assignment(s) recovered",
+        "module": "Main",
+        "func": "startup_role_audit",
+        "line": 271
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T03:08:36Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Syncing slash commands...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 305
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T03:08:37Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Global slash command sync done.",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 307
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T03:08:37Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Slash commands synced to Wave Improvement Cord! | Loot Routes + Tips & Tricks",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 310
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T03:08:37Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Slash commands synced to Wave Free Dropmaps!",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 310
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T03:08:38Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Slash commands synced to WAVE Drop Map Staff Hub",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 310
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T03:08:38Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Refreshing sticky messages for drop_map guilds...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 312
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T03:08:39Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Sticky message refreshed for Wave Free Dropmaps!",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 323
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T03:08:39Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Startup complete.",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 327
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T03:08:23Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Bot is in 3 server(s)",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 280
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T03:08:23Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Running startup role audit...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 296
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T03:08:23Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Logged in as Wave Logistics Bot#3049",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 279
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T03:08:27Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "[Startup Audit] Wave Improvement Cord! | Loot Routes + Tips & Tricks \u2014 0 missed assignment(s) recovered",
+        "module": "Main",
+        "func": "startup_role_audit",
+        "line": 271
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T03:08:32Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "[Startup Audit] Wave Free Dropmaps! \u2014 0 missed assignment(s) recovered",
+        "module": "Main",
+        "func": "startup_role_audit",
+        "line": 271
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T03:08:34Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Posting streak leaderboard...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 300
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T03:08:34Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "[Startup Audit] WAVE Drop Map Staff Hub \u2014 0 missed assignment(s) recovered",
+        "module": "Main",
+        "func": "startup_role_audit",
+        "line": 271
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T03:08:36Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Syncing slash commands...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 305
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T03:08:37Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Global slash command sync done.",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 307
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T03:08:37Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Slash commands synced to Wave Improvement Cord! | Loot Routes + Tips & Tricks",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 310
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T03:08:37Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Slash commands synced to Wave Free Dropmaps!",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 310
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T03:08:38Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Slash commands synced to WAVE Drop Map Staff Hub",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 310
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T03:08:38Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Refreshing sticky messages for drop_map guilds...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 312
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T03:08:39Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Sticky message refreshed for Wave Free Dropmaps!",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 323
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T03:08:39Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Startup complete.",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 327
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T08:44:29Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "error",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "ERROR",
+        "message": "Error processing queue #ai (Display #2): 400 Bad Request (error code: 50035): Invalid Form Body\nIn embeds.0.image.url: Not a well formed URL.",
+        "module": "map_commands",
+        "func": "update_queue_display",
+        "line": 2469
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:22Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Running startup role audit...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 296
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:22Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Logged in as Wave Logistics Bot#3049",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 279
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:22Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Bot is in 3 server(s)",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 280
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:27Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "[Startup Audit] Wave Improvement Cord! | Loot Routes + Tips & Tricks \u2014 0 missed assignment(s) recovered",
+        "module": "Main",
+        "func": "startup_role_audit",
+        "line": 271
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:32Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "[Startup Audit] Wave Free Dropmaps! \u2014 0 missed assignment(s) recovered",
+        "module": "Main",
+        "func": "startup_role_audit",
+        "line": 271
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:32Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "[Startup Audit] WAVE Drop Map Staff Hub \u2014 0 missed assignment(s) recovered",
+        "module": "Main",
+        "func": "startup_role_audit",
+        "line": 271
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:32Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Posting streak leaderboard...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 300
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:35Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Syncing slash commands...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 305
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:35Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Global slash command sync done.",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 307
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:36Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Slash commands synced to Wave Improvement Cord! | Loot Routes + Tips & Tricks",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 310
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:36Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Slash commands synced to Wave Free Dropmaps!",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 310
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:36Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Slash commands synced to WAVE Drop Map Staff Hub",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 310
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:36Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Refreshing sticky messages for drop_map guilds...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 312
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:38Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Sticky message refreshed for Wave Free Dropmaps!",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 323
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:38Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Startup complete.",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 327
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:22Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Running startup role audit...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 296
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:22Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Logged in as Wave Logistics Bot#3049",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 279
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:22Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Bot is in 3 server(s)",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 280
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:27Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "[Startup Audit] Wave Improvement Cord! | Loot Routes + Tips & Tricks \u2014 0 missed assignment(s) recovered",
+        "module": "Main",
+        "func": "startup_role_audit",
+        "line": 271
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:32Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "[Startup Audit] Wave Free Dropmaps! \u2014 0 missed assignment(s) recovered",
+        "module": "Main",
+        "func": "startup_role_audit",
+        "line": 271
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:32Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "[Startup Audit] WAVE Drop Map Staff Hub \u2014 0 missed assignment(s) recovered",
+        "module": "Main",
+        "func": "startup_role_audit",
+        "line": 271
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:32Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Posting streak leaderboard...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 300
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:35Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Syncing slash commands...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 305
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:35Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Global slash command sync done.",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 307
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:36Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Slash commands synced to Wave Improvement Cord! | Loot Routes + Tips & Tricks",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 310
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:36Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Slash commands synced to Wave Free Dropmaps!",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 310
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:36Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Slash commands synced to WAVE Drop Map Staff Hub",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 310
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:36Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Refreshing sticky messages for drop_map guilds...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 312
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:38Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Sticky message refreshed for Wave Free Dropmaps!",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 323
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:38Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Startup complete.",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 327
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:22Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Running startup role audit...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 296
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:22Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Logged in as Wave Logistics Bot#3049",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 279
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:22Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Bot is in 3 server(s)",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 280
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:27Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "[Startup Audit] Wave Improvement Cord! | Loot Routes + Tips & Tricks \u2014 0 missed assignment(s) recovered",
+        "module": "Main",
+        "func": "startup_role_audit",
+        "line": 271
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:32Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "[Startup Audit] Wave Free Dropmaps! \u2014 0 missed assignment(s) recovered",
+        "module": "Main",
+        "func": "startup_role_audit",
+        "line": 271
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:32Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "[Startup Audit] WAVE Drop Map Staff Hub \u2014 0 missed assignment(s) recovered",
+        "module": "Main",
+        "func": "startup_role_audit",
+        "line": 271
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:32Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Posting streak leaderboard...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 300
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:35Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Syncing slash commands...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 305
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:35Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Global slash command sync done.",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 307
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:36Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Slash commands synced to Wave Improvement Cord! | Loot Routes + Tips & Tricks",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 310
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:36Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Slash commands synced to Wave Free Dropmaps!",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 310
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:36Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Slash commands synced to WAVE Drop Map Staff Hub",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 310
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:36Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Refreshing sticky messages for drop_map guilds...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 312
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:38Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Sticky message refreshed for Wave Free Dropmaps!",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 323
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:38Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Startup complete.",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 327
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:22Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Running startup role audit...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 296
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:22Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Logged in as Wave Logistics Bot#3049",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 279
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:22Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Bot is in 3 server(s)",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 280
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:27Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "[Startup Audit] Wave Improvement Cord! | Loot Routes + Tips & Tricks \u2014 0 missed assignment(s) recovered",
+        "module": "Main",
+        "func": "startup_role_audit",
+        "line": 271
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:32Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "[Startup Audit] Wave Free Dropmaps! \u2014 0 missed assignment(s) recovered",
+        "module": "Main",
+        "func": "startup_role_audit",
+        "line": 271
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:32Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "[Startup Audit] WAVE Drop Map Staff Hub \u2014 0 missed assignment(s) recovered",
+        "module": "Main",
+        "func": "startup_role_audit",
+        "line": 271
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:32Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Posting streak leaderboard...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 300
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:35Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Syncing slash commands...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 305
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:35Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Global slash command sync done.",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 307
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:36Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Slash commands synced to Wave Improvement Cord! | Loot Routes + Tips & Tricks",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 310
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:36Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Slash commands synced to Wave Free Dropmaps!",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 310
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:36Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Slash commands synced to WAVE Drop Map Staff Hub",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 310
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:36Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Refreshing sticky messages for drop_map guilds...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 312
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:38Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Sticky message refreshed for Wave Free Dropmaps!",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 323
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:38Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Startup complete.",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 327
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:22Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Running startup role audit...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 296
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:22Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Logged in as Wave Logistics Bot#3049",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 279
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:22Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Bot is in 3 server(s)",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 280
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:27Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "[Startup Audit] Wave Improvement Cord! | Loot Routes + Tips & Tricks \u2014 0 missed assignment(s) recovered",
+        "module": "Main",
+        "func": "startup_role_audit",
+        "line": 271
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:32Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "[Startup Audit] Wave Free Dropmaps! \u2014 0 missed assignment(s) recovered",
+        "module": "Main",
+        "func": "startup_role_audit",
+        "line": 271
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:32Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "[Startup Audit] WAVE Drop Map Staff Hub \u2014 0 missed assignment(s) recovered",
+        "module": "Main",
+        "func": "startup_role_audit",
+        "line": 271
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:32Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Posting streak leaderboard...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 300
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:35Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Syncing slash commands...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 305
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:35Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Global slash command sync done.",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 307
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:36Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Slash commands synced to Wave Improvement Cord! | Loot Routes + Tips & Tricks",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 310
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:36Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Slash commands synced to Wave Free Dropmaps!",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 310
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:36Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Slash commands synced to WAVE Drop Map Staff Hub",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 310
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:36Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Refreshing sticky messages for drop_map guilds...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 312
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:38Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Sticky message refreshed for Wave Free Dropmaps!",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 323
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:38Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Startup complete.",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 327
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:22Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Running startup role audit...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 296
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:22Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Logged in as Wave Logistics Bot#3049",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 279
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:22Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Bot is in 3 server(s)",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 280
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:27Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "[Startup Audit] Wave Improvement Cord! | Loot Routes + Tips & Tricks \u2014 0 missed assignment(s) recovered",
+        "module": "Main",
+        "func": "startup_role_audit",
+        "line": 271
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:32Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "[Startup Audit] Wave Free Dropmaps! \u2014 0 missed assignment(s) recovered",
+        "module": "Main",
+        "func": "startup_role_audit",
+        "line": 271
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:32Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "[Startup Audit] WAVE Drop Map Staff Hub \u2014 0 missed assignment(s) recovered",
+        "module": "Main",
+        "func": "startup_role_audit",
+        "line": 271
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:32Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Posting streak leaderboard...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 300
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:35Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Syncing slash commands...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 305
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:35Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Global slash command sync done.",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 307
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:36Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Slash commands synced to Wave Improvement Cord! | Loot Routes + Tips & Tricks",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 310
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:36Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Slash commands synced to Wave Free Dropmaps!",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 310
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:36Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Slash commands synced to WAVE Drop Map Staff Hub",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 310
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:36Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Refreshing sticky messages for drop_map guilds...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 312
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:38Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Sticky message refreshed for Wave Free Dropmaps!",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 323
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:38Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Startup complete.",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 327
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:22Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Running startup role audit...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 296
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:22Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Logged in as Wave Logistics Bot#3049",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 279
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:22Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Bot is in 3 server(s)",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 280
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:27Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "[Startup Audit] Wave Improvement Cord! | Loot Routes + Tips & Tricks \u2014 0 missed assignment(s) recovered",
+        "module": "Main",
+        "func": "startup_role_audit",
+        "line": 271
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:32Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "[Startup Audit] Wave Free Dropmaps! \u2014 0 missed assignment(s) recovered",
+        "module": "Main",
+        "func": "startup_role_audit",
+        "line": 271
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:32Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "[Startup Audit] WAVE Drop Map Staff Hub \u2014 0 missed assignment(s) recovered",
+        "module": "Main",
+        "func": "startup_role_audit",
+        "line": 271
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:32Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Posting streak leaderboard...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 300
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:35Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Syncing slash commands...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 305
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:35Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Global slash command sync done.",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 307
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:36Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Slash commands synced to Wave Improvement Cord! | Loot Routes + Tips & Tricks",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 310
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:36Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Slash commands synced to Wave Free Dropmaps!",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 310
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:36Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Slash commands synced to WAVE Drop Map Staff Hub",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 310
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:36Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Refreshing sticky messages for drop_map guilds...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 312
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:38Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Sticky message refreshed for Wave Free Dropmaps!",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 323
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:38Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Startup complete.",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 327
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:22Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Running startup role audit...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 296
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:22Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Logged in as Wave Logistics Bot#3049",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 279
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:22Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Bot is in 3 server(s)",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 280
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:27Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "[Startup Audit] Wave Improvement Cord! | Loot Routes + Tips & Tricks \u2014 0 missed assignment(s) recovered",
+        "module": "Main",
+        "func": "startup_role_audit",
+        "line": 271
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:32Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "[Startup Audit] Wave Free Dropmaps! \u2014 0 missed assignment(s) recovered",
+        "module": "Main",
+        "func": "startup_role_audit",
+        "line": 271
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:32Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "[Startup Audit] WAVE Drop Map Staff Hub \u2014 0 missed assignment(s) recovered",
+        "module": "Main",
+        "func": "startup_role_audit",
+        "line": 271
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:32Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Posting streak leaderboard...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 300
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:35Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Syncing slash commands...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 305
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:35Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Global slash command sync done.",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 307
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:36Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Slash commands synced to Wave Improvement Cord! | Loot Routes + Tips & Tricks",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 310
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:36Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Slash commands synced to Wave Free Dropmaps!",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 310
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:36Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Slash commands synced to WAVE Drop Map Staff Hub",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 310
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:36Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Refreshing sticky messages for drop_map guilds...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 312
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:38Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Sticky message refreshed for Wave Free Dropmaps!",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 323
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:38Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Startup complete.",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 327
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:22Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Running startup role audit...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 296
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:22Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Logged in as Wave Logistics Bot#3049",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 279
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:22Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Bot is in 3 server(s)",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 280
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:27Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "[Startup Audit] Wave Improvement Cord! | Loot Routes + Tips & Tricks \u2014 0 missed assignment(s) recovered",
+        "module": "Main",
+        "func": "startup_role_audit",
+        "line": 271
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:32Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "[Startup Audit] Wave Free Dropmaps! \u2014 0 missed assignment(s) recovered",
+        "module": "Main",
+        "func": "startup_role_audit",
+        "line": 271
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:32Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "[Startup Audit] WAVE Drop Map Staff Hub \u2014 0 missed assignment(s) recovered",
+        "module": "Main",
+        "func": "startup_role_audit",
+        "line": 271
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:32Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Posting streak leaderboard...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 300
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:35Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Syncing slash commands...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 305
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:35Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Global slash command sync done.",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 307
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:36Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Slash commands synced to Wave Improvement Cord! | Loot Routes + Tips & Tricks",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 310
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:36Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Slash commands synced to Wave Free Dropmaps!",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 310
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:36Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Slash commands synced to WAVE Drop Map Staff Hub",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 310
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:36Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Refreshing sticky messages for drop_map guilds...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 312
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:38Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Sticky message refreshed for Wave Free Dropmaps!",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 323
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:38Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Startup complete.",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 327
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:22Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Running startup role audit...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 296
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:22Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Logged in as Wave Logistics Bot#3049",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 279
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:22Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Bot is in 3 server(s)",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 280
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:27Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "[Startup Audit] Wave Improvement Cord! | Loot Routes + Tips & Tricks \u2014 0 missed assignment(s) recovered",
+        "module": "Main",
+        "func": "startup_role_audit",
+        "line": 271
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:32Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "[Startup Audit] Wave Free Dropmaps! \u2014 0 missed assignment(s) recovered",
+        "module": "Main",
+        "func": "startup_role_audit",
+        "line": 271
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:32Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "[Startup Audit] WAVE Drop Map Staff Hub \u2014 0 missed assignment(s) recovered",
+        "module": "Main",
+        "func": "startup_role_audit",
+        "line": 271
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:32Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Posting streak leaderboard...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 300
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:35Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Syncing slash commands...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 305
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:35Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Global slash command sync done.",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 307
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:36Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Slash commands synced to Wave Improvement Cord! | Loot Routes + Tips & Tricks",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 310
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:36Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Slash commands synced to Wave Free Dropmaps!",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 310
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:36Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Slash commands synced to WAVE Drop Map Staff Hub",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 310
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:36Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Refreshing sticky messages for drop_map guilds...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 312
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:38Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Sticky message refreshed for Wave Free Dropmaps!",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 323
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:38Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Startup complete.",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 327
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:22Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Running startup role audit...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 296
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:22Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Logged in as Wave Logistics Bot#3049",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 279
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:22Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Bot is in 3 server(s)",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 280
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:27Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "[Startup Audit] Wave Improvement Cord! | Loot Routes + Tips & Tricks \u2014 0 missed assignment(s) recovered",
+        "module": "Main",
+        "func": "startup_role_audit",
+        "line": 271
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:32Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "[Startup Audit] Wave Free Dropmaps! \u2014 0 missed assignment(s) recovered",
+        "module": "Main",
+        "func": "startup_role_audit",
+        "line": 271
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:32Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "[Startup Audit] WAVE Drop Map Staff Hub \u2014 0 missed assignment(s) recovered",
+        "module": "Main",
+        "func": "startup_role_audit",
+        "line": 271
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:32Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Posting streak leaderboard...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 300
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:35Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Syncing slash commands...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 305
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:35Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Global slash command sync done.",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 307
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:36Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Slash commands synced to Wave Improvement Cord! | Loot Routes + Tips & Tricks",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 310
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:36Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Slash commands synced to Wave Free Dropmaps!",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 310
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:36Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Slash commands synced to WAVE Drop Map Staff Hub",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 310
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:36Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Refreshing sticky messages for drop_map guilds...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 312
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:38Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Sticky message refreshed for Wave Free Dropmaps!",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 323
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T10:06:38Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Startup complete.",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 327
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T13:45:09Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "warning",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "WARNING",
+        "message": "[DMQueue:RESOLVE] Falling back to sys.modules singleton",
+        "module": "Main",
+        "func": "_resolve_dm_queue_cog",
+        "line": 355
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T14:32:37Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Started tracking contributor role for maemlls in Wave Free Dropmaps!",
+        "module": "Main",
+        "func": "on_member_update",
+        "line": 179
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T15:08:25Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Logged in as Wave Logistics Bot#3049",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 293
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T15:08:25Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Bot is in 3 server(s)",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 294
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T15:08:25Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Running startup role audit...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 310
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T15:08:28Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "[Startup Audit] Wave Improvement Cord! | Loot Routes + Tips & Tricks \u2014 0 missed assignment(s) recovered",
+        "module": "Main",
+        "func": "startup_role_audit",
+        "line": 285
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T15:08:36Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "[Startup Audit] Wave Free Dropmaps! \u2014 0 missed assignment(s) recovered",
+        "module": "Main",
+        "func": "startup_role_audit",
+        "line": 285
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T15:08:37Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Posting streak leaderboard...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 314
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T15:08:37Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "[Startup Audit] WAVE Drop Map Staff Hub \u2014 0 missed assignment(s) recovered",
+        "module": "Main",
+        "func": "startup_role_audit",
+        "line": 285
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T15:08:39Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Syncing slash commands...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 319
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T15:08:40Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Global slash command sync done.",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 321
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T15:08:40Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Slash commands synced to Wave Improvement Cord! | Loot Routes + Tips & Tricks",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 324
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T15:08:40Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Slash commands synced to Wave Free Dropmaps!",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 324
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T15:08:41Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Refreshing sticky messages for drop_map guilds...",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 326
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T15:08:41Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Slash commands synced to WAVE Drop Map Staff Hub",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 324
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T15:08:43Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Startup complete.",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 341
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T15:08:43Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "info",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "INFO",
+        "message": "Sticky message refreshed for Wave Free Dropmaps!",
+        "module": "Main",
+        "func": "on_ready",
+        "line": 337
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-05-31T17:05:46Z",
+      "bot": "logistics",
+      "category": "terminal_logs",
+      "action": "warning",
+      "actor": null,
+      "target": null,
+      "details": {
+        "logger": "root",
+        "level": "WARNING",
+        "message": "[DMQueue:RESOLVE] Falling back to sys.modules singleton",
+        "module": "Main",
+        "func": "_resolve_dm_queue_cog",
+        "line": 369
+      },
+      "guild_id": null,
+      "guild_name": null
+    }
+  ]
+}
