@@ -1,0 +1,637 @@
+{
+  "pushed_at": "2026-06-01T13:35:39Z",
+  "events": [
+    {
+      "timestamp": "2026-06-01T13:31:06Z",
+      "bot": "server",
+      "category": "message_edit",
+      "action": "raw_message_edited",
+      "actor": {
+        "id": "1269188273201352768",
+        "name": "Wave Management Bot",
+        "display_name": "Wave Management Bot"
+      },
+      "target": null,
+      "details": {
+        "message_id": "1503938772323008522",
+        "channel_id": "1503714231566991441",
+        "channel_name": "gate-way-queue",
+        "content": "",
+        "edited_at": "2026-06-01T13:31:07.422756+00:00",
+        "note": "message was not in cache \u2014 pre-edit content unknown"
+      },
+      "guild_id": "1041450125391835186",
+      "guild_name": "WAVE Drop Map Staff Hub"
+    },
+    {
+      "timestamp": "2026-06-01T13:31:14Z",
+      "bot": "server",
+      "category": "message_edit",
+      "action": "message_edited",
+      "actor": {
+        "id": "1332015150194233344",
+        "name": "AutoMod",
+        "discriminator": "0000",
+        "display_name": "AutoMod",
+        "bot": true,
+        "system": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/1332015150194233344/932397508df8560ddf1514619184947c.png?size=1024",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2025-01-23T15:52:39.451000+00:00"
+      },
+      "target": null,
+      "details": {
+        "change_type": [
+          "embeds"
+        ],
+        "before": {
+          "id": "1510999171392475277",
+          "content": "",
+          "tts": false,
+          "pinned": false,
+          "type": "MessageType.default",
+          "jump_url": "https://discord.com/channels/988564962802810961/1331553146450743306/1510999171392475277",
+          "channel_id": "1331553146450743306",
+          "channel_name": "auto-mod-msg-log",
+          "author": {
+            "id": "1332015150194233344",
+            "name": "AutoMod",
+            "discriminator": "0000",
+            "display_name": "AutoMod",
+            "bot": true,
+            "system": false,
+            "avatar_url": "https://cdn.discordapp.com/avatars/1332015150194233344/932397508df8560ddf1514619184947c.png?size=1024",
+            "public_flags": 0,
+            "public_flag_names": [],
+            "created_at": "2025-01-23T15:52:39.451000+00:00"
+          },
+          "flags": 0,
+          "created_at": "2026-06-01T13:31:15.467000+00:00",
+          "embeds": [
+            {
+              "footer": {
+                "text": "@tayurboy111_222",
+                "proxy_icon_url": "https://images-ext-1.discordapp.net/external/5O55U-LFtlf9fMWyx4otK2kJOK2UcgivABXVBFVMt_g/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/1407405613239238719/4bc185e9f79251a809166dddacccc1b0.png",
+                "icon_url": "https://cdn.discordapp.com/avatars/1407405613239238719/4bc185e9f79251a809166dddacccc1b0.png?size=1024"
+              },
+              "fields": [
+                {
+                  "value": "```\ny\n```",
+                  "name": "Content",
+                  "inline": false
+                }
+              ],
+              "flags": 0,
+              "color": 15747144,
+              "timestamp": "2026-06-01T13:31:14.694606+00:00",
+              "type": "rich",
+              "description": "> **User:** @lello9190 (<@632613456469688341>) \n> **User ID:** 632613456469688341 \n> **Message ID:** 1510997729986216079 \n> **Channel:** \ud83d\udea7\u30fbinvite-check\u30fb\ud83d\udea7 (<#1210768660101210192>) \n> **Created:** <t:1780320332> (<t:1780320332:R>)",
+              "title": "Message deleted"
+            }
+          ],
+          "mentions": {
+            "users": [],
+            "roles": [],
+            "channels": [],
+            "everyone": false
+          }
+        },
+        "after": {
+          "id": "1510999171392475277",
+          "content": "",
+          "tts": false,
+          "pinned": false,
+          "type": "MessageType.default",
+          "jump_url": "https://discord.com/channels/988564962802810961/1331553146450743306/1510999171392475277",
+          "channel_id": "1331553146450743306",
+          "channel_name": "auto-mod-msg-log",
+          "author": {
+            "id": "1332015150194233344",
+            "name": "AutoMod",
+            "discriminator": "0000",
+            "display_name": "AutoMod",
+            "bot": true,
+            "system": false,
+            "avatar_url": "https://cdn.discordapp.com/avatars/1332015150194233344/932397508df8560ddf1514619184947c.png?size=1024",
+            "public_flags": 0,
+            "public_flag_names": [],
+            "created_at": "2025-01-23T15:52:39.451000+00:00"
+          },
+          "flags": 0,
+          "created_at": "2026-06-01T13:31:15.467000+00:00",
+          "embeds": [
+            {
+              "footer": {
+                "text": "@tayurboy111_222",
+                "proxy_icon_url": "https://images-ext-1.discordapp.net/external/5O55U-LFtlf9fMWyx4otK2kJOK2UcgivABXVBFVMt_g/%3Fsize%3D1024/https/cdn.discordapp.com/avatars/1407405613239238719/4bc185e9f79251a809166dddacccc1b0.png",
+                "icon_url": "https://cdn.discordapp.com/avatars/1407405613239238719/4bc185e9f79251a809166dddacccc1b0.png?size=1024"
+              },
+              "fields": [
+                {
+                  "value": "```\ny\n```",
+                  "name": "Content",
+                  "inline": false
+                }
+              ],
+              "flags": 0,
+              "color": 15747144,
+              "timestamp": "2026-06-01T13:31:14.694000+00:00",
+              "type": "rich",
+              "description": "> **User:** @lello9190 (<@632613456469688341>) \n> **User ID:** 632613456469688341 \n> **Message ID:** 1510997729986216079 \n> **Channel:** \ud83d\udea7\u30fbinvite-check\u30fb\ud83d\udea7 (<#1210768660101210192>) \n> **Created:** <t:1780320332> (<t:1780320332:R>)",
+              "title": "Message deleted"
+            }
+          ],
+          "mentions": {
+            "users": [],
+            "roles": [],
+            "channels": [],
+            "everyone": false
+          }
+        }
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-06-01T13:31:37Z",
+      "bot": "server",
+      "category": "message_edit",
+      "action": "raw_message_edited",
+      "actor": {
+        "id": "1269188273201352768",
+        "name": "Wave Management Bot",
+        "display_name": "Wave Management Bot"
+      },
+      "target": null,
+      "details": {
+        "message_id": "1503938772323008522",
+        "channel_id": "1503714231566991441",
+        "channel_name": "gate-way-queue",
+        "content": "",
+        "edited_at": "2026-06-01T13:31:38.475893+00:00",
+        "note": "message was not in cache \u2014 pre-edit content unknown"
+      },
+      "guild_id": "1041450125391835186",
+      "guild_name": "WAVE Drop Map Staff Hub"
+    },
+    {
+      "timestamp": "2026-06-01T13:32:08Z",
+      "bot": "server",
+      "category": "message_edit",
+      "action": "raw_message_edited",
+      "actor": {
+        "id": "1269188273201352768",
+        "name": "Wave Management Bot",
+        "display_name": "Wave Management Bot"
+      },
+      "target": null,
+      "details": {
+        "message_id": "1503938772323008522",
+        "channel_id": "1503714231566991441",
+        "channel_name": "gate-way-queue",
+        "content": "",
+        "edited_at": "2026-06-01T13:32:09.620750+00:00",
+        "note": "message was not in cache \u2014 pre-edit content unknown"
+      },
+      "guild_id": "1041450125391835186",
+      "guild_name": "WAVE Drop Map Staff Hub"
+    },
+    {
+      "timestamp": "2026-06-01T13:32:39Z",
+      "bot": "server",
+      "category": "message_edit",
+      "action": "raw_message_edited",
+      "actor": {
+        "id": "1269188273201352768",
+        "name": "Wave Management Bot",
+        "display_name": "Wave Management Bot"
+      },
+      "target": null,
+      "details": {
+        "message_id": "1503938772323008522",
+        "channel_id": "1503714231566991441",
+        "channel_name": "gate-way-queue",
+        "content": "",
+        "edited_at": "2026-06-01T13:32:40.794012+00:00",
+        "note": "message was not in cache \u2014 pre-edit content unknown"
+      },
+      "guild_id": "1041450125391835186",
+      "guild_name": "WAVE Drop Map Staff Hub"
+    },
+    {
+      "timestamp": "2026-06-01T13:33:11Z",
+      "bot": "server",
+      "category": "message_edit",
+      "action": "raw_message_edited",
+      "actor": {
+        "id": "1269188273201352768",
+        "name": "Wave Management Bot",
+        "display_name": "Wave Management Bot"
+      },
+      "target": null,
+      "details": {
+        "message_id": "1503938772323008522",
+        "channel_id": "1503714231566991441",
+        "channel_name": "gate-way-queue",
+        "content": "",
+        "edited_at": "2026-06-01T13:33:11.935821+00:00",
+        "note": "message was not in cache \u2014 pre-edit content unknown"
+      },
+      "guild_id": "1041450125391835186",
+      "guild_name": "WAVE Drop Map Staff Hub"
+    },
+    {
+      "timestamp": "2026-06-01T13:33:42Z",
+      "bot": "server",
+      "category": "message_edit",
+      "action": "raw_message_edited",
+      "actor": {
+        "id": "1269188273201352768",
+        "name": "Wave Management Bot",
+        "display_name": "Wave Management Bot"
+      },
+      "target": null,
+      "details": {
+        "message_id": "1503938772323008522",
+        "channel_id": "1503714231566991441",
+        "channel_name": "gate-way-queue",
+        "content": "",
+        "edited_at": "2026-06-01T13:33:43.069447+00:00",
+        "note": "message was not in cache \u2014 pre-edit content unknown"
+      },
+      "guild_id": "1041450125391835186",
+      "guild_name": "WAVE Drop Map Staff Hub"
+    },
+    {
+      "timestamp": "2026-06-01T13:34:13Z",
+      "bot": "server",
+      "category": "message_edit",
+      "action": "raw_message_edited",
+      "actor": {
+        "id": "1269188273201352768",
+        "name": "Wave Management Bot",
+        "display_name": "Wave Management Bot"
+      },
+      "target": null,
+      "details": {
+        "message_id": "1503938772323008522",
+        "channel_id": "1503714231566991441",
+        "channel_name": "gate-way-queue",
+        "content": "",
+        "edited_at": "2026-06-01T13:34:14.212130+00:00",
+        "note": "message was not in cache \u2014 pre-edit content unknown"
+      },
+      "guild_id": "1041450125391835186",
+      "guild_name": "WAVE Drop Map Staff Hub"
+    },
+    {
+      "timestamp": "2026-06-01T13:34:44Z",
+      "bot": "server",
+      "category": "message_edit",
+      "action": "raw_message_edited",
+      "actor": {
+        "id": "1269188273201352768",
+        "name": "Wave Management Bot",
+        "display_name": "Wave Management Bot"
+      },
+      "target": null,
+      "details": {
+        "message_id": "1503938772323008522",
+        "channel_id": "1503714231566991441",
+        "channel_name": "gate-way-queue",
+        "content": "",
+        "edited_at": "2026-06-01T13:34:45.277954+00:00",
+        "note": "message was not in cache \u2014 pre-edit content unknown"
+      },
+      "guild_id": "1041450125391835186",
+      "guild_name": "WAVE Drop Map Staff Hub"
+    },
+    {
+      "timestamp": "2026-06-01T13:34:47Z",
+      "bot": "server",
+      "category": "message_edit",
+      "action": "message_edited",
+      "actor": {
+        "id": "1144325904567382047",
+        "name": "Dyno",
+        "discriminator": "0000",
+        "display_name": "Dyno",
+        "bot": true,
+        "system": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/1144325904567382047/35ba75d665dcc8c51277c9c6a391032d.png?size=1024",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2023-08-24T17:42:36.196000+00:00"
+      },
+      "target": null,
+      "details": {
+        "change_type": [
+          "embeds"
+        ],
+        "before": {
+          "id": "1511000062040477696",
+          "content": "",
+          "tts": false,
+          "pinned": false,
+          "type": "MessageType.default",
+          "jump_url": "https://discord.com/channels/971731167621574666/1105874530125238283/1511000062040477696",
+          "channel_id": "1105874530125238283",
+          "channel_name": "join-and-leave-log",
+          "author": {
+            "id": "1144325904567382047",
+            "name": "Dyno",
+            "discriminator": "0000",
+            "display_name": "Dyno",
+            "bot": true,
+            "system": false,
+            "avatar_url": "https://cdn.discordapp.com/avatars/1144325904567382047/35ba75d665dcc8c51277c9c6a391032d.png?size=1024",
+            "public_flags": 0,
+            "public_flag_names": [],
+            "created_at": "2023-08-24T17:42:36.196000+00:00"
+          },
+          "flags": 0,
+          "created_at": "2026-06-01T13:34:47.814000+00:00",
+          "embeds": [
+            {
+              "footer": {
+                "text": "ID: 935909419999461456"
+              },
+              "thumbnail": {
+                "width": 0,
+                "url": "https://cdn.discordapp.com/avatars/935909419999461456/b56ddd049c58ac7505c039111b08b4e1.png?size=4096",
+                "proxy_url": "https://images-ext-1.discordapp.net/external/1btFBDrsEEuxaqNAwC7sCSix7noKIr2eaWj0Kvbwoyc/%3Fsize%3D4096/https/cdn.discordapp.com/avatars/935909419999461456/b56ddd049c58ac7505c039111b08b4e1.png",
+                "height": 0,
+                "flags": 0,
+                "content_type": ""
+              },
+              "author": {
+                "proxy_icon_url": "https://images-ext-1.discordapp.net/external/1btFBDrsEEuxaqNAwC7sCSix7noKIr2eaWj0Kvbwoyc/%3Fsize%3D4096/https/cdn.discordapp.com/avatars/935909419999461456/b56ddd049c58ac7505c039111b08b4e1.png",
+                "name": "Member Joined",
+                "icon_url": "https://cdn.discordapp.com/avatars/935909419999461456/b56ddd049c58ac7505c039111b08b4e1.png?size=4096"
+              },
+              "fields": [
+                {
+                  "value": "4 years, 4 months, 4 days",
+                  "name": "Account Age",
+                  "inline": false
+                }
+              ],
+              "flags": 0,
+              "color": 4437377,
+              "timestamp": "2026-06-01T13:34:47.637000+00:00",
+              "type": "rich",
+              "description": "<@935909419999461456> alright\\_zynex"
+            }
+          ],
+          "mentions": {
+            "users": [],
+            "roles": [],
+            "channels": [],
+            "everyone": false
+          }
+        },
+        "after": {
+          "id": "1511000062040477696",
+          "content": "",
+          "tts": false,
+          "pinned": false,
+          "type": "MessageType.default",
+          "jump_url": "https://discord.com/channels/971731167621574666/1105874530125238283/1511000062040477696",
+          "channel_id": "1105874530125238283",
+          "channel_name": "join-and-leave-log",
+          "author": {
+            "id": "1144325904567382047",
+            "name": "Dyno",
+            "discriminator": "0000",
+            "display_name": "Dyno",
+            "bot": true,
+            "system": false,
+            "avatar_url": "https://cdn.discordapp.com/avatars/1144325904567382047/35ba75d665dcc8c51277c9c6a391032d.png?size=1024",
+            "public_flags": 0,
+            "public_flag_names": [],
+            "created_at": "2023-08-24T17:42:36.196000+00:00"
+          },
+          "flags": 0,
+          "created_at": "2026-06-01T13:34:47.814000+00:00",
+          "embeds": [
+            {
+              "footer": {
+                "text": "ID: 935909419999461456"
+              },
+              "thumbnail": {
+                "width": 256,
+                "url": "https://cdn.discordapp.com/avatars/935909419999461456/b56ddd049c58ac7505c039111b08b4e1.png?size=4096",
+                "proxy_url": "https://images-ext-1.discordapp.net/external/1btFBDrsEEuxaqNAwC7sCSix7noKIr2eaWj0Kvbwoyc/%3Fsize%3D4096/https/cdn.discordapp.com/avatars/935909419999461456/b56ddd049c58ac7505c039111b08b4e1.png",
+                "placeholder_version": 1,
+                "placeholder": "VggODwD6qHZuhoeJhpd3h3h3l++m+W4K",
+                "height": 256,
+                "flags": 0,
+                "content_type": "image/png"
+              },
+              "author": {
+                "proxy_icon_url": "https://images-ext-1.discordapp.net/external/1btFBDrsEEuxaqNAwC7sCSix7noKIr2eaWj0Kvbwoyc/%3Fsize%3D4096/https/cdn.discordapp.com/avatars/935909419999461456/b56ddd049c58ac7505c039111b08b4e1.png",
+                "name": "Member Joined",
+                "icon_url": "https://cdn.discordapp.com/avatars/935909419999461456/b56ddd049c58ac7505c039111b08b4e1.png?size=4096"
+              },
+              "fields": [
+                {
+                  "value": "4 years, 4 months, 4 days",
+                  "name": "Account Age",
+                  "inline": false
+                }
+              ],
+              "flags": 0,
+              "color": 4437377,
+              "timestamp": "2026-06-01T13:34:47.637000+00:00",
+              "type": "rich",
+              "description": "<@935909419999461456> alright\\_zynex"
+            }
+          ],
+          "mentions": {
+            "users": [],
+            "roles": [],
+            "channels": [],
+            "everyone": false
+          }
+        }
+      },
+      "guild_id": "971731167621574666",
+      "guild_name": "Wave Improvement Cord! | Loot Routes + Tips & Tricks"
+    },
+    {
+      "timestamp": "2026-06-01T13:35:13Z",
+      "bot": "server",
+      "category": "message_edit",
+      "action": "message_edited",
+      "actor": {
+        "id": "1210885131397767229",
+        "name": "Dyno",
+        "discriminator": "0000",
+        "display_name": "Dyno",
+        "bot": true,
+        "system": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/1210885131397767229/35ba75d665dcc8c51277c9c6a391032d.png?size=1024",
+        "public_flags": 0,
+        "public_flag_names": [],
+        "created_at": "2024-02-24T09:45:12.483000+00:00"
+      },
+      "target": null,
+      "details": {
+        "change_type": [
+          "embeds"
+        ],
+        "before": {
+          "id": "1511000170521825340",
+          "content": "",
+          "tts": false,
+          "pinned": false,
+          "type": "MessageType.default",
+          "jump_url": "https://discord.com/channels/988564962802810961/1210870610453073992/1511000170521825340",
+          "channel_id": "1210870610453073992",
+          "channel_name": "join-and-leave-log",
+          "author": {
+            "id": "1210885131397767229",
+            "name": "Dyno",
+            "discriminator": "0000",
+            "display_name": "Dyno",
+            "bot": true,
+            "system": false,
+            "avatar_url": "https://cdn.discordapp.com/avatars/1210885131397767229/35ba75d665dcc8c51277c9c6a391032d.png?size=1024",
+            "public_flags": 0,
+            "public_flag_names": [],
+            "created_at": "2024-02-24T09:45:12.483000+00:00"
+          },
+          "flags": 0,
+          "created_at": "2026-06-01T13:35:13.678000+00:00",
+          "embeds": [
+            {
+              "footer": {
+                "text": "ID: 1482081026372276265"
+              },
+              "thumbnail": {
+                "width": 0,
+                "url": "https://cdn.discordapp.com/avatars/1482081026372276265/f7f2e9361e8a54ce6e72580ac7b967af.png?size=4096",
+                "proxy_url": "https://images-ext-1.discordapp.net/external/q8KWity2wHB_ospvJQ6tZD9TDxLV1NTxYBy7qqW1-is/%3Fsize%3D4096/https/cdn.discordapp.com/avatars/1482081026372276265/f7f2e9361e8a54ce6e72580ac7b967af.png",
+                "height": 0,
+                "flags": 0,
+                "content_type": ""
+              },
+              "author": {
+                "proxy_icon_url": "https://images-ext-1.discordapp.net/external/q8KWity2wHB_ospvJQ6tZD9TDxLV1NTxYBy7qqW1-is/%3Fsize%3D4096/https/cdn.discordapp.com/avatars/1482081026372276265/f7f2e9361e8a54ce6e72580ac7b967af.png",
+                "name": "Member Joined",
+                "icon_url": "https://cdn.discordapp.com/avatars/1482081026372276265/f7f2e9361e8a54ce6e72580ac7b967af.png?size=4096"
+              },
+              "fields": [
+                {
+                  "value": "2 months, 19 days",
+                  "name": "Account Age",
+                  "inline": false
+                }
+              ],
+              "flags": 0,
+              "color": 4437377,
+              "timestamp": "2026-06-01T13:35:13.567000+00:00",
+              "type": "rich",
+              "description": "<@1482081026372276265> wave\\_s1d1r4s"
+            }
+          ],
+          "mentions": {
+            "users": [],
+            "roles": [],
+            "channels": [],
+            "everyone": false
+          }
+        },
+        "after": {
+          "id": "1511000170521825340",
+          "content": "",
+          "tts": false,
+          "pinned": false,
+          "type": "MessageType.default",
+          "jump_url": "https://discord.com/channels/988564962802810961/1210870610453073992/1511000170521825340",
+          "channel_id": "1210870610453073992",
+          "channel_name": "join-and-leave-log",
+          "author": {
+            "id": "1210885131397767229",
+            "name": "Dyno",
+            "discriminator": "0000",
+            "display_name": "Dyno",
+            "bot": true,
+            "system": false,
+            "avatar_url": "https://cdn.discordapp.com/avatars/1210885131397767229/35ba75d665dcc8c51277c9c6a391032d.png?size=1024",
+            "public_flags": 0,
+            "public_flag_names": [],
+            "created_at": "2024-02-24T09:45:12.483000+00:00"
+          },
+          "flags": 0,
+          "created_at": "2026-06-01T13:35:13.678000+00:00",
+          "embeds": [
+            {
+              "footer": {
+                "text": "ID: 1482081026372276265"
+              },
+              "thumbnail": {
+                "width": 1024,
+                "url": "https://cdn.discordapp.com/avatars/1482081026372276265/f7f2e9361e8a54ce6e72580ac7b967af.png?size=4096",
+                "proxy_url": "https://images-ext-1.discordapp.net/external/q8KWity2wHB_ospvJQ6tZD9TDxLV1NTxYBy7qqW1-is/%3Fsize%3D4096/https/cdn.discordapp.com/avatars/1482081026372276265/f7f2e9361e8a54ce6e72580ac7b967af.png",
+                "placeholder_version": 1,
+                "placeholder": "qugFbwz6aWRdZpicdGmHeJeJuP6Fq28J",
+                "height": 1024,
+                "flags": 0,
+                "content_type": "image/png"
+              },
+              "author": {
+                "proxy_icon_url": "https://images-ext-1.discordapp.net/external/q8KWity2wHB_ospvJQ6tZD9TDxLV1NTxYBy7qqW1-is/%3Fsize%3D4096/https/cdn.discordapp.com/avatars/1482081026372276265/f7f2e9361e8a54ce6e72580ac7b967af.png",
+                "name": "Member Joined",
+                "icon_url": "https://cdn.discordapp.com/avatars/1482081026372276265/f7f2e9361e8a54ce6e72580ac7b967af.png?size=4096"
+              },
+              "fields": [
+                {
+                  "value": "2 months, 19 days",
+                  "name": "Account Age",
+                  "inline": false
+                }
+              ],
+              "flags": 0,
+              "color": 4437377,
+              "timestamp": "2026-06-01T13:35:13.567000+00:00",
+              "type": "rich",
+              "description": "<@1482081026372276265> wave\\_s1d1r4s"
+            }
+          ],
+          "mentions": {
+            "users": [],
+            "roles": [],
+            "channels": [],
+            "everyone": false
+          }
+        }
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-06-01T13:35:15Z",
+      "bot": "server",
+      "category": "message_edit",
+      "action": "raw_message_edited",
+      "actor": {
+        "id": "1269188273201352768",
+        "name": "Wave Management Bot",
+        "display_name": "Wave Management Bot"
+      },
+      "target": null,
+      "details": {
+        "message_id": "1503938772323008522",
+        "channel_id": "1503714231566991441",
+        "channel_name": "gate-way-queue",
+        "content": "",
+        "edited_at": "2026-06-01T13:35:16.558887+00:00",
+        "note": "message was not in cache \u2014 pre-edit content unknown"
+      },
+      "guild_id": "1041450125391835186",
+      "guild_name": "WAVE Drop Map Staff Hub"
+    }
+  ]
+}
