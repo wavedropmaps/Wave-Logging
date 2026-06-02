@@ -1,0 +1,2318 @@
+{
+  "day": "2026-06-01",
+  "rolled_at": "2026-06-02T00:08:36Z",
+  "events": [
+    {
+      "timestamp": "2026-06-01T08:02:32Z",
+      "bot": "server",
+      "category": "channel_delete",
+      "action": "channel_deleted",
+      "actor": null,
+      "target": null,
+      "details": {
+        "channel": {
+          "id": "1509855487024304138",
+          "name": "ticket-i-ow",
+          "type": "text",
+          "position": 394,
+          "category": {
+            "id": "1231429393642029076",
+            "name": "--- Tickets (Waiting for users) ---"
+          },
+          "nsfw": false,
+          "slowmode_delay": 0,
+          "default_auto_archive_duration": 1440,
+          "overwrites": [
+            {
+              "target_type": "role",
+              "target_id": "971731167621574666",
+              "target_name": "@everyone",
+              "allow": 0,
+              "deny": 1024
+            },
+            {
+              "target_type": "role",
+              "target_id": "1057292093057400912",
+              "target_name": "Quarantine",
+              "allow": 0,
+              "deny": 377957125121
+            },
+            {
+              "target_type": "member",
+              "target_id": "538616861240328194",
+              "target_name": "ractpalerdania1431",
+              "allow": 117760,
+              "deny": 0
+            }
+          ]
+        },
+        "audit": {
+          "audit_id": "1510916438075117652",
+          "actor": {
+            "id": "576395920787111936",
+            "name": "Ticket Bot",
+            "discriminator": "7812",
+            "display_name": "Ticket Bot",
+            "bot": true,
+            "system": false,
+            "pending": false,
+            "avatar_url": "https://cdn.discordapp.com/avatars/576395920787111936/7d08f80c3f051ab6daa341177e2d10ea.png?size=1024",
+            "public_flags": 65536,
+            "public_flag_names": [
+              "verified_bot"
+            ],
+            "created_at": "2019-05-10T13:11:36.434000+00:00",
+            "joined_at": "2024-04-20T09:40:38.904000+00:00",
+            "roles": [
+              {
+                "id": "1307486678231023736",
+                "name": "*",
+                "position": 1,
+                "color": "#000000"
+              },
+              {
+                "id": "1149680236041080832",
+                "name": "Member",
+                "position": 21,
+                "color": "#ff0000"
+              },
+              {
+                "id": "1105873031450075227",
+                "name": "Access",
+                "position": 23,
+                "color": "#ff8000"
+              },
+              {
+                "id": "1144226524279615519",
+                "name": "bots",
+                "position": 65,
+                "color": "#000000"
+              },
+              {
+                "id": "1231177704288813067",
+                "name": "Ticket Bot",
+                "position": 70,
+                "color": "#000000"
+              }
+            ],
+            "top_role": "Ticket Bot",
+            "guild_permissions": 1829587348619263
+          },
+          "reason": "Ticket closed",
+          "created_at": "2026-06-01T08:02:30.307000+00:00",
+          "changes": [
+            {
+              "key": "name",
+              "before": "ticket-i-ow",
+              "after": null
+            },
+            {
+              "key": "slowmode_delay",
+              "before": "0",
+              "after": null
+            },
+            {
+              "key": "overwrites",
+              "before": "[(<Object id=538616861240328194 type=<class 'discord.member.Member'>>, <discord.permissions.PermissionOverwrite object at 0x00000233CC987D90>), (<Object id=1057292093057400912 type=<class 'discord.member.Member'>>, <discord.permissions.PermissionOverwrite object at 0x00000233CC9859F0>), (<Object id=971731167621574666 type=<class 'discord.member.Member'>>, <discord.permissions.PermissionOverwrite object at 0x00000233CC985AE0>)]",
+              "after": null
+            },
+            {
+              "key": "flags",
+              "before": "<ChannelFlags value=0>",
+              "after": null
+            },
+            {
+              "key": "nsfw",
+              "before": "False",
+              "after": null
+            },
+            {
+              "key": "type",
+              "before": "text",
+              "after": null
+            }
+          ]
+        }
+      },
+      "guild_id": "971731167621574666",
+      "guild_name": "Wave Improvement Cord! | Loot Routes + Tips & Tricks"
+    },
+    {
+      "timestamp": "2026-06-01T09:36:38Z",
+      "bot": "server",
+      "category": "channel_delete",
+      "action": "channel_deleted",
+      "actor": null,
+      "target": null,
+      "details": {
+        "channel": {
+          "id": "1475857473486327838",
+          "name": "\ud83c\udfc6\u30fbmilestone-records-lifetime",
+          "type": "text",
+          "position": 46,
+          "category": {
+            "id": "1478718031264747562",
+            "name": "Wave Management Bot"
+          },
+          "nsfw": false,
+          "slowmode_delay": 0,
+          "default_auto_archive_duration": 1440,
+          "overwrites": [
+            {
+              "target_type": "role",
+              "target_id": "1041450125391835186",
+              "target_name": "@everyone",
+              "allow": 0,
+              "deny": 3072
+            },
+            {
+              "target_type": "role",
+              "target_id": "1041582141340917870",
+              "target_name": "Staff",
+              "allow": 1024,
+              "deny": 0
+            },
+            {
+              "target_type": "role",
+              "target_id": "1367837841668702319",
+              "target_name": "Trial Staff",
+              "allow": 1024,
+              "deny": 0
+            }
+          ]
+        },
+        "audit": {
+          "audit_id": "1510940119086137466",
+          "actor": {
+            "id": "987843990734905414",
+            "name": "fruss.",
+            "discriminator": "0",
+            "global_name": "! Free Drop Maps Bio",
+            "display_name": "! Free Drop Maps Bio",
+            "bot": false,
+            "system": false,
+            "pending": false,
+            "avatar_url": "https://cdn.discordapp.com/avatars/987843990734905414/92bfad96c66e3d59b26f219a08f185b1.png?size=1024",
+            "public_flags": 128,
+            "public_flag_names": [
+              "hypesquad_brilliance"
+            ],
+            "created_at": "2022-06-18T22:19:20.645000+00:00",
+            "joined_at": "2022-11-14T09:42:00.218000+00:00",
+            "roles": [
+              {
+                "id": "1491225386804314132",
+                "name": "*",
+                "position": 4,
+                "color": "#000000"
+              },
+              {
+                "id": "1470639632583626854",
+                "name": "Vbucks",
+                "position": 5,
+                "color": "#000000"
+              },
+              {
+                "id": "1455057422187237588",
+                "name": "Oce",
+                "position": 19,
+                "color": "#000000"
+              },
+              {
+                "id": "1443750844636856412",
+                "name": "Poll Ping",
+                "position": 20,
+                "color": "#000000"
+              },
+              {
+                "id": "1508412940489982022",
+                "name": "Silver",
+                "position": 25,
+                "color": "#000000"
+              },
+              {
+                "id": "1043664233361051668",
+                "name": "7/7 active",
+                "position": 29,
+                "color": "#000000"
+              },
+              {
+                "id": "1041582141340917870",
+                "name": "Staff",
+                "position": 39,
+                "color": "#c9ff8b"
+              },
+              {
+                "id": "1041582129500397658",
+                "name": "Support",
+                "position": 40,
+                "color": "#82ffff"
+              },
+              {
+                "id": "1417348281402396703",
+                "name": "Senior Support",
+                "position": 41,
+                "color": "#828fff"
+              },
+              {
+                "id": "1041582116963614781",
+                "name": "Admin",
+                "position": 43,
+                "color": "#a6b4ff"
+              },
+              {
+                "id": "1502630029555925024",
+                "name": "Senior Admin",
+                "position": 44,
+                "color": "#cd9cff"
+              },
+              {
+                "id": "1308389636111859733",
+                "name": "Head Admin",
+                "position": 45,
+                "color": "#f484ff"
+              },
+              {
+                "id": "1041582103927726170",
+                "name": "Management",
+                "position": 53,
+                "color": "#ff7baa"
+              },
+              {
+                "id": "1231187220208025620",
+                "name": "Head Loot Routes",
+                "position": 61,
+                "color": "#ff7d00"
+              },
+              {
+                "id": "1211965080141561916",
+                "name": "Head Marketing",
+                "position": 65,
+                "color": "#efe68b"
+              },
+              {
+                "id": "1043664170186448987",
+                "name": "Founder",
+                "position": 70,
+                "color": "#070707"
+              },
+              {
+                "id": "1350819689894383706",
+                "name": "Fruss",
+                "position": 82,
+                "color": "#000000"
+              }
+            ],
+            "top_role": "Fruss",
+            "guild_permissions": 1829587348619263
+          },
+          "reason": null,
+          "created_at": "2026-06-01T09:36:36.300000+00:00",
+          "changes": [
+            {
+              "key": "name",
+              "before": "\ud83c\udfc6\u30fbmilestone-records-lifetime",
+              "after": null
+            },
+            {
+              "key": "slowmode_delay",
+              "before": "0",
+              "after": null
+            },
+            {
+              "key": "overwrites",
+              "before": "[(<Object id=1367837841668702319 type=<class 'discord.member.Member'>>, <discord.permissions.PermissionOverwrite object at 0x00000233CCEEBA60>), (<Object id=1041582141340917870 type=<class 'discord.member.Member'>>, <discord.permissions.PermissionOverwrite object at 0x00000233CCEEB580>), (<Object id=1041450125391835186 type=<class 'discord.member.Member'>>, <discord.permissions.PermissionOverwrite object at 0x00000233CCEE88B0>)]",
+              "after": null
+            },
+            {
+              "key": "flags",
+              "before": "<ChannelFlags value=0>",
+              "after": null
+            },
+            {
+              "key": "nsfw",
+              "before": "False",
+              "after": null
+            },
+            {
+              "key": "type",
+              "before": "text",
+              "after": null
+            }
+          ]
+        }
+      },
+      "guild_id": "1041450125391835186",
+      "guild_name": "WAVE Drop Map Staff Hub"
+    },
+    {
+      "timestamp": "2026-06-01T09:36:47Z",
+      "bot": "server",
+      "category": "channel_delete",
+      "action": "channel_deleted",
+      "actor": null,
+      "target": null,
+      "details": {
+        "channel": {
+          "id": "1474681667548352585",
+          "name": "\ud83d\udd25\u30fbwave-points-shop-leaderboard",
+          "type": "text",
+          "position": 45,
+          "category": {
+            "id": "1478718031264747562",
+            "name": "Wave Management Bot"
+          },
+          "nsfw": false,
+          "slowmode_delay": 0,
+          "default_auto_archive_duration": 1440,
+          "overwrites": [
+            {
+              "target_type": "role",
+              "target_id": "1041450125391835186",
+              "target_name": "@everyone",
+              "allow": 0,
+              "deny": 3072
+            },
+            {
+              "target_type": "role",
+              "target_id": "1041582141340917870",
+              "target_name": "Staff",
+              "allow": 1024,
+              "deny": 0
+            },
+            {
+              "target_type": "role",
+              "target_id": "1367837841668702319",
+              "target_name": "Trial Staff",
+              "allow": 1024,
+              "deny": 0
+            }
+          ]
+        },
+        "audit": {
+          "audit_id": "1510940158588092456",
+          "actor": {
+            "id": "987843990734905414",
+            "name": "fruss.",
+            "discriminator": "0",
+            "global_name": "! Free Drop Maps Bio",
+            "display_name": "! Free Drop Maps Bio",
+            "bot": false,
+            "system": false,
+            "pending": false,
+            "avatar_url": "https://cdn.discordapp.com/avatars/987843990734905414/92bfad96c66e3d59b26f219a08f185b1.png?size=1024",
+            "public_flags": 128,
+            "public_flag_names": [
+              "hypesquad_brilliance"
+            ],
+            "created_at": "2022-06-18T22:19:20.645000+00:00",
+            "joined_at": "2022-11-14T09:42:00.218000+00:00",
+            "roles": [
+              {
+                "id": "1491225386804314132",
+                "name": "*",
+                "position": 4,
+                "color": "#000000"
+              },
+              {
+                "id": "1470639632583626854",
+                "name": "Vbucks",
+                "position": 5,
+                "color": "#000000"
+              },
+              {
+                "id": "1455057422187237588",
+                "name": "Oce",
+                "position": 19,
+                "color": "#000000"
+              },
+              {
+                "id": "1443750844636856412",
+                "name": "Poll Ping",
+                "position": 20,
+                "color": "#000000"
+              },
+              {
+                "id": "1508412940489982022",
+                "name": "Silver",
+                "position": 25,
+                "color": "#000000"
+              },
+              {
+                "id": "1043664233361051668",
+                "name": "7/7 active",
+                "position": 29,
+                "color": "#000000"
+              },
+              {
+                "id": "1041582141340917870",
+                "name": "Staff",
+                "position": 39,
+                "color": "#c9ff8b"
+              },
+              {
+                "id": "1041582129500397658",
+                "name": "Support",
+                "position": 40,
+                "color": "#82ffff"
+              },
+              {
+                "id": "1417348281402396703",
+                "name": "Senior Support",
+                "position": 41,
+                "color": "#828fff"
+              },
+              {
+                "id": "1041582116963614781",
+                "name": "Admin",
+                "position": 43,
+                "color": "#a6b4ff"
+              },
+              {
+                "id": "1502630029555925024",
+                "name": "Senior Admin",
+                "position": 44,
+                "color": "#cd9cff"
+              },
+              {
+                "id": "1308389636111859733",
+                "name": "Head Admin",
+                "position": 45,
+                "color": "#f484ff"
+              },
+              {
+                "id": "1041582103927726170",
+                "name": "Management",
+                "position": 53,
+                "color": "#ff7baa"
+              },
+              {
+                "id": "1231187220208025620",
+                "name": "Head Loot Routes",
+                "position": 61,
+                "color": "#ff7d00"
+              },
+              {
+                "id": "1211965080141561916",
+                "name": "Head Marketing",
+                "position": 65,
+                "color": "#efe68b"
+              },
+              {
+                "id": "1043664170186448987",
+                "name": "Founder",
+                "position": 70,
+                "color": "#070707"
+              },
+              {
+                "id": "1350819689894383706",
+                "name": "Fruss",
+                "position": 82,
+                "color": "#000000"
+              }
+            ],
+            "top_role": "Fruss",
+            "guild_permissions": 1829587348619263
+          },
+          "reason": null,
+          "created_at": "2026-06-01T09:36:45.718000+00:00",
+          "changes": [
+            {
+              "key": "name",
+              "before": "\ud83d\udd25\u30fbwave-points-shop-leaderboard",
+              "after": null
+            },
+            {
+              "key": "slowmode_delay",
+              "before": "0",
+              "after": null
+            },
+            {
+              "key": "overwrites",
+              "before": "[(<Object id=1367837841668702319 type=<class 'discord.member.Member'>>, <discord.permissions.PermissionOverwrite object at 0x00000233CCEEA1A0>), (<Object id=1041582141340917870 type=<class 'discord.member.Member'>>, <discord.permissions.PermissionOverwrite object at 0x00000233CCEEA050>), (<Object id=1041450125391835186 type=<class 'discord.member.Member'>>, <discord.permissions.PermissionOverwrite object at 0x00000233CCEEAEC0>)]",
+              "after": null
+            },
+            {
+              "key": "flags",
+              "before": "<ChannelFlags value=0>",
+              "after": null
+            },
+            {
+              "key": "nsfw",
+              "before": "False",
+              "after": null
+            },
+            {
+              "key": "type",
+              "before": "text",
+              "after": null
+            }
+          ]
+        }
+      },
+      "guild_id": "1041450125391835186",
+      "guild_name": "WAVE Drop Map Staff Hub"
+    },
+    {
+      "timestamp": "2026-06-01T09:36:51Z",
+      "bot": "server",
+      "category": "channel_delete",
+      "action": "channel_deleted",
+      "actor": null,
+      "target": null,
+      "details": {
+        "channel": {
+          "id": "1508428594022449252",
+          "name": "\ud83c\udf0a\u30fbwave-point-system",
+          "type": "text",
+          "position": 42,
+          "category": {
+            "id": "1478718031264747562",
+            "name": "Wave Management Bot"
+          },
+          "nsfw": false,
+          "slowmode_delay": 0,
+          "default_auto_archive_duration": 1440,
+          "overwrites": [
+            {
+              "target_type": "role",
+              "target_id": "1041450125391835186",
+              "target_name": "@everyone",
+              "allow": 0,
+              "deny": 3072
+            },
+            {
+              "target_type": "role",
+              "target_id": "1041582141340917870",
+              "target_name": "Staff",
+              "allow": 1024,
+              "deny": 0
+            },
+            {
+              "target_type": "role",
+              "target_id": "1367837841668702319",
+              "target_name": "Trial Staff",
+              "allow": 1024,
+              "deny": 0
+            }
+          ]
+        },
+        "audit": {
+          "audit_id": "1510940173523746866",
+          "actor": {
+            "id": "987843990734905414",
+            "name": "fruss.",
+            "discriminator": "0",
+            "global_name": "! Free Drop Maps Bio",
+            "display_name": "! Free Drop Maps Bio",
+            "bot": false,
+            "system": false,
+            "pending": false,
+            "avatar_url": "https://cdn.discordapp.com/avatars/987843990734905414/92bfad96c66e3d59b26f219a08f185b1.png?size=1024",
+            "public_flags": 128,
+            "public_flag_names": [
+              "hypesquad_brilliance"
+            ],
+            "created_at": "2022-06-18T22:19:20.645000+00:00",
+            "joined_at": "2022-11-14T09:42:00.218000+00:00",
+            "roles": [
+              {
+                "id": "1491225386804314132",
+                "name": "*",
+                "position": 4,
+                "color": "#000000"
+              },
+              {
+                "id": "1470639632583626854",
+                "name": "Vbucks",
+                "position": 5,
+                "color": "#000000"
+              },
+              {
+                "id": "1455057422187237588",
+                "name": "Oce",
+                "position": 19,
+                "color": "#000000"
+              },
+              {
+                "id": "1443750844636856412",
+                "name": "Poll Ping",
+                "position": 20,
+                "color": "#000000"
+              },
+              {
+                "id": "1508412940489982022",
+                "name": "Silver",
+                "position": 25,
+                "color": "#000000"
+              },
+              {
+                "id": "1043664233361051668",
+                "name": "7/7 active",
+                "position": 29,
+                "color": "#000000"
+              },
+              {
+                "id": "1041582141340917870",
+                "name": "Staff",
+                "position": 39,
+                "color": "#c9ff8b"
+              },
+              {
+                "id": "1041582129500397658",
+                "name": "Support",
+                "position": 40,
+                "color": "#82ffff"
+              },
+              {
+                "id": "1417348281402396703",
+                "name": "Senior Support",
+                "position": 41,
+                "color": "#828fff"
+              },
+              {
+                "id": "1041582116963614781",
+                "name": "Admin",
+                "position": 43,
+                "color": "#a6b4ff"
+              },
+              {
+                "id": "1502630029555925024",
+                "name": "Senior Admin",
+                "position": 44,
+                "color": "#cd9cff"
+              },
+              {
+                "id": "1308389636111859733",
+                "name": "Head Admin",
+                "position": 45,
+                "color": "#f484ff"
+              },
+              {
+                "id": "1041582103927726170",
+                "name": "Management",
+                "position": 53,
+                "color": "#ff7baa"
+              },
+              {
+                "id": "1231187220208025620",
+                "name": "Head Loot Routes",
+                "position": 61,
+                "color": "#ff7d00"
+              },
+              {
+                "id": "1211965080141561916",
+                "name": "Head Marketing",
+                "position": 65,
+                "color": "#efe68b"
+              },
+              {
+                "id": "1043664170186448987",
+                "name": "Founder",
+                "position": 70,
+                "color": "#070707"
+              },
+              {
+                "id": "1350819689894383706",
+                "name": "Fruss",
+                "position": 82,
+                "color": "#000000"
+              }
+            ],
+            "top_role": "Fruss",
+            "guild_permissions": 1829587348619263
+          },
+          "reason": null,
+          "created_at": "2026-06-01T09:36:49.279000+00:00",
+          "changes": [
+            {
+              "key": "name",
+              "before": "\ud83c\udf0a\u30fbwave-point-system",
+              "after": null
+            },
+            {
+              "key": "slowmode_delay",
+              "before": "0",
+              "after": null
+            },
+            {
+              "key": "overwrites",
+              "before": "[(<Object id=1367837841668702319 type=<class 'discord.member.Member'>>, <discord.permissions.PermissionOverwrite object at 0x00000233CCEE93C0>), (<Object id=1041582141340917870 type=<class 'discord.member.Member'>>, <discord.permissions.PermissionOverwrite object at 0x00000233CCEE9D80>), (<Object id=1041450125391835186 type=<class 'discord.member.Member'>>, <discord.permissions.PermissionOverwrite object at 0x00000233CCEE9510>)]",
+              "after": null
+            },
+            {
+              "key": "flags",
+              "before": "<ChannelFlags value=0>",
+              "after": null
+            },
+            {
+              "key": "nsfw",
+              "before": "False",
+              "after": null
+            },
+            {
+              "key": "type",
+              "before": "text",
+              "after": null
+            }
+          ]
+        }
+      },
+      "guild_id": "1041450125391835186",
+      "guild_name": "WAVE Drop Map Staff Hub"
+    },
+    {
+      "timestamp": "2026-06-01T09:36:54Z",
+      "bot": "server",
+      "category": "channel_delete",
+      "action": "channel_deleted",
+      "actor": null,
+      "target": null,
+      "details": {
+        "channel": {
+          "id": "1508417577565687829",
+          "name": "\ud83d\udcb5\u30fbwave-economy",
+          "type": "text",
+          "position": 43,
+          "category": {
+            "id": "1478718031264747562",
+            "name": "Wave Management Bot"
+          },
+          "nsfw": false,
+          "slowmode_delay": 0,
+          "default_auto_archive_duration": 1440,
+          "overwrites": [
+            {
+              "target_type": "role",
+              "target_id": "1041450125391835186",
+              "target_name": "@everyone",
+              "allow": 0,
+              "deny": 3072
+            },
+            {
+              "target_type": "role",
+              "target_id": "1041582141340917870",
+              "target_name": "Staff",
+              "allow": 1024,
+              "deny": 0
+            },
+            {
+              "target_type": "role",
+              "target_id": "1231188006757728266",
+              "target_name": "Loot Route Maker",
+              "allow": 1024,
+              "deny": 0
+            },
+            {
+              "target_type": "role",
+              "target_id": "1367837841668702319",
+              "target_name": "Trial Staff",
+              "allow": 1024,
+              "deny": 0
+            }
+          ]
+        },
+        "audit": {
+          "audit_id": "1510940187407155231",
+          "actor": {
+            "id": "987843990734905414",
+            "name": "fruss.",
+            "discriminator": "0",
+            "global_name": "! Free Drop Maps Bio",
+            "display_name": "! Free Drop Maps Bio",
+            "bot": false,
+            "system": false,
+            "pending": false,
+            "avatar_url": "https://cdn.discordapp.com/avatars/987843990734905414/92bfad96c66e3d59b26f219a08f185b1.png?size=1024",
+            "public_flags": 128,
+            "public_flag_names": [
+              "hypesquad_brilliance"
+            ],
+            "created_at": "2022-06-18T22:19:20.645000+00:00",
+            "joined_at": "2022-11-14T09:42:00.218000+00:00",
+            "roles": [
+              {
+                "id": "1491225386804314132",
+                "name": "*",
+                "position": 4,
+                "color": "#000000"
+              },
+              {
+                "id": "1470639632583626854",
+                "name": "Vbucks",
+                "position": 5,
+                "color": "#000000"
+              },
+              {
+                "id": "1455057422187237588",
+                "name": "Oce",
+                "position": 19,
+                "color": "#000000"
+              },
+              {
+                "id": "1443750844636856412",
+                "name": "Poll Ping",
+                "position": 20,
+                "color": "#000000"
+              },
+              {
+                "id": "1508412940489982022",
+                "name": "Silver",
+                "position": 25,
+                "color": "#000000"
+              },
+              {
+                "id": "1043664233361051668",
+                "name": "7/7 active",
+                "position": 29,
+                "color": "#000000"
+              },
+              {
+                "id": "1041582141340917870",
+                "name": "Staff",
+                "position": 39,
+                "color": "#c9ff8b"
+              },
+              {
+                "id": "1041582129500397658",
+                "name": "Support",
+                "position": 40,
+                "color": "#82ffff"
+              },
+              {
+                "id": "1417348281402396703",
+                "name": "Senior Support",
+                "position": 41,
+                "color": "#828fff"
+              },
+              {
+                "id": "1041582116963614781",
+                "name": "Admin",
+                "position": 43,
+                "color": "#a6b4ff"
+              },
+              {
+                "id": "1502630029555925024",
+                "name": "Senior Admin",
+                "position": 44,
+                "color": "#cd9cff"
+              },
+              {
+                "id": "1308389636111859733",
+                "name": "Head Admin",
+                "position": 45,
+                "color": "#f484ff"
+              },
+              {
+                "id": "1041582103927726170",
+                "name": "Management",
+                "position": 53,
+                "color": "#ff7baa"
+              },
+              {
+                "id": "1231187220208025620",
+                "name": "Head Loot Routes",
+                "position": 61,
+                "color": "#ff7d00"
+              },
+              {
+                "id": "1211965080141561916",
+                "name": "Head Marketing",
+                "position": 65,
+                "color": "#efe68b"
+              },
+              {
+                "id": "1043664170186448987",
+                "name": "Founder",
+                "position": 70,
+                "color": "#070707"
+              },
+              {
+                "id": "1350819689894383706",
+                "name": "Fruss",
+                "position": 82,
+                "color": "#000000"
+              }
+            ],
+            "top_role": "Fruss",
+            "guild_permissions": 1829587348619263
+          },
+          "reason": null,
+          "created_at": "2026-06-01T09:36:52.589000+00:00",
+          "changes": [
+            {
+              "key": "name",
+              "before": "\ud83d\udcb5\u30fbwave-economy",
+              "after": null
+            },
+            {
+              "key": "slowmode_delay",
+              "before": "0",
+              "after": null
+            },
+            {
+              "key": "overwrites",
+              "before": "[(<Object id=1231188006757728266 type=<class 'discord.member.Member'>>, <discord.permissions.PermissionOverwrite object at 0x00000233CCEE95D0>), (<Object id=1041582141340917870 type=<class 'discord.member.Member'>>, <discord.permissions.PermissionOverwrite object at 0x00000233CCEE9210>), (<Object id=1367837841668702319 type=<class 'discord.member.Member'>>, <discord.permissions.PermissionOverwrite object at 0x00000233CCEE9390>), (<Object id=1041450125391835186 type=<class 'discord.member.Member'>>, <discord.permissions.PermissionOverwrite object at 0x00000233CCEEAAA0>)]",
+              "after": null
+            },
+            {
+              "key": "flags",
+              "before": "<ChannelFlags value=0>",
+              "after": null
+            },
+            {
+              "key": "nsfw",
+              "before": "False",
+              "after": null
+            },
+            {
+              "key": "type",
+              "before": "text",
+              "after": null
+            }
+          ]
+        }
+      },
+      "guild_id": "1041450125391835186",
+      "guild_name": "WAVE Drop Map Staff Hub"
+    },
+    {
+      "timestamp": "2026-06-01T09:36:58Z",
+      "bot": "server",
+      "category": "channel_delete",
+      "action": "channel_deleted",
+      "actor": null,
+      "target": null,
+      "details": {
+        "channel": {
+          "id": "1475876056421367930",
+          "name": "\ud83d\udcd2\u30fbweekly-performance-leaderboard",
+          "type": "text",
+          "position": 44,
+          "category": {
+            "id": "1478718031264747562",
+            "name": "Wave Management Bot"
+          },
+          "nsfw": false,
+          "slowmode_delay": 0,
+          "default_auto_archive_duration": 1440,
+          "overwrites": [
+            {
+              "target_type": "role",
+              "target_id": "1041450125391835186",
+              "target_name": "@everyone",
+              "allow": 0,
+              "deny": 1051648
+            },
+            {
+              "target_type": "role",
+              "target_id": "1041582141340917870",
+              "target_name": "Staff",
+              "allow": 1024,
+              "deny": 0
+            },
+            {
+              "target_type": "role",
+              "target_id": "1367837841668702319",
+              "target_name": "Trial Staff",
+              "allow": 1024,
+              "deny": 0
+            },
+            {
+              "target_type": "role",
+              "target_id": "1370615371228385371",
+              "target_name": "Quarantine",
+              "allow": 0,
+              "deny": 377957125121
+            }
+          ]
+        },
+        "audit": {
+          "audit_id": "1510940201923645440",
+          "actor": {
+            "id": "987843990734905414",
+            "name": "fruss.",
+            "discriminator": "0",
+            "global_name": "! Free Drop Maps Bio",
+            "display_name": "! Free Drop Maps Bio",
+            "bot": false,
+            "system": false,
+            "pending": false,
+            "avatar_url": "https://cdn.discordapp.com/avatars/987843990734905414/92bfad96c66e3d59b26f219a08f185b1.png?size=1024",
+            "public_flags": 128,
+            "public_flag_names": [
+              "hypesquad_brilliance"
+            ],
+            "created_at": "2022-06-18T22:19:20.645000+00:00",
+            "joined_at": "2022-11-14T09:42:00.218000+00:00",
+            "roles": [
+              {
+                "id": "1491225386804314132",
+                "name": "*",
+                "position": 4,
+                "color": "#000000"
+              },
+              {
+                "id": "1470639632583626854",
+                "name": "Vbucks",
+                "position": 5,
+                "color": "#000000"
+              },
+              {
+                "id": "1455057422187237588",
+                "name": "Oce",
+                "position": 19,
+                "color": "#000000"
+              },
+              {
+                "id": "1443750844636856412",
+                "name": "Poll Ping",
+                "position": 20,
+                "color": "#000000"
+              },
+              {
+                "id": "1508412940489982022",
+                "name": "Silver",
+                "position": 25,
+                "color": "#000000"
+              },
+              {
+                "id": "1043664233361051668",
+                "name": "7/7 active",
+                "position": 29,
+                "color": "#000000"
+              },
+              {
+                "id": "1041582141340917870",
+                "name": "Staff",
+                "position": 39,
+                "color": "#c9ff8b"
+              },
+              {
+                "id": "1041582129500397658",
+                "name": "Support",
+                "position": 40,
+                "color": "#82ffff"
+              },
+              {
+                "id": "1417348281402396703",
+                "name": "Senior Support",
+                "position": 41,
+                "color": "#828fff"
+              },
+              {
+                "id": "1041582116963614781",
+                "name": "Admin",
+                "position": 43,
+                "color": "#a6b4ff"
+              },
+              {
+                "id": "1502630029555925024",
+                "name": "Senior Admin",
+                "position": 44,
+                "color": "#cd9cff"
+              },
+              {
+                "id": "1308389636111859733",
+                "name": "Head Admin",
+                "position": 45,
+                "color": "#f484ff"
+              },
+              {
+                "id": "1041582103927726170",
+                "name": "Management",
+                "position": 53,
+                "color": "#ff7baa"
+              },
+              {
+                "id": "1231187220208025620",
+                "name": "Head Loot Routes",
+                "position": 61,
+                "color": "#ff7d00"
+              },
+              {
+                "id": "1211965080141561916",
+                "name": "Head Marketing",
+                "position": 65,
+                "color": "#efe68b"
+              },
+              {
+                "id": "1043664170186448987",
+                "name": "Founder",
+                "position": 70,
+                "color": "#070707"
+              },
+              {
+                "id": "1350819689894383706",
+                "name": "Fruss",
+                "position": 82,
+                "color": "#000000"
+              }
+            ],
+            "top_role": "Fruss",
+            "guild_permissions": 1829587348619263
+          },
+          "reason": null,
+          "created_at": "2026-06-01T09:36:56.050000+00:00",
+          "changes": [
+            {
+              "key": "name",
+              "before": "\ud83d\udcd2\u30fbweekly-performance-leaderboard",
+              "after": null
+            },
+            {
+              "key": "slowmode_delay",
+              "before": "0",
+              "after": null
+            },
+            {
+              "key": "overwrites",
+              "before": "[(<Object id=1370615371228385371 type=<class 'discord.member.Member'>>, <discord.permissions.PermissionOverwrite object at 0x00000233CCEEAAA0>), (<Object id=1041582141340917870 type=<class 'discord.member.Member'>>, <discord.permissions.PermissionOverwrite object at 0x00000233CCEEAE90>), (<Object id=1367837841668702319 type=<class 'discord.member.Member'>>, <discord.permissions.PermissionOverwrite object at 0x00000233CCEE8310>), (<Object id=1041450125391835186 type=<class 'discord.member.Member'>>, <discord.permissions.PermissionOverwrite object at 0x00000233CCEE97B0>)]",
+              "after": null
+            },
+            {
+              "key": "flags",
+              "before": "<ChannelFlags value=0>",
+              "after": null
+            },
+            {
+              "key": "nsfw",
+              "before": "False",
+              "after": null
+            },
+            {
+              "key": "type",
+              "before": "text",
+              "after": null
+            }
+          ]
+        }
+      },
+      "guild_id": "1041450125391835186",
+      "guild_name": "WAVE Drop Map Staff Hub"
+    },
+    {
+      "timestamp": "2026-06-01T10:30:37Z",
+      "bot": "server",
+      "category": "channel_delete",
+      "action": "channel_delete",
+      "actor": {
+        "id": "576395920787111936",
+        "name": "Ticket Bot",
+        "discriminator": "7812",
+        "display_name": "Ticket Bot",
+        "bot": true,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/576395920787111936/7d08f80c3f051ab6daa341177e2d10ea.png?size=1024",
+        "public_flags": 65536,
+        "public_flag_names": [
+          "verified_bot"
+        ],
+        "created_at": "2019-05-10T13:11:36.434000+00:00",
+        "joined_at": "2024-04-20T09:40:38.904000+00:00",
+        "roles": [
+          {
+            "id": "1307486678231023736",
+            "name": "*",
+            "position": 1,
+            "color": "#000000"
+          },
+          {
+            "id": "1149680236041080832",
+            "name": "Member",
+            "position": 21,
+            "color": "#ff0000"
+          },
+          {
+            "id": "1105873031450075227",
+            "name": "Access",
+            "position": 23,
+            "color": "#ff8000"
+          },
+          {
+            "id": "1144226524279615519",
+            "name": "bots",
+            "position": 65,
+            "color": "#000000"
+          },
+          {
+            "id": "1231177704288813067",
+            "name": "Ticket Bot",
+            "position": 69,
+            "color": "#000000"
+          }
+        ],
+        "top_role": "Ticket Bot",
+        "guild_permissions": 1829587348619263
+      },
+      "target": {
+        "id": "1509855487024304138",
+        "created_at": "2026-05-29T09:46:39.865000+00:00"
+      },
+      "details": {
+        "source": "audit_replay",
+        "reason": "Ticket closed",
+        "audit_id": "1510916438075117652",
+        "created_at": "2026-06-01T08:02:30.307000+00:00"
+      },
+      "guild_id": "971731167621574666",
+      "guild_name": "Wave Improvement Cord! | Loot Routes + Tips & Tricks"
+    },
+    {
+      "timestamp": "2026-06-01T11:00:46Z",
+      "bot": "server",
+      "category": "channel_delete",
+      "action": "channel_delete",
+      "actor": {
+        "id": "576395920787111936",
+        "name": "Ticket Bot",
+        "discriminator": "7812",
+        "display_name": "Ticket Bot",
+        "bot": true,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/576395920787111936/7d08f80c3f051ab6daa341177e2d10ea.png?size=1024",
+        "public_flags": 65536,
+        "public_flag_names": [
+          "verified_bot"
+        ],
+        "created_at": "2019-05-10T13:11:36.434000+00:00",
+        "joined_at": "2024-04-20T09:40:38.904000+00:00",
+        "roles": [
+          {
+            "id": "1307486678231023736",
+            "name": "*",
+            "position": 1,
+            "color": "#000000"
+          },
+          {
+            "id": "1149680236041080832",
+            "name": "Member",
+            "position": 21,
+            "color": "#ff0000"
+          },
+          {
+            "id": "1105873031450075227",
+            "name": "Access",
+            "position": 23,
+            "color": "#ff8000"
+          },
+          {
+            "id": "1144226524279615519",
+            "name": "bots",
+            "position": 65,
+            "color": "#000000"
+          },
+          {
+            "id": "1231177704288813067",
+            "name": "Ticket Bot",
+            "position": 69,
+            "color": "#000000"
+          }
+        ],
+        "top_role": "Ticket Bot",
+        "guild_permissions": 1829587348619263
+      },
+      "target": {
+        "id": "1509855487024304138",
+        "created_at": "2026-05-29T09:46:39.865000+00:00"
+      },
+      "details": {
+        "source": "audit_replay",
+        "reason": "Ticket closed",
+        "audit_id": "1510916438075117652",
+        "created_at": "2026-06-01T08:02:30.307000+00:00"
+      },
+      "guild_id": "971731167621574666",
+      "guild_name": "Wave Improvement Cord! | Loot Routes + Tips & Tricks"
+    },
+    {
+      "timestamp": "2026-06-01T11:00:57Z",
+      "bot": "server",
+      "category": "channel_delete",
+      "action": "channel_delete",
+      "actor": {
+        "id": "987843990734905414",
+        "name": "fruss.",
+        "discriminator": "0",
+        "global_name": "! Free Drop Maps Bio",
+        "display_name": "! Free Drop Maps Bio",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/987843990734905414/92bfad96c66e3d59b26f219a08f185b1.png?size=1024",
+        "public_flags": 128,
+        "public_flag_names": [
+          "hypesquad_brilliance"
+        ],
+        "created_at": "2022-06-18T22:19:20.645000+00:00",
+        "joined_at": "2022-11-14T09:42:00.218000+00:00",
+        "roles": [
+          {
+            "id": "1491225386804314132",
+            "name": "*",
+            "position": 4,
+            "color": "#000000"
+          },
+          {
+            "id": "1470639632583626854",
+            "name": "Vbucks",
+            "position": 5,
+            "color": "#000000"
+          },
+          {
+            "id": "1455057422187237588",
+            "name": "Oce",
+            "position": 19,
+            "color": "#000000"
+          },
+          {
+            "id": "1443750844636856412",
+            "name": "Poll Ping",
+            "position": 20,
+            "color": "#000000"
+          },
+          {
+            "id": "1508412940489982022",
+            "name": "Silver",
+            "position": 25,
+            "color": "#000000"
+          },
+          {
+            "id": "1043664233361051668",
+            "name": "7/7 active",
+            "position": 29,
+            "color": "#000000"
+          },
+          {
+            "id": "1041582141340917870",
+            "name": "Staff",
+            "position": 39,
+            "color": "#c9ff8b"
+          },
+          {
+            "id": "1041582129500397658",
+            "name": "Support",
+            "position": 40,
+            "color": "#82ffff"
+          },
+          {
+            "id": "1417348281402396703",
+            "name": "Senior Support",
+            "position": 41,
+            "color": "#828fff"
+          },
+          {
+            "id": "1041582116963614781",
+            "name": "Admin",
+            "position": 43,
+            "color": "#a6b4ff"
+          },
+          {
+            "id": "1502630029555925024",
+            "name": "Senior Admin",
+            "position": 44,
+            "color": "#cd9cff"
+          },
+          {
+            "id": "1308389636111859733",
+            "name": "Head Admin",
+            "position": 45,
+            "color": "#f484ff"
+          },
+          {
+            "id": "1041582103927726170",
+            "name": "Management",
+            "position": 53,
+            "color": "#ff7baa"
+          },
+          {
+            "id": "1231187220208025620",
+            "name": "Head Loot Routes",
+            "position": 61,
+            "color": "#ff7d00"
+          },
+          {
+            "id": "1211965080141561916",
+            "name": "Head Marketing",
+            "position": 65,
+            "color": "#efe68b"
+          },
+          {
+            "id": "1043664170186448987",
+            "name": "Founder",
+            "position": 70,
+            "color": "#070707"
+          },
+          {
+            "id": "1350819689894383706",
+            "name": "Fruss",
+            "position": 82,
+            "color": "#000000"
+          }
+        ],
+        "top_role": "Fruss",
+        "guild_permissions": 1829587348619263
+      },
+      "target": {
+        "id": "1495740476706394194",
+        "created_at": "2026-04-20T10:58:39.161000+00:00"
+      },
+      "details": {
+        "source": "audit_replay",
+        "reason": null,
+        "audit_id": "1510644406066221136",
+        "created_at": "2026-05-31T14:01:32.822000+00:00"
+      },
+      "guild_id": "1041450125391835186",
+      "guild_name": "WAVE Drop Map Staff Hub"
+    },
+    {
+      "timestamp": "2026-06-01T11:00:57Z",
+      "bot": "server",
+      "category": "channel_delete",
+      "action": "channel_delete",
+      "actor": {
+        "id": "987843990734905414",
+        "name": "fruss.",
+        "discriminator": "0",
+        "global_name": "! Free Drop Maps Bio",
+        "display_name": "! Free Drop Maps Bio",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/987843990734905414/92bfad96c66e3d59b26f219a08f185b1.png?size=1024",
+        "public_flags": 128,
+        "public_flag_names": [
+          "hypesquad_brilliance"
+        ],
+        "created_at": "2022-06-18T22:19:20.645000+00:00",
+        "joined_at": "2022-11-14T09:42:00.218000+00:00",
+        "roles": [
+          {
+            "id": "1491225386804314132",
+            "name": "*",
+            "position": 4,
+            "color": "#000000"
+          },
+          {
+            "id": "1470639632583626854",
+            "name": "Vbucks",
+            "position": 5,
+            "color": "#000000"
+          },
+          {
+            "id": "1455057422187237588",
+            "name": "Oce",
+            "position": 19,
+            "color": "#000000"
+          },
+          {
+            "id": "1443750844636856412",
+            "name": "Poll Ping",
+            "position": 20,
+            "color": "#000000"
+          },
+          {
+            "id": "1508412940489982022",
+            "name": "Silver",
+            "position": 25,
+            "color": "#000000"
+          },
+          {
+            "id": "1043664233361051668",
+            "name": "7/7 active",
+            "position": 29,
+            "color": "#000000"
+          },
+          {
+            "id": "1041582141340917870",
+            "name": "Staff",
+            "position": 39,
+            "color": "#c9ff8b"
+          },
+          {
+            "id": "1041582129500397658",
+            "name": "Support",
+            "position": 40,
+            "color": "#82ffff"
+          },
+          {
+            "id": "1417348281402396703",
+            "name": "Senior Support",
+            "position": 41,
+            "color": "#828fff"
+          },
+          {
+            "id": "1041582116963614781",
+            "name": "Admin",
+            "position": 43,
+            "color": "#a6b4ff"
+          },
+          {
+            "id": "1502630029555925024",
+            "name": "Senior Admin",
+            "position": 44,
+            "color": "#cd9cff"
+          },
+          {
+            "id": "1308389636111859733",
+            "name": "Head Admin",
+            "position": 45,
+            "color": "#f484ff"
+          },
+          {
+            "id": "1041582103927726170",
+            "name": "Management",
+            "position": 53,
+            "color": "#ff7baa"
+          },
+          {
+            "id": "1231187220208025620",
+            "name": "Head Loot Routes",
+            "position": 61,
+            "color": "#ff7d00"
+          },
+          {
+            "id": "1211965080141561916",
+            "name": "Head Marketing",
+            "position": 65,
+            "color": "#efe68b"
+          },
+          {
+            "id": "1043664170186448987",
+            "name": "Founder",
+            "position": 70,
+            "color": "#070707"
+          },
+          {
+            "id": "1350819689894383706",
+            "name": "Fruss",
+            "position": 82,
+            "color": "#000000"
+          }
+        ],
+        "top_role": "Fruss",
+        "guild_permissions": 1829587348619263
+      },
+      "target": {
+        "id": "1475857473486327838",
+        "created_at": "2026-02-24T14:10:41.785000+00:00"
+      },
+      "details": {
+        "source": "audit_replay",
+        "reason": null,
+        "audit_id": "1510940119086137466",
+        "created_at": "2026-06-01T09:36:36.300000+00:00"
+      },
+      "guild_id": "1041450125391835186",
+      "guild_name": "WAVE Drop Map Staff Hub"
+    },
+    {
+      "timestamp": "2026-06-01T11:00:57Z",
+      "bot": "server",
+      "category": "channel_delete",
+      "action": "channel_delete",
+      "actor": {
+        "id": "987843990734905414",
+        "name": "fruss.",
+        "discriminator": "0",
+        "global_name": "! Free Drop Maps Bio",
+        "display_name": "! Free Drop Maps Bio",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/987843990734905414/92bfad96c66e3d59b26f219a08f185b1.png?size=1024",
+        "public_flags": 128,
+        "public_flag_names": [
+          "hypesquad_brilliance"
+        ],
+        "created_at": "2022-06-18T22:19:20.645000+00:00",
+        "joined_at": "2022-11-14T09:42:00.218000+00:00",
+        "roles": [
+          {
+            "id": "1491225386804314132",
+            "name": "*",
+            "position": 4,
+            "color": "#000000"
+          },
+          {
+            "id": "1470639632583626854",
+            "name": "Vbucks",
+            "position": 5,
+            "color": "#000000"
+          },
+          {
+            "id": "1455057422187237588",
+            "name": "Oce",
+            "position": 19,
+            "color": "#000000"
+          },
+          {
+            "id": "1443750844636856412",
+            "name": "Poll Ping",
+            "position": 20,
+            "color": "#000000"
+          },
+          {
+            "id": "1508412940489982022",
+            "name": "Silver",
+            "position": 25,
+            "color": "#000000"
+          },
+          {
+            "id": "1043664233361051668",
+            "name": "7/7 active",
+            "position": 29,
+            "color": "#000000"
+          },
+          {
+            "id": "1041582141340917870",
+            "name": "Staff",
+            "position": 39,
+            "color": "#c9ff8b"
+          },
+          {
+            "id": "1041582129500397658",
+            "name": "Support",
+            "position": 40,
+            "color": "#82ffff"
+          },
+          {
+            "id": "1417348281402396703",
+            "name": "Senior Support",
+            "position": 41,
+            "color": "#828fff"
+          },
+          {
+            "id": "1041582116963614781",
+            "name": "Admin",
+            "position": 43,
+            "color": "#a6b4ff"
+          },
+          {
+            "id": "1502630029555925024",
+            "name": "Senior Admin",
+            "position": 44,
+            "color": "#cd9cff"
+          },
+          {
+            "id": "1308389636111859733",
+            "name": "Head Admin",
+            "position": 45,
+            "color": "#f484ff"
+          },
+          {
+            "id": "1041582103927726170",
+            "name": "Management",
+            "position": 53,
+            "color": "#ff7baa"
+          },
+          {
+            "id": "1231187220208025620",
+            "name": "Head Loot Routes",
+            "position": 61,
+            "color": "#ff7d00"
+          },
+          {
+            "id": "1211965080141561916",
+            "name": "Head Marketing",
+            "position": 65,
+            "color": "#efe68b"
+          },
+          {
+            "id": "1043664170186448987",
+            "name": "Founder",
+            "position": 70,
+            "color": "#070707"
+          },
+          {
+            "id": "1350819689894383706",
+            "name": "Fruss",
+            "position": 82,
+            "color": "#000000"
+          }
+        ],
+        "top_role": "Fruss",
+        "guild_permissions": 1829587348619263
+      },
+      "target": {
+        "id": "1474681667548352585",
+        "created_at": "2026-02-21T08:18:27.804000+00:00"
+      },
+      "details": {
+        "source": "audit_replay",
+        "reason": null,
+        "audit_id": "1510940158588092456",
+        "created_at": "2026-06-01T09:36:45.718000+00:00"
+      },
+      "guild_id": "1041450125391835186",
+      "guild_name": "WAVE Drop Map Staff Hub"
+    },
+    {
+      "timestamp": "2026-06-01T11:00:57Z",
+      "bot": "server",
+      "category": "channel_delete",
+      "action": "channel_delete",
+      "actor": {
+        "id": "987843990734905414",
+        "name": "fruss.",
+        "discriminator": "0",
+        "global_name": "! Free Drop Maps Bio",
+        "display_name": "! Free Drop Maps Bio",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/987843990734905414/92bfad96c66e3d59b26f219a08f185b1.png?size=1024",
+        "public_flags": 128,
+        "public_flag_names": [
+          "hypesquad_brilliance"
+        ],
+        "created_at": "2022-06-18T22:19:20.645000+00:00",
+        "joined_at": "2022-11-14T09:42:00.218000+00:00",
+        "roles": [
+          {
+            "id": "1491225386804314132",
+            "name": "*",
+            "position": 4,
+            "color": "#000000"
+          },
+          {
+            "id": "1470639632583626854",
+            "name": "Vbucks",
+            "position": 5,
+            "color": "#000000"
+          },
+          {
+            "id": "1455057422187237588",
+            "name": "Oce",
+            "position": 19,
+            "color": "#000000"
+          },
+          {
+            "id": "1443750844636856412",
+            "name": "Poll Ping",
+            "position": 20,
+            "color": "#000000"
+          },
+          {
+            "id": "1508412940489982022",
+            "name": "Silver",
+            "position": 25,
+            "color": "#000000"
+          },
+          {
+            "id": "1043664233361051668",
+            "name": "7/7 active",
+            "position": 29,
+            "color": "#000000"
+          },
+          {
+            "id": "1041582141340917870",
+            "name": "Staff",
+            "position": 39,
+            "color": "#c9ff8b"
+          },
+          {
+            "id": "1041582129500397658",
+            "name": "Support",
+            "position": 40,
+            "color": "#82ffff"
+          },
+          {
+            "id": "1417348281402396703",
+            "name": "Senior Support",
+            "position": 41,
+            "color": "#828fff"
+          },
+          {
+            "id": "1041582116963614781",
+            "name": "Admin",
+            "position": 43,
+            "color": "#a6b4ff"
+          },
+          {
+            "id": "1502630029555925024",
+            "name": "Senior Admin",
+            "position": 44,
+            "color": "#cd9cff"
+          },
+          {
+            "id": "1308389636111859733",
+            "name": "Head Admin",
+            "position": 45,
+            "color": "#f484ff"
+          },
+          {
+            "id": "1041582103927726170",
+            "name": "Management",
+            "position": 53,
+            "color": "#ff7baa"
+          },
+          {
+            "id": "1231187220208025620",
+            "name": "Head Loot Routes",
+            "position": 61,
+            "color": "#ff7d00"
+          },
+          {
+            "id": "1211965080141561916",
+            "name": "Head Marketing",
+            "position": 65,
+            "color": "#efe68b"
+          },
+          {
+            "id": "1043664170186448987",
+            "name": "Founder",
+            "position": 70,
+            "color": "#070707"
+          },
+          {
+            "id": "1350819689894383706",
+            "name": "Fruss",
+            "position": 82,
+            "color": "#000000"
+          }
+        ],
+        "top_role": "Fruss",
+        "guild_permissions": 1829587348619263
+      },
+      "target": {
+        "id": "1508428594022449252",
+        "created_at": "2026-05-25T11:16:42.063000+00:00"
+      },
+      "details": {
+        "source": "audit_replay",
+        "reason": null,
+        "audit_id": "1510940173523746866",
+        "created_at": "2026-06-01T09:36:49.279000+00:00"
+      },
+      "guild_id": "1041450125391835186",
+      "guild_name": "WAVE Drop Map Staff Hub"
+    },
+    {
+      "timestamp": "2026-06-01T11:00:57Z",
+      "bot": "server",
+      "category": "channel_delete",
+      "action": "channel_delete",
+      "actor": {
+        "id": "987843990734905414",
+        "name": "fruss.",
+        "discriminator": "0",
+        "global_name": "! Free Drop Maps Bio",
+        "display_name": "! Free Drop Maps Bio",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/987843990734905414/92bfad96c66e3d59b26f219a08f185b1.png?size=1024",
+        "public_flags": 128,
+        "public_flag_names": [
+          "hypesquad_brilliance"
+        ],
+        "created_at": "2022-06-18T22:19:20.645000+00:00",
+        "joined_at": "2022-11-14T09:42:00.218000+00:00",
+        "roles": [
+          {
+            "id": "1491225386804314132",
+            "name": "*",
+            "position": 4,
+            "color": "#000000"
+          },
+          {
+            "id": "1470639632583626854",
+            "name": "Vbucks",
+            "position": 5,
+            "color": "#000000"
+          },
+          {
+            "id": "1455057422187237588",
+            "name": "Oce",
+            "position": 19,
+            "color": "#000000"
+          },
+          {
+            "id": "1443750844636856412",
+            "name": "Poll Ping",
+            "position": 20,
+            "color": "#000000"
+          },
+          {
+            "id": "1508412940489982022",
+            "name": "Silver",
+            "position": 25,
+            "color": "#000000"
+          },
+          {
+            "id": "1043664233361051668",
+            "name": "7/7 active",
+            "position": 29,
+            "color": "#000000"
+          },
+          {
+            "id": "1041582141340917870",
+            "name": "Staff",
+            "position": 39,
+            "color": "#c9ff8b"
+          },
+          {
+            "id": "1041582129500397658",
+            "name": "Support",
+            "position": 40,
+            "color": "#82ffff"
+          },
+          {
+            "id": "1417348281402396703",
+            "name": "Senior Support",
+            "position": 41,
+            "color": "#828fff"
+          },
+          {
+            "id": "1041582116963614781",
+            "name": "Admin",
+            "position": 43,
+            "color": "#a6b4ff"
+          },
+          {
+            "id": "1502630029555925024",
+            "name": "Senior Admin",
+            "position": 44,
+            "color": "#cd9cff"
+          },
+          {
+            "id": "1308389636111859733",
+            "name": "Head Admin",
+            "position": 45,
+            "color": "#f484ff"
+          },
+          {
+            "id": "1041582103927726170",
+            "name": "Management",
+            "position": 53,
+            "color": "#ff7baa"
+          },
+          {
+            "id": "1231187220208025620",
+            "name": "Head Loot Routes",
+            "position": 61,
+            "color": "#ff7d00"
+          },
+          {
+            "id": "1211965080141561916",
+            "name": "Head Marketing",
+            "position": 65,
+            "color": "#efe68b"
+          },
+          {
+            "id": "1043664170186448987",
+            "name": "Founder",
+            "position": 70,
+            "color": "#070707"
+          },
+          {
+            "id": "1350819689894383706",
+            "name": "Fruss",
+            "position": 82,
+            "color": "#000000"
+          }
+        ],
+        "top_role": "Fruss",
+        "guild_permissions": 1829587348619263
+      },
+      "target": {
+        "id": "1508417577565687829",
+        "created_at": "2026-05-25T10:32:55.535000+00:00"
+      },
+      "details": {
+        "source": "audit_replay",
+        "reason": null,
+        "audit_id": "1510940187407155231",
+        "created_at": "2026-06-01T09:36:52.589000+00:00"
+      },
+      "guild_id": "1041450125391835186",
+      "guild_name": "WAVE Drop Map Staff Hub"
+    },
+    {
+      "timestamp": "2026-06-01T11:00:57Z",
+      "bot": "server",
+      "category": "channel_delete",
+      "action": "channel_delete",
+      "actor": {
+        "id": "987843990734905414",
+        "name": "fruss.",
+        "discriminator": "0",
+        "global_name": "! Free Drop Maps Bio",
+        "display_name": "! Free Drop Maps Bio",
+        "bot": false,
+        "system": false,
+        "pending": false,
+        "avatar_url": "https://cdn.discordapp.com/avatars/987843990734905414/92bfad96c66e3d59b26f219a08f185b1.png?size=1024",
+        "public_flags": 128,
+        "public_flag_names": [
+          "hypesquad_brilliance"
+        ],
+        "created_at": "2022-06-18T22:19:20.645000+00:00",
+        "joined_at": "2022-11-14T09:42:00.218000+00:00",
+        "roles": [
+          {
+            "id": "1491225386804314132",
+            "name": "*",
+            "position": 4,
+            "color": "#000000"
+          },
+          {
+            "id": "1470639632583626854",
+            "name": "Vbucks",
+            "position": 5,
+            "color": "#000000"
+          },
+          {
+            "id": "1455057422187237588",
+            "name": "Oce",
+            "position": 19,
+            "color": "#000000"
+          },
+          {
+            "id": "1443750844636856412",
+            "name": "Poll Ping",
+            "position": 20,
+            "color": "#000000"
+          },
+          {
+            "id": "1508412940489982022",
+            "name": "Silver",
+            "position": 25,
+            "color": "#000000"
+          },
+          {
+            "id": "1043664233361051668",
+            "name": "7/7 active",
+            "position": 29,
+            "color": "#000000"
+          },
+          {
+            "id": "1041582141340917870",
+            "name": "Staff",
+            "position": 39,
+            "color": "#c9ff8b"
+          },
+          {
+            "id": "1041582129500397658",
+            "name": "Support",
+            "position": 40,
+            "color": "#82ffff"
+          },
+          {
+            "id": "1417348281402396703",
+            "name": "Senior Support",
+            "position": 41,
+            "color": "#828fff"
+          },
+          {
+            "id": "1041582116963614781",
+            "name": "Admin",
+            "position": 43,
+            "color": "#a6b4ff"
+          },
+          {
+            "id": "1502630029555925024",
+            "name": "Senior Admin",
+            "position": 44,
+            "color": "#cd9cff"
+          },
+          {
+            "id": "1308389636111859733",
+            "name": "Head Admin",
+            "position": 45,
+            "color": "#f484ff"
+          },
+          {
+            "id": "1041582103927726170",
+            "name": "Management",
+            "position": 53,
+            "color": "#ff7baa"
+          },
+          {
+            "id": "1231187220208025620",
+            "name": "Head Loot Routes",
+            "position": 61,
+            "color": "#ff7d00"
+          },
+          {
+            "id": "1211965080141561916",
+            "name": "Head Marketing",
+            "position": 65,
+            "color": "#efe68b"
+          },
+          {
+            "id": "1043664170186448987",
+            "name": "Founder",
+            "position": 70,
+            "color": "#070707"
+          },
+          {
+            "id": "1350819689894383706",
+            "name": "Fruss",
+            "position": 82,
+            "color": "#000000"
+          }
+        ],
+        "top_role": "Fruss",
+        "guild_permissions": 1829587348619263
+      },
+      "target": {
+        "id": "1475876056421367930",
+        "created_at": "2026-02-24T15:24:32.302000+00:00"
+      },
+      "details": {
+        "source": "audit_replay",
+        "reason": null,
+        "audit_id": "1510940201923645440",
+        "created_at": "2026-06-01T09:36:56.050000+00:00"
+      },
+      "guild_id": "1041450125391835186",
+      "guild_name": "WAVE Drop Map Staff Hub"
+    },
+    {
+      "timestamp": "2026-06-01T14:38:51Z",
+      "bot": "server",
+      "category": "channel_delete",
+      "action": "channel_deleted",
+      "actor": null,
+      "target": null,
+      "details": {
+        "channel": {
+          "id": "1496984028513960006",
+          "name": "ticket-zuko",
+          "type": "text",
+          "position": 43,
+          "category": {
+            "id": "1215623441252749332",
+            "name": "--- Tickets (Not Answered) ---"
+          },
+          "nsfw": false,
+          "slowmode_delay": 0,
+          "default_auto_archive_duration": 1440,
+          "overwrites": [
+            {
+              "target_type": "role",
+              "target_id": "988564962802810961",
+              "target_name": "@everyone",
+              "allow": 0,
+              "deny": 1024
+            },
+            {
+              "target_type": "member",
+              "target_id": "1147854251909988362",
+              "target_name": "037gfsd",
+              "allow": 117760,
+              "deny": 0
+            },
+            {
+              "target_type": "role",
+              "target_id": "1210920690954407996",
+              "target_name": "Quarantine",
+              "allow": 0,
+              "deny": 377957125121
+            }
+          ]
+        },
+        "audit": {
+          "audit_id": "1511016177596502016",
+          "actor": {
+            "id": "576395920787111936",
+            "name": "Ticket Bot",
+            "discriminator": "7812",
+            "display_name": "Ticket Bot",
+            "bot": true,
+            "system": false,
+            "pending": false,
+            "avatar_url": "https://cdn.discordapp.com/avatars/576395920787111936/7d08f80c3f051ab6daa341177e2d10ea.png?size=1024",
+            "public_flags": 65536,
+            "public_flag_names": [
+              "verified_bot"
+            ],
+            "created_at": "2019-05-10T13:11:36.434000+00:00",
+            "joined_at": "2024-03-08T10:23:48.627000+00:00",
+            "roles": [
+              {
+                "id": "1490579498884665425",
+                "name": "*",
+                "position": 1,
+                "color": "#000000"
+              },
+              {
+                "id": "1306357759163498496",
+                "name": "English \ud83c\uddec\ud83c\udde7",
+                "position": 9,
+                "color": "#000000"
+              },
+              {
+                "id": "1210764975090438155",
+                "name": "Member",
+                "position": 22,
+                "color": "#ff0000"
+              },
+              {
+                "id": "1305277560086593546",
+                "name": "Manual Named Locations",
+                "position": 23,
+                "color": "#ff8000"
+              },
+              {
+                "id": "1210801655663300618",
+                "name": "Bots",
+                "position": 72,
+                "color": "#000000"
+              },
+              {
+                "id": "1215605888140845076",
+                "name": "Ticket Bot",
+                "position": 74,
+                "color": "#000000"
+              }
+            ],
+            "top_role": "Ticket Bot",
+            "guild_permissions": 1829587348619263
+          },
+          "reason": "Ticket closed",
+          "created_at": "2026-06-01T14:38:50.062000+00:00",
+          "changes": [
+            {
+              "key": "slowmode_delay",
+              "before": "0",
+              "after": null
+            },
+            {
+              "key": "flags",
+              "before": "<ChannelFlags value=0>",
+              "after": null
+            },
+            {
+              "key": "type",
+              "before": "text",
+              "after": null
+            },
+            {
+              "key": "nsfw",
+              "before": "False",
+              "after": null
+            },
+            {
+              "key": "name",
+              "before": "ticket-zuko",
+              "after": null
+            },
+            {
+              "key": "overwrites",
+              "before": "[(<Object id=1210920690954407996 type=<class 'discord.member.Member'>>, <discord.permissions.PermissionOverwrite object at 0x00000245AAFC0A30>), (<Object id=1147854251909988362 type=<class 'discord.member.Member'>>, <discord.permissions.PermissionOverwrite object at 0x00000245AAFC0610>), (<Object id=988564962802810961 type=<class 'discord.member.Member'>>, <discord.permissions.PermissionOverwrite object at 0x00000245AAFC02B0>)]",
+              "after": null
+            }
+          ]
+        }
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    }
+  ]
+}
