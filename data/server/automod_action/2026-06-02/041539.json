@@ -1,0 +1,49 @@
+{
+  "pushed_at": "2026-06-02T04:15:39Z",
+  "events": [
+    {
+      "timestamp": "2026-06-02T04:13:24Z",
+      "bot": "server",
+      "category": "automod_action",
+      "action": "automod_triggered",
+      "actor": null,
+      "target": null,
+      "details": {
+        "rule_id": "1132120171054637056",
+        "rule_trigger_type": "AutoModRuleTriggerType.keyword",
+        "action_type": "AutoModRuleActionType.block_message",
+        "user_id": "327850147969236994",
+        "channel_id": "1210837226884300820",
+        "message_id": "None",
+        "alert_system_message_id": "None",
+        "content": "#95 follow <#1210768729395437568> for access",
+        "matched_keyword": "^-?#",
+        "matched_content": "#"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    },
+    {
+      "timestamp": "2026-06-02T04:13:24Z",
+      "bot": "server",
+      "category": "automod_action",
+      "action": "automod_triggered",
+      "actor": null,
+      "target": null,
+      "details": {
+        "rule_id": "1132120171054637056",
+        "rule_trigger_type": "AutoModRuleTriggerType.keyword",
+        "action_type": "AutoModRuleActionType.send_alert_message",
+        "user_id": "327850147969236994",
+        "channel_id": "1210837226884300820",
+        "message_id": "None",
+        "alert_system_message_id": "1511221170865700874",
+        "content": "#95 follow <#1210768729395437568> for access",
+        "matched_keyword": "^-?#",
+        "matched_content": "#"
+      },
+      "guild_id": "988564962802810961",
+      "guild_name": "Wave Free Dropmaps!"
+    }
+  ]
+}
