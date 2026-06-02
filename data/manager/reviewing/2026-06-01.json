@@ -1,0 +1,116 @@
+{
+  "day": "2026-06-01",
+  "rolled_at": "2026-06-02T00:06:17Z",
+  "events": [
+    {
+      "timestamp": "2026-06-01T15:16:17Z",
+      "bot": "manager",
+      "category": "reviewing",
+      "action": "penalty_applied",
+      "actor": null,
+      "target": {
+        "id": "1458092102322880672"
+      },
+      "details": {
+        "penalty_type": "marker_mistake",
+        "points_lost": 20,
+        "reason": "1 incorrect marker(s) detected during >endday verification",
+        "map_id": null
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-06-01T15:17:32Z",
+      "bot": "manager",
+      "category": "reviewing",
+      "action": "penalty_applied",
+      "actor": null,
+      "target": {
+        "id": "1381946156296437904"
+      },
+      "details": {
+        "penalty_type": "marker_mistake",
+        "points_lost": 20,
+        "reason": "1 incorrect marker(s) detected during >endday verification",
+        "map_id": null
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-06-01T15:18:18Z",
+      "bot": "manager",
+      "category": "reviewing",
+      "action": "penalty_applied",
+      "actor": null,
+      "target": {
+        "id": "1441424672930398359"
+      },
+      "details": {
+        "penalty_type": "marker_mistake",
+        "points_lost": 20,
+        "reason": "2 incorrect marker(s) detected during >endday verification",
+        "map_id": null
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-06-01T15:19:51Z",
+      "bot": "manager",
+      "category": "reviewing",
+      "action": "penalty_applied",
+      "actor": null,
+      "target": {
+        "id": "1441424672930398359"
+      },
+      "details": {
+        "penalty_type": "marker_mistake",
+        "points_lost": 20,
+        "reason": "Applied via >applypenalty",
+        "map_id": null
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-06-01T15:20:13Z",
+      "bot": "manager",
+      "category": "reviewing",
+      "action": "penalty_applied",
+      "actor": null,
+      "target": {
+        "id": "1381946156296437904"
+      },
+      "details": {
+        "penalty_type": "skipped_oldest",
+        "points_lost": 20,
+        "reason": "Applied via >applypenalty",
+        "map_id": null
+      },
+      "guild_id": null,
+      "guild_name": null
+    },
+    {
+      "timestamp": "2026-06-01T15:45:55Z",
+      "bot": "manager",
+      "category": "reviewing",
+      "action": "reviewer_added",
+      "actor": null,
+      "target": {
+        "id": "1250261619141775402"
+      },
+      "details": {
+        "per_guild_results": {
+          "database": "\u2705 Added to database",
+          "guild_1041450125391835186": "\u2705 Role added",
+          "guild_988564962802810961": "\u2705 Role added",
+          "guild_971731167621574666": "\u2705 Role added"
+        }
+      },
+      "guild_id": null,
+      "guild_name": null
+    }
+  ]
+}
